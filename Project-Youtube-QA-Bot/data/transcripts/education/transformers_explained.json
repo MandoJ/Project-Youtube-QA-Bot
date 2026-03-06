@@ -1,0 +1,972 @@
+{
+  "video_id": "Ilg3gGewQ5U",
+  "title": "transformers_explained",
+  "category": "education",
+  "transcript": [
+    {
+      "text": "Here, we tackle backpropagation, the core algorithm behind how neural networks learn.",
+      "start": 4.06,
+      "duration": 4.82
+    },
+    {
+      "text": "After a quick recap for where we are, the first thing I'll do is an intuitive walkthrough",
+      "start": 9.4,
+      "duration": 3.979
+    },
+    {
+      "text": "for what the algorithm is actually doing, without any reference to the formulas.",
+      "start": 13.379,
+      "duration": 3.621
+    },
+    {
+      "text": "Then, for those of you who do want to dive into the math,",
+      "start": 17.66,
+      "duration": 2.634
+    },
+    {
+      "text": "the next video goes into the calculus underlying all this.",
+      "start": 20.294,
+      "duration": 2.726
+    },
+    {
+      "text": "If you watched the last two videos, or if you're just jumping in with the appropriate",
+      "start": 23.82,
+      "duration": 3.59
+    },
+    {
+      "text": "background, you know what a neural network is, and how it feeds forward information.",
+      "start": 27.41,
+      "duration": 3.59
+    },
+    {
+      "text": "Here, we're doing the classic example of recognizing handwritten digits whose pixel",
+      "start": 31.68,
+      "duration": 4.327
+    },
+    {
+      "text": "values get fed into the first layer of the network with 784 neurons,",
+      "start": 36.007,
+      "duration": 3.597
+    },
+    {
+      "text": "and I've been showing a network with two hidden layers having just 16 neurons each,",
+      "start": 39.604,
+      "duration": 4.379
+    },
+    {
+      "text": "and an output layer of 10 neurons, indicating which digit the network is choosing",
+      "start": 43.983,
+      "duration": 4.275
+    },
+    {
+      "text": "as its answer.",
+      "start": 48.258,
+      "duration": 0.782
+    },
+    {
+      "text": "I'm also expecting you to understand gradient descent,",
+      "start": 50.04,
+      "duration": 2.999
+    },
+    {
+      "text": "as described in the last video, and how what we mean by learning is",
+      "start": 53.039,
+      "duration": 3.777
+    },
+    {
+      "text": "that we want to find which weights and biases minimize a certain cost function.",
+      "start": 56.816,
+      "duration": 4.444
+    },
+    {
+      "text": "As a quick reminder, for the cost of a single training example,",
+      "start": 62.04,
+      "duration": 3.715
+    },
+    {
+      "text": "you take the output the network gives, along with the output you wanted it to give,",
+      "start": 65.755,
+      "duration": 4.953
+    },
+    {
+      "text": "and add up the squares of the differences between each component.",
+      "start": 70.708,
+      "duration": 3.892
+    },
+    {
+      "text": "Doing this for all of your tens of thousands of training examples and",
+      "start": 75.38,
+      "duration": 3.41
+    },
+    {
+      "text": "averaging the results, this gives you the total cost of the network.",
+      "start": 78.79,
+      "duration": 3.41
+    },
+    {
+      "text": "And as if that's not enough to think about, as described in the last video,",
+      "start": 82.2,
+      "duration": 4.071
+    },
+    {
+      "text": "the thing that we're looking for is the negative gradient of this cost function,",
+      "start": 86.271,
+      "duration": 4.396
+    },
+    {
+      "text": "which tells you how you need to change all of the weights and biases,",
+      "start": 90.667,
+      "duration": 3.799
+    },
+    {
+      "text": "all of these connections, so as to most efficiently decrease the cost.",
+      "start": 94.466,
+      "duration": 3.854
+    },
+    {
+      "text": "Backpropagation, the topic of this video, is an",
+      "start": 103.26,
+      "duration": 2.404
+    },
+    {
+      "text": "algorithm for computing that crazy complicated gradient.",
+      "start": 105.664,
+      "duration": 2.916
+    },
+    {
+      "text": "And the one idea from the last video that I really want you to hold firmly",
+      "start": 109.14,
+      "duration": 3.736
+    },
+    {
+      "text": "in your mind right now is that because thinking of the gradient vector",
+      "start": 112.876,
+      "duration": 3.585
+    },
+    {
+      "text": "as a direction in 13,000 dimensions is, to put it lightly,",
+      "start": 116.461,
+      "duration": 2.979
+    },
+    {
+      "text": "beyond the scope of our imaginations, there's another way you can think about it.",
+      "start": 119.44,
+      "duration": 4.14
+    },
+    {
+      "text": "The magnitude of each component here is telling you how",
+      "start": 124.6,
+      "duration": 3.141
+    },
+    {
+      "text": "sensitive the cost function is to each weight and bias.",
+      "start": 127.741,
+      "duration": 3.199
+    },
+    {
+      "text": "For example, let's say you go through the process I'm about to describe,",
+      "start": 131.8,
+      "duration": 3.944
+    },
+    {
+      "text": "and you compute the negative gradient, and the component associated with the weight on",
+      "start": 135.744,
+      "duration": 4.765
+    },
+    {
+      "text": "this edge here comes out to be 3.2, while the component associated with this edge here",
+      "start": 140.509,
+      "duration": 4.765
+    },
+    {
+      "text": "comes out as 0.1.",
+      "start": 145.274,
+      "duration": 0.986
+    },
+    {
+      "text": "The way you would interpret that is that the cost of the function is 32 times more",
+      "start": 146.82,
+      "duration": 4.149
+    },
+    {
+      "text": "sensitive to changes in that first weight, so if you were to wiggle that value",
+      "start": 150.969,
+      "duration": 3.996
+    },
+    {
+      "text": "just a little bit, it's going to cause some change to the cost,",
+      "start": 154.965,
+      "duration": 3.238
+    },
+    {
+      "text": "and that change is 32 times greater than what the same wiggle to that second",
+      "start": 158.203,
+      "duration": 3.896
+    },
+    {
+      "text": "weight would give.",
+      "start": 162.099,
+      "duration": 0.961
+    },
+    {
+      "text": "Personally, when I was first learning about backpropagation,",
+      "start": 168.42,
+      "duration": 2.948
+    },
+    {
+      "text": "I think the most confusing aspect was just the notation and the index chasing of it all.",
+      "start": 171.368,
+      "duration": 4.372
+    },
+    {
+      "text": "But once you unwrap what each part of this algorithm is really doing,",
+      "start": 176.22,
+      "duration": 3.224
+    },
+    {
+      "text": "each individual effect it's having is actually pretty intuitive,",
+      "start": 179.444,
+      "duration": 3.037
+    },
+    {
+      "text": "it's just that there's a lot of little adjustments getting layered on top of each other.",
+      "start": 182.481,
+      "duration": 4.159
+    },
+    {
+      "text": "So I'm going to start things off here with a complete disregard for the notation,",
+      "start": 187.74,
+      "duration": 4.04
+    },
+    {
+      "text": "and just step through the effects each training example has on the weights and biases.",
+      "start": 191.78,
+      "duration": 4.34
+    },
+    {
+      "text": "Because the cost function involves averaging a certain cost per example over all",
+      "start": 197.02,
+      "duration": 4.713
+    },
+    {
+      "text": "the tens of thousands of training examples, the way we adjust the weights and",
+      "start": 201.733,
+      "duration": 4.594
+    },
+    {
+      "text": "biases for a single gradient descent step also depends on every single example.",
+      "start": 206.327,
+      "duration": 4.713
+    },
+    {
+      "text": "Or rather, in principle it should, but for computational efficiency we'll do a little",
+      "start": 211.68,
+      "duration": 3.851
+    },
+    {
+      "text": "trick later to keep you from needing to hit every single example for every step.",
+      "start": 215.531,
+      "duration": 3.669
+    },
+    {
+      "text": "In other cases, right now, all we're going to do is focus",
+      "start": 219.2,
+      "duration": 3.41
+    },
+    {
+      "text": "our attention on one single example, this image of a 2.",
+      "start": 222.61,
+      "duration": 3.35
+    },
+    {
+      "text": "What effect should this one training example have",
+      "start": 226.72,
+      "duration": 2.508
+    },
+    {
+      "text": "on how the weights and biases get adjusted?",
+      "start": 229.228,
+      "duration": 2.252
+    },
+    {
+      "text": "Let's say we're at a point where the network is not well trained yet,",
+      "start": 232.68,
+      "duration": 3.533
+    },
+    {
+      "text": "so the activations in the output are going to look pretty random,",
+      "start": 236.213,
+      "duration": 3.38
+    },
+    {
+      "text": "maybe something like 0.5, 0.8, 0.2, on and on.",
+      "start": 239.593,
+      "duration": 2.407
+    },
+    {
+      "text": "We can't directly change those activations, we",
+      "start": 242.52,
+      "duration": 2.295
+    },
+    {
+      "text": "only have influence on the weights and biases.",
+      "start": 244.815,
+      "duration": 2.345
+    },
+    {
+      "text": "But it's helpful to keep track of which adjustments",
+      "start": 247.16,
+      "duration": 2.792
+    },
+    {
+      "text": "we wish should take place to that output layer.",
+      "start": 249.952,
+      "duration": 2.628
+    },
+    {
+      "text": "And since we want it to classify the image as a 2,",
+      "start": 253.36,
+      "duration": 3.038
+    },
+    {
+      "text": "we want that third value to get nudged up while all the others get nudged down.",
+      "start": 256.398,
+      "duration": 4.862
+    },
+    {
+      "text": "Moreover, the sizes of these nudges should be proportional",
+      "start": 262.06,
+      "duration": 3.636
+    },
+    {
+      "text": "to how far away each current value is from its target value.",
+      "start": 265.696,
+      "duration": 3.824
+    },
+    {
+      "text": "For example, the increase to that number 2 neuron's activation",
+      "start": 270.22,
+      "duration": 3.56
+    },
+    {
+      "text": "is in a sense more important than the decrease to the number 8 neuron,",
+      "start": 273.78,
+      "duration": 4.077
+    },
+    {
+      "text": "which is already pretty close to where it should be.",
+      "start": 277.857,
+      "duration": 3.043
+    },
+    {
+      "text": "So zooming in further, let's focus just on this one neuron,",
+      "start": 282.04,
+      "duration": 2.944
+    },
+    {
+      "text": "the one whose activation we wish to increase.",
+      "start": 284.984,
+      "duration": 2.296
+    },
+    {
+      "text": "Remember, that activation is defined as a certain weighted sum of all the",
+      "start": 288.18,
+      "duration": 4.346
+    },
+    {
+      "text": "activations in the previous layer, plus a bias,",
+      "start": 292.526,
+      "duration": 2.858
+    },
+    {
+      "text": "which is all then plugged into something like the sigmoid squishification function,",
+      "start": 295.384,
+      "duration": 5.001
+    },
+    {
+      "text": "or a ReLU.",
+      "start": 300.385,
+      "duration": 0.655
+    },
+    {
+      "text": "So there are three different avenues that can team",
+      "start": 301.64,
+      "duration": 2.802
+    },
+    {
+      "text": "up together to help increase that activation.",
+      "start": 304.442,
+      "duration": 2.578
+    },
+    {
+      "text": "You can increase the bias, you can increase the weights,",
+      "start": 307.44,
+      "duration": 3.186
+    },
+    {
+      "text": "and you can change the activations from the previous layer.",
+      "start": 310.626,
+      "duration": 3.414
+    },
+    {
+      "text": "Focusing on how the weights should be adjusted,",
+      "start": 314.94,
+      "duration": 2.419
+    },
+    {
+      "text": "notice how the weights actually have differing levels of influence.",
+      "start": 317.359,
+      "duration": 3.501
+    },
+    {
+      "text": "The connections with the brightest neurons from the preceding layer have the",
+      "start": 321.44,
+      "duration": 3.756
+    },
+    {
+      "text": "biggest effect since those weights are multiplied by larger activation values.",
+      "start": 325.196,
+      "duration": 3.904
+    },
+    {
+      "text": "So if you were to increase one of those weights,",
+      "start": 331.46,
+      "duration": 2.424
+    },
+    {
+      "text": "it actually has a stronger influence on the ultimate cost function than increasing",
+      "start": 333.884,
+      "duration": 4.192
+    },
+    {
+      "text": "the weights of connections with dimmer neurons,",
+      "start": 338.076,
+      "duration": 2.424
+    },
+    {
+      "text": "at least as far as this one training example is concerned.",
+      "start": 340.5,
+      "duration": 2.98
+    },
+    {
+      "text": "Remember, when we talk about gradient descent,",
+      "start": 344.42,
+      "duration": 2.165
+    },
+    {
+      "text": "we don't just care about whether each component should get nudged up or down,",
+      "start": 346.585,
+      "duration": 3.67
+    },
+    {
+      "text": "we care about which ones give you the most bang for your buck.",
+      "start": 350.255,
+      "duration": 2.965
+    },
+    {
+      "text": "This, by the way, is at least somewhat reminiscent of a theory in",
+      "start": 355.02,
+      "duration": 3.491
+    },
+    {
+      "text": "neuroscience for how biological networks of neurons learn, Hebbian theory,",
+      "start": 358.511,
+      "duration": 4.028
+    },
+    {
+      "text": "often summed up in the phrase, neurons that fire together wire together.",
+      "start": 362.539,
+      "duration": 3.921
+    },
+    {
+      "text": "Here, the biggest increases to weights, the biggest strengthening of connections,",
+      "start": 367.26,
+      "duration": 4.459
+    },
+    {
+      "text": "happens between neurons which are the most active,",
+      "start": 371.719,
+      "duration": 2.808
+    },
+    {
+      "text": "and the ones which we wish to become more active.",
+      "start": 374.527,
+      "duration": 2.753
+    },
+    {
+      "text": "In a sense, the neurons that are firing while seeing a 2 get",
+      "start": 377.94,
+      "duration": 3.216
+    },
+    {
+      "text": "more strongly linked to those firing when thinking about a 2.",
+      "start": 381.156,
+      "duration": 3.324
+    },
+    {
+      "text": "To be clear, I'm not in a position to make statements one way or another about",
+      "start": 385.4,
+      "duration": 3.956
+    },
+    {
+      "text": "whether artificial networks of neurons behave anything like biological brains,",
+      "start": 389.356,
+      "duration": 4.006
+    },
+    {
+      "text": "and this fires together wire together idea comes with a couple meaningful asterisks,",
+      "start": 393.362,
+      "duration": 4.311
+    },
+    {
+      "text": "but taken as a very loose analogy, I find it interesting to note.",
+      "start": 397.673,
+      "duration": 3.347
+    },
+    {
+      "text": "Anyway, the third way we can help increase this neuron's activation",
+      "start": 401.94,
+      "duration": 3.806
+    },
+    {
+      "text": "is by changing all the activations in the previous layer.",
+      "start": 405.746,
+      "duration": 3.294
+    },
+    {
+      "text": "Namely, if everything connected to that digit 2 neuron with a positive",
+      "start": 409.04,
+      "duration": 3.975
+    },
+    {
+      "text": "weight got brighter, and if everything connected with a negative weight got dimmer,",
+      "start": 413.015,
+      "duration": 4.769
+    },
+    {
+      "text": "then that digit 2 neuron would become more active.",
+      "start": 417.784,
+      "duration": 2.896
+    },
+    {
+      "text": "And similar to the weight changes, you're going to get the most bang for your buck",
+      "start": 422.54,
+      "duration": 3.847
+    },
+    {
+      "text": "by seeking changes that are proportional to the size of the corresponding weights.",
+      "start": 426.387,
+      "duration": 3.893
+    },
+    {
+      "text": "Now of course, we cannot directly influence those activations,",
+      "start": 432.14,
+      "duration": 2.956
+    },
+    {
+      "text": "we only have control over the weights and biases.",
+      "start": 435.096,
+      "duration": 2.384
+    },
+    {
+      "text": "But just as with the last layer, it's helpful to",
+      "start": 437.48,
+      "duration": 3.355
+    },
+    {
+      "text": "keep a note of what those desired changes are.",
+      "start": 440.835,
+      "duration": 3.285
+    },
+    {
+      "text": "But keep in mind, zooming out one step here, this",
+      "start": 444.58,
+      "duration": 2.358
+    },
+    {
+      "text": "is only what that digit 2 output neuron wants.",
+      "start": 446.938,
+      "duration": 2.262
+    },
+    {
+      "text": "Remember, we also want all the other neurons in the last layer to become less active,",
+      "start": 449.76,
+      "duration": 4.182
+    },
+    {
+      "text": "and each of those other output neurons has its own thoughts about",
+      "start": 453.942,
+      "duration": 3.247
+    },
+    {
+      "text": "what should happen to that second to last layer.",
+      "start": 457.189,
+      "duration": 2.411
+    },
+    {
+      "text": "So, the desire of this digit 2 neuron is added together with the desires",
+      "start": 462.7,
+      "duration": 4.701
+    },
+    {
+      "text": "of all the other output neurons for what should happen to this second to last layer,",
+      "start": 467.401,
+      "duration": 5.55
+    },
+    {
+      "text": "again in proportion to the corresponding weights,",
+      "start": 472.951,
+      "duration": 3.264
+    },
+    {
+      "text": "and in proportion to how much each of those neurons needs to change.",
+      "start": 476.215,
+      "duration": 4.505
+    },
+    {
+      "text": "This right here is where the idea of propagating backwards comes in.",
+      "start": 481.6,
+      "duration": 3.88
+    },
+    {
+      "text": "By adding together all these desired effects, you basically get a",
+      "start": 485.82,
+      "duration": 3.657
+    },
+    {
+      "text": "list of nudges that you want to happen to this second to last layer.",
+      "start": 489.477,
+      "duration": 3.883
+    },
+    {
+      "text": "And once you have those, you can recursively apply the same process to the",
+      "start": 494.22,
+      "duration": 3.627
+    },
+    {
+      "text": "relevant weights and biases that determine those values,",
+      "start": 497.847,
+      "duration": 2.793
+    },
+    {
+      "text": "repeating the same process I just walked through and moving backwards",
+      "start": 500.64,
+      "duration": 3.431
+    },
+    {
+      "text": "through the network.",
+      "start": 504.071,
+      "duration": 1.029
+    },
+    {
+      "text": "And zooming out a bit further, remember that this is all just how a single",
+      "start": 508.96,
+      "duration": 4.103
+    },
+    {
+      "text": "training example wishes to nudge each one of those weights and biases.",
+      "start": 513.063,
+      "duration": 3.937
+    },
+    {
+      "text": "If we only listened to what that 2 wanted, the network would",
+      "start": 517.48,
+      "duration": 2.8
+    },
+    {
+      "text": "ultimately be incentivized just to classify all images as a 2.",
+      "start": 520.28,
+      "duration": 2.94
+    },
+    {
+      "text": "So what you do is go through this same backprop routine for every other training example,",
+      "start": 524.06,
+      "duration": 5.184
+    },
+    {
+      "text": "recording how each of them would like to change the weights and biases,",
+      "start": 529.244,
+      "duration": 4.193
+    },
+    {
+      "text": "and average together those desired changes.",
+      "start": 533.437,
+      "duration": 2.563
+    },
+    {
+      "text": "This collection here of the averaged nudges to each weight and bias is,",
+      "start": 541.72,
+      "duration": 4.163
+    },
+    {
+      "text": "loosely speaking, the negative gradient of the cost function referenced",
+      "start": 545.883,
+      "duration": 4.221
+    },
+    {
+      "text": "in the last video, or at least something proportional to it.",
+      "start": 550.104,
+      "duration": 3.576
+    },
+    {
+      "text": "I say loosely speaking only because I have yet to get quantitatively precise",
+      "start": 554.38,
+      "duration": 4.01
+    },
+    {
+      "text": "about those nudges, but if you understood every change I just referenced,",
+      "start": 558.39,
+      "duration": 3.904
+    },
+    {
+      "text": "why some are proportionally bigger than others,",
+      "start": 562.294,
+      "duration": 2.533
+    },
+    {
+      "text": "and how they all need to be added together, you understand the mechanics for",
+      "start": 564.827,
+      "duration": 4.063
+    },
+    {
+      "text": "what backpropagation is actually doing.",
+      "start": 568.89,
+      "duration": 2.11
+    },
+    {
+      "text": "By the way, in practice, it takes computers an extremely long time to add",
+      "start": 573.96,
+      "duration": 4.269
+    },
+    {
+      "text": "up the influence of every training example every gradient descent step.",
+      "start": 578.229,
+      "duration": 4.211
+    },
+    {
+      "text": "So here's what's commonly done instead.",
+      "start": 583.14,
+      "duration": 1.68
+    },
+    {
+      "text": "You randomly shuffle your training data and then divide it into a whole",
+      "start": 585.48,
+      "duration": 3.446
+    },
+    {
+      "text": "bunch of mini-batches, let's say each one having 100 training examples.",
+      "start": 588.926,
+      "duration": 3.494
+    },
+    {
+      "text": "Then you compute a step according to the mini-batch.",
+      "start": 592.94,
+      "duration": 3.26
+    },
+    {
+      "text": "It's not going to be the actual gradient of the cost function,",
+      "start": 596.96,
+      "duration": 3.052
+    },
+    {
+      "text": "which depends on all of the training data, not this tiny subset,",
+      "start": 600.012,
+      "duration": 3.199
+    },
+    {
+      "text": "so it's not the most efficient step downhill,",
+      "start": 603.211,
+      "duration": 2.264
+    },
+    {
+      "text": "but each mini-batch does give you a pretty good approximation, and more importantly,",
+      "start": 605.475,
+      "duration": 4.184
+    },
+    {
+      "text": "it gives you a significant computational speedup.",
+      "start": 609.659,
+      "duration": 2.461
+    },
+    {
+      "text": "If you were to plot the trajectory of your network under the relevant cost surface,",
+      "start": 612.82,
+      "duration": 4.258
+    },
+    {
+      "text": "it would be a little more like a drunk man stumbling aimlessly down a hill but taking",
+      "start": 617.078,
+      "duration": 4.412
+    },
+    {
+      "text": "quick steps, rather than a carefully calculating man determining the exact downhill",
+      "start": 621.49,
+      "duration": 4.309
+    },
+    {
+      "text": "direction of each step before taking a very slow and careful step in that direction.",
+      "start": 625.799,
+      "duration": 4.361
+    },
+    {
+      "text": "This technique is referred to as stochastic gradient descent.",
+      "start": 631.54,
+      "duration": 3.12
+    },
+    {
+      "text": "There's a lot going on here, so let's just sum it up for ourselves, shall we?",
+      "start": 635.96,
+      "duration": 3.66
+    },
+    {
+      "text": "Backpropagation is the algorithm for determining how a single training",
+      "start": 640.44,
+      "duration": 3.78
+    },
+    {
+      "text": "example would like to nudge the weights and biases,",
+      "start": 644.22,
+      "duration": 2.808
+    },
+    {
+      "text": "not just in terms of whether they should go up or down,",
+      "start": 647.028,
+      "duration": 3.024
+    },
+    {
+      "text": "but in terms of what relative proportions to those changes cause the",
+      "start": 650.052,
+      "duration": 3.726
+    },
+    {
+      "text": "most rapid decrease to the cost.",
+      "start": 653.778,
+      "duration": 1.782
+    },
+    {
+      "text": "A true gradient descent step would involve doing this for all your tens of",
+      "start": 656.26,
+      "duration": 3.97
+    },
+    {
+      "text": "thousands of training examples and averaging the desired changes you get.",
+      "start": 660.23,
+      "duration": 3.97
+    },
+    {
+      "text": "But that's computationally slow, so instead you randomly subdivide the",
+      "start": 664.86,
+      "duration": 4.046
+    },
+    {
+      "text": "data into mini-batches and compute each step with respect to a mini-batch.",
+      "start": 668.906,
+      "duration": 4.334
+    },
+    {
+      "text": "Repeatedly going through all of the mini-batches and making these adjustments,",
+      "start": 674.0,
+      "duration": 3.863
+    },
+    {
+      "text": "you will converge towards a local minimum of the cost function,",
+      "start": 677.863,
+      "duration": 3.17
+    },
+    {
+      "text": "which is to say your network will end up doing a really good job on the training",
+      "start": 681.033,
+      "duration": 4.012
+    },
+    {
+      "text": "examples.",
+      "start": 685.045,
+      "duration": 0.495
+    },
+    {
+      "text": "So with all of that said, every line of code that would go into implementing backprop",
+      "start": 687.24,
+      "duration": 4.796
+    },
+    {
+      "text": "actually corresponds with something you have now seen, at least in informal terms.",
+      "start": 692.036,
+      "duration": 4.684
+    },
+    {
+      "text": "But sometimes knowing what the math does is only half the battle,",
+      "start": 697.56,
+      "duration": 2.921
+    },
+    {
+      "text": "and just representing the damn thing is where it gets all muddled and confusing.",
+      "start": 700.481,
+      "duration": 3.639
+    },
+    {
+      "text": "So for those of you who do want to go deeper, the next video goes through the same",
+      "start": 704.86,
+      "duration": 3.717
+    },
+    {
+      "text": "ideas that were just presented here, but in terms of the underlying calculus,",
+      "start": 708.577,
+      "duration": 3.536
+    },
+    {
+      "text": "which should hopefully make it a little more familiar as you see the topic in other",
+      "start": 712.113,
+      "duration": 3.808
+    },
+    {
+      "text": "resources.",
+      "start": 715.921,
+      "duration": 0.499
+    },
+    {
+      "text": "Before that, one thing worth emphasizing is that for this algorithm to work,",
+      "start": 717.34,
+      "duration": 3.498
+    },
+    {
+      "text": "and this goes for all sorts of machine learning beyond just neural networks,",
+      "start": 720.838,
+      "duration": 3.543
+    },
+    {
+      "text": "you need a lot of training data.",
+      "start": 724.381,
+      "duration": 1.519
+    },
+    {
+      "text": "In our case, one thing that makes handwritten digits such a nice example is that there",
+      "start": 726.42,
+      "duration": 4.234
+    },
+    {
+      "text": "exists the MNIST database, with so many examples that have been labeled by humans.",
+      "start": 730.654,
+      "duration": 4.086
+    },
+    {
+      "text": "So a common challenge that those of you working in machine learning will be familiar with",
+      "start": 735.3,
+      "duration": 3.904
+    },
+    {
+      "text": "is just getting the labeled training data you actually need,",
+      "start": 739.204,
+      "duration": 2.676
+    },
+    {
+      "text": "whether that's having people label tens of thousands of images,",
+      "start": 741.88,
+      "duration": 2.807
+    },
+    {
+      "text": "or whatever other data type you might be dealing with.",
+      "start": 744.687,
+      "duration": 2.413
+    }
+  ]
+}

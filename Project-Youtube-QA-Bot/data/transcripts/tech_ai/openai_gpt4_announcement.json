@@ -1,0 +1,7452 @@
+{
+  "video_id": "hM_h0UA7upI",
+  "title": "openai_gpt4_announcement",
+  "category": "tech_ai",
+  "transcript": [
+    {
+      "text": "[Applause]",
+      "start": 2.88,
+      "duration": 4.879
+    },
+    {
+      "text": "hi listeners welcome back to no priors",
+      "start": 5.799,
+      "duration": 3.441
+    },
+    {
+      "text": "today we're hanging out with Andre",
+      "start": 7.759,
+      "duration": 4.241
+    },
+    {
+      "text": "karpathy who needs no introduction Andre",
+      "start": 9.24,
+      "duration": 5.599
+    },
+    {
+      "text": "is a renowned researcher beloved AI",
+      "start": 12.0,
+      "duration": 5.16
+    },
+    {
+      "text": "educator and cuber an early team member",
+      "start": 14.839,
+      "duration": 5.881
+    },
+    {
+      "text": "from open aai the lead for autopilot at",
+      "start": 17.16,
+      "duration": 5.52
+    },
+    {
+      "text": "Tesla and now working on AI for",
+      "start": 20.72,
+      "duration": 4.04
+    },
+    {
+      "text": "Education we'll talk to him about the",
+      "start": 22.68,
+      "duration": 4.919
+    },
+    {
+      "text": "state of research his new company and",
+      "start": 24.76,
+      "duration": 5.32
+    },
+    {
+      "text": "what we can expect from AI thanks for",
+      "start": 27.599,
+      "duration": 3.92
+    },
+    {
+      "text": "joining us today it's great to have you",
+      "start": 30.08,
+      "duration": 3.2
+    },
+    {
+      "text": "here thank you I'm happy to be here you",
+      "start": 31.519,
+      "duration": 4.681
+    },
+    {
+      "text": "led autopilot at Tesla and now like we",
+      "start": 33.28,
+      "duration": 5.04
+    },
+    {
+      "text": "actually have fully self-driving cars",
+      "start": 36.2,
+      "duration": 3.96
+    },
+    {
+      "text": "passenger vehicles on the road how do",
+      "start": 38.32,
+      "duration": 3.68
+    },
+    {
+      "text": "you read that in terms of where we are",
+      "start": 40.16,
+      "duration": 3.44
+    },
+    {
+      "text": "in the capability set how quickly we",
+      "start": 42.0,
+      "duration": 4.199
+    },
+    {
+      "text": "should see increased capability or",
+      "start": 43.6,
+      "duration": 4.92
+    },
+    {
+      "text": "pervasive passenger vehicles uh yes so I",
+      "start": 46.199,
+      "duration": 3.481
+    },
+    {
+      "text": "spent uh maybe five years on",
+      "start": 48.52,
+      "duration": 2.16
+    },
+    {
+      "text": "self-driving space I think it's",
+      "start": 49.68,
+      "duration": 3.719
+    },
+    {
+      "text": "fascinating space and um basically",
+      "start": 50.68,
+      "duration": 3.92
+    },
+    {
+      "text": "what's happening in the field right now",
+      "start": 53.399,
+      "duration": 4.281
+    },
+    {
+      "text": "is well um I do also think that I I draw",
+      "start": 54.6,
+      "duration": 5.56
+    },
+    {
+      "text": "a lot of like analogies I would say to",
+      "start": 57.68,
+      "duration": 4.24
+    },
+    {
+      "text": "AGI from Salt driving and maybe that's",
+      "start": 60.16,
+      "duration": 3.079
+    },
+    {
+      "text": "just because I'm familiar with it but I",
+      "start": 61.92,
+      "duration": 2.72
+    },
+    {
+      "text": "kind of feel like we've reached AGI a",
+      "start": 63.239,
+      "duration": 3.001
+    },
+    {
+      "text": "little bit in salt driving uh because",
+      "start": 64.64,
+      "duration": 2.839
+    },
+    {
+      "text": "there are systems today that you can",
+      "start": 66.24,
+      "duration": 2.76
+    },
+    {
+      "text": "basically take around and as a pain",
+      "start": 67.479,
+      "duration": 3.28
+    },
+    {
+      "text": "customer can take around here so weo in",
+      "start": 69.0,
+      "duration": 3.28
+    },
+    {
+      "text": "San Francisco here is of course very",
+      "start": 70.759,
+      "duration": 2.961
+    },
+    {
+      "text": "common probably you've taken weo I've",
+      "start": 72.28,
+      "duration": 3.04
+    },
+    {
+      "text": "taken in a bunch and it's amazing and it",
+      "start": 73.72,
+      "duration": 3.2
+    },
+    {
+      "text": "can drive youit all over it place and",
+      "start": 75.32,
+      "duration": 3.32
+    },
+    {
+      "text": "you're paying for it as a product what's",
+      "start": 76.92,
+      "duration": 3.6
+    },
+    {
+      "text": "interesting with weo is the first time I",
+      "start": 78.64,
+      "duration": 3.76
+    },
+    {
+      "text": "took weo was actually a decade ago",
+      "start": 80.52,
+      "duration": 4.12
+    },
+    {
+      "text": "almost exactly 2014 or so and it was a",
+      "start": 82.4,
+      "duration": 3.32
+    },
+    {
+      "text": "friend of mine who worked there and he",
+      "start": 84.64,
+      "duration": 2.72
+    },
+    {
+      "text": "gave me a demo and it drove me around",
+      "start": 85.72,
+      "duration": 3.56
+    },
+    {
+      "text": "the block 10 years ago and it was",
+      "start": 87.36,
+      "duration": 4.759
+    },
+    {
+      "text": "basically perfect dve drive 10 years ago",
+      "start": 89.28,
+      "duration": 5.32
+    },
+    {
+      "text": "and it took 10 years to go from like a",
+      "start": 92.119,
+      "duration": 4.521
+    },
+    {
+      "text": "demo that I had to a product I can pay",
+      "start": 94.6,
+      "duration": 3.72
+    },
+    {
+      "text": "for that's in a city scale and it's",
+      "start": 96.64,
+      "duration": 3.24
+    },
+    {
+      "text": "expanding Etc how much of that do you",
+      "start": 98.32,
+      "duration": 3.28
+    },
+    {
+      "text": "think was regulatory versus technology",
+      "start": 99.88,
+      "duration": 2.76
+    },
+    {
+      "text": "like when do you think the technology",
+      "start": 101.6,
+      "duration": 2.519
+    },
+    {
+      "text": "was ready is it I think technology",
+      "start": 102.64,
+      "duration": 2.56
+    },
+    {
+      "text": "you're just not seeing it in a single",
+      "start": 104.119,
+      "duration": 3.201
+    },
+    {
+      "text": "demo Drive of 30 minutes you're not",
+      "start": 105.2,
+      "duration": 3.239
+    },
+    {
+      "text": "running into all the stuff that they had",
+      "start": 107.32,
+      "duration": 2.759
+    },
+    {
+      "text": "to deal with deal with for a decade and",
+      "start": 108.439,
+      "duration": 3.28
+    },
+    {
+      "text": "so demo and product there's a massive",
+      "start": 110.079,
+      "duration": 3.481
+    },
+    {
+      "text": "Gap there and I think a lot of it also",
+      "start": 111.719,
+      "duration": 3.961
+    },
+    {
+      "text": "regulatory Etc uh but I do think that",
+      "start": 113.56,
+      "duration": 4.199
+    },
+    {
+      "text": "we've sort of like achieved AI in a soft",
+      "start": 115.68,
+      "duration": 3.56
+    },
+    {
+      "text": "having space in in that sense a little",
+      "start": 117.759,
+      "duration": 3.241
+    },
+    {
+      "text": "bit and yet I think there's what's",
+      "start": 119.24,
+      "duration": 3.4
+    },
+    {
+      "text": "really fascinating about it is the",
+      "start": 121.0,
+      "duration": 3.32
+    },
+    {
+      "text": "globalization hasn't happened at all so",
+      "start": 122.64,
+      "duration": 3.36
+    },
+    {
+      "text": "you have a demo and you can take it in a",
+      "start": 124.32,
+      "duration": 3.439
+    },
+    {
+      "text": "Seth but like the world hasn't changed",
+      "start": 126.0,
+      "duration": 4.039
+    },
+    {
+      "text": "yet and that going to take a long time",
+      "start": 127.759,
+      "duration": 3.681
+    },
+    {
+      "text": "and so going from a demo to an actual",
+      "start": 130.039,
+      "duration": 2.84
+    },
+    {
+      "text": "globalization of it I think there's a",
+      "start": 131.44,
+      "duration": 3.28
+    },
+    {
+      "text": "big gap there that's how it's related I",
+      "start": 132.879,
+      "duration": 3.281
+    },
+    {
+      "text": "would say to AGI because I suspect",
+      "start": 134.72,
+      "duration": 2.84
+    },
+    {
+      "text": "similar it will look in a similar way",
+      "start": 136.16,
+      "duration": 4.32
+    },
+    {
+      "text": "for AGI when we sort of get it and then",
+      "start": 137.56,
+      "duration": 4.6
+    },
+    {
+      "text": "staying for a minute in the Sal driving",
+      "start": 140.48,
+      "duration": 3.72
+    },
+    {
+      "text": "space uh I think people think that waymo",
+      "start": 142.16,
+      "duration": 4.12
+    },
+    {
+      "text": "is ahead of Tesla I think personally",
+      "start": 144.2,
+      "duration": 3.399
+    },
+    {
+      "text": "Tesla is ahead of wayo and I know it",
+      "start": 146.28,
+      "duration": 3.0
+    },
+    {
+      "text": "doesn't look like that but I'm still",
+      "start": 147.599,
+      "duration": 3.36
+    },
+    {
+      "text": "very uh bullish on Tesla and it sof",
+      "start": 149.28,
+      "duration": 4.64
+    },
+    {
+      "text": "driving program I think that Tesla has a",
+      "start": 150.959,
+      "duration": 5.0
+    },
+    {
+      "text": "software problem and I think weo has a",
+      "start": 153.92,
+      "duration": 3.679
+    },
+    {
+      "text": "hardware problem is the way I put it and",
+      "start": 155.959,
+      "duration": 2.721
+    },
+    {
+      "text": "I think software problems are much",
+      "start": 157.599,
+      "duration": 2.72
+    },
+    {
+      "text": "easier Tesla has deployment of all these",
+      "start": 158.68,
+      "duration": 4.52
+    },
+    {
+      "text": "cars on earth uh like at scale and I",
+      "start": 160.319,
+      "duration": 5.441
+    },
+    {
+      "text": "think uh way needs to get there and so",
+      "start": 163.2,
+      "duration": 4.959
+    },
+    {
+      "text": "uh the moment Tesla sort of like gets to",
+      "start": 165.76,
+      "duration": 4.16
+    },
+    {
+      "text": "the point where they can actually deploy",
+      "start": 168.159,
+      "duration": 2.8
+    },
+    {
+      "text": "this and it actually works I think it's",
+      "start": 169.92,
+      "duration": 3.88
+    },
+    {
+      "text": "going to be you know really incredible",
+      "start": 170.959,
+      "duration": 4.161
+    },
+    {
+      "text": "uh the latest builds I just drove",
+      "start": 173.8,
+      "duration": 2.519
+    },
+    {
+      "text": "yesterday I mean it's just driving me",
+      "start": 175.12,
+      "duration": 2.56
+    },
+    {
+      "text": "all over the place now they've made like",
+      "start": 176.319,
+      "duration": 2.961
+    },
+    {
+      "text": "really good improvements uh I would say",
+      "start": 177.68,
+      "duration": 2.919
+    },
+    {
+      "text": "very recently yeah I've been using it a",
+      "start": 179.28,
+      "duration": 2.84
+    },
+    {
+      "text": "lot recently and it actually works quite",
+      "start": 180.599,
+      "duration": 3.92
+    },
+    {
+      "text": "well it was it did some miraculous uh",
+      "start": 182.12,
+      "duration": 3.64
+    },
+    {
+      "text": "driving for me yesterday so I'm very",
+      "start": 184.519,
+      "duration": 3.08
+    },
+    {
+      "text": "impressed what the team is doing and so",
+      "start": 185.76,
+      "duration": 4.559
+    },
+    {
+      "text": "I still think that Tesla mostly has a",
+      "start": 187.599,
+      "duration": 4.601
+    },
+    {
+      "text": "software problem wayo mostly Hardware",
+      "start": 190.319,
+      "duration": 4.401
+    },
+    {
+      "text": "problem and so I think Tesla weo looks",
+      "start": 192.2,
+      "duration": 4.16
+    },
+    {
+      "text": "like it's winning kind of right now but",
+      "start": 194.72,
+      "duration": 3.2
+    },
+    {
+      "text": "I think when we look in 10 years and",
+      "start": 196.36,
+      "duration": 2.879
+    },
+    {
+      "text": "who's actually at scale and where most",
+      "start": 197.92,
+      "duration": 2.56
+    },
+    {
+      "text": "of the revenue is coming from I still",
+      "start": 199.239,
+      "duration": 2.56
+    },
+    {
+      "text": "think they're uh they're ahead in that",
+      "start": 200.48,
+      "duration": 2.92
+    },
+    {
+      "text": "sense how far away do you think we are",
+      "start": 201.799,
+      "duration": 2.921
+    },
+    {
+      "text": "from the software problem turning the",
+      "start": 203.4,
+      "duration": 3.199
+    },
+    {
+      "text": "corner in terms of getting to some",
+      "start": 204.72,
+      "duration": 3.159
+    },
+    {
+      "text": "equivalency because obviously to your",
+      "start": 206.599,
+      "duration": 3.28
+    },
+    {
+      "text": "point if you look at a way my car has a",
+      "start": 207.879,
+      "duration": 3.681
+    },
+    {
+      "text": "lot of very expensive liar and other",
+      "start": 209.879,
+      "duration": 3.401
+    },
+    {
+      "text": "sort of sensors built into the car so it",
+      "start": 211.56,
+      "duration": 3.2
+    },
+    {
+      "text": "can do what it does it sort of helps",
+      "start": 213.28,
+      "duration": 3.84
+    },
+    {
+      "text": "support the software system and so if",
+      "start": 214.76,
+      "duration": 3.759
+    },
+    {
+      "text": "you can just use cameras which is the",
+      "start": 217.12,
+      "duration": 3.0
+    },
+    {
+      "text": "Tesla approach then you effectively get",
+      "start": 218.519,
+      "duration": 3.92
+    },
+    {
+      "text": "rid of enormous cost complexity and you",
+      "start": 220.12,
+      "duration": 3.96
+    },
+    {
+      "text": "can do it in in many different types of",
+      "start": 222.439,
+      "duration": 4.08
+    },
+    {
+      "text": "cars when do you think that transition",
+      "start": 224.08,
+      "duration": 4.28
+    },
+    {
+      "text": "happens I mean mean in the next few",
+      "start": 226.519,
+      "duration": 3.28
+    },
+    {
+      "text": "years Ian I'm hoping like something like",
+      "start": 228.36,
+      "duration": 2.48
+    },
+    {
+      "text": "that but actually what's really",
+      "start": 229.799,
+      "duration": 2.36
+    },
+    {
+      "text": "interesting about that is I'm not sure",
+      "start": 230.84,
+      "duration": 3.08
+    },
+    {
+      "text": "that people are appreciating that Tesla",
+      "start": 232.159,
+      "duration": 3.041
+    },
+    {
+      "text": "actually does use a lot of expensive",
+      "start": 233.92,
+      "duration": 3.64
+    },
+    {
+      "text": "sensors they just do it at training time",
+      "start": 235.2,
+      "duration": 3.599
+    },
+    {
+      "text": "so there are a bunch of cars that drive",
+      "start": 237.56,
+      "duration": 2.92
+    },
+    {
+      "text": "around with Lars they do a bunch of",
+      "start": 238.799,
+      "duration": 2.921
+    },
+    {
+      "text": "stuff that like doesn't scale and they",
+      "start": 240.48,
+      "duration": 3.16
+    },
+    {
+      "text": "have extra sensors Etc and they do",
+      "start": 241.72,
+      "duration": 3.359
+    },
+    {
+      "text": "mapping and all all the stuff you're",
+      "start": 243.64,
+      "duration": 2.519
+    },
+    {
+      "text": "doing it at training time and then",
+      "start": 245.079,
+      "duration": 3.0
+    },
+    {
+      "text": "you're distilling that into a test time",
+      "start": 246.159,
+      "duration": 3.241
+    },
+    {
+      "text": "package that has deployed to the cars",
+      "start": 248.079,
+      "duration": 3.08
+    },
+    {
+      "text": "and is Vision only and it's like an",
+      "start": 249.4,
+      "duration": 4.24
+    },
+    {
+      "text": "Arbitrage on like sensors uh and like",
+      "start": 251.159,
+      "duration": 4.401
+    },
+    {
+      "text": "expense yeah and so I think it's",
+      "start": 253.64,
+      "duration": 3.04
+    },
+    {
+      "text": "actually kind of a brilliant strategy",
+      "start": 255.56,
+      "duration": 1.799
+    },
+    {
+      "text": "that I don't think it's fully",
+      "start": 256.68,
+      "duration": 1.88
+    },
+    {
+      "text": "appreciated and I think it's going to",
+      "start": 257.359,
+      "duration": 2.6
+    },
+    {
+      "text": "work out well because the pixels have",
+      "start": 258.56,
+      "duration": 3.16
+    },
+    {
+      "text": "the information and I think uh the",
+      "start": 259.959,
+      "duration": 2.96
+    },
+    {
+      "text": "network will be capable of doing that",
+      "start": 261.72,
+      "duration": 2.64
+    },
+    {
+      "text": "and yes at training time I think these",
+      "start": 262.919,
+      "duration": 2.601
+    },
+    {
+      "text": "sensors are really useful but I don't",
+      "start": 264.36,
+      "duration": 2.32
+    },
+    {
+      "text": "think they're as useful at tus time and",
+      "start": 265.52,
+      "duration": 2.399
+    },
+    {
+      "text": "I think you you don't it seems like the",
+      "start": 266.68,
+      "duration": 2.56
+    },
+    {
+      "text": "one other thing or transition that's",
+      "start": 267.919,
+      "duration": 3.72
+    },
+    {
+      "text": "happened is basically a move from a lot",
+      "start": 269.24,
+      "duration": 5.72
+    },
+    {
+      "text": "of um sort of uh Edge case designed",
+      "start": 271.639,
+      "duration": 5.481
+    },
+    {
+      "text": "turistic associated with it versus end",
+      "start": 274.96,
+      "duration": 3.76
+    },
+    {
+      "text": "to end deep learning and that's what",
+      "start": 277.12,
+      "duration": 2.799
+    },
+    {
+      "text": "other shift that's happened recently do",
+      "start": 278.72,
+      "duration": 2.16
+    },
+    {
+      "text": "you want to talk a little bit about that",
+      "start": 279.919,
+      "duration": 2.441
+    },
+    {
+      "text": "and sort of what that yeah I think that",
+      "start": 280.88,
+      "duration": 3.68
+    },
+    {
+      "text": "was always like the plan from the start",
+      "start": 282.36,
+      "duration": 3.679
+    },
+    {
+      "text": "I would say at Tesla as I was talking",
+      "start": 284.56,
+      "duration": 3.04
+    },
+    {
+      "text": "about how the neural nut can like eat",
+      "start": 286.039,
+      "duration": 3.0
+    },
+    {
+      "text": "through the stack because when I joined",
+      "start": 287.6,
+      "duration": 2.879
+    },
+    {
+      "text": "there was a ton of C++ code and now",
+      "start": 289.039,
+      "duration": 3.801
+    },
+    {
+      "text": "there's much much less C++ code uh in",
+      "start": 290.479,
+      "duration": 3.72
+    },
+    {
+      "text": "the test time package that runs in the",
+      "start": 292.84,
+      "duration": 4.0
+    },
+    {
+      "text": "car because uh there's still a ton of",
+      "start": 294.199,
+      "duration": 4.921
+    },
+    {
+      "text": "stuff in the in the back end uh that",
+      "start": 296.84,
+      "duration": 4.16
+    },
+    {
+      "text": "we're not talking about the neural net",
+      "start": 299.12,
+      "duration": 3.28
+    },
+    {
+      "text": "kind of like takes takes through the",
+      "start": 301.0,
+      "duration": 2.919
+    },
+    {
+      "text": "system so first it just does like a",
+      "start": 302.4,
+      "duration": 3.28
+    },
+    {
+      "text": "detection on the Image level then it",
+      "start": 303.919,
+      "duration": 3.401
+    },
+    {
+      "text": "does multiple images gives you",
+      "start": 305.68,
+      "duration": 3.44
+    },
+    {
+      "text": "prediction then multiple Imes over time",
+      "start": 307.32,
+      "duration": 3.12
+    },
+    {
+      "text": "give you a prediction and you're",
+      "start": 309.12,
+      "duration": 3.44
+    },
+    {
+      "text": "discarding C++ code and eventually",
+      "start": 310.44,
+      "duration": 4.12
+    },
+    {
+      "text": "you're just giving steering commands and",
+      "start": 312.56,
+      "duration": 3.12
+    },
+    {
+      "text": "so I think Tesla is kind of eating",
+      "start": 314.56,
+      "duration": 2.28
+    },
+    {
+      "text": "through the stack my understanding is",
+      "start": 315.68,
+      "duration": 2.68
+    },
+    {
+      "text": "that current Whos are actually like not",
+      "start": 316.84,
+      "duration": 3.24
+    },
+    {
+      "text": "that but that they've tried but they",
+      "start": 318.36,
+      "duration": 3.2
+    },
+    {
+      "text": "ended up like not doing that is my",
+      "start": 320.08,
+      "duration": 2.559
+    },
+    {
+      "text": "current understanding but I'm not sure",
+      "start": 321.56,
+      "duration": 2.479
+    },
+    {
+      "text": "because they don't talk about it but I",
+      "start": 322.639,
+      "duration": 2.921
+    },
+    {
+      "text": "do fundamentally believe in this",
+      "start": 324.039,
+      "duration": 4.761
+    },
+    {
+      "text": "approach um and I think um that's the",
+      "start": 325.56,
+      "duration": 5.199
+    },
+    {
+      "text": "last piece to fall if if you want to",
+      "start": 328.8,
+      "duration": 3.959
+    },
+    {
+      "text": "think about it that way and I do suspect",
+      "start": 330.759,
+      "duration": 4.201
+    },
+    {
+      "text": "that the endtoend systems for Tesla in",
+      "start": 332.759,
+      "duration": 3.921
+    },
+    {
+      "text": "like say 10 years it is just a neural",
+      "start": 334.96,
+      "duration": 3.64
+    },
+    {
+      "text": "nut I mean the the videos stream into a",
+      "start": 336.68,
+      "duration": 4.079
+    },
+    {
+      "text": "neural nut and commands come out you",
+      "start": 338.6,
+      "duration": 3.56
+    },
+    {
+      "text": "have to sort of build to build build up",
+      "start": 340.759,
+      "duration": 3.56
+    },
+    {
+      "text": "to it incrementally and uh do it piece",
+      "start": 342.16,
+      "duration": 3.72
+    },
+    {
+      "text": "by piece and even all the intermediate",
+      "start": 344.319,
+      "duration": 2.641
+    },
+    {
+      "text": "predictions and all the things that",
+      "start": 345.88,
+      "duration": 2.48
+    },
+    {
+      "text": "we've done I don't think they've",
+      "start": 346.96,
+      "duration": 2.72
+    },
+    {
+      "text": "actually like misled the development I",
+      "start": 348.36,
+      "duration": 4.2
+    },
+    {
+      "text": "think they're part of it uh because um",
+      "start": 349.68,
+      "duration": 4.2
+    },
+    {
+      "text": "there's a lot of solid reasons for this",
+      "start": 352.56,
+      "duration": 2.84
+    },
+    {
+      "text": "so so actually like in and driving when",
+      "start": 353.88,
+      "duration": 3.36
+    },
+    {
+      "text": "you're just imitating humans and so on",
+      "start": 355.4,
+      "duration": 4.28
+    },
+    {
+      "text": "you have very few bits of supervision to",
+      "start": 357.24,
+      "duration": 5.0
+    },
+    {
+      "text": "train a massive neural nut and it's too",
+      "start": 359.68,
+      "duration": 5.16
+    },
+    {
+      "text": "too few bits of signal to train so many",
+      "start": 362.24,
+      "duration": 4.44
+    },
+    {
+      "text": "billions of parameters and so these",
+      "start": 364.84,
+      "duration": 3.16
+    },
+    {
+      "text": "intermediate representations and so on",
+      "start": 366.68,
+      "duration": 2.919
+    },
+    {
+      "text": "help you develop the features and the",
+      "start": 368.0,
+      "duration": 2.919
+    },
+    {
+      "text": "detectors for everything and then it",
+      "start": 369.599,
+      "duration": 3.72
+    },
+    {
+      "text": "makes a much easier problem for the um",
+      "start": 370.919,
+      "duration": 5.241
+    },
+    {
+      "text": "end to end part of it and so I suspect",
+      "start": 373.319,
+      "duration": 3.761
+    },
+    {
+      "text": "although I don't know because I'm not",
+      "start": 376.16,
+      "duration": 2.439
+    },
+    {
+      "text": "part of the team but there's a ton of",
+      "start": 377.08,
+      "duration": 3.08
+    },
+    {
+      "text": "pre-training happening so that you can",
+      "start": 378.599,
+      "duration": 3.481
+    },
+    {
+      "text": "do the fine tuning for end to end and so",
+      "start": 380.16,
+      "duration": 3.56
+    },
+    {
+      "text": "basically I feel like it was necessary",
+      "start": 382.08,
+      "duration": 3.0
+    },
+    {
+      "text": "to eat through it incrementally and",
+      "start": 383.72,
+      "duration": 2.44
+    },
+    {
+      "text": "that's what Tesla has done I think is",
+      "start": 385.08,
+      "duration": 2.239
+    },
+    {
+      "text": "the right approach and it looks like",
+      "start": 386.16,
+      "duration": 2.28
+    },
+    {
+      "text": "it's working so I'm really looking",
+      "start": 387.319,
+      "duration": 2.481
+    },
+    {
+      "text": "forward if you had started end you",
+      "start": 388.44,
+      "duration": 2.8
+    },
+    {
+      "text": "wouldn't have had the data anyway that",
+      "start": 389.8,
+      "duration": 4.64
+    },
+    {
+      "text": "makes sense yeah so uh you worked on the",
+      "start": 391.24,
+      "duration": 6.16
+    },
+    {
+      "text": "um Tesla humanoid robot before you left",
+      "start": 394.44,
+      "duration": 4.44
+    },
+    {
+      "text": "uh I have so many questions but one is",
+      "start": 397.4,
+      "duration": 3.239
+    },
+    {
+      "text": "like starting here what transfers",
+      "start": 398.88,
+      "duration": 3.08
+    },
+    {
+      "text": "basically everything transfers and I",
+      "start": 400.639,
+      "duration": 3.441
+    },
+    {
+      "text": "don't think people appreciate it okay um",
+      "start": 401.96,
+      "duration": 4.16
+    },
+    {
+      "text": "that's a big claim like a cars are",
+      "start": 404.08,
+      "duration": 3.559
+    },
+    {
+      "text": "basically robots when you actually uh",
+      "start": 406.12,
+      "duration": 4.24
+    },
+    {
+      "text": "look at it um cars are robots and Tesla",
+      "start": 407.639,
+      "duration": 3.84
+    },
+    {
+      "text": "I don't think it's a car company I think",
+      "start": 410.36,
+      "duration": 2.64
+    },
+    {
+      "text": "this is misleading this is a robotics",
+      "start": 411.479,
+      "duration": 3.56
+    },
+    {
+      "text": "company robotics at Scale Company",
+      "start": 413.0,
+      "duration": 3.319
+    },
+    {
+      "text": "because I would say at scale is also",
+      "start": 415.039,
+      "duration": 2.641
+    },
+    {
+      "text": "like a whole separate variable they're",
+      "start": 416.319,
+      "duration": 3.241
+    },
+    {
+      "text": "not building a single thing they're",
+      "start": 417.68,
+      "duration": 3.0
+    },
+    {
+      "text": "building the machine that builds the",
+      "start": 419.56,
+      "duration": 3.759
+    },
+    {
+      "text": "thing which is a whole separate thing um",
+      "start": 420.68,
+      "duration": 5.16
+    },
+    {
+      "text": "and so I think robotics at scale um",
+      "start": 423.319,
+      "duration": 5.28
+    },
+    {
+      "text": "company uh is what Tesla is and I think",
+      "start": 425.84,
+      "duration": 5.199
+    },
+    {
+      "text": "uh in terms of the transfer from Cars to",
+      "start": 428.599,
+      "duration": 4.28
+    },
+    {
+      "text": "to humanoids it was not not that much",
+      "start": 431.039,
+      "duration": 3.481
+    },
+    {
+      "text": "work at all and in fact like the early",
+      "start": 432.879,
+      "duration": 4.72
+    },
+    {
+      "text": "versions of Optimus um the the robot uh",
+      "start": 434.52,
+      "duration": 5.0
+    },
+    {
+      "text": "it thought it was a car like because it",
+      "start": 437.599,
+      "duration": 3.44
+    },
+    {
+      "text": "had the exact same computer it had the",
+      "start": 439.52,
+      "duration": 3.04
+    },
+    {
+      "text": "exact same cameras it was really funny",
+      "start": 441.039,
+      "duration": 3.201
+    },
+    {
+      "text": "because we were running the car networks",
+      "start": 442.56,
+      "duration": 3.68
+    },
+    {
+      "text": "on the robot but it's walking around the",
+      "start": 444.24,
+      "duration": 3.959
+    },
+    {
+      "text": "office and so on and like it's trying to",
+      "start": 446.24,
+      "duration": 4.04
+    },
+    {
+      "text": "like recognize drivable space but it's",
+      "start": 448.199,
+      "duration": 3.84
+    },
+    {
+      "text": "all just walking space now I suppose but",
+      "start": 450.28,
+      "duration": 3.039
+    },
+    {
+      "text": "it actually kind of like generalized a",
+      "start": 452.039,
+      "duration": 2.6
+    },
+    {
+      "text": "little bit and there's some fine tuning",
+      "start": 453.319,
+      "duration": 3.0
+    },
+    {
+      "text": "necessary and so on but it thought it",
+      "start": 454.639,
+      "duration": 3.161
+    },
+    {
+      "text": "was driving but it's actually like",
+      "start": 456.319,
+      "duration": 2.961
+    },
+    {
+      "text": "moving through an environment is a",
+      "start": 457.8,
+      "duration": 3.76
+    },
+    {
+      "text": "reasonable way to think of this as like",
+      "start": 459.28,
+      "duration": 3.759
+    },
+    {
+      "text": "actually it's a robot many things",
+      "start": 461.56,
+      "duration": 3.24
+    },
+    {
+      "text": "transfer but you're just missing for",
+      "start": 463.039,
+      "duration": 3.88
+    },
+    {
+      "text": "example actuation and action data yeah",
+      "start": 464.8,
+      "duration": 3.799
+    },
+    {
+      "text": "you definitely miss some components but",
+      "start": 466.919,
+      "duration": 3.28
+    },
+    {
+      "text": "and the other part I would say is like",
+      "start": 468.599,
+      "duration": 3.521
+    },
+    {
+      "text": "like so much transfers like the speed",
+      "start": 470.199,
+      "duration": 3.68
+    },
+    {
+      "text": "with which Optimus was started I think",
+      "start": 472.12,
+      "duration": 3.4
+    },
+    {
+      "text": "to me was very impressive because the",
+      "start": 473.879,
+      "duration": 3.6
+    },
+    {
+      "text": "moment Elon said we're doing this uh",
+      "start": 475.52,
+      "duration": 3.32
+    },
+    {
+      "text": "just people just showed up with all the",
+      "start": 477.479,
+      "duration": 3.68
+    },
+    {
+      "text": "right tools and all the stuff just",
+      "start": 478.84,
+      "duration": 3.72
+    },
+    {
+      "text": "showed up so quickly and all these CAD",
+      "start": 481.159,
+      "duration": 2.88
+    },
+    {
+      "text": "models and all the supply chain stuff",
+      "start": 482.56,
+      "duration": 3.319
+    },
+    {
+      "text": "and I just felt like wow there's so much",
+      "start": 484.039,
+      "duration": 4.321
+    },
+    {
+      "text": "in-house expertise for building robotics",
+      "start": 485.879,
+      "duration": 4.16
+    },
+    {
+      "text": "at Tesla and like it's all the same",
+      "start": 488.36,
+      "duration": 2.839
+    },
+    {
+      "text": "tools and they're just like okay they're",
+      "start": 490.039,
+      "duration": 3.0
+    },
+    {
+      "text": "being reconfigured from a car like a",
+      "start": 491.199,
+      "duration": 3.921
+    },
+    {
+      "text": "Transformer the movie they're just being",
+      "start": 493.039,
+      "duration": 3.521
+    },
+    {
+      "text": "reconfigured and reshuffled but it's",
+      "start": 495.12,
+      "duration": 3.359
+    },
+    {
+      "text": "like the same thing and you need all the",
+      "start": 496.56,
+      "duration": 3.16
+    },
+    {
+      "text": "same components you need to think about",
+      "start": 498.479,
+      "duration": 2.84
+    },
+    {
+      "text": "all the same kinds of stuff both on the",
+      "start": 499.72,
+      "duration": 3.28
+    },
+    {
+      "text": "hardware side on the scale stuff and",
+      "start": 501.319,
+      "duration": 3.56
+    },
+    {
+      "text": "also on the brains and so for the brains",
+      "start": 503.0,
+      "duration": 3.199
+    },
+    {
+      "text": "there was also a ton of transfer not",
+      "start": 504.879,
+      "duration": 3.401
+    },
+    {
+      "text": "just of the specific networks but also",
+      "start": 506.199,
+      "duration": 4.161
+    },
+    {
+      "text": "all of the approach and labeling team",
+      "start": 508.28,
+      "duration": 3.68
+    },
+    {
+      "text": "and how it all coordinates and the",
+      "start": 510.36,
+      "duration": 3.239
+    },
+    {
+      "text": "approaches people are taking I just",
+      "start": 511.96,
+      "duration": 3.04
+    },
+    {
+      "text": "think there's a ton of transfer what do",
+      "start": 513.599,
+      "duration": 2.8
+    },
+    {
+      "text": "you think of the first application areas",
+      "start": 515.0,
+      "duration": 3.24
+    },
+    {
+      "text": "for humanoid robotics or human form",
+      "start": 516.399,
+      "duration": 3.281
+    },
+    {
+      "text": "stuff I think a lot of people have this",
+      "start": 518.24,
+      "duration": 3.159
+    },
+    {
+      "text": "vision of it like doing your laundry Etc",
+      "start": 519.68,
+      "duration": 3.239
+    },
+    {
+      "text": "I think that will come late I don't",
+      "start": 521.399,
+      "duration": 3.681
+    },
+    {
+      "text": "think b2c should be the right start",
+      "start": 522.919,
+      "duration": 3.6
+    },
+    {
+      "text": "point because I don't think we can have",
+      "start": 525.08,
+      "duration": 3.879
+    },
+    {
+      "text": "a robot like Crush grandma is how I it",
+      "start": 526.519,
+      "duration": 4.401
+    },
+    {
+      "text": "sort of I think it's like too much legal",
+      "start": 528.959,
+      "duration": 3.721
+    },
+    {
+      "text": "liability it's just like I don't think",
+      "start": 530.92,
+      "duration": 4.16
+    },
+    {
+      "text": "that's the right hug I mean it's just",
+      "start": 532.68,
+      "duration": 3.56
+    },
+    {
+      "text": "going to fall over or something like",
+      "start": 535.08,
+      "duration": 2.36
+    },
+    {
+      "text": "that you know like these things are not",
+      "start": 536.24,
+      "duration": 2.92
+    },
+    {
+      "text": "perfect yet and they require some amount",
+      "start": 537.44,
+      "duration": 3.959
+    },
+    {
+      "text": "of work so I think the best customer is",
+      "start": 539.16,
+      "duration": 3.96
+    },
+    {
+      "text": "yourself first and I think probably",
+      "start": 541.399,
+      "duration": 3.241
+    },
+    {
+      "text": "Tesla's going to do this uh I'm very",
+      "start": 543.12,
+      "duration": 3.52
+    },
+    {
+      "text": "bullish on Tesla if people can tell the",
+      "start": 544.64,
+      "duration": 3.24
+    },
+    {
+      "text": "first customer is yourself and you",
+      "start": 546.64,
+      "duration": 2.8
+    },
+    {
+      "text": "incubate it in the factory and so on",
+      "start": 547.88,
+      "duration": 2.959
+    },
+    {
+      "text": "doing maybe a lot of material handling",
+      "start": 549.44,
+      "duration": 2.92
+    },
+    {
+      "text": "Etc this way you don't have to create",
+      "start": 550.839,
+      "duration": 2.881
+    },
+    {
+      "text": "contracts working with third parties",
+      "start": 552.36,
+      "duration": 2.68
+    },
+    {
+      "text": "it's all really heavy there's lawyers",
+      "start": 553.72,
+      "duration": 4.08
+    },
+    {
+      "text": "involved like Etc you incubate it then",
+      "start": 555.04,
+      "duration": 5.239
+    },
+    {
+      "text": "you go I think B2B second uh and you go",
+      "start": 557.8,
+      "duration": 3.56
+    },
+    {
+      "text": "to other companies that have massive",
+      "start": 560.279,
+      "duration": 2.56
+    },
+    {
+      "text": "warehouses we can do Material Handling",
+      "start": 561.36,
+      "duration": 2.599
+    },
+    {
+      "text": "we're going to do all the stuff",
+      "start": 562.839,
+      "duration": 3.761
+    },
+    {
+      "text": "contracts get drafted up fences get put",
+      "start": 563.959,
+      "duration": 4.521
+    },
+    {
+      "text": "around all this kind of stuff and then",
+      "start": 566.6,
+      "duration": 3.52
+    },
+    {
+      "text": "once you incubate in companies I think",
+      "start": 568.48,
+      "duration": 3.2
+    },
+    {
+      "text": "that's when you start to go into the b2c",
+      "start": 570.12,
+      "duration": 4.52
+    },
+    {
+      "text": "applications I do think we'll see b2c uh",
+      "start": 571.68,
+      "duration": 6.76
+    },
+    {
+      "text": "robots also um like unit tree and so on",
+      "start": 574.64,
+      "duration": 4.96
+    },
+    {
+      "text": "are starting to come up with robots that",
+      "start": 578.44,
+      "duration": 3.68
+    },
+    {
+      "text": "I really want I got one you did yeah",
+      "start": 579.6,
+      "duration": 5.12
+    },
+    {
+      "text": "okay yeah the G1 yeah so I will probably",
+      "start": 582.12,
+      "duration": 3.76
+    },
+    {
+      "text": "buy one of those and there's probably",
+      "start": 584.72,
+      "duration": 2.2
+    },
+    {
+      "text": "going to be an ecosystem of people",
+      "start": 585.88,
+      "duration": 2.6
+    },
+    {
+      "text": "building on those platforms too but I",
+      "start": 586.92,
+      "duration": 3.359
+    },
+    {
+      "text": "think in terms of like what like wins at",
+      "start": 588.48,
+      "duration": 3.76
+    },
+    {
+      "text": "scale I would expect that kind of a",
+      "start": 590.279,
+      "duration": 3.721
+    },
+    {
+      "text": "approach I but in the beginning it's a",
+      "start": 592.24,
+      "duration": 3.92
+    },
+    {
+      "text": "lot of material handling and then going",
+      "start": 594.0,
+      "duration": 4.16
+    },
+    {
+      "text": "towards more and more HKC things that",
+      "start": 596.16,
+      "duration": 4.08
+    },
+    {
+      "text": "are more specific one one that I'm",
+      "start": 598.16,
+      "duration": 4.04
+    },
+    {
+      "text": "really um excited about is the n",
+      "start": 600.24,
+      "duration": 4.039
+    },
+    {
+      "text": "Freedman challenge of the leaf blower",
+      "start": 602.2,
+      "duration": 3.96
+    },
+    {
+      "text": "yeah uh like I would love for an",
+      "start": 604.279,
+      "duration": 3.161
+    },
+    {
+      "text": "optimist to walk down the street like",
+      "start": 606.16,
+      "duration": 3.119
+    },
+    {
+      "text": "tiptoe down the street and like pick up",
+      "start": 607.44,
+      "duration": 3.6
+    },
+    {
+      "text": "individual leaves so that we don't need",
+      "start": 609.279,
+      "duration": 3.921
+    },
+    {
+      "text": "like Lea blowers and I think this will",
+      "start": 611.04,
+      "duration": 3.72
+    },
+    {
+      "text": "work and it's an amazing task and so I",
+      "start": 613.2,
+      "duration": 2.72
+    },
+    {
+      "text": "would hope that that's one of the first",
+      "start": 614.76,
+      "duration": 3.04
+    },
+    {
+      "text": "applications even raking that should",
+      "start": 615.92,
+      "duration": 3.64
+    },
+    {
+      "text": "work too just very quietly yeah just",
+      "start": 617.8,
+      "duration": 3.92
+    },
+    {
+      "text": "quiet raking that's cute they uh I mean",
+      "start": 619.56,
+      "duration": 3.56
+    },
+    {
+      "text": "they do actually have like a machine",
+      "start": 621.72,
+      "duration": 3.16
+    },
+    {
+      "text": "that's working it's just not a humanoid",
+      "start": 623.12,
+      "duration": 3.2
+    },
+    {
+      "text": "can we talk about the humanoid thesis",
+      "start": 624.88,
+      "duration": 3.44
+    },
+    {
+      "text": "for a second because the the simplest",
+      "start": 626.32,
+      "duration": 3.56
+    },
+    {
+      "text": "version of this is like the world is",
+      "start": 628.32,
+      "duration": 4.0
+    },
+    {
+      "text": "built for humans and you build one set",
+      "start": 629.88,
+      "duration": 4.079
+    },
+    {
+      "text": "of Hardware the right thing to do is",
+      "start": 632.32,
+      "duration": 3.44
+    },
+    {
+      "text": "build a model that can do an increasing",
+      "start": 633.959,
+      "duration": 3.88
+    },
+    {
+      "text": "set of tasks in this set of Hardware I",
+      "start": 635.76,
+      "duration": 5.36
+    },
+    {
+      "text": "think there's a like another camp that",
+      "start": 637.839,
+      "duration": 5.12
+    },
+    {
+      "text": "believes like well like humans are not",
+      "start": 641.12,
+      "duration": 4.64
+    },
+    {
+      "text": "optimal for any given task right you can",
+      "start": 642.959,
+      "duration": 5.281
+    },
+    {
+      "text": "make them stronger or bigger or smaller",
+      "start": 645.76,
+      "duration": 3.72
+    },
+    {
+      "text": "or whatever and why shouldn't we do",
+      "start": 648.24,
+      "duration": 3.159
+    },
+    {
+      "text": "superhuman things like how do you think",
+      "start": 649.48,
+      "duration": 4.039
+    },
+    {
+      "text": "about this I think people are maybe",
+      "start": 651.399,
+      "duration": 4.041
+    },
+    {
+      "text": "under appreciating the complexity of any",
+      "start": 653.519,
+      "duration": 3.88
+    },
+    {
+      "text": "fixed cost that goes into any single",
+      "start": 655.44,
+      "duration": 4.16
+    },
+    {
+      "text": "platform uh I think there's a large cost",
+      "start": 657.399,
+      "duration": 3.601
+    },
+    {
+      "text": "you're paying for any single platform",
+      "start": 659.6,
+      "duration": 2.6
+    },
+    {
+      "text": "and so I think it makes a lot of sense",
+      "start": 661.0,
+      "duration": 2.44
+    },
+    {
+      "text": "to centralize that and have a single",
+      "start": 662.2,
+      "duration": 2.84
+    },
+    {
+      "text": "platform that can do all the things I",
+      "start": 663.44,
+      "duration": 2.959
+    },
+    {
+      "text": "would say the human note aspect is also",
+      "start": 665.04,
+      "duration": 2.64
+    },
+    {
+      "text": "very appealing because people can",
+      "start": 666.399,
+      "duration": 3.201
+    },
+    {
+      "text": "teleoperate it very easily and so it's a",
+      "start": 667.68,
+      "duration": 3.52
+    },
+    {
+      "text": "data collection thing that is extremely",
+      "start": 669.6,
+      "duration": 3.359
+    },
+    {
+      "text": "helpful uh because people will be able",
+      "start": 671.2,
+      "duration": 3.48
+    },
+    {
+      "text": "to obviously very easily teleoperate it",
+      "start": 672.959,
+      "duration": 3.12
+    },
+    {
+      "text": "I think that's usually overlooked",
+      "start": 674.68,
+      "duration": 2.32
+    },
+    {
+      "text": "there's of course the aspect you",
+      "start": 676.079,
+      "duration": 2.361
+    },
+    {
+      "text": "mentioned which is like the world design",
+      "start": 677.0,
+      "duration": 2.92
+    },
+    {
+      "text": "for humans Etc so I think that's also",
+      "start": 678.44,
+      "duration": 2.8
+    },
+    {
+      "text": "important I mean I think we'll have some",
+      "start": 679.92,
+      "duration": 3.28
+    },
+    {
+      "text": "variations on the humanoid uh platform",
+      "start": 681.24,
+      "duration": 4.159
+    },
+    {
+      "text": "but I think there is a large fixed cost",
+      "start": 683.2,
+      "duration": 3.68
+    },
+    {
+      "text": "to any platform and then I would say",
+      "start": 685.399,
+      "duration": 4.081
+    },
+    {
+      "text": "also one last dimension of it is you",
+      "start": 686.88,
+      "duration": 4.48
+    },
+    {
+      "text": "benefit a ton from like the transfer",
+      "start": 689.48,
+      "duration": 3.56
+    },
+    {
+      "text": "learning between the different tasks and",
+      "start": 691.36,
+      "duration": 3.2
+    },
+    {
+      "text": "in AI you really want the single neuron",
+      "start": 693.04,
+      "duration": 3.039
+    },
+    {
+      "text": "not that is multitasking doing lots of",
+      "start": 694.56,
+      "duration": 2.399
+    },
+    {
+      "text": "things that's where you're getting all",
+      "start": 696.079,
+      "duration": 3.041
+    },
+    {
+      "text": "the intelligence and capability from and",
+      "start": 696.959,
+      "duration": 3.721
+    },
+    {
+      "text": "that's also H that's also why language",
+      "start": 699.12,
+      "duration": 2.8
+    },
+    {
+      "text": "models are so interesting is because you",
+      "start": 700.68,
+      "duration": 4.2
+    },
+    {
+      "text": "have a single uh regime like a text um",
+      "start": 701.92,
+      "duration": 4.68
+    },
+    {
+      "text": "domain multitasking all these different",
+      "start": 704.88,
+      "duration": 2.68
+    },
+    {
+      "text": "problems and they're all sharing",
+      "start": 706.6,
+      "duration": 2.039
+    },
+    {
+      "text": "knowledge between each other and it's",
+      "start": 707.56,
+      "duration": 3.36
+    },
+    {
+      "text": "all coupled in a single neural nut and I",
+      "start": 708.639,
+      "duration": 3.681
+    },
+    {
+      "text": "think you want that kind of a platform",
+      "start": 710.92,
+      "duration": 3.2
+    },
+    {
+      "text": "and uh you know you want all the data",
+      "start": 712.32,
+      "duration": 3.639
+    },
+    {
+      "text": "you collect for Lea picking to benefit",
+      "start": 714.12,
+      "duration": 3.68
+    },
+    {
+      "text": "all the other tasks um if you're",
+      "start": 715.959,
+      "duration": 3.481
+    },
+    {
+      "text": "building a special purpose thing for any",
+      "start": 717.8,
+      "duration": 3.039
+    },
+    {
+      "text": "one thing you're not going to benefit",
+      "start": 719.44,
+      "duration": 3.079
+    },
+    {
+      "text": "from a lot of the transferring between",
+      "start": 720.839,
+      "duration": 3.44
+    },
+    {
+      "text": "all the other tasks if that makes sense",
+      "start": 722.519,
+      "duration": 4.401
+    },
+    {
+      "text": "yeah I think there's one um argument of",
+      "start": 724.279,
+      "duration": 6.0
+    },
+    {
+      "text": "like uh it seems I mean the G1 is like",
+      "start": 726.92,
+      "duration": 6.039
+    },
+    {
+      "text": "30 grand right but it seems hard to",
+      "start": 730.279,
+      "duration": 4.521
+    },
+    {
+      "text": "build a very capable humanoid robot",
+      "start": 732.959,
+      "duration": 4.0
+    },
+    {
+      "text": "under a certain bomb and like if you",
+      "start": 734.8,
+      "duration": 3.92
+    },
+    {
+      "text": "wanted to you know put an arm on Wheels",
+      "start": 736.959,
+      "duration": 4.521
+    },
+    {
+      "text": "I can do things like it's a like maybe",
+      "start": 738.72,
+      "duration": 4.239
+    },
+    {
+      "text": "there are cheaper approaches to a",
+      "start": 741.48,
+      "duration": 3.08
+    },
+    {
+      "text": "general platform at the beginning does",
+      "start": 742.959,
+      "duration": 2.88
+    },
+    {
+      "text": "that make sense to you uh cheaper",
+      "start": 744.56,
+      "duration": 2.6
+    },
+    {
+      "text": "approaches to a general platform from a",
+      "start": 745.839,
+      "duration": 2.721
+    },
+    {
+      "text": "hardware perspective uh yeah I think",
+      "start": 747.16,
+      "duration": 2.84
+    },
+    {
+      "text": "that makes sense yeah you put a wheel on",
+      "start": 748.56,
+      "duration": 3.88
+    },
+    {
+      "text": "it instead of a feet Etc I do feel like",
+      "start": 750.0,
+      "duration": 3.6
+    },
+    {
+      "text": "I wonder if it's taking you down like a",
+      "start": 752.44,
+      "duration": 3.36
+    },
+    {
+      "text": "local minimum a little bit I just feel",
+      "start": 753.6,
+      "duration": 4.479
+    },
+    {
+      "text": "like pick a platform make it perfect is",
+      "start": 755.8,
+      "duration": 4.52
+    },
+    {
+      "text": "like the long-term uh pretty good betat",
+      "start": 758.079,
+      "duration": 3.401
+    },
+    {
+      "text": "and then the other thing of course is",
+      "start": 760.32,
+      "duration": 2.6
+    },
+    {
+      "text": "like I just think it will be kind of",
+      "start": 761.48,
+      "duration": 3.28
+    },
+    {
+      "text": "like familiar to people and I think",
+      "start": 762.92,
+      "duration": 3.599
+    },
+    {
+      "text": "people will understand that maybe you",
+      "start": 764.76,
+      "duration": 3.439
+    },
+    {
+      "text": "want to talk to it and I feel like the",
+      "start": 766.519,
+      "duration": 3.76
+    },
+    {
+      "text": "co the psychological aspect also of it I",
+      "start": 768.199,
+      "duration": 5.0
+    },
+    {
+      "text": "think favors possibly the human platform",
+      "start": 770.279,
+      "duration": 5.601
+    },
+    {
+      "text": "unless people are like scared of it and",
+      "start": 773.199,
+      "duration": 4.481
+    },
+    {
+      "text": "would actually prefer a platform that is",
+      "start": 775.88,
+      "duration": 3.92
+    },
+    {
+      "text": "more abstract of like some but then I",
+      "start": 777.68,
+      "duration": 3.32
+    },
+    {
+      "text": "don't know if if",
+      "start": 779.8,
+      "duration": 3.32
+    },
+    {
+      "text": "just Monster doing stuff then I don't",
+      "start": 781.0,
+      "duration": 3.8
+    },
+    {
+      "text": "know if that's like more kind like it's",
+      "start": 783.12,
+      "duration": 2.959
+    },
+    {
+      "text": "interesting that I think that the other",
+      "start": 784.8,
+      "duration": 3.24
+    },
+    {
+      "text": "um form factor for the unitri is a dog",
+      "start": 786.079,
+      "duration": 3.76
+    },
+    {
+      "text": "right and it's almost a more friendlier",
+      "start": 788.04,
+      "duration": 3.76
+    },
+    {
+      "text": "familiar yeah but then people watch",
+      "start": 789.839,
+      "duration": 3.521
+    },
+    {
+      "text": "Black Mirror and suddenly the dog flips",
+      "start": 791.8,
+      "duration": 4.08
+    },
+    {
+      "text": "to like a scary thing like so it's hard",
+      "start": 793.36,
+      "duration": 4.52
+    },
+    {
+      "text": "to think through uh I just think",
+      "start": 795.88,
+      "duration": 4.04
+    },
+    {
+      "text": "psychologically it will be easy for",
+      "start": 797.88,
+      "duration": 3.44
+    },
+    {
+      "text": "people to understand what's happening",
+      "start": 799.92,
+      "duration": 2.919
+    },
+    {
+      "text": "and what do you think is missing in",
+      "start": 801.32,
+      "duration": 4.319
+    },
+    {
+      "text": "terms of um technological milestones for",
+      "start": 802.839,
+      "duration": 4.961
+    },
+    {
+      "text": "Progress relative to substantiating this",
+      "start": 805.639,
+      "duration": 5.081
+    },
+    {
+      "text": "future uh for robotics robtics yeah or",
+      "start": 807.8,
+      "duration": 5.039
+    },
+    {
+      "text": "the the humanoid robot or anything else",
+      "start": 810.72,
+      "duration": 3.76
+    },
+    {
+      "text": "human form yeah I don't know that I have",
+      "start": 812.839,
+      "duration": 3.321
+    },
+    {
+      "text": "like a really good window into it I do",
+      "start": 814.48,
+      "duration": 2.919
+    },
+    {
+      "text": "think that it is kind of interesting",
+      "start": 816.16,
+      "duration": 2.799
+    },
+    {
+      "text": "that like in the human for factor for",
+      "start": 817.399,
+      "duration": 3.521
+    },
+    {
+      "text": "for example for the lower body uh I",
+      "start": 818.959,
+      "duration": 3.12
+    },
+    {
+      "text": "don't know that you want to do imitation",
+      "start": 820.92,
+      "duration": 2.8
+    },
+    {
+      "text": "learning from like demonstration because",
+      "start": 822.079,
+      "duration": 3.801
+    },
+    {
+      "text": "for lower body it's all a lot of like",
+      "start": 823.72,
+      "duration": 3.679
+    },
+    {
+      "text": "inverted pendulum control and stuff like",
+      "start": 825.88,
+      "duration": 2.92
+    },
+    {
+      "text": "that it's for the upper body that you",
+      "start": 827.399,
+      "duration": 3.8
+    },
+    {
+      "text": "need a lot of like to operation and uh",
+      "start": 828.8,
+      "duration": 3.719
+    },
+    {
+      "text": "data collection and end to endend and",
+      "start": 831.199,
+      "duration": 3.121
+    },
+    {
+      "text": "Etc and so I think like everything",
+      "start": 832.519,
+      "duration": 3.32
+    },
+    {
+      "text": "becomes like very hybrid in that sense",
+      "start": 834.32,
+      "duration": 2.879
+    },
+    {
+      "text": "and I don't know how those systems",
+      "start": 835.839,
+      "duration": 2.881
+    },
+    {
+      "text": "interact when I when I talk to people",
+      "start": 837.199,
+      "duration": 2.961
+    },
+    {
+      "text": "working a lot of what they focus on is",
+      "start": 838.72,
+      "duration": 3.64
+    },
+    {
+      "text": "like actuation and you know manipulation",
+      "start": 840.16,
+      "duration": 3.56
+    },
+    {
+      "text": "and sort of digital manipulation and",
+      "start": 842.36,
+      "duration": 2.2
+    },
+    {
+      "text": "things like yeah I do expect in the",
+      "start": 843.72,
+      "duration": 1.679
+    },
+    {
+      "text": "beginning it's a lot of like",
+      "start": 844.56,
+      "duration": 2.839
+    },
+    {
+      "text": "teleoperation for uh getting stuff off",
+      "start": 845.399,
+      "duration": 3.481
+    },
+    {
+      "text": "the ground and imitating it and getting",
+      "start": 847.399,
+      "duration": 3.12
+    },
+    {
+      "text": "something that works 95% of the time and",
+      "start": 848.88,
+      "duration": 3.04
+    },
+    {
+      "text": "then talking about human to robot ratios",
+      "start": 850.519,
+      "duration": 2.641
+    },
+    {
+      "text": "and gradually having people who are",
+      "start": 851.92,
+      "duration": 3.2
+    },
+    {
+      "text": "supervisors of robots instead of doing",
+      "start": 853.16,
+      "duration": 3.16
+    },
+    {
+      "text": "the task directly and all this kind of",
+      "start": 855.12,
+      "duration": 2.44
+    },
+    {
+      "text": "stuff is going to happen over time and",
+      "start": 856.32,
+      "duration": 2.48
+    },
+    {
+      "text": "pretty gradually I don't know that",
+      "start": 857.56,
+      "duration": 3.079
+    },
+    {
+      "text": "there's like any individual impediments",
+      "start": 858.8,
+      "duration": 2.959
+    },
+    {
+      "text": "that I'm like really familiar with I",
+      "start": 860.639,
+      "duration": 2.56
+    },
+    {
+      "text": "just think it's a lot of grun grunt work",
+      "start": 861.759,
+      "duration": 3.401
+    },
+    {
+      "text": "a lot of like the tools are available",
+      "start": 863.199,
+      "duration": 3.961
+    },
+    {
+      "text": "Transformers are this beautiful like",
+      "start": 865.16,
+      "duration": 4.2
+    },
+    {
+      "text": "blob of tissue you can just get just",
+      "start": 867.16,
+      "duration": 4.44
+    },
+    {
+      "text": "arbitrary tasks and you just need the",
+      "start": 869.36,
+      "duration": 3.399
+    },
+    {
+      "text": "data you need to put it in the right",
+      "start": 871.6,
+      "duration": 2.64
+    },
+    {
+      "text": "form you need to train it you need to",
+      "start": 872.759,
+      "duration": 3.481
+    },
+    {
+      "text": "experiment with it you need to deploy it",
+      "start": 874.24,
+      "duration": 3.719
+    },
+    {
+      "text": "iterate on it that's just a lot of grunt",
+      "start": 876.24,
+      "duration": 3.0
+    },
+    {
+      "text": "work I don't know that I have a single",
+      "start": 877.959,
+      "duration": 2.721
+    },
+    {
+      "text": "individual thing that is like holding us",
+      "start": 879.24,
+      "duration": 3.24
+    },
+    {
+      "text": "back technically where are we in the",
+      "start": 880.68,
+      "duration": 5.12
+    },
+    {
+      "text": "state of large blob research large blob",
+      "start": 882.48,
+      "duration": 5.4
+    },
+    {
+      "text": "research yeah we're in a really good",
+      "start": 885.8,
+      "duration": 4.08
+    },
+    {
+      "text": "State uh so I think um I'm not sure if",
+      "start": 887.88,
+      "duration": 2.959
+    },
+    {
+      "text": "it's fully appreciated but like the",
+      "start": 889.88,
+      "duration": 3.28
+    },
+    {
+      "text": "transformer is like much more amazing",
+      "start": 890.839,
+      "duration": 3.761
+    },
+    {
+      "text": "it's not just like an it's not just",
+      "start": 893.16,
+      "duration": 3.479
+    },
+    {
+      "text": "another neural net it's like an amazing",
+      "start": 894.6,
+      "duration": 4.2
+    },
+    {
+      "text": "neural nut extremely General uh so for",
+      "start": 896.639,
+      "duration": 3.2
+    },
+    {
+      "text": "example example when people talk about",
+      "start": 898.8,
+      "duration": 2.599
+    },
+    {
+      "text": "the scaling loss in neural networks the",
+      "start": 899.839,
+      "duration": 4.56
+    },
+    {
+      "text": "scaling loss are actually a um a to a",
+      "start": 901.399,
+      "duration": 4.921
+    },
+    {
+      "text": "large extent a property of the",
+      "start": 904.399,
+      "duration": 3.761
+    },
+    {
+      "text": "Transformer before the Transformer",
+      "start": 906.32,
+      "duration": 3.12
+    },
+    {
+      "text": "people are playing with lstms and",
+      "start": 908.16,
+      "duration": 2.72
+    },
+    {
+      "text": "stacking them Etc you don't actually get",
+      "start": 909.44,
+      "duration": 2.759
+    },
+    {
+      "text": "like clean scaling loss and this thing",
+      "start": 910.88,
+      "duration": 2.48
+    },
+    {
+      "text": "doesn't actually train it doesn't",
+      "start": 912.199,
+      "duration": 3.0
+    },
+    {
+      "text": "actually work if the Transformer that",
+      "start": 913.36,
+      "duration": 2.919
+    },
+    {
+      "text": "was the first thing that actually just",
+      "start": 915.199,
+      "duration": 3.32
+    },
+    {
+      "text": "kind of like scales um and you get",
+      "start": 916.279,
+      "duration": 3.48
+    },
+    {
+      "text": "scaling losss and everything makes sense",
+      "start": 918.519,
+      "duration": 4.281
+    },
+    {
+      "text": "so this like general purpose training",
+      "start": 919.759,
+      "duration": 4.681
+    },
+    {
+      "text": "computer I think of it as kind of a",
+      "start": 922.8,
+      "duration": 3.0
+    },
+    {
+      "text": "computer but it's like a differentiable",
+      "start": 924.44,
+      "duration": 2.88
+    },
+    {
+      "text": "computer and you can just give it inputs",
+      "start": 925.8,
+      "duration": 3.279
+    },
+    {
+      "text": "and outputs and billions of it and can",
+      "start": 927.32,
+      "duration": 3.199
+    },
+    {
+      "text": "train with back propagation it actually",
+      "start": 929.079,
+      "duration": 3.361
+    },
+    {
+      "text": "kind of like arranges itself into a",
+      "start": 930.519,
+      "duration": 3.56
+    },
+    {
+      "text": "thing that does the task and so I think",
+      "start": 932.44,
+      "duration": 2.759
+    },
+    {
+      "text": "it's actually kind of like a magical",
+      "start": 934.079,
+      "duration": 2.161
+    },
+    {
+      "text": "thing that we've stumbled on in the",
+      "start": 935.199,
+      "duration": 2.601
+    },
+    {
+      "text": "algorithm space and I think there's a",
+      "start": 936.24,
+      "duration": 2.92
+    },
+    {
+      "text": "few individual innovations that went",
+      "start": 937.8,
+      "duration": 3.24
+    },
+    {
+      "text": "into it so you have the residual",
+      "start": 939.16,
+      "duration": 3.159
+    },
+    {
+      "text": "connections that was a piece that",
+      "start": 941.04,
+      "duration": 2.359
+    },
+    {
+      "text": "existed you have the layer",
+      "start": 942.319,
+      "duration": 3.361
+    },
+    {
+      "text": "normalizations uh that needs to slot in",
+      "start": 943.399,
+      "duration": 4.0
+    },
+    {
+      "text": "you have the attention block you have",
+      "start": 945.68,
+      "duration": 4.76
+    },
+    {
+      "text": "the lack of these like um uh saturating",
+      "start": 947.399,
+      "duration": 4.68
+    },
+    {
+      "text": "nonlinearities like tan hes and so on",
+      "start": 950.44,
+      "duration": 2.959
+    },
+    {
+      "text": "those are not present in the Transformer",
+      "start": 952.079,
+      "duration": 3.041
+    },
+    {
+      "text": "because they kill gradient signals so",
+      "start": 953.399,
+      "duration": 3.56
+    },
+    {
+      "text": "there's a few like there's four or five",
+      "start": 955.12,
+      "duration": 4.12
+    },
+    {
+      "text": "innovations that all existed and were're",
+      "start": 956.959,
+      "duration": 4.041
+    },
+    {
+      "text": "put together into this Transformer and",
+      "start": 959.24,
+      "duration": 3.24
+    },
+    {
+      "text": "that's what Google did with their paper",
+      "start": 961.0,
+      "duration": 4.16
+    },
+    {
+      "text": "and this thing actually trains uh and",
+      "start": 962.48,
+      "duration": 3.68
+    },
+    {
+      "text": "suddenly you get scaling laws and",
+      "start": 965.16,
+      "duration": 1.88
+    },
+    {
+      "text": "suddenly you have like this piece of",
+      "start": 966.16,
+      "duration": 3.32
+    },
+    {
+      "text": "tissue that just trains to a very large",
+      "start": 967.04,
+      "duration": 4.44
+    },
+    {
+      "text": "extent and so I it was a major unlock",
+      "start": 969.48,
+      "duration": 3.96
+    },
+    {
+      "text": "you feel like we are not near the limit",
+      "start": 971.48,
+      "duration": 3.359
+    },
+    {
+      "text": "of that unlock right because I think",
+      "start": 973.44,
+      "duration": 3.12
+    },
+    {
+      "text": "there is a discussion of of course like",
+      "start": 974.839,
+      "duration": 3.881
+    },
+    {
+      "text": "the data wall and how expensive another",
+      "start": 976.56,
+      "duration": 4.24
+    },
+    {
+      "text": "generation of scale would be like how do",
+      "start": 978.72,
+      "duration": 4.16
+    },
+    {
+      "text": "you think about that that's where you",
+      "start": 980.8,
+      "duration": 3.92
+    },
+    {
+      "text": "start to get into like I don't think",
+      "start": 982.88,
+      "duration": 3.439
+    },
+    {
+      "text": "that the neural network architecture is",
+      "start": 984.72,
+      "duration": 3.039
+    },
+    {
+      "text": "like holding us back fundamentally",
+      "start": 986.319,
+      "duration": 3.041
+    },
+    {
+      "text": "anymore it's like not the bottom leg",
+      "start": 987.759,
+      "duration": 3.161
+    },
+    {
+      "text": "whereas I think in the previous before",
+      "start": 989.36,
+      "duration": 3.08
+    },
+    {
+      "text": "Transformer it was a bottom leg but now",
+      "start": 990.92,
+      "duration": 2.919
+    },
+    {
+      "text": "it's not the bottom leg so now we're",
+      "start": 992.44,
+      "duration": 2.759
+    },
+    {
+      "text": "talking a lot more about what is the",
+      "start": 993.839,
+      "duration": 2.841
+    },
+    {
+      "text": "loss function what is the data set we're",
+      "start": 995.199,
+      "duration": 2.76
+    },
+    {
+      "text": "talking a lot more about those and those",
+      "start": 996.68,
+      "duration": 3.44
+    },
+    {
+      "text": "have become the bottlenecks almost um",
+      "start": 997.959,
+      "duration": 3.401
+    },
+    {
+      "text": "it's not the general piece of tissue",
+      "start": 1000.12,
+      "duration": 2.719
+    },
+    {
+      "text": "that reconfigures based on whatever you",
+      "start": 1001.36,
+      "duration": 3.159
+    },
+    {
+      "text": "want it to be and so that's where I",
+      "start": 1002.839,
+      "duration": 3.0
+    },
+    {
+      "text": "think a lot of the activity has moved",
+      "start": 1004.519,
+      "duration": 2.32
+    },
+    {
+      "text": "and that's why a lot of the companies",
+      "start": 1005.839,
+      "duration": 1.92
+    },
+    {
+      "text": "and someone who are applying this",
+      "start": 1006.839,
+      "duration": 1.881
+    },
+    {
+      "text": "technology like they're not thinking",
+      "start": 1007.759,
+      "duration": 2.041
+    },
+    {
+      "text": "about the Transformer Mar they're not",
+      "start": 1008.72,
+      "duration": 2.64
+    },
+    {
+      "text": "thinking about the architecture you know",
+      "start": 1009.8,
+      "duration": 3.76
+    },
+    {
+      "text": "the Llama release uh like the the",
+      "start": 1011.36,
+      "duration": 4.2
+    },
+    {
+      "text": "Transformer hasn't changed that much uh",
+      "start": 1013.56,
+      "duration": 3.639
+    },
+    {
+      "text": "you know we've added the Rope positional",
+      "start": 1015.56,
+      "duration": 3.519
+    },
+    {
+      "text": "and the Rope relative position en",
+      "start": 1017.199,
+      "duration": 3.721
+    },
+    {
+      "text": "codings um that's like the major change",
+      "start": 1019.079,
+      "duration": 2.841
+    },
+    {
+      "text": "everything else doesn't really matter",
+      "start": 1020.92,
+      "duration": 3.48
+    },
+    {
+      "text": "too much it's like plus 3% on small few",
+      "start": 1021.92,
+      "duration": 4.519
+    },
+    {
+      "text": "things uh but really it's like rope is",
+      "start": 1024.4,
+      "duration": 3.399
+    },
+    {
+      "text": "the only thing that's slotted in and",
+      "start": 1026.439,
+      "duration": 2.801
+    },
+    {
+      "text": "that's the Transformer as as it has",
+      "start": 1027.799,
+      "duration": 3.4
+    },
+    {
+      "text": "changed since the last five years or",
+      "start": 1029.24,
+      "duration": 3.079
+    },
+    {
+      "text": "something so there hasn't been that much",
+      "start": 1031.199,
+      "duration": 2.24
+    },
+    {
+      "text": "Innovation on that everyone just takes",
+      "start": 1032.319,
+      "duration": 3.48
+    },
+    {
+      "text": "it for granted let's train it Etc and",
+      "start": 1033.439,
+      "duration": 3.64
+    },
+    {
+      "text": "then everyone's just innovating on the",
+      "start": 1035.799,
+      "duration": 4.081
+    },
+    {
+      "text": "data set mostly and the loss function",
+      "start": 1037.079,
+      "duration": 4.561
+    },
+    {
+      "text": "details uh so that's where all the",
+      "start": 1039.88,
+      "duration": 3.36
+    },
+    {
+      "text": "activity has gone to right but what",
+      "start": 1041.64,
+      "duration": 4.159
+    },
+    {
+      "text": "about the argument like in that domain",
+      "start": 1043.24,
+      "duration": 4.719
+    },
+    {
+      "text": "that that was easier when we were taking",
+      "start": 1045.799,
+      "duration": 4.441
+    },
+    {
+      "text": "internet data uhuh and we're out of",
+      "start": 1047.959,
+      "duration": 4.08
+    },
+    {
+      "text": "internet data and so the questions are",
+      "start": 1050.24,
+      "duration": 3.72
+    },
+    {
+      "text": "really around like synthetic data or",
+      "start": 1052.039,
+      "duration": 3.921
+    },
+    {
+      "text": "more expensive data collection so I",
+      "start": 1053.96,
+      "duration": 2.76
+    },
+    {
+      "text": "think that's a good point so that's",
+      "start": 1055.96,
+      "duration": 1.92
+    },
+    {
+      "text": "where a lot of the activity is now in",
+      "start": 1056.72,
+      "duration": 3.839
+    },
+    {
+      "text": "LMS so the internet data is like not the",
+      "start": 1057.88,
+      "duration": 4.44
+    },
+    {
+      "text": "data you want for your Transformer it's",
+      "start": 1060.559,
+      "duration": 3.401
+    },
+    {
+      "text": "like a nearest neighbor that actually",
+      "start": 1062.32,
+      "duration": 3.599
+    },
+    {
+      "text": "gets you really far surprisingly but the",
+      "start": 1063.96,
+      "duration": 3.44
+    },
+    {
+      "text": "internet data is a bunch of internet web",
+      "start": 1065.919,
+      "duration": 3.481
+    },
+    {
+      "text": "pages right it's just like what you want",
+      "start": 1067.4,
+      "duration": 4.04
+    },
+    {
+      "text": "is the inner thought monologue of your",
+      "start": 1069.4,
+      "duration": 4.08
+    },
+    {
+      "text": "brain yeah that's the IDE trajectories",
+      "start": 1071.44,
+      "duration": 3.239
+    },
+    {
+      "text": "in your brain the trajectories in your",
+      "start": 1073.48,
+      "duration": 2.48
+    },
+    {
+      "text": "brain as you're doing problem solving if",
+      "start": 1074.679,
+      "duration": 2.88
+    },
+    {
+      "text": "we had a billion of that like AGI is",
+      "start": 1075.96,
+      "duration": 3.24
+    },
+    {
+      "text": "here roughly speaking I mean to a very",
+      "start": 1077.559,
+      "duration": 3.281
+    },
+    {
+      "text": "large extent uh and we just don't have",
+      "start": 1079.2,
+      "duration": 3.56
+    },
+    {
+      "text": "that so where a lot of activity is now I",
+      "start": 1080.84,
+      "duration": 3.719
+    },
+    {
+      "text": "think is we the internet data that",
+      "start": 1082.76,
+      "duration": 3.2
+    },
+    {
+      "text": "actually gets you like really close",
+      "start": 1084.559,
+      "duration": 3.0
+    },
+    {
+      "text": "because it just so happens that internet",
+      "start": 1085.96,
+      "duration": 3.719
+    },
+    {
+      "text": "has enough of reasoning traces in it and",
+      "start": 1087.559,
+      "duration": 3.521
+    },
+    {
+      "text": "a bunch of knowledge and the Transformer",
+      "start": 1089.679,
+      "duration": 3.921
+    },
+    {
+      "text": "just makes it work okay so I think a lot",
+      "start": 1091.08,
+      "duration": 5.64
+    },
+    {
+      "text": "of activity now is around um refactoring",
+      "start": 1093.6,
+      "duration": 5.88
+    },
+    {
+      "text": "the data set into these inner monologue",
+      "start": 1096.72,
+      "duration": 4.6
+    },
+    {
+      "text": "uh formats and I think there's a ton of",
+      "start": 1099.48,
+      "duration": 3.36
+    },
+    {
+      "text": "synthetic data generation that's helpful",
+      "start": 1101.32,
+      "duration": 3.28
+    },
+    {
+      "text": "for that so what's interesting about",
+      "start": 1102.84,
+      "duration": 3.319
+    },
+    {
+      "text": "that also is like the extent to which",
+      "start": 1104.6,
+      "duration": 3.64
+    },
+    {
+      "text": "the current models are helping us create",
+      "start": 1106.159,
+      "duration": 3.76
+    },
+    {
+      "text": "the Next Generation models and so it's",
+      "start": 1108.24,
+      "duration": 2.799
+    },
+    {
+      "text": "kind of like you know the staircase of",
+      "start": 1109.919,
+      "duration": 2.681
+    },
+    {
+      "text": "improv how much do you think synthetic",
+      "start": 1111.039,
+      "duration": 3.681
+    },
+    {
+      "text": "data is or how far does that get us",
+      "start": 1112.6,
+      "duration": 4.28
+    },
+    {
+      "text": "right because to your point on each data",
+      "start": 1114.72,
+      "duration": 3.68
+    },
+    {
+      "text": "each model helps you train the",
+      "start": 1116.88,
+      "duration": 3.2
+    },
+    {
+      "text": "subsequent model better at least create",
+      "start": 1118.4,
+      "duration": 3.399
+    },
+    {
+      "text": "tools for it data labeling whatever may",
+      "start": 1120.08,
+      "duration": 3.2
+    },
+    {
+      "text": "be part of it is synthetic data how",
+      "start": 1121.799,
+      "duration": 2.441
+    },
+    {
+      "text": "important do you think the synthetic",
+      "start": 1123.28,
+      "duration": 4.24
+    },
+    {
+      "text": "data pieces inred yeah I think is the",
+      "start": 1124.24,
+      "duration": 4.799
+    },
+    {
+      "text": "only way we can like make progress is we",
+      "start": 1127.52,
+      "duration": 2.6
+    },
+    {
+      "text": "have to make it work I think with",
+      "start": 1129.039,
+      "duration": 2.041
+    },
+    {
+      "text": "synthetic data you just have to be",
+      "start": 1130.12,
+      "duration": 3.039
+    },
+    {
+      "text": "careful uh because uh these models are",
+      "start": 1131.08,
+      "duration": 3.719
+    },
+    {
+      "text": "silently collapsed is like one of the",
+      "start": 1133.159,
+      "duration": 3.88
+    },
+    {
+      "text": "major issues so if you go to chpt and",
+      "start": 1134.799,
+      "duration": 4.961
+    },
+    {
+      "text": "you ask it to give you a um a joke",
+      "start": 1137.039,
+      "duration": 4.041
+    },
+    {
+      "text": "you'll notice that it only knows like",
+      "start": 1139.76,
+      "duration": 3.12
+    },
+    {
+      "text": "three jokes that's like the only it",
+      "start": 1141.08,
+      "duration": 3.12
+    },
+    {
+      "text": "gives you like one joke I think most of",
+      "start": 1142.88,
+      "duration": 2.52
+    },
+    {
+      "text": "the time and sometimes it gives you like",
+      "start": 1144.2,
+      "duration": 2.8
+    },
+    {
+      "text": "three jokes and it's because the models",
+      "start": 1145.4,
+      "duration": 3.399
+    },
+    {
+      "text": "are collapsed and it's silent so when",
+      "start": 1147.0,
+      "duration": 3.039
+    },
+    {
+      "text": "you're looking at any single individual",
+      "start": 1148.799,
+      "duration": 2.721
+    },
+    {
+      "text": "output you're just seeing a single",
+      "start": 1150.039,
+      "duration": 3.12
+    },
+    {
+      "text": "example but when you actually look at",
+      "start": 1151.52,
+      "duration": 3.08
+    },
+    {
+      "text": "the distribution you'll notice that it's",
+      "start": 1153.159,
+      "duration": 3.0
+    },
+    {
+      "text": "not a very diverse distribution it's",
+      "start": 1154.6,
+      "duration": 2.92
+    },
+    {
+      "text": "silently collapsed when you're doing",
+      "start": 1156.159,
+      "duration": 2.801
+    },
+    {
+      "text": "synthetic data generation this is a",
+      "start": 1157.52,
+      "duration": 2.8
+    },
+    {
+      "text": "problem because you actually really want",
+      "start": 1158.96,
+      "duration": 2.68
+    },
+    {
+      "text": "that entropy you want the diversity and",
+      "start": 1160.32,
+      "duration": 2.719
+    },
+    {
+      "text": "the richness in your data set otherwise",
+      "start": 1161.64,
+      "duration": 2.96
+    },
+    {
+      "text": "you're getting collapsed data sets and",
+      "start": 1163.039,
+      "duration": 2.601
+    },
+    {
+      "text": "you can't see it when you look at any",
+      "start": 1164.6,
+      "duration": 2.76
+    },
+    {
+      "text": "individual example but the distribution",
+      "start": 1165.64,
+      "duration": 4.919
+    },
+    {
+      "text": "is has lost a ton of uh entropy and",
+      "start": 1167.36,
+      "duration": 6.52
+    },
+    {
+      "text": "richness and so it silently gets worse",
+      "start": 1170.559,
+      "duration": 4.36
+    },
+    {
+      "text": "and so that's why you have to be very",
+      "start": 1173.88,
+      "duration": 2.039
+    },
+    {
+      "text": "careful and you have to make sure that",
+      "start": 1174.919,
+      "duration": 2.521
+    },
+    {
+      "text": "you maintain your entropy in your data",
+      "start": 1175.919,
+      "duration": 4.441
+    },
+    {
+      "text": "set and there's a ton of uh techniques",
+      "start": 1177.44,
+      "duration": 4.84
+    },
+    {
+      "text": "for that as an example someone released",
+      "start": 1180.36,
+      "duration": 3.76
+    },
+    {
+      "text": "this uh Persona data set as an example",
+      "start": 1182.28,
+      "duration": 3.92
+    },
+    {
+      "text": "the Persona data set is a data set of 1",
+      "start": 1184.12,
+      "duration": 5.36
+    },
+    {
+      "text": "billion um personalities like humans",
+      "start": 1186.2,
+      "duration": 6.28
+    },
+    {
+      "text": "like backgrounds oh I'm a teacher or I'm",
+      "start": 1189.48,
+      "duration": 6.0
+    },
+    {
+      "text": "an artist I live here I do this Etc and",
+      "start": 1192.48,
+      "duration": 5.24
+    },
+    {
+      "text": "it's like little paragraphs of like um",
+      "start": 1195.48,
+      "duration": 4.319
+    },
+    {
+      "text": "fictitious human background and what",
+      "start": 1197.72,
+      "duration": 3.199
+    },
+    {
+      "text": "what you do when you do synthetic data",
+      "start": 1199.799,
+      "duration": 2.921
+    },
+    {
+      "text": "generation is not only like oh complete",
+      "start": 1200.919,
+      "duration": 3.88
+    },
+    {
+      "text": "this task and do it in this way but also",
+      "start": 1202.72,
+      "duration": 3.8
+    },
+    {
+      "text": "imagine you're uh describing it to this",
+      "start": 1204.799,
+      "duration": 3.481
+    },
+    {
+      "text": "person you put in this information and",
+      "start": 1206.52,
+      "duration": 3.8
+    },
+    {
+      "text": "now you're forcing it to explore more of",
+      "start": 1208.28,
+      "duration": 2.879
+    },
+    {
+      "text": "the space and you're getting some",
+      "start": 1210.32,
+      "duration": 2.239
+    },
+    {
+      "text": "entropy so I think you have to be just",
+      "start": 1211.159,
+      "duration": 2.76
+    },
+    {
+      "text": "very careful to inject the entropy",
+      "start": 1212.559,
+      "duration": 3.281
+    },
+    {
+      "text": "maintain the distribution and that's the",
+      "start": 1213.919,
+      "duration": 3.76
+    },
+    {
+      "text": "hard part uh that I think maybe maybe",
+      "start": 1215.84,
+      "duration": 3.16
+    },
+    {
+      "text": "people aren't like sufficiently",
+      "start": 1217.679,
+      "duration": 3.48
+    },
+    {
+      "text": "appreciating as much in general so I",
+      "start": 1219.0,
+      "duration": 3.12
+    },
+    {
+      "text": "think basically synthetic data",
+      "start": 1221.159,
+      "duration": 2.961
+    },
+    {
+      "text": "absolutely the future uh we're not going",
+      "start": 1222.12,
+      "duration": 3.88
+    },
+    {
+      "text": "to run out of data is my impression I",
+      "start": 1224.12,
+      "duration": 3.64
+    },
+    {
+      "text": "just think you have to be careful what",
+      "start": 1226.0,
+      "duration": 3.6
+    },
+    {
+      "text": "do you think we are learning now about",
+      "start": 1227.76,
+      "duration": 3.56
+    },
+    {
+      "text": "human cognition from this research I",
+      "start": 1229.6,
+      "duration": 2.68
+    },
+    {
+      "text": "don't know if we're learn one could",
+      "start": 1231.32,
+      "duration": 2.56
+    },
+    {
+      "text": "argue that like figuring out the shape",
+      "start": 1232.28,
+      "duration": 3.96
+    },
+    {
+      "text": "of reasoning traces we want for example",
+      "start": 1233.88,
+      "duration": 4.0
+    },
+    {
+      "text": "is um instructive to actually",
+      "start": 1236.24,
+      "duration": 2.64
+    },
+    {
+      "text": "understanding how the brain works I",
+      "start": 1237.88,
+      "duration": 2.32
+    },
+    {
+      "text": "would be careful with those analogies",
+      "start": 1238.88,
+      "duration": 3.64
+    },
+    {
+      "text": "but in general I do think that it's um",
+      "start": 1240.2,
+      "duration": 4.56
+    },
+    {
+      "text": "it's a very different kind of thing but",
+      "start": 1242.52,
+      "duration": 4.159
+    },
+    {
+      "text": "I do think that there are some analogies",
+      "start": 1244.76,
+      "duration": 4.279
+    },
+    {
+      "text": "you can draw so as an example uh I think",
+      "start": 1246.679,
+      "duration": 3.441
+    },
+    {
+      "text": "Transformers are actually better than",
+      "start": 1249.039,
+      "duration": 2.561
+    },
+    {
+      "text": "the human brain in a bunch of ways I",
+      "start": 1250.12,
+      "duration": 2.28
+    },
+    {
+      "text": "think they're actually a lot more",
+      "start": 1251.6,
+      "duration": 2.28
+    },
+    {
+      "text": "efficient system and the reason they",
+      "start": 1252.4,
+      "duration": 2.84
+    },
+    {
+      "text": "don't work as good as the human brain is",
+      "start": 1253.88,
+      "duration": 3.24
+    },
+    {
+      "text": "mostly data issue roughly speaking is",
+      "start": 1255.24,
+      "duration": 3.0
+    },
+    {
+      "text": "the first story approximation I would",
+      "start": 1257.12,
+      "duration": 2.679
+    },
+    {
+      "text": "say and actually like as an example like",
+      "start": 1258.24,
+      "duration": 3.48
+    },
+    {
+      "text": "Transformer memorizing sequences is so",
+      "start": 1259.799,
+      "duration": 3.481
+    },
+    {
+      "text": "much better than humans like if you give",
+      "start": 1261.72,
+      "duration": 2.56
+    },
+    {
+      "text": "it a sequence and you do a single",
+      "start": 1263.28,
+      "duration": 2.56
+    },
+    {
+      "text": "forward backward pass in that sequence",
+      "start": 1264.28,
+      "duration": 2.639
+    },
+    {
+      "text": "then if you give it the first few",
+      "start": 1265.84,
+      "duration": 2.52
+    },
+    {
+      "text": "elements it will complete the rest of",
+      "start": 1266.919,
+      "duration": 3.801
+    },
+    {
+      "text": "the sequence it memorized that sequence",
+      "start": 1268.36,
+      "duration": 3.72
+    },
+    {
+      "text": "and it's so good at it if you gave a",
+      "start": 1270.72,
+      "duration": 2.48
+    },
+    {
+      "text": "human a single presentation of a",
+      "start": 1272.08,
+      "duration": 2.959
+    },
+    {
+      "text": "sequence there's no way that you can",
+      "start": 1273.2,
+      "duration": 3.56
+    },
+    {
+      "text": "remember that and so the Transformers is",
+      "start": 1275.039,
+      "duration": 3.76
+    },
+    {
+      "text": "actually I do think there's a good",
+      "start": 1276.76,
+      "duration": 4.76
+    },
+    {
+      "text": "chance that the gradient um Bas",
+      "start": 1278.799,
+      "duration": 4.281
+    },
+    {
+      "text": "optimization the forward backward update",
+      "start": 1281.52,
+      "duration": 2.48
+    },
+    {
+      "text": "that we do all the time for training",
+      "start": 1283.08,
+      "duration": 2.199
+    },
+    {
+      "text": "neur NS is actually more efficient than",
+      "start": 1284.0,
+      "duration": 3.48
+    },
+    {
+      "text": "the brain in some ways and these models",
+      "start": 1285.279,
+      "duration": 4.681
+    },
+    {
+      "text": "are better they're just not um yet ready",
+      "start": 1287.48,
+      "duration": 4.52
+    },
+    {
+      "text": "to shine but in a bunch of cognitive",
+      "start": 1289.96,
+      "duration": 3.48
+    },
+    {
+      "text": "sort of aspects I think they might come",
+      "start": 1292.0,
+      "duration": 2.96
+    },
+    {
+      "text": "out with the right inputs they will be",
+      "start": 1293.44,
+      "duration": 3.28
+    },
+    {
+      "text": "better that that's generically true of",
+      "start": 1294.96,
+      "duration": 3.56
+    },
+    {
+      "text": "computers for all sorts of applications",
+      "start": 1296.72,
+      "duration": 3.8
+    },
+    {
+      "text": "right put memory to your point yeah",
+      "start": 1298.52,
+      "duration": 3.2
+    },
+    {
+      "text": "exactly and I think human brains just",
+      "start": 1300.52,
+      "duration": 2.6
+    },
+    {
+      "text": "have a lot of constraints you know the",
+      "start": 1301.72,
+      "duration": 2.68
+    },
+    {
+      "text": "working memory is very small I think",
+      "start": 1303.12,
+      "duration": 2.76
+    },
+    {
+      "text": "Transformers have a lot lot bigger",
+      "start": 1304.4,
+      "duration": 3.12
+    },
+    {
+      "text": "working memory and will this will",
+      "start": 1305.88,
+      "duration": 3.399
+    },
+    {
+      "text": "continue to be the case uh they're much",
+      "start": 1307.52,
+      "duration": 3.72
+    },
+    {
+      "text": "more efficient Learners uh the human",
+      "start": 1309.279,
+      "duration": 3.52
+    },
+    {
+      "text": "brains function under all kinds of",
+      "start": 1311.24,
+      "duration": 3.439
+    },
+    {
+      "text": "constraints uh it's not obvious that the",
+      "start": 1312.799,
+      "duration": 3.721
+    },
+    {
+      "text": "human R is back propagation right it's",
+      "start": 1314.679,
+      "duration": 3.921
+    },
+    {
+      "text": "not obvious how that would work it's uh",
+      "start": 1316.52,
+      "duration": 4.2
+    },
+    {
+      "text": "very stochastic sort of dynamic system",
+      "start": 1318.6,
+      "duration": 4.16
+    },
+    {
+      "text": "it has all these constraints it works",
+      "start": 1320.72,
+      "duration": 5.199
+    },
+    {
+      "text": "under so ambient conditions Etc so I I",
+      "start": 1322.76,
+      "duration": 4.799
+    },
+    {
+      "text": "do think that what we have is actually",
+      "start": 1325.919,
+      "duration": 3.801
+    },
+    {
+      "text": "potentially better than the brain um and",
+      "start": 1327.559,
+      "duration": 4.521
+    },
+    {
+      "text": "it's just not there yet how do you think",
+      "start": 1329.72,
+      "duration": 4.6
+    },
+    {
+      "text": "about um human augmentation with",
+      "start": 1332.08,
+      "duration": 3.8
+    },
+    {
+      "text": "different AI systems over time do you",
+      "start": 1334.32,
+      "duration": 3.68
+    },
+    {
+      "text": "think that's a likely direction do you",
+      "start": 1335.88,
+      "duration": 4.08
+    },
+    {
+      "text": "think that's unlikely augmentation",
+      "start": 1338.0,
+      "duration": 4.72
+    },
+    {
+      "text": "augmentation of people with AI models oh",
+      "start": 1339.96,
+      "duration": 4.56
+    },
+    {
+      "text": "of course I mean but in in what sense",
+      "start": 1342.72,
+      "duration": 3.36
+    },
+    {
+      "text": "maybe I think in general absolutely",
+      "start": 1344.52,
+      "duration": 2.399
+    },
+    {
+      "text": "because I mean there's an abstract",
+      "start": 1346.08,
+      "duration": 2.16
+    },
+    {
+      "text": "version of it you're using as a tool",
+      "start": 1346.919,
+      "duration": 3.12
+    },
+    {
+      "text": "that's the the external version there's",
+      "start": 1348.24,
+      "duration": 3.76
+    },
+    {
+      "text": "the you know the merger",
+      "start": 1350.039,
+      "duration": 3.88
+    },
+    {
+      "text": "scenario you know a lot of people end up",
+      "start": 1352.0,
+      "duration": 3.48
+    },
+    {
+      "text": "talking about yeah yeah I mean we're",
+      "start": 1353.919,
+      "duration": 3.161
+    },
+    {
+      "text": "already kind of merging the thing is",
+      "start": 1355.48,
+      "duration": 3.4
+    },
+    {
+      "text": "like there's a you know there's the io",
+      "start": 1357.08,
+      "duration": 3.719
+    },
+    {
+      "text": "bottleneck but for the most part you",
+      "start": 1358.88,
+      "duration": 3.279
+    },
+    {
+      "text": "know at your fingertips if you have any",
+      "start": 1360.799,
+      "duration": 2.721
+    },
+    {
+      "text": "of these models you're that's a little",
+      "start": 1362.159,
+      "duration": 2.361
+    },
+    {
+      "text": "bit different because I mean people have",
+      "start": 1363.52,
+      "duration": 2.72
+    },
+    {
+      "text": "been making that argument for I think 40",
+      "start": 1364.52,
+      "duration": 3.6
+    },
+    {
+      "text": "50 years where uh technological tools",
+      "start": 1366.24,
+      "duration": 3.64
+    },
+    {
+      "text": "are just extension of human capabilities",
+      "start": 1368.12,
+      "duration": 3.12
+    },
+    {
+      "text": "right yeah the computer is the bicycle",
+      "start": 1369.88,
+      "duration": 4.039
+    },
+    {
+      "text": "for human mind exactly so um but there's",
+      "start": 1371.24,
+      "duration": 5.84
+    },
+    {
+      "text": "a subset of the AI community that thinks",
+      "start": 1373.919,
+      "duration": 5.601
+    },
+    {
+      "text": "that for example the way that we subsume",
+      "start": 1377.08,
+      "duration": 4.36
+    },
+    {
+      "text": "some potential conflict with future AI",
+      "start": 1379.52,
+      "duration": 3.36
+    },
+    {
+      "text": "or something else would be through some",
+      "start": 1381.44,
+      "duration": 3.4
+    },
+    {
+      "text": "form of yeah like the neuralink pitch",
+      "start": 1382.88,
+      "duration": 4.24
+    },
+    {
+      "text": "Etc exactly um yeah I don't I don't know",
+      "start": 1384.84,
+      "duration": 4.4
+    },
+    {
+      "text": "what this merger looks like uh yet but I",
+      "start": 1387.12,
+      "duration": 3.559
+    },
+    {
+      "text": "can definitely see that you want to",
+      "start": 1389.24,
+      "duration": 3.64
+    },
+    {
+      "text": "decrease the iio to Tool use and I see",
+      "start": 1390.679,
+      "duration": 3.521
+    },
+    {
+      "text": "this as kind of like an EXO cortex while",
+      "start": 1392.88,
+      "duration": 3.08
+    },
+    {
+      "text": "building on top of our neocortex right",
+      "start": 1394.2,
+      "duration": 4.0
+    },
+    {
+      "text": "and it's just the next layer and uh it",
+      "start": 1395.96,
+      "duration": 3.68
+    },
+    {
+      "text": "just turns out to be in the cloud Etc",
+      "start": 1398.2,
+      "duration": 2.92
+    },
+    {
+      "text": "but it is the next layer of the brain",
+      "start": 1399.64,
+      "duration": 4.24
+    },
+    {
+      "text": "yeah accelerando uh book from the early",
+      "start": 1401.12,
+      "duration": 4.28
+    },
+    {
+      "text": "2000s has a version of this where",
+      "start": 1403.88,
+      "duration": 3.64
+    },
+    {
+      "text": "basically everything is substantiated in",
+      "start": 1405.4,
+      "duration": 3.48
+    },
+    {
+      "text": "a set of goggles that are",
+      "start": 1407.52,
+      "duration": 2.8
+    },
+    {
+      "text": "computationally attached to your brain",
+      "start": 1408.88,
+      "duration": 3.0
+    },
+    {
+      "text": "that you wear and then if you lose them",
+      "start": 1410.32,
+      "duration": 2.76
+    },
+    {
+      "text": "you must feel like you're losing a part",
+      "start": 1411.88,
+      "duration": 2.52
+    },
+    {
+      "text": "of your persona or memory I think that's",
+      "start": 1413.08,
+      "duration": 2.8
+    },
+    {
+      "text": "very likely yeah and today the phone is",
+      "start": 1414.4,
+      "duration": 2.8
+    },
+    {
+      "text": "already almost that and I think it's",
+      "start": 1415.88,
+      "duration": 2.72
+    },
+    {
+      "text": "going to get worse when you put your",
+      "start": 1417.2,
+      "duration": 3.0
+    },
+    {
+      "text": "techno stuff away from you you're just",
+      "start": 1418.6,
+      "duration": 3.4
+    },
+    {
+      "text": "like naked human in nature as well you",
+      "start": 1420.2,
+      "duration": 4.0
+    },
+    {
+      "text": "lose part of your intelligence it's very",
+      "start": 1422.0,
+      "duration": 4.88
+    },
+    {
+      "text": "anxiety a very uh a very simple example",
+      "start": 1424.2,
+      "duration": 4.64
+    },
+    {
+      "text": "of that is just Maps right so a lot of",
+      "start": 1426.88,
+      "duration": 3.799
+    },
+    {
+      "text": "people now I've noticed can't actually",
+      "start": 1428.84,
+      "duration": 3.64
+    },
+    {
+      "text": "navigate their City very well anymore",
+      "start": 1430.679,
+      "duration": 3.401
+    },
+    {
+      "text": "because are always using turn BYT",
+      "start": 1432.48,
+      "duration": 2.76
+    },
+    {
+      "text": "Direction and if we have this for",
+      "start": 1434.08,
+      "duration": 2.68
+    },
+    {
+      "text": "example like Universal translator which",
+      "start": 1435.24,
+      "duration": 3.319
+    },
+    {
+      "text": "I don't think is too far away like you",
+      "start": 1436.76,
+      "duration": 3.279
+    },
+    {
+      "text": "lose the ability to speak to people who",
+      "start": 1438.559,
+      "duration": 3.201
+    },
+    {
+      "text": "don't speak English if you just put your",
+      "start": 1440.039,
+      "duration": 3.24
+    },
+    {
+      "text": "stuff away I'm very comfortable",
+      "start": 1441.76,
+      "duration": 4.039
+    },
+    {
+      "text": "repurposing that part of my brain to do",
+      "start": 1443.279,
+      "duration": 4.321
+    },
+    {
+      "text": "further research I don't know if you saw",
+      "start": 1445.799,
+      "duration": 4.0
+    },
+    {
+      "text": "the video of like the kid that's has a",
+      "start": 1447.6,
+      "duration": 3.52
+    },
+    {
+      "text": "magazine and is trying to like swipe on",
+      "start": 1449.799,
+      "duration": 3.081
+    },
+    {
+      "text": "the magazine what's fascinating to me",
+      "start": 1451.12,
+      "duration": 3.4
+    },
+    {
+      "text": "about it is like this kid doesn't",
+      "start": 1452.88,
+      "duration": 3.0
+    },
+    {
+      "text": "understand what comes with nature and",
+      "start": 1454.52,
+      "duration": 3.159
+    },
+    {
+      "text": "what's technology technology on top of",
+      "start": 1455.88,
+      "duration": 3.039
+    },
+    {
+      "text": "the nature because it's made so",
+      "start": 1457.679,
+      "duration": 2.841
+    },
+    {
+      "text": "transparent and I think this might look",
+      "start": 1458.919,
+      "duration": 2.88
+    },
+    {
+      "text": "similar where people will just start",
+      "start": 1460.52,
+      "duration": 2.68
+    },
+    {
+      "text": "assuming the tools and then when you",
+      "start": 1461.799,
+      "duration": 3.321
+    },
+    {
+      "text": "take them away you realize like I guess",
+      "start": 1463.2,
+      "duration": 3.079
+    },
+    {
+      "text": "like people don't know what's technology",
+      "start": 1465.12,
+      "duration": 2.2
+    },
+    {
+      "text": "and what's not if you're wearing this",
+      "start": 1466.279,
+      "duration": 2.681
+    },
+    {
+      "text": "thing that's always translating one or",
+      "start": 1467.32,
+      "duration": 3.839
+    },
+    {
+      "text": "like doing stuff like that for you then",
+      "start": 1468.96,
+      "duration": 4.599
+    },
+    {
+      "text": "um maybe people like lose the basic",
+      "start": 1471.159,
+      "duration": 4.281
+    },
+    {
+      "text": "cognitive abilities may not exist I",
+      "start": 1473.559,
+      "duration": 5.161
+    },
+    {
+      "text": "think exist yeah like by Nature we're",
+      "start": 1475.44,
+      "duration": 5.239
+    },
+    {
+      "text": "going to specialize you can't understand",
+      "start": 1478.72,
+      "duration": 4.28
+    },
+    {
+      "text": "people who speak Spanish like what the",
+      "start": 1480.679,
+      "duration": 4.521
+    },
+    {
+      "text": "hell or like if when you go to objects",
+      "start": 1483.0,
+      "duration": 4.32
+    },
+    {
+      "text": "like in Disney uh all the objects are",
+      "start": 1485.2,
+      "duration": 3.56
+    },
+    {
+      "text": "alive and I think we are going to",
+      "start": 1487.32,
+      "duration": 2.8
+    },
+    {
+      "text": "potentially come to that kind of a world",
+      "start": 1488.76,
+      "duration": 3.44
+    },
+    {
+      "text": "where why an I talk to things like",
+      "start": 1490.12,
+      "duration": 3.439
+    },
+    {
+      "text": "already today you can talk to Alexa and",
+      "start": 1492.2,
+      "duration": 2.719
+    },
+    {
+      "text": "you can ask her for things and so on",
+      "start": 1493.559,
+      "duration": 2.48
+    },
+    {
+      "text": "yeah I've seen some toy companies like",
+      "start": 1494.919,
+      "duration": 2.161
+    },
+    {
+      "text": "that where they're basically trying to",
+      "start": 1496.039,
+      "duration": 2.88
+    },
+    {
+      "text": "embed in LM in a toys that can interact",
+      "start": 1497.08,
+      "duration": 3.4
+    },
+    {
+      "text": "with a child yeah isn't it strange that",
+      "start": 1498.919,
+      "duration": 2.921
+    },
+    {
+      "text": "when you go to a door you can't just say",
+      "start": 1500.48,
+      "duration": 4.919
+    },
+    {
+      "text": "open like what the hell um another",
+      "start": 1501.84,
+      "duration": 4.839
+    },
+    {
+      "text": "favorite example of that I don't know if",
+      "start": 1505.399,
+      "duration": 3.88
+    },
+    {
+      "text": "you saw either demolition men or iRobot",
+      "start": 1506.679,
+      "duration": 5.841
+    },
+    {
+      "text": "people make fun of the idea that you uh",
+      "start": 1509.279,
+      "duration": 4.481
+    },
+    {
+      "text": "yeah like you can't just talk to things",
+      "start": 1512.52,
+      "duration": 3.48
+    },
+    {
+      "text": "and what the hell if we're talking about",
+      "start": 1513.76,
+      "duration": 6.84
+    },
+    {
+      "text": "a um EXO cortex that feels like a pretty",
+      "start": 1516.0,
+      "duration": 7.32
+    },
+    {
+      "text": "fundamentally um important thing to",
+      "start": 1520.6,
+      "duration": 4.88
+    },
+    {
+      "text": "democratize access to how do you think",
+      "start": 1523.32,
+      "duration": 4.76
+    },
+    {
+      "text": "like the current market structure of",
+      "start": 1525.48,
+      "duration": 4.64
+    },
+    {
+      "text": "what's happening in llm research you",
+      "start": 1528.08,
+      "duration": 4.839
+    },
+    {
+      "text": "know there's a small number of large",
+      "start": 1530.12,
+      "duration": 5.0
+    },
+    {
+      "text": "Labs that actually have a shot at the",
+      "start": 1532.919,
+      "duration": 4.041
+    },
+    {
+      "text": "Next Generation progressing training",
+      "start": 1535.12,
+      "duration": 3.52
+    },
+    {
+      "text": "like how does that translate to what",
+      "start": 1536.96,
+      "duration": 3.439
+    },
+    {
+      "text": "people have access to in the future so",
+      "start": 1538.64,
+      "duration": 2.84
+    },
+    {
+      "text": "what you were kind of alluding to maybe",
+      "start": 1540.399,
+      "duration": 2.441
+    },
+    {
+      "text": "is the state of the ecosystem right so",
+      "start": 1541.48,
+      "duration": 3.0
+    },
+    {
+      "text": "we have kind of like an oligopoly of a",
+      "start": 1542.84,
+      "duration": 3.079
+    },
+    {
+      "text": "few closed platforms and then we have an",
+      "start": 1544.48,
+      "duration": 3.04
+    },
+    {
+      "text": "open platform that is kind of like",
+      "start": 1545.919,
+      "duration": 4.201
+    },
+    {
+      "text": "behind so like metal Lama Etc and this",
+      "start": 1547.52,
+      "duration": 3.72
+    },
+    {
+      "text": "is kind of like mirroring the open",
+      "start": 1550.12,
+      "duration": 3.2
+    },
+    {
+      "text": "source uh kind of ecosystem I do think",
+      "start": 1551.24,
+      "duration": 3.319
+    },
+    {
+      "text": "that when this stuff starts to when we",
+      "start": 1553.32,
+      "duration": 2.2
+    },
+    {
+      "text": "start to think of it as like an",
+      "start": 1554.559,
+      "duration": 3.041
+    },
+    {
+      "text": "exocortex uh so there's the there's a",
+      "start": 1555.52,
+      "duration": 3.759
+    },
+    {
+      "text": "saying in cryp which is like not your",
+      "start": 1557.6,
+      "duration": 4.24
+    },
+    {
+      "text": "keys not your not your tokens like is it",
+      "start": 1559.279,
+      "duration": 4.0
+    },
+    {
+      "text": "the case that if it's like not your",
+      "start": 1561.84,
+      "duration": 3.04
+    },
+    {
+      "text": "weights not your brain that's",
+      "start": 1563.279,
+      "duration": 2.52
+    },
+    {
+      "text": "interesting because a company is",
+      "start": 1564.88,
+      "duration": 2.48
+    },
+    {
+      "text": "effectively controlling your exocortex",
+      "start": 1565.799,
+      "duration": 3.081
+    },
+    {
+      "text": "and therefore for part of it starts to",
+      "start": 1567.36,
+      "duration": 2.88
+    },
+    {
+      "text": "feel kind of invasive if this is my",
+      "start": 1568.88,
+      "duration": 3.12
+    },
+    {
+      "text": "exocortex I think people will care much",
+      "start": 1570.24,
+      "duration": 3.52
+    },
+    {
+      "text": "more about ownership yes like you're",
+      "start": 1572.0,
+      "duration": 3.88
+    },
+    {
+      "text": "yeah you're you realize you're renting",
+      "start": 1573.76,
+      "duration": 4.36
+    },
+    {
+      "text": "your brain like it seems strange to rent",
+      "start": 1575.88,
+      "duration": 3.919
+    },
+    {
+      "text": "your brain the thought experiment is",
+      "start": 1578.12,
+      "duration": 3.039
+    },
+    {
+      "text": "like are you willing to give up",
+      "start": 1579.799,
+      "duration": 2.841
+    },
+    {
+      "text": "ownership and control to rent a better",
+      "start": 1581.159,
+      "duration": 3.76
+    },
+    {
+      "text": "brain because I am yeah yeah so I think",
+      "start": 1582.64,
+      "duration": 3.919
+    },
+    {
+      "text": "that's the trade-off I think we'll see",
+      "start": 1584.919,
+      "duration": 3.081
+    },
+    {
+      "text": "how that works but maybe it's possible",
+      "start": 1586.559,
+      "duration": 4.281
+    },
+    {
+      "text": "to like by default use the closed",
+      "start": 1588.0,
+      "duration": 4.159
+    },
+    {
+      "text": "versions because they're amazing but you",
+      "start": 1590.84,
+      "duration": 3.0
+    },
+    {
+      "text": "have a fallback in various scenarios and",
+      "start": 1592.159,
+      "duration": 2.52
+    },
+    {
+      "text": "I think that's kind of like the way",
+      "start": 1593.84,
+      "duration": 2.76
+    },
+    {
+      "text": "things are shaping up today even right",
+      "start": 1594.679,
+      "duration": 3.681
+    },
+    {
+      "text": "like um when apis go down on some of the",
+      "start": 1596.6,
+      "duration": 3.12
+    },
+    {
+      "text": "Clos Source providers people start to",
+      "start": 1598.36,
+      "duration": 3.12
+    },
+    {
+      "text": "implement fallbacks to like the open",
+      "start": 1599.72,
+      "duration": 3.079
+    },
+    {
+      "text": "ecosystems for example that they fully",
+      "start": 1601.48,
+      "duration": 3.12
+    },
+    {
+      "text": "control on they're in they feel",
+      "start": 1602.799,
+      "duration": 3.681
+    },
+    {
+      "text": "empowered by that right so so maybe",
+      "start": 1604.6,
+      "duration": 2.92
+    },
+    {
+      "text": "that's just the extension of what will",
+      "start": 1606.48,
+      "duration": 2.64
+    },
+    {
+      "text": "look like for the brain is you fall back",
+      "start": 1607.52,
+      "duration": 4.8
+    },
+    {
+      "text": "on the open source stuff um should",
+      "start": 1609.12,
+      "duration": 4.799
+    },
+    {
+      "text": "anything happen but most of the time you",
+      "start": 1612.32,
+      "duration": 3.16
+    },
+    {
+      "text": "actually so it's quite important that",
+      "start": 1613.919,
+      "duration": 2.921
+    },
+    {
+      "text": "the open source stuff continues to",
+      "start": 1615.48,
+      "duration": 3.559
+    },
+    {
+      "text": "progress I think so 100% and this is not",
+      "start": 1616.84,
+      "duration": 3.68
+    },
+    {
+      "text": "like an obvious point or something that",
+      "start": 1619.039,
+      "duration": 3.52
+    },
+    {
+      "text": "people maybe agree on right now but I",
+      "start": 1620.52,
+      "duration": 3.879
+    },
+    {
+      "text": "think 100% I I guess one thing I've been",
+      "start": 1622.559,
+      "duration": 4.321
+    },
+    {
+      "text": "wondering about a little bit is um what",
+      "start": 1624.399,
+      "duration": 5.28
+    },
+    {
+      "text": "is the smallest performant model that",
+      "start": 1626.88,
+      "duration": 4.279
+    },
+    {
+      "text": "you can get to in some sense either in",
+      "start": 1629.679,
+      "duration": 2.641
+    },
+    {
+      "text": "parameter size or however you want to",
+      "start": 1631.159,
+      "duration": 2.24
+    },
+    {
+      "text": "think about it and I'm a little bit",
+      "start": 1632.32,
+      "duration": 2.4
+    },
+    {
+      "text": "curious about your view because youve",
+      "start": 1633.399,
+      "duration": 3.88
+    },
+    {
+      "text": "thought a lot about both uh distillation",
+      "start": 1634.72,
+      "duration": 4.959
+    },
+    {
+      "text": "small models you know I think it can be",
+      "start": 1637.279,
+      "duration": 5.0
+    },
+    {
+      "text": "surprisingly small and I do think that",
+      "start": 1639.679,
+      "duration": 4.201
+    },
+    {
+      "text": "the current models are wasting a ton of",
+      "start": 1642.279,
+      "duration": 3.481
+    },
+    {
+      "text": "capacity remembering stuff that doesn't",
+      "start": 1643.88,
+      "duration": 3.96
+    },
+    {
+      "text": "matter like they remember sha hases they",
+      "start": 1645.76,
+      "duration": 4.159
+    },
+    {
+      "text": "remember like the ancient cuz the data",
+      "start": 1647.84,
+      "duration": 4.36
+    },
+    {
+      "text": "set is not curated the best yeah exactly",
+      "start": 1649.919,
+      "duration": 3.921
+    },
+    {
+      "text": "like and I think this will go away and I",
+      "start": 1652.2,
+      "duration": 2.959
+    },
+    {
+      "text": "think we just need to get to the",
+      "start": 1653.84,
+      "duration": 3.36
+    },
+    {
+      "text": "cognitive core and I think the cognitive",
+      "start": 1655.159,
+      "duration": 4.041
+    },
+    {
+      "text": "core can be extremely small and it's",
+      "start": 1657.2,
+      "duration": 3.599
+    },
+    {
+      "text": "just this thing that thinks and if it",
+      "start": 1659.2,
+      "duration": 2.8
+    },
+    {
+      "text": "needs to look up information it knows",
+      "start": 1660.799,
+      "duration": 2.921
+    },
+    {
+      "text": "how to use different tools is that like",
+      "start": 1662.0,
+      "duration": 3.799
+    },
+    {
+      "text": "three billion parameters is that 20",
+      "start": 1663.72,
+      "duration": 3.92
+    },
+    {
+      "text": "billion param I think even a billion",
+      "start": 1665.799,
+      "duration": 3.641
+    },
+    {
+      "text": "billion suffices we'll probably get to",
+      "start": 1667.64,
+      "duration": 3.72
+    },
+    {
+      "text": "that point and the models can be very",
+      "start": 1669.44,
+      "duration": 3.2
+    },
+    {
+      "text": "very small and I think the reason they",
+      "start": 1671.36,
+      "duration": 2.679
+    },
+    {
+      "text": "can be very small is fundamentally I",
+      "start": 1672.64,
+      "duration": 3.159
+    },
+    {
+      "text": "think just like distillation works it",
+      "start": 1674.039,
+      "duration": 3.24
+    },
+    {
+      "text": "maybe like the only thing I would say",
+      "start": 1675.799,
+      "duration": 2.841
+    },
+    {
+      "text": "distillation works like surprisingly",
+      "start": 1677.279,
+      "duration": 3.12
+    },
+    {
+      "text": "well distillation is where you get a",
+      "start": 1678.64,
+      "duration": 3.36
+    },
+    {
+      "text": "really big model or a huge amount of",
+      "start": 1680.399,
+      "duration": 3.561
+    },
+    {
+      "text": "computer something like that um",
+      "start": 1682.0,
+      "duration": 4.64
+    },
+    {
+      "text": "supervising a very small model and uh",
+      "start": 1683.96,
+      "duration": 5.4
+    },
+    {
+      "text": "you can actually um stuff a lot of",
+      "start": 1686.64,
+      "duration": 4.08
+    },
+    {
+      "text": "capability into a very small level is",
+      "start": 1689.36,
+      "duration": 3.4
+    },
+    {
+      "text": "there some sort of like uh mathematical",
+      "start": 1690.72,
+      "duration": 3.36
+    },
+    {
+      "text": "representation of that or some",
+      "start": 1692.76,
+      "duration": 4.2
+    },
+    {
+      "text": "information theoretical like formulation",
+      "start": 1694.08,
+      "duration": 4.04
+    },
+    {
+      "text": "of that because it almost feels like you",
+      "start": 1696.96,
+      "duration": 4.079
+    },
+    {
+      "text": "should be able to calculate that now in",
+      "start": 1698.12,
+      "duration": 5.2
+    },
+    {
+      "text": "terms of what's the maybe maybe like one",
+      "start": 1701.039,
+      "duration": 4.12
+    },
+    {
+      "text": "way to think about it is like you we go",
+      "start": 1703.32,
+      "duration": 3.079
+    },
+    {
+      "text": "back to like the internet data set which",
+      "start": 1705.159,
+      "duration": 2.76
+    },
+    {
+      "text": "is what we're working with the Internet",
+      "start": 1706.399,
+      "duration": 2.76
+    },
+    {
+      "text": "is like",
+      "start": 1707.919,
+      "duration": 5.281
+    },
+    {
+      "text": "0.001% cognition and like 99.99% of like",
+      "start": 1709.159,
+      "duration": 6.921
+    },
+    {
+      "text": "information just like you know and I",
+      "start": 1713.2,
+      "duration": 4.8
+    },
+    {
+      "text": "think most of it is not uh useful to the",
+      "start": 1716.08,
+      "duration": 3.88
+    },
+    {
+      "text": "thinking part and it's like yeah I I",
+      "start": 1718.0,
+      "duration": 2.96
+    },
+    {
+      "text": "guess maybe another way to frame the",
+      "start": 1719.96,
+      "duration": 2.28
+    },
+    {
+      "text": "question is like is there a math",
+      "start": 1720.96,
+      "duration": 3.28
+    },
+    {
+      "text": "mathematical representation of cognitive",
+      "start": 1722.24,
+      "duration": 4.0
+    },
+    {
+      "text": "capability relative to model size or how",
+      "start": 1724.24,
+      "duration": 4.0
+    },
+    {
+      "text": "do you capture cognition in terms of you",
+      "start": 1726.24,
+      "duration": 4.12
+    },
+    {
+      "text": "know here's the Min or Max relative to",
+      "start": 1728.24,
+      "duration": 3.48
+    },
+    {
+      "text": "what you're trying to accomplish and",
+      "start": 1730.36,
+      "duration": 2.919
+    },
+    {
+      "text": "maybe there's no good way to represent",
+      "start": 1731.72,
+      "duration": 2.839
+    },
+    {
+      "text": "that so I think maybe a billion",
+      "start": 1733.279,
+      "duration": 2.681
+    },
+    {
+      "text": "parameters gets you sort of like a good",
+      "start": 1734.559,
+      "duration": 3.84
+    },
+    {
+      "text": "cognitive core I think probably right I",
+      "start": 1735.96,
+      "duration": 4.52
+    },
+    {
+      "text": "think even 1 billion is too much I don't",
+      "start": 1738.399,
+      "duration": 4.64
+    },
+    {
+      "text": "know we'll see it's very exciting given",
+      "start": 1740.48,
+      "duration": 5.039
+    },
+    {
+      "text": "if you think about uh well you know the",
+      "start": 1743.039,
+      "duration": 4.0
+    },
+    {
+      "text": "question of like on an edge device",
+      "start": 1745.519,
+      "duration": 3.681
+    },
+    {
+      "text": "versus on the cloud but and also this",
+      "start": 1747.039,
+      "duration": 4.401
+    },
+    {
+      "text": "raw cost of using the model and",
+      "start": 1749.2,
+      "duration": 3.839
+    },
+    {
+      "text": "everything yeah it's very exciting right",
+      "start": 1751.44,
+      "duration": 3.28
+    },
+    {
+      "text": "but at less than a billion parameters I",
+      "start": 1753.039,
+      "duration": 4.52
+    },
+    {
+      "text": "have my EXO cortex on a local device as",
+      "start": 1754.72,
+      "duration": 4.24
+    },
+    {
+      "text": "well yeah and then probably it's not a",
+      "start": 1757.559,
+      "duration": 2.84
+    },
+    {
+      "text": "single model right like it's interesting",
+      "start": 1758.96,
+      "duration": 2.64
+    },
+    {
+      "text": "to me to think about what this will",
+      "start": 1760.399,
+      "duration": 3.52
+    },
+    {
+      "text": "actually play out like um cuz I do think",
+      "start": 1761.6,
+      "duration": 3.799
+    },
+    {
+      "text": "you want to benefit from parallelization",
+      "start": 1763.919,
+      "duration": 3.0
+    },
+    {
+      "text": "you don't want to have a a sequential",
+      "start": 1765.399,
+      "duration": 2.4
+    },
+    {
+      "text": "process you want to have a parallel",
+      "start": 1766.919,
+      "duration": 2.12
+    },
+    {
+      "text": "process and I think companies to some",
+      "start": 1767.799,
+      "duration": 3.841
+    },
+    {
+      "text": "extent are also kind of like uh um",
+      "start": 1769.039,
+      "duration": 5.12
+    },
+    {
+      "text": "paralyzation of work and but they",
+      "start": 1771.64,
+      "duration": 4.24
+    },
+    {
+      "text": "there's a hierarchy in a company because",
+      "start": 1774.159,
+      "duration": 4.201
+    },
+    {
+      "text": "that's one way to you know you have the",
+      "start": 1775.88,
+      "duration": 3.679
+    },
+    {
+      "text": "information processing and the",
+      "start": 1778.36,
+      "duration": 2.679
+    },
+    {
+      "text": "reductions that need to happen within",
+      "start": 1779.559,
+      "duration": 3.081
+    },
+    {
+      "text": "Organization for information so I think",
+      "start": 1781.039,
+      "duration": 3.36
+    },
+    {
+      "text": "we'll probably end up with uh companies",
+      "start": 1782.64,
+      "duration": 4.879
+    },
+    {
+      "text": "for ofms I think is not unlikely to me",
+      "start": 1784.399,
+      "duration": 4.721
+    },
+    {
+      "text": "that you have models of different",
+      "start": 1787.519,
+      "duration": 4.121
+    },
+    {
+      "text": "capabilities specialized to various uh",
+      "start": 1789.12,
+      "duration": 3.76
+    },
+    {
+      "text": "unique domains maybe there's a",
+      "start": 1791.64,
+      "duration": 2.72
+    },
+    {
+      "text": "programmer Etc and it will actually",
+      "start": 1792.88,
+      "duration": 2.919
+    },
+    {
+      "text": "start to resemble companies to a very",
+      "start": 1794.36,
+      "duration": 3.36
+    },
+    {
+      "text": "large extent so you have the programmer",
+      "start": 1795.799,
+      "duration": 4.281
+    },
+    {
+      "text": "and the program manager and you know",
+      "start": 1797.72,
+      "duration": 4.48
+    },
+    {
+      "text": "similar kinds of roles of llms working",
+      "start": 1800.08,
+      "duration": 4.04
+    },
+    {
+      "text": "in parallel and coming together and",
+      "start": 1802.2,
+      "duration": 4.319
+    },
+    {
+      "text": "orchestrating computation on your behalf",
+      "start": 1804.12,
+      "duration": 3.88
+    },
+    {
+      "text": "so maybe it's not correct to think about",
+      "start": 1806.519,
+      "duration": 4.121
+    },
+    {
+      "text": "it's more like a swarm your like an",
+      "start": 1808.0,
+      "duration": 3.96
+    },
+    {
+      "text": "ecosystem it's like a biological",
+      "start": 1810.64,
+      "duration": 2.6
+    },
+    {
+      "text": "ecosystem where you have specialized",
+      "start": 1811.96,
+      "duration": 3.16
+    },
+    {
+      "text": "roles and niches I think you'll start to",
+      "start": 1813.24,
+      "duration": 3.319
+    },
+    {
+      "text": "resemble that you have automatic",
+      "start": 1815.12,
+      "duration": 3.32
+    },
+    {
+      "text": "escalation to other parts of the Swarm",
+      "start": 1816.559,
+      "duration": 3.161
+    },
+    {
+      "text": "depending on the difficulty of the",
+      "start": 1818.44,
+      "duration": 2.88
+    },
+    {
+      "text": "problem and the special the CEO is like",
+      "start": 1819.72,
+      "duration": 5.04
+    },
+    {
+      "text": "a really brilliant uh Cloud Model but",
+      "start": 1821.32,
+      "duration": 5.64
+    },
+    {
+      "text": "the Workhorse can be a lot cheaper maybe",
+      "start": 1824.76,
+      "duration": 3.96
+    },
+    {
+      "text": "even open source models what not and my",
+      "start": 1826.96,
+      "duration": 2.88
+    },
+    {
+      "text": "cost function is different from your",
+      "start": 1828.72,
+      "duration": 3.52
+    },
+    {
+      "text": "cost function yeah so uh that could be",
+      "start": 1829.84,
+      "duration": 4.24
+    },
+    {
+      "text": "interesting you left open AI you're",
+      "start": 1832.24,
+      "duration": 3.799
+    },
+    {
+      "text": "working on education you've always been",
+      "start": 1834.08,
+      "duration": 4.16
+    },
+    {
+      "text": "an educator like why why do this I would",
+      "start": 1836.039,
+      "duration": 3.721
+    },
+    {
+      "text": "start with I've always been an educator",
+      "start": 1838.24,
+      "duration": 3.559
+    },
+    {
+      "text": "and I love learning and I love teaching",
+      "start": 1839.76,
+      "duration": 3.519
+    },
+    {
+      "text": "and uh so it's kind of just like a space",
+      "start": 1841.799,
+      "duration": 2.561
+    },
+    {
+      "text": "that I've been very passionate about for",
+      "start": 1843.279,
+      "duration": 3.28
+    },
+    {
+      "text": "a long time and then the other thing is",
+      "start": 1844.36,
+      "duration": 3.919
+    },
+    {
+      "text": "I think one macro picture that's kind of",
+      "start": 1846.559,
+      "duration": 4.281
+    },
+    {
+      "text": "driving me is I think there's a lot of",
+      "start": 1848.279,
+      "duration": 6.041
+    },
+    {
+      "text": "activity in like Ai and um I think most",
+      "start": 1850.84,
+      "duration": 5.52
+    },
+    {
+      "text": "of it is to kind of like replace or",
+      "start": 1854.32,
+      "duration": 4.12
+    },
+    {
+      "text": "displace people I would say is in the of",
+      "start": 1856.36,
+      "duration": 4.88
+    },
+    {
+      "text": "like Sliding Away the people but I'm",
+      "start": 1858.44,
+      "duration": 4.56
+    },
+    {
+      "text": "always uh more interested in anything",
+      "start": 1861.24,
+      "duration": 3.439
+    },
+    {
+      "text": "that kind of empowers people and I feel",
+      "start": 1863.0,
+      "duration": 3.039
+    },
+    {
+      "text": "like I'm kind of on a high level like",
+      "start": 1864.679,
+      "duration": 2.96
+    },
+    {
+      "text": "team human and I'm interested in things",
+      "start": 1866.039,
+      "duration": 3.64
+    },
+    {
+      "text": "that AI can do to empower people and I",
+      "start": 1867.639,
+      "duration": 3.321
+    },
+    {
+      "text": "don't want the future where people are",
+      "start": 1869.679,
+      "duration": 3.72
+    },
+    {
+      "text": "kind of um on the side of automation I",
+      "start": 1870.96,
+      "duration": 5.719
+    },
+    {
+      "text": "want people to be very in an empowered",
+      "start": 1873.399,
+      "duration": 4.841
+    },
+    {
+      "text": "State and I want them to be amazing even",
+      "start": 1876.679,
+      "duration": 3.521
+    },
+    {
+      "text": "much more amazing than today and then",
+      "start": 1878.24,
+      "duration": 3.0
+    },
+    {
+      "text": "other aspects that I find very",
+      "start": 1880.2,
+      "duration": 2.599
+    },
+    {
+      "text": "interesting is like how far can a person",
+      "start": 1881.24,
+      "duration": 2.96
+    },
+    {
+      "text": "go if they have the perfect tutor for",
+      "start": 1882.799,
+      "duration": 2.801
+    },
+    {
+      "text": "all the subjects and I think people",
+      "start": 1884.2,
+      "duration": 2.88
+    },
+    {
+      "text": "could go really far if they had the",
+      "start": 1885.6,
+      "duration": 3.079
+    },
+    {
+      "text": "perfect curriculum for any anything and",
+      "start": 1887.08,
+      "duration": 3.959
+    },
+    {
+      "text": "I think we see that with um you know if",
+      "start": 1888.679,
+      "duration": 4.72
+    },
+    {
+      "text": "you if some rich people maybe have um",
+      "start": 1891.039,
+      "duration": 3.961
+    },
+    {
+      "text": "tutors and they do actually go really",
+      "start": 1893.399,
+      "duration": 3.801
+    },
+    {
+      "text": "far um and so I think we can approach",
+      "start": 1895.0,
+      "duration": 4.279
+    },
+    {
+      "text": "that with AI or even lock their pass it",
+      "start": 1897.2,
+      "duration": 3.199
+    },
+    {
+      "text": "there's very clear literature on that",
+      "start": 1899.279,
+      "duration": 2.24
+    },
+    {
+      "text": "actually from the 80s right we're",
+      "start": 1900.399,
+      "duration": 4.12
+    },
+    {
+      "text": "one-on-one tutoring I think um he people",
+      "start": 1901.519,
+      "duration": 5.921
+    },
+    {
+      "text": "get one standard deviation better than",
+      "start": 1904.519,
+      "duration": 4.64
+    },
+    {
+      "text": "is it two yeah it's the bloom stuff yeah",
+      "start": 1907.44,
+      "duration": 3.32
+    },
+    {
+      "text": "exactly there's a lot of really",
+      "start": 1909.159,
+      "duration": 3.88
+    },
+    {
+      "text": "interesting uh precedence on that how do",
+      "start": 1910.76,
+      "duration": 3.919
+    },
+    {
+      "text": "you actually view that as substantiating",
+      "start": 1913.039,
+      "duration": 3.0
+    },
+    {
+      "text": "through the lens of AI or what's the",
+      "start": 1914.679,
+      "duration": 2.801
+    },
+    {
+      "text": "first types of products that will really",
+      "start": 1916.039,
+      "duration": 3.0
+    },
+    {
+      "text": "help with that or you know because",
+      "start": 1917.48,
+      "duration": 2.799
+    },
+    {
+      "text": "there's books like the diamond age where",
+      "start": 1919.039,
+      "duration": 2.401
+    },
+    {
+      "text": "they talk about the young ladi's",
+      "start": 1920.279,
+      "duration": 2.52
+    },
+    {
+      "text": "Illustrated primer and all that kind of",
+      "start": 1921.44,
+      "duration": 2.76
+    },
+    {
+      "text": "stuff so I would say I'm definitely",
+      "start": 1922.799,
+      "duration": 3.641
+    },
+    {
+      "text": "inspired by aspects of of it so like in",
+      "start": 1924.2,
+      "duration": 4.359
+    },
+    {
+      "text": "practice what uh what I'm doing is",
+      "start": 1926.44,
+      "duration": 3.76
+    },
+    {
+      "text": "trying to currently build a single",
+      "start": 1928.559,
+      "duration": 3.201
+    },
+    {
+      "text": "course and I want it to be just like the",
+      "start": 1930.2,
+      "duration": 2.599
+    },
+    {
+      "text": "course you would go to if you want to",
+      "start": 1931.76,
+      "duration": 3.24
+    },
+    {
+      "text": "learn AI I think the problem with uh",
+      "start": 1932.799,
+      "duration": 3.48
+    },
+    {
+      "text": "basically is like I've already taught",
+      "start": 1935.0,
+      "duration": 3.279
+    },
+    {
+      "text": "courses like I taught 231n at Stanford",
+      "start": 1936.279,
+      "duration": 2.961
+    },
+    {
+      "text": "and that was the first deep learning",
+      "start": 1938.279,
+      "duration": 2.52
+    },
+    {
+      "text": "class and was pretty successful but the",
+      "start": 1939.24,
+      "duration": 2.399
+    },
+    {
+      "text": "question is like how do you actually",
+      "start": 1940.799,
+      "duration": 3.161
+    },
+    {
+      "text": "like really scale these classes like how",
+      "start": 1941.639,
+      "duration": 3.52
+    },
+    {
+      "text": "do you make it so that your target",
+      "start": 1943.96,
+      "duration": 2.599
+    },
+    {
+      "text": "audience is maybe like 8 billion people",
+      "start": 1945.159,
+      "duration": 2.921
+    },
+    {
+      "text": "on Earth and there also speaking",
+      "start": 1946.559,
+      "duration": 2.561
+    },
+    {
+      "text": "different languages and there all",
+      "start": 1948.08,
+      "duration": 3.559
+    },
+    {
+      "text": "different uh capability levels Etc so",
+      "start": 1949.12,
+      "duration": 4.32
+    },
+    {
+      "text": "you and a single teacher doesn't scale",
+      "start": 1951.639,
+      "duration": 3.441
+    },
+    {
+      "text": "to that audience and so the question is",
+      "start": 1953.44,
+      "duration": 3.04
+    },
+    {
+      "text": "how do you use AI to serve like do the",
+      "start": 1955.08,
+      "duration": 3.719
+    },
+    {
+      "text": "scaling of a really good teacher and so",
+      "start": 1956.48,
+      "duration": 3.48
+    },
+    {
+      "text": "the way I'm thinking about it is the",
+      "start": 1958.799,
+      "duration": 2.441
+    },
+    {
+      "text": "teacher is kind of doing a lot of the",
+      "start": 1959.96,
+      "duration": 2.559
+    },
+    {
+      "text": "course creation and the curriculum",
+      "start": 1961.24,
+      "duration": 2.919
+    },
+    {
+      "text": "because currently at current AI",
+      "start": 1962.519,
+      "duration": 3.361
+    },
+    {
+      "text": "capability I I don't think the models",
+      "start": 1964.159,
+      "duration": 3.841
+    },
+    {
+      "text": "are good enough to create a good course",
+      "start": 1965.88,
+      "duration": 3.799
+    },
+    {
+      "text": "uh but I think they're good to become",
+      "start": 1968.0,
+      "duration": 4.08
+    },
+    {
+      "text": "the front end to the student and uh",
+      "start": 1969.679,
+      "duration": 4.88
+    },
+    {
+      "text": "interpret the course to them and so uh",
+      "start": 1972.08,
+      "duration": 3.599
+    },
+    {
+      "text": "basically the teacher doesn't go to the",
+      "start": 1974.559,
+      "duration": 2.801
+    },
+    {
+      "text": "people and the teacher is not the front",
+      "start": 1975.679,
+      "duration": 3.401
+    },
+    {
+      "text": "end anymore the teacher is on the back",
+      "start": 1977.36,
+      "duration": 3.12
+    },
+    {
+      "text": "end designing the materials in the",
+      "start": 1979.08,
+      "duration": 3.319
+    },
+    {
+      "text": "course and the AI is the front end and",
+      "start": 1980.48,
+      "duration": 3.72
+    },
+    {
+      "text": "it can speak all the different languages",
+      "start": 1982.399,
+      "duration": 3.041
+    },
+    {
+      "text": "and it kind of like takes you through",
+      "start": 1984.2,
+      "duration": 3.12
+    },
+    {
+      "text": "the course should I think of that as",
+      "start": 1985.44,
+      "duration": 3.92
+    },
+    {
+      "text": "like like the TA type experience or is",
+      "start": 1987.32,
+      "duration": 3.68
+    },
+    {
+      "text": "that not a good analogy here that is",
+      "start": 1989.36,
+      "duration": 2.96
+    },
+    {
+      "text": "like one way I'm thinking about it is",
+      "start": 1991.0,
+      "duration": 3.36
+    },
+    {
+      "text": "it's AI ta I'm mostly thinking of it as",
+      "start": 1992.32,
+      "duration": 3.839
+    },
+    {
+      "text": "like this front end to the student and",
+      "start": 1994.36,
+      "duration": 2.64
+    },
+    {
+      "text": "it's the thing that's actually",
+      "start": 1996.159,
+      "duration": 2.441
+    },
+    {
+      "text": "interfacing with the student and uh",
+      "start": 1997.0,
+      "duration": 3.12
+    },
+    {
+      "text": "taking them through the course and I",
+      "start": 1998.6,
+      "duration": 3.52
+    },
+    {
+      "text": "think that's tractable today uh and it",
+      "start": 2000.12,
+      "duration": 3.279
+    },
+    {
+      "text": "just doesn't exist and I think it can be",
+      "start": 2002.12,
+      "duration": 2.919
+    },
+    {
+      "text": "made really good and then over time as",
+      "start": 2003.399,
+      "duration": 3.12
+    },
+    {
+      "text": "the capability increases you would",
+      "start": 2005.039,
+      "duration": 4.441
+    },
+    {
+      "text": "potentially uh refactor the setup uh in",
+      "start": 2006.519,
+      "duration": 5.801
+    },
+    {
+      "text": "various ways I like to find things where",
+      "start": 2009.48,
+      "duration": 4.319
+    },
+    {
+      "text": "like the AI capability today and having",
+      "start": 2012.32,
+      "duration": 3.44
+    },
+    {
+      "text": "a good model of it and I think a lot of",
+      "start": 2013.799,
+      "duration": 4.36
+    },
+    {
+      "text": "companies that maybe don't um don't",
+      "start": 2015.76,
+      "duration": 3.96
+    },
+    {
+      "text": "quite understand intuitively where the",
+      "start": 2018.159,
+      "duration": 3.281
+    },
+    {
+      "text": "capability is today and then they end up",
+      "start": 2019.72,
+      "duration": 3.16
+    },
+    {
+      "text": "kind of like building things that are",
+      "start": 2021.44,
+      "duration": 3.0
+    },
+    {
+      "text": "kind of like too ahead of what's what's",
+      "start": 2022.88,
+      "duration": 3.96
+    },
+    {
+      "text": "available or maybe not ambitious enough",
+      "start": 2024.44,
+      "duration": 4.56
+    },
+    {
+      "text": "and so I think uh I do think that this",
+      "start": 2026.84,
+      "duration": 3.439
+    },
+    {
+      "text": "is kind of a sweet spot of what's",
+      "start": 2029.0,
+      "duration": 2.519
+    },
+    {
+      "text": "possible and also really interesting and",
+      "start": 2030.279,
+      "duration": 2.921
+    },
+    {
+      "text": "exciting so I want to go back to",
+      "start": 2031.519,
+      "duration": 2.921
+    },
+    {
+      "text": "something you said that I think is very",
+      "start": 2033.2,
+      "duration": 3.4
+    },
+    {
+      "text": "inspiring especially coming from like",
+      "start": 2034.44,
+      "duration": 3.92
+    },
+    {
+      "text": "your background and understand of where",
+      "start": 2036.6,
+      "duration": 3.76
+    },
+    {
+      "text": "exactly we are in research which is",
+      "start": 2038.36,
+      "duration": 3.279
+    },
+    {
+      "text": "essentially like we do not know what the",
+      "start": 2040.36,
+      "duration": 2.76
+    },
+    {
+      "text": "limits of human performance from a",
+      "start": 2041.639,
+      "duration": 3.92
+    },
+    {
+      "text": "learning perspective are given much",
+      "start": 2043.12,
+      "duration": 3.6
+    },
+    {
+      "text": "better tooling and I think there's like",
+      "start": 2045.559,
+      "duration": 2.961
+    },
+    {
+      "text": "a very easy analogy to we just had the",
+      "start": 2046.72,
+      "duration": 4.199
+    },
+    {
+      "text": "Olympics like a month ago right and you",
+      "start": 2048.52,
+      "duration": 4.599
+    },
+    {
+      "text": "know a runner and it's the the very best",
+      "start": 2050.919,
+      "duration": 4.281
+    },
+    {
+      "text": "mile time or pick any sport today is",
+      "start": 2053.119,
+      "duration": 4.201
+    },
+    {
+      "text": "much better than it was putting aside",
+      "start": 2055.2,
+      "duration": 4.159
+    },
+    {
+      "text": "performance enhancing drugs like 10",
+      "start": 2057.32,
+      "duration": 3.599
+    },
+    {
+      "text": "years ago just because like you start",
+      "start": 2059.359,
+      "duration": 2.76
+    },
+    {
+      "text": "training earlier you have a very",
+      "start": 2060.919,
+      "duration": 2.281
+    },
+    {
+      "text": "different program we have much better",
+      "start": 2062.119,
+      "duration": 2.28
+    },
+    {
+      "text": "scientific understanding we have",
+      "start": 2063.2,
+      "duration": 3.28
+    },
+    {
+      "text": "Technique we have PE the fact that you",
+      "start": 2064.399,
+      "duration": 4.68
+    },
+    {
+      "text": "believe like we can get much further as",
+      "start": 2066.48,
+      "duration": 5.119
+    },
+    {
+      "text": "humans if we're starting with the",
+      "start": 2069.079,
+      "duration": 4.441
+    },
+    {
+      "text": "Tooling in the curriculum is amazing",
+      "start": 2071.599,
+      "duration": 3.201
+    },
+    {
+      "text": "yeah I think we haven't even scratched",
+      "start": 2073.52,
+      "duration": 2.96
+    },
+    {
+      "text": "like what's possible at all so I think",
+      "start": 2074.8,
+      "duration": 2.76
+    },
+    {
+      "text": "there's like two Dimensions basically to",
+      "start": 2076.48,
+      "duration": 2.359
+    },
+    {
+      "text": "it is number one is the globalization",
+      "start": 2077.56,
+      "duration": 2.519
+    },
+    {
+      "text": "dimension of like I want everyone to",
+      "start": 2078.839,
+      "duration": 2.361
+    },
+    {
+      "text": "have really good education but the other",
+      "start": 2080.079,
+      "duration": 2.6
+    },
+    {
+      "text": "one is like how far can a single person",
+      "start": 2081.2,
+      "duration": 2.719
+    },
+    {
+      "text": "go I think both of those are very",
+      "start": 2082.679,
+      "duration": 2.641
+    },
+    {
+      "text": "interesting and exciting usually when",
+      "start": 2083.919,
+      "duration": 2.881
+    },
+    {
+      "text": "people talk about 101 learning they talk",
+      "start": 2085.32,
+      "duration": 3.16
+    },
+    {
+      "text": "about the Adaptive aspect of it where",
+      "start": 2086.8,
+      "duration": 3.039
+    },
+    {
+      "text": "you're a challenging person at the level",
+      "start": 2088.48,
+      "duration": 2.679
+    },
+    {
+      "text": "that they're at do you think you can do",
+      "start": 2089.839,
+      "duration": 2.441
+    },
+    {
+      "text": "that with AI today or is that something",
+      "start": 2091.159,
+      "duration": 2.841
+    },
+    {
+      "text": "for the future and it's more today it's",
+      "start": 2092.28,
+      "duration": 3.96
+    },
+    {
+      "text": "about reach and multiple languages and",
+      "start": 2094.0,
+      "duration": 3.92
+    },
+    {
+      "text": "glob looking fruit this things like for",
+      "start": 2096.24,
+      "duration": 3.64
+    },
+    {
+      "text": "example different languages super low",
+      "start": 2097.92,
+      "duration": 3.0
+    },
+    {
+      "text": "hang fruit I think the current models",
+      "start": 2099.88,
+      "duration": 2.4
+    },
+    {
+      "text": "are actually really good at translation",
+      "start": 2100.92,
+      "duration": 2.96
+    },
+    {
+      "text": "basically and can Target the material",
+      "start": 2102.28,
+      "duration": 3.839
+    },
+    {
+      "text": "and trans translate it like at the spot",
+      "start": 2103.88,
+      "duration": 3.6
+    },
+    {
+      "text": "so I think a lot of things are ling",
+      "start": 2106.119,
+      "duration": 3.24
+    },
+    {
+      "text": "fruit this adaptability to a person's",
+      "start": 2107.48,
+      "duration": 3.28
+    },
+    {
+      "text": "background I think is like not at the",
+      "start": 2109.359,
+      "duration": 3.121
+    },
+    {
+      "text": "low fruit but I don't think it's like",
+      "start": 2110.76,
+      "duration": 3.72
+    },
+    {
+      "text": "too high up or too much away but there",
+      "start": 2112.48,
+      "duration": 3.119
+    },
+    {
+      "text": "is something you definitely want because",
+      "start": 2114.48,
+      "duration": 2.8
+    },
+    {
+      "text": "not everyone is coming in with the with",
+      "start": 2115.599,
+      "duration": 3.721
+    },
+    {
+      "text": "um with the same background and also",
+      "start": 2117.28,
+      "duration": 3.12
+    },
+    {
+      "text": "what's really helpful is like if you're",
+      "start": 2119.32,
+      "duration": 3.039
+    },
+    {
+      "text": "familiar with some other disciplines in",
+      "start": 2120.4,
+      "duration": 3.76
+    },
+    {
+      "text": "the past then it's really useful to make",
+      "start": 2122.359,
+      "duration": 3.601
+    },
+    {
+      "text": "analogies the things you know and that's",
+      "start": 2124.16,
+      "duration": 3.679
+    },
+    {
+      "text": "extremely powerful in education so",
+      "start": 2125.96,
+      "duration": 2.96
+    },
+    {
+      "text": "that's definitely a dimension you want",
+      "start": 2127.839,
+      "duration": 2.601
+    },
+    {
+      "text": "to take advantage of but I think that",
+      "start": 2128.92,
+      "duration": 2.52
+    },
+    {
+      "text": "starts to get to the point where it's",
+      "start": 2130.44,
+      "duration": 2.679
+    },
+    {
+      "text": "like not obvious and needs some work I",
+      "start": 2131.44,
+      "duration": 3.32
+    },
+    {
+      "text": "think like the easy version of it is not",
+      "start": 2133.119,
+      "duration": 2.801
+    },
+    {
+      "text": "too far where you can imagine just",
+      "start": 2134.76,
+      "duration": 3.0
+    },
+    {
+      "text": "prompting model is like oh hey I know",
+      "start": 2135.92,
+      "duration": 3.76
+    },
+    {
+      "text": "physics or I know this and you probably",
+      "start": 2137.76,
+      "duration": 3.16
+    },
+    {
+      "text": "get something but I guess what I'm",
+      "start": 2139.68,
+      "duration": 2.76
+    },
+    {
+      "text": "talking about is something that actually",
+      "start": 2140.92,
+      "duration": 3.48
+    },
+    {
+      "text": "works not something that like you can",
+      "start": 2142.44,
+      "duration": 3.76
+    },
+    {
+      "text": "demo and work sometimes so I just mean",
+      "start": 2144.4,
+      "duration": 3.64
+    },
+    {
+      "text": "like it actually really works and in the",
+      "start": 2146.2,
+      "duration": 3.919
+    },
+    {
+      "text": "way a person would yeah and that's the",
+      "start": 2148.04,
+      "duration": 3.44
+    },
+    {
+      "text": "reason I was asking about adaptability",
+      "start": 2150.119,
+      "duration": 2.801
+    },
+    {
+      "text": "because also people learn at different",
+      "start": 2151.48,
+      "duration": 3.04
+    },
+    {
+      "text": "rates or certain things they find",
+      "start": 2152.92,
+      "duration": 2.96
+    },
+    {
+      "text": "challenging that others don't or vice",
+      "start": 2154.52,
+      "duration": 2.64
+    },
+    {
+      "text": "versa and so it's a little bit of how do",
+      "start": 2155.88,
+      "duration": 3.12
+    },
+    {
+      "text": "you mod relative to that context and I",
+      "start": 2157.16,
+      "duration": 3.679
+    },
+    {
+      "text": "guess you could have some reintroduction",
+      "start": 2159.0,
+      "duration": 3.16
+    },
+    {
+      "text": "of what the person is good or bad at",
+      "start": 2160.839,
+      "duration": 2.841
+    },
+    {
+      "text": "into the model over time as you that's",
+      "start": 2162.16,
+      "duration": 2.88
+    },
+    {
+      "text": "the thing with AI I feel like a lot of",
+      "start": 2163.68,
+      "duration": 3.12
+    },
+    {
+      "text": "them a lot of these capabilities are",
+      "start": 2165.04,
+      "duration": 3.16
+    },
+    {
+      "text": "just kind of like prompt away so you",
+      "start": 2166.8,
+      "duration": 3.0
+    },
+    {
+      "text": "always get like demos but like do you",
+      "start": 2168.2,
+      "duration": 3.119
+    },
+    {
+      "text": "actually get a product you know what I",
+      "start": 2169.8,
+      "duration": 4.36
+    },
+    {
+      "text": "mean so um so in this sense I would say",
+      "start": 2171.319,
+      "duration": 4.921
+    },
+    {
+      "text": "the demo is near but the product is far",
+      "start": 2174.16,
+      "duration": 3.12
+    },
+    {
+      "text": "so one thing we were talking about",
+      "start": 2176.24,
+      "duration": 2.24
+    },
+    {
+      "text": "earlier which I think is really",
+      "start": 2177.28,
+      "duration": 3.079
+    },
+    {
+      "text": "interesting is sort of lineages that",
+      "start": 2178.48,
+      "duration": 3.639
+    },
+    {
+      "text": "happens in the research Community where",
+      "start": 2180.359,
+      "duration": 3.281
+    },
+    {
+      "text": "you come from certain labs and everybody",
+      "start": 2182.119,
+      "duration": 3.041
+    },
+    {
+      "text": "gossips about being from each other's",
+      "start": 2183.64,
+      "duration": 3.439
+    },
+    {
+      "text": "Labs I think a very high proportion of",
+      "start": 2185.16,
+      "duration": 3.72
+    },
+    {
+      "text": "noble Le actually used to work in a",
+      "start": 2187.079,
+      "duration": 3.841
+    },
+    {
+      "text": "former mobal Orit lab so there's some",
+      "start": 2188.88,
+      "duration": 3.199
+    },
+    {
+      "text": "propagation of I don't know if it's",
+      "start": 2190.92,
+      "duration": 3.96
+    },
+    {
+      "text": "culture or knowledge or branding or what",
+      "start": 2192.079,
+      "duration": 6.04
+    },
+    {
+      "text": "and in AI education Centric world how do",
+      "start": 2194.88,
+      "duration": 4.6
+    },
+    {
+      "text": "you maintain lineage or does it not",
+      "start": 2198.119,
+      "duration": 2.761
+    },
+    {
+      "text": "matter or how do you think about those",
+      "start": 2199.48,
+      "duration": 3.8
+    },
+    {
+      "text": "aspects of propagation of network and",
+      "start": 2200.88,
+      "duration": 4.04
+    },
+    {
+      "text": "knowledge I don't actually want to live",
+      "start": 2203.28,
+      "duration": 3.16
+    },
+    {
+      "text": "in a world where lineage like matters",
+      "start": 2204.92,
+      "duration": 3.159
+    },
+    {
+      "text": "too much right so I'm hoping that AI can",
+      "start": 2206.44,
+      "duration": 3.2
+    },
+    {
+      "text": "help you destroy that structure a little",
+      "start": 2208.079,
+      "duration": 3.881
+    },
+    {
+      "text": "bit it it feels like kind of gatekeeping",
+      "start": 2209.64,
+      "duration": 4.52
+    },
+    {
+      "text": "by some finite U scarce resource which",
+      "start": 2211.96,
+      "duration": 3.359
+    },
+    {
+      "text": "is like oh there's finite number of",
+      "start": 2214.16,
+      "duration": 2.52
+    },
+    {
+      "text": "people who have this lineage Etc so I",
+      "start": 2215.319,
+      "duration": 2.561
+    },
+    {
+      "text": "feel like it's a little bit of that",
+      "start": 2216.68,
+      "duration": 3.48
+    },
+    {
+      "text": "aspect so I'm hoping it can destroy that",
+      "start": 2217.88,
+      "duration": 4.199
+    },
+    {
+      "text": "it's definitely one piece like actual",
+      "start": 2220.16,
+      "duration": 4.08
+    },
+    {
+      "text": "learning one piece pedigree right yeah",
+      "start": 2222.079,
+      "duration": 4.481
+    },
+    {
+      "text": "uh well it's also the aggregation of",
+      "start": 2224.24,
+      "duration": 3.8
+    },
+    {
+      "text": "it's a cluster effect right it's like",
+      "start": 2226.56,
+      "duration": 3.4
+    },
+    {
+      "text": "why is all of the or much of the AI",
+      "start": 2228.04,
+      "duration": 4.2
+    },
+    {
+      "text": "community in the Bay Area or why is most",
+      "start": 2229.96,
+      "duration": 3.879
+    },
+    {
+      "text": "of the fintech community in New York",
+      "start": 2232.24,
+      "duration": 3.32
+    },
+    {
+      "text": "yeah and so I think a lot of it is also",
+      "start": 2233.839,
+      "duration": 3.0
+    },
+    {
+      "text": "just you're clustering really smart",
+      "start": 2235.56,
+      "duration": 2.799
+    },
+    {
+      "text": "people with common interests and beliefs",
+      "start": 2236.839,
+      "duration": 2.681
+    },
+    {
+      "text": "and then they kind of propagate from",
+      "start": 2238.359,
+      "duration": 2.641
+    },
+    {
+      "text": "that Common Core and then they share",
+      "start": 2239.52,
+      "duration": 3.16
+    },
+    {
+      "text": "knowledge in an interesting way you got",
+      "start": 2241.0,
+      "duration": 3.0
+    },
+    {
+      "text": "arree a lot of that behavior is shifted",
+      "start": 2242.68,
+      "duration": 2.84
+    },
+    {
+      "text": "online to some extent particularly for",
+      "start": 2244.0,
+      "duration": 3.119
+    },
+    {
+      "text": "younger people I think one aspect of it",
+      "start": 2245.52,
+      "duration": 3.079
+    },
+    {
+      "text": "is kind of like the educational aspect",
+      "start": 2247.119,
+      "duration": 2.761
+    },
+    {
+      "text": "where like if you're part of a community",
+      "start": 2248.599,
+      "duration": 2.881
+    },
+    {
+      "text": "today you're getting a ton of education",
+      "start": 2249.88,
+      "duration": 2.8
+    },
+    {
+      "text": "and apprenticeship Etc which is",
+      "start": 2251.48,
+      "duration": 2.639
+    },
+    {
+      "text": "extremely helpful and gets you to a",
+      "start": 2252.68,
+      "duration": 3.639
+    },
+    {
+      "text": "point of empowered state in that area I",
+      "start": 2254.119,
+      "duration": 3.401
+    },
+    {
+      "text": "think the other piece of it is like the",
+      "start": 2256.319,
+      "duration": 2.641
+    },
+    {
+      "text": "cultural aspect of what you're motivated",
+      "start": 2257.52,
+      "duration": 2.72
+    },
+    {
+      "text": "by and what you want to work on what",
+      "start": 2258.96,
+      "duration": 2.52
+    },
+    {
+      "text": "does the culture prize and what are they",
+      "start": 2260.24,
+      "duration": 2.28
+    },
+    {
+      "text": "put in the pedestal and what do they",
+      "start": 2261.48,
+      "duration": 3.44
+    },
+    {
+      "text": "kind of like worship basically uh so in",
+      "start": 2262.52,
+      "duration": 3.64
+    },
+    {
+      "text": "academic world for example is the H",
+      "start": 2264.92,
+      "duration": 3.399
+    },
+    {
+      "text": "index everyone cares about the H index",
+      "start": 2266.16,
+      "duration": 3.6
+    },
+    {
+      "text": "the amount of papers you publish Etc and",
+      "start": 2268.319,
+      "duration": 2.721
+    },
+    {
+      "text": "I was part I was part of that community",
+      "start": 2269.76,
+      "duration": 3.079
+    },
+    {
+      "text": "and I saw that and I feel like now I've",
+      "start": 2271.04,
+      "duration": 3.64
+    },
+    {
+      "text": "come to different places and there's",
+      "start": 2272.839,
+      "duration": 3.76
+    },
+    {
+      "text": "different Idols in all the different",
+      "start": 2274.68,
+      "duration": 3.679
+    },
+    {
+      "text": "communities I think that has a massive",
+      "start": 2276.599,
+      "duration": 3.161
+    },
+    {
+      "text": "impact of what people are motivated by",
+      "start": 2278.359,
+      "duration": 2.881
+    },
+    {
+      "text": "and where they get their social status",
+      "start": 2279.76,
+      "duration": 2.96
+    },
+    {
+      "text": "and what actually matters to them I also",
+      "start": 2281.24,
+      "duration": 2.359
+    },
+    {
+      "text": "was I think part of different",
+      "start": 2282.72,
+      "duration": 2.56
+    },
+    {
+      "text": "communities like growing up in Slovakia",
+      "start": 2283.599,
+      "duration": 3.72
+    },
+    {
+      "text": "also a very different environment grow",
+      "start": 2285.28,
+      "duration": 3.4
+    },
+    {
+      "text": "being in Canada also a very different",
+      "start": 2287.319,
+      "duration": 3.601
+    },
+    {
+      "text": "environment What mattered",
+      "start": 2288.68,
+      "duration": 6.72
+    },
+    {
+      "text": "there sorry thank you hockey hocky I",
+      "start": 2290.92,
+      "duration": 5.919
+    },
+    {
+      "text": "would say as an example I would say in",
+      "start": 2295.4,
+      "duration": 4.24
+    },
+    {
+      "text": "Canada um I was in University of Toronto",
+      "start": 2296.839,
+      "duration": 5.24
+    },
+    {
+      "text": "and Toronto uh I don't think it's a very",
+      "start": 2299.64,
+      "duration": 4.92
+    },
+    {
+      "text": "entrepreneurial pill uh environment it",
+      "start": 2302.079,
+      "duration": 3.961
+    },
+    {
+      "text": "doesn't even occur to you that you",
+      "start": 2304.56,
+      "duration": 2.759
+    },
+    {
+      "text": "should be starting companies I mean it's",
+      "start": 2306.04,
+      "duration": 3.079
+    },
+    {
+      "text": "not something that people are doing you",
+      "start": 2307.319,
+      "duration": 3.401
+    },
+    {
+      "text": "don't know friends who are doing it you",
+      "start": 2309.119,
+      "duration": 2.48
+    },
+    {
+      "text": "don't know that you're supposed to be",
+      "start": 2310.72,
+      "duration": 2.399
+    },
+    {
+      "text": "looking up to it people aren't like",
+      "start": 2311.599,
+      "duration": 3.041
+    },
+    {
+      "text": "reading books about all the founders and",
+      "start": 2313.119,
+      "duration": 3.521
+    },
+    {
+      "text": "talking about them it's just not a thing",
+      "start": 2314.64,
+      "duration": 4.479
+    },
+    {
+      "text": "you aspire to or care about and uh what",
+      "start": 2316.64,
+      "duration": 3.679
+    },
+    {
+      "text": "everyone is talking about oh is where",
+      "start": 2319.119,
+      "duration": 2.48
+    },
+    {
+      "text": "are you getting your internship where",
+      "start": 2320.319,
+      "duration": 2.601
+    },
+    {
+      "text": "are you going to work afterwards and",
+      "start": 2321.599,
+      "duration": 2.681
+    },
+    {
+      "text": "it's just accepted that there's a bunch",
+      "start": 2322.92,
+      "duration": 2.88
+    },
+    {
+      "text": "of set there's a fixed set of companies",
+      "start": 2324.28,
+      "duration": 3.039
+    },
+    {
+      "text": "that you are supposed to pick from and",
+      "start": 2325.8,
+      "duration": 3.0
+    },
+    {
+      "text": "just align yourself with one of them and",
+      "start": 2327.319,
+      "duration": 2.721
+    },
+    {
+      "text": "that's like what you look up to or",
+      "start": 2328.8,
+      "duration": 2.799
+    },
+    {
+      "text": "something like that so these cultural",
+      "start": 2330.04,
+      "duration": 3.079
+    },
+    {
+      "text": "aspects are extremely strong and maybe",
+      "start": 2331.599,
+      "duration": 3.361
+    },
+    {
+      "text": "actually the dominant variable because I",
+      "start": 2333.119,
+      "duration": 3.2
+    },
+    {
+      "text": "almost feel like today already the",
+      "start": 2334.96,
+      "duration": 3.2
+    },
+    {
+      "text": "education aspects I think is the easier",
+      "start": 2336.319,
+      "duration": 3.161
+    },
+    {
+      "text": "one like a ton of stuff is already",
+      "start": 2338.16,
+      "duration": 3.159
+    },
+    {
+      "text": "available Etc so I think mostly it's a",
+      "start": 2339.48,
+      "duration": 3.48
+    },
+    {
+      "text": "cultural aspect that you're part of so",
+      "start": 2341.319,
+      "duration": 3.04
+    },
+    {
+      "text": "on this point like one thing you and I",
+      "start": 2342.96,
+      "duration": 3.48
+    },
+    {
+      "text": "were talking about a few weeks ago is",
+      "start": 2344.359,
+      "duration": 3.681
+    },
+    {
+      "text": "and and I think you also posted online",
+      "start": 2346.44,
+      "duration": 3.159
+    },
+    {
+      "text": "about this um there's a difference",
+      "start": 2348.04,
+      "duration": 3.64
+    },
+    {
+      "text": "between learning and entertainment and",
+      "start": 2349.599,
+      "duration": 4.681
+    },
+    {
+      "text": "learning is actually supposed to be hard",
+      "start": 2351.68,
+      "duration": 4.28
+    },
+    {
+      "text": "and I think it relates to this question",
+      "start": 2354.28,
+      "duration": 5.799
+    },
+    {
+      "text": "of like you know status um and what like",
+      "start": 2355.96,
+      "duration": 5.96
+    },
+    {
+      "text": "status is a great motivator like who the",
+      "start": 2360.079,
+      "duration": 4.481
+    },
+    {
+      "text": "idol is um how much do you think you can",
+      "start": 2361.92,
+      "duration": 6.0
+    },
+    {
+      "text": "change in terms of um motiv",
+      "start": 2364.56,
+      "duration": 6.24
+    },
+    {
+      "text": "through systems like this if that's like",
+      "start": 2367.92,
+      "duration": 6.08
+    },
+    {
+      "text": "a a blocking Factor are you focused on",
+      "start": 2370.8,
+      "duration": 6.2
+    },
+    {
+      "text": "um give people the resources such that",
+      "start": 2374.0,
+      "duration": 5.28
+    },
+    {
+      "text": "they can get as far as possible in the",
+      "start": 2377.0,
+      "duration": 4.599
+    },
+    {
+      "text": "sequence for their own capability as",
+      "start": 2379.28,
+      "duration": 3.92
+    },
+    {
+      "text": "they can like further than any other",
+      "start": 2381.599,
+      "duration": 3.601
+    },
+    {
+      "text": "point in history already inspirational",
+      "start": 2383.2,
+      "duration": 3.119
+    },
+    {
+      "text": "or do you actually want to change how",
+      "start": 2385.2,
+      "duration": 2.68
+    },
+    {
+      "text": "many people want to learn or at least",
+      "start": 2386.319,
+      "duration": 3.241
+    },
+    {
+      "text": "bring themselves down the path want is a",
+      "start": 2387.88,
+      "duration": 3.04
+    },
+    {
+      "text": "loaded word I would say like I want to",
+      "start": 2389.56,
+      "duration": 3.24
+    },
+    {
+      "text": "make it much easier to learn and then",
+      "start": 2390.92,
+      "duration": 3.48
+    },
+    {
+      "text": "maybe it is possible that maybe people",
+      "start": 2392.8,
+      "duration": 3.039
+    },
+    {
+      "text": "don't want to learn I mean today for",
+      "start": 2394.4,
+      "duration": 2.52
+    },
+    {
+      "text": "example people want to learn for",
+      "start": 2395.839,
+      "duration": 2.961
+    },
+    {
+      "text": "practical reasons right like they want",
+      "start": 2396.92,
+      "duration": 4.48
+    },
+    {
+      "text": "to get a job Etc which makes total sense",
+      "start": 2398.8,
+      "duration": 4.16
+    },
+    {
+      "text": "so in a pre AGI Society education is",
+      "start": 2401.4,
+      "duration": 2.719
+    },
+    {
+      "text": "useful and I think people will be",
+      "start": 2402.96,
+      "duration": 3.2
+    },
+    {
+      "text": "motivated by that because they're um",
+      "start": 2404.119,
+      "duration": 4.041
+    },
+    {
+      "text": "they're uh climbing up the ladder",
+      "start": 2406.16,
+      "duration": 4.919
+    },
+    {
+      "text": "economically Etc I post AGI Society",
+      "start": 2408.16,
+      "duration": 5.36
+    },
+    {
+      "text": "we're just all Society I think education",
+      "start": 2411.079,
+      "duration": 5.081
+    },
+    {
+      "text": "is entertainment to a much larger extent",
+      "start": 2413.52,
+      "duration": 5.599
+    },
+    {
+      "text": "including um like successful outcomes",
+      "start": 2416.16,
+      "duration": 4.88
+    },
+    {
+      "text": "education right not just letting the",
+      "start": 2419.119,
+      "duration": 4.24
+    },
+    {
+      "text": "content wash over you yes I think so",
+      "start": 2421.04,
+      "duration": 3.6
+    },
+    {
+      "text": "outcomes being like understanding",
+      "start": 2423.359,
+      "duration": 2.521
+    },
+    {
+      "text": "learning being able to contribute new",
+      "start": 2424.64,
+      "duration": 2.84
+    },
+    {
+      "text": "knowledge or however you defined it I",
+      "start": 2425.88,
+      "duration": 4.0
+    },
+    {
+      "text": "think it's not a uh an accident that if",
+      "start": 2427.48,
+      "duration": 4.08
+    },
+    {
+      "text": "you go back 200 years 300 years the",
+      "start": 2429.88,
+      "duration": 2.84
+    },
+    {
+      "text": "people who were doing science were",
+      "start": 2431.56,
+      "duration": 3.72
+    },
+    {
+      "text": "nobility or people of wealth we will all",
+      "start": 2432.72,
+      "duration": 5.119
+    },
+    {
+      "text": "be nobility learning with Andre yeah I",
+      "start": 2435.28,
+      "duration": 3.88
+    },
+    {
+      "text": "do think that I see it very much",
+      "start": 2437.839,
+      "duration": 3.48
+    },
+    {
+      "text": "equivalent to your quote earlier like I",
+      "start": 2439.16,
+      "duration": 3.36
+    },
+    {
+      "text": "feel like learning something is kind of",
+      "start": 2441.319,
+      "duration": 2.881
+    },
+    {
+      "text": "like going to the gym but for the brain",
+      "start": 2442.52,
+      "duration": 2.96
+    },
+    {
+      "text": "right like it feels like going to the",
+      "start": 2444.2,
+      "duration": 3.08
+    },
+    {
+      "text": "gym I mean going to the gym is fun uh",
+      "start": 2445.48,
+      "duration": 3.92
+    },
+    {
+      "text": "people like to lift Etc some people",
+      "start": 2447.28,
+      "duration": 4.079
+    },
+    {
+      "text": "don't go to the gym no no no some people",
+      "start": 2449.4,
+      "duration": 3.76
+    },
+    {
+      "text": "do but it is it takes effort yeah yeah",
+      "start": 2451.359,
+      "duration": 3.121
+    },
+    {
+      "text": "it takes effort but it's effort but it's",
+      "start": 2453.16,
+      "duration": 2.8
+    },
+    {
+      "text": "also kind of fun and you also have a",
+      "start": 2454.48,
+      "duration": 3.359
+    },
+    {
+      "text": "payoff of like you feel about yourself",
+      "start": 2455.96,
+      "duration": 3.24
+    },
+    {
+      "text": "in various ways right and I think",
+      "start": 2457.839,
+      "duration": 2.601
+    },
+    {
+      "text": "education is basically equivalent to",
+      "start": 2459.2,
+      "duration": 2.44
+    },
+    {
+      "text": "that so that's what I mean when I say",
+      "start": 2460.44,
+      "duration": 3.08
+    },
+    {
+      "text": "education should not be fun Etc I mean",
+      "start": 2461.64,
+      "duration": 3.76
+    },
+    {
+      "text": "it is kind of fun but it's like a specif",
+      "start": 2463.52,
+      "duration": 3.96
+    },
+    {
+      "text": "kind of fun I suppose right I do think",
+      "start": 2465.4,
+      "duration": 3.56
+    },
+    {
+      "text": "that maybe in a post AGI world what I",
+      "start": 2467.48,
+      "duration": 3.92
+    },
+    {
+      "text": "would hope happens is people actually",
+      "start": 2468.96,
+      "duration": 3.879
+    },
+    {
+      "text": "they do go to the gym a lot not just",
+      "start": 2471.4,
+      "duration": 4.199
+    },
+    {
+      "text": "physically but also mentally and uh is",
+      "start": 2472.839,
+      "duration": 4.681
+    },
+    {
+      "text": "something that we look up to as being",
+      "start": 2475.599,
+      "duration": 4.601
+    },
+    {
+      "text": "highly educated and also you know",
+      "start": 2477.52,
+      "duration": 5.28
+    },
+    {
+      "text": "just just uh yeah can I ask you one last",
+      "start": 2480.2,
+      "duration": 3.76
+    },
+    {
+      "text": "question about Eureka just because I",
+      "start": 2482.8,
+      "duration": 2.6
+    },
+    {
+      "text": "think it would be interesting to people",
+      "start": 2483.96,
+      "duration": 3.0
+    },
+    {
+      "text": "um like who is the audience for the",
+      "start": 2485.4,
+      "duration": 3.719
+    },
+    {
+      "text": "first course the audience for for course",
+      "start": 2486.96,
+      "duration": 3.68
+    },
+    {
+      "text": "I'm I'm mostly thinking of this as like",
+      "start": 2489.119,
+      "duration": 3.601
+    },
+    {
+      "text": "an undergrad level course uh so if",
+      "start": 2490.64,
+      "duration": 4.0
+    },
+    {
+      "text": "you're doing undergrad in technical area",
+      "start": 2492.72,
+      "duration": 3.24
+    },
+    {
+      "text": "I think that would be kind of the ideal",
+      "start": 2494.64,
+      "duration": 2.84
+    },
+    {
+      "text": "audience I do think that what we're",
+      "start": 2495.96,
+      "duration": 3.6
+    },
+    {
+      "text": "seeing now is we have this like",
+      "start": 2497.48,
+      "duration": 4.04
+    },
+    {
+      "text": "Antiquated concept of Education where",
+      "start": 2499.56,
+      "duration": 3.44
+    },
+    {
+      "text": "you go through school and then you",
+      "start": 2501.52,
+      "duration": 2.96
+    },
+    {
+      "text": "graduate and go to work right obviously",
+      "start": 2503.0,
+      "duration": 2.88
+    },
+    {
+      "text": "this will totally break down especially",
+      "start": 2504.48,
+      "duration": 3.119
+    },
+    {
+      "text": "in a society that's turning over so",
+      "start": 2505.88,
+      "duration": 3.0
+    },
+    {
+      "text": "quickly that people are going to come",
+      "start": 2507.599,
+      "duration": 3.841
+    },
+    {
+      "text": "back to school a lot more frequently as",
+      "start": 2508.88,
+      "duration": 4.32
+    },
+    {
+      "text": "the technology changes very very quickly",
+      "start": 2511.44,
+      "duration": 3.2
+    },
+    {
+      "text": "so it is kind of like undergrad level",
+      "start": 2513.2,
+      "duration": 2.56
+    },
+    {
+      "text": "but I would say like anyone at that",
+      "start": 2514.64,
+      "duration": 3.04
+    },
+    {
+      "text": "level at any age uh is kind of like in",
+      "start": 2515.76,
+      "duration": 4.0
+    },
+    {
+      "text": "scope I think it will be very diverse in",
+      "start": 2517.68,
+      "duration": 3.96
+    },
+    {
+      "text": "age as an example but I think it is",
+      "start": 2519.76,
+      "duration": 3.4
+    },
+    {
+      "text": "mostly like uh people who are Technical",
+      "start": 2521.64,
+      "duration": 3.28
+    },
+    {
+      "text": "and mostly want to mostly actually want",
+      "start": 2523.16,
+      "duration": 5.199
+    },
+    {
+      "text": "to understand it uh to you know a good",
+      "start": 2524.92,
+      "duration": 5.08
+    },
+    {
+      "text": "amount um Tech when can they take the",
+      "start": 2528.359,
+      "duration": 2.921
+    },
+    {
+      "text": "course I was hoping it would be late",
+      "start": 2530.0,
+      "duration": 2.359
+    },
+    {
+      "text": "this year I do have a lot of",
+      "start": 2531.28,
+      "duration": 3.079
+    },
+    {
+      "text": "distractions that are piling on but I",
+      "start": 2532.359,
+      "duration": 3.72
+    },
+    {
+      "text": "think probably early next year is kind",
+      "start": 2534.359,
+      "duration": 3.401
+    },
+    {
+      "text": "of like the timeline yeah I'm trying to",
+      "start": 2536.079,
+      "duration": 4.52
+    },
+    {
+      "text": "make it very very good um and uh yeah it",
+      "start": 2537.76,
+      "duration": 6.24
+    },
+    {
+      "text": "just takes time to uh to get there so I",
+      "start": 2540.599,
+      "duration": 4.52
+    },
+    {
+      "text": "have one last question actually that's",
+      "start": 2544.0,
+      "duration": 2.52
+    },
+    {
+      "text": "pseudo related to that if you have",
+      "start": 2545.119,
+      "duration": 2.841
+    },
+    {
+      "text": "little kids today what do you think they",
+      "start": 2546.52,
+      "duration": 3.96
+    },
+    {
+      "text": "should study in order to have a useful",
+      "start": 2547.96,
+      "duration": 4.2
+    },
+    {
+      "text": "future there's a correct answer in my",
+      "start": 2550.48,
+      "duration": 3.4
+    },
+    {
+      "text": "mind and the correct answer is mostly",
+      "start": 2552.16,
+      "duration": 4.72
+    },
+    {
+      "text": "like um I would say like math physics CS",
+      "start": 2553.88,
+      "duration": 4.719
+    },
+    {
+      "text": "kind of disciplines and the reason I say",
+      "start": 2556.88,
+      "duration": 4.239
+    },
+    {
+      "text": "that is because I think it helps um for",
+      "start": 2558.599,
+      "duration": 4.561
+    },
+    {
+      "text": "just thinking skills it's just like the",
+      "start": 2561.119,
+      "duration": 5.161
+    },
+    {
+      "text": "best thinking skill core uh is is my",
+      "start": 2563.16,
+      "duration": 4.52
+    },
+    {
+      "text": "opinion and of course I have a specific",
+      "start": 2566.28,
+      "duration": 2.96
+    },
+    {
+      "text": "background Etc so I would I would think",
+      "start": 2567.68,
+      "duration": 3.879
+    },
+    {
+      "text": "this but but that's just my view on it I",
+      "start": 2569.24,
+      "duration": 4.52
+    },
+    {
+      "text": "think like me taking physics classes and",
+      "start": 2571.559,
+      "duration": 3.601
+    },
+    {
+      "text": "all these other classes just like shaped",
+      "start": 2573.76,
+      "duration": 2.52
+    },
+    {
+      "text": "the way I think and I think it's very",
+      "start": 2575.16,
+      "duration": 2.52
+    },
+    {
+      "text": "useful for problem solving in general",
+      "start": 2576.28,
+      "duration": 3.96
+    },
+    {
+      "text": "Etc and so if we're in this world where",
+      "start": 2577.68,
+      "duration": 4.6
+    },
+    {
+      "text": "pre AGI this is going to be useful post",
+      "start": 2580.24,
+      "duration": 4.92
+    },
+    {
+      "text": "AGI you still want empowered humans who",
+      "start": 2582.28,
+      "duration": 4.92
+    },
+    {
+      "text": "can function in any arbitrary capacity",
+      "start": 2585.16,
+      "duration": 3.08
+    },
+    {
+      "text": "and so I just think that this is just",
+      "start": 2587.2,
+      "duration": 2.52
+    },
+    {
+      "text": "the correct answer for people and what",
+      "start": 2588.24,
+      "duration": 3.72
+    },
+    {
+      "text": "they should be doing and taking and it",
+      "start": 2589.72,
+      "duration": 5.16
+    },
+    {
+      "text": "it's either useful or it's good and so I",
+      "start": 2591.96,
+      "duration": 4.28
+    },
+    {
+      "text": "just think is the right answer and I",
+      "start": 2594.88,
+      "duration": 2.4
+    },
+    {
+      "text": "think a lot of the other stuff you can",
+      "start": 2596.24,
+      "duration": 3.2
+    },
+    {
+      "text": "tack on a bit later but the critical",
+      "start": 2597.28,
+      "duration": 3.92
+    },
+    {
+      "text": "period where people have a lot of time",
+      "start": 2599.44,
+      "duration": 4.0
+    },
+    {
+      "text": "and they have a lot of kind of like",
+      "start": 2601.2,
+      "duration": 4.32
+    },
+    {
+      "text": "attention and and time I think it should",
+      "start": 2603.44,
+      "duration": 4.24
+    },
+    {
+      "text": "be mostly spent on doing these kinds of",
+      "start": 2605.52,
+      "duration": 4.24
+    },
+    {
+      "text": "uh simple manipulation heavy tasks and",
+      "start": 2607.68,
+      "duration": 4.159
+    },
+    {
+      "text": "workloads not memory heavy tasks and",
+      "start": 2609.76,
+      "duration": 3.64
+    },
+    {
+      "text": "workloads I did a a math degree and I",
+      "start": 2611.839,
+      "duration": 3.961
+    },
+    {
+      "text": "felt like there was a a new Grove being",
+      "start": 2613.4,
+      "duration": 4.28
+    },
+    {
+      "text": "carved into my brain as I was doing that",
+      "start": 2615.8,
+      "duration": 3.68
+    },
+    {
+      "text": "and it's a harder Groove to carve later",
+      "start": 2617.68,
+      "duration": 3.0
+    },
+    {
+      "text": "and I would of course put in a bunch of",
+      "start": 2619.48,
+      "duration": 2.72
+    },
+    {
+      "text": "other stuff as well like I'm not opposed",
+      "start": 2620.68,
+      "duration": 2.919
+    },
+    {
+      "text": "to all the other disciplines Etc I think",
+      "start": 2622.2,
+      "duration": 2.639
+    },
+    {
+      "text": "it's actually beautiful to have a large",
+      "start": 2623.599,
+      "duration": 3.081
+    },
+    {
+      "text": "diversity of of things but I do think",
+      "start": 2624.839,
+      "duration": 3.601
+    },
+    {
+      "text": "80% of it should be something like this",
+      "start": 2626.68,
+      "duration": 3.639
+    },
+    {
+      "text": "one we're not efficient memorizers",
+      "start": 2628.44,
+      "duration": 4.44
+    },
+    {
+      "text": "compared to our tools thank you for",
+      "start": 2630.319,
+      "duration": 6.921
+    },
+    {
+      "text": "doing this so much fun great to be here",
+      "start": 2632.88,
+      "duration": 7.0
+    },
+    {
+      "text": "find us on Twitter at no prior pod",
+      "start": 2637.24,
+      "duration": 4.24
+    },
+    {
+      "text": "subscribe to our YouTube channel if you",
+      "start": 2639.88,
+      "duration": 3.84
+    },
+    {
+      "text": "want to see our faces follow the show on",
+      "start": 2641.48,
+      "duration": 4.599
+    },
+    {
+      "text": "Apple podcasts Spotify or wherever you",
+      "start": 2643.72,
+      "duration": 4.08
+    },
+    {
+      "text": "listen that way you get a new episode",
+      "start": 2646.079,
+      "duration": 3.48
+    },
+    {
+      "text": "every week and sign up for emails or",
+      "start": 2647.8,
+      "duration": 3.88
+    },
+    {
+      "text": "find transcripts for every episode at",
+      "start": 2649.559,
+      "duration": 5.441
+    },
+    {
+      "text": "no- pri.com",
+      "start": 2651.68,
+      "duration": 3.32
+    }
+  ]
+}

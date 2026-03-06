@@ -1,0 +1,6757 @@
+{
+  "video_id": "qbIk7-JPB2c",
+  "title": "rag_explained",
+  "category": "tech_ai",
+  "transcript": [
+    {
+      "text": "hello everyone welcome to see sales Hot",
+      "start": 0.06,
+      "duration": 6.719
+    },
+    {
+      "text": "Topics in Computing series and today I",
+      "start": 3.959,
+      "duration": 5.521
+    },
+    {
+      "text": "am delighted to introduce our special",
+      "start": 6.779,
+      "duration": 5.82
+    },
+    {
+      "text": "guest Sebastian bubeck who's coming to",
+      "start": 9.48,
+      "duration": 7.559
+    },
+    {
+      "text": "us from Microsoft Sebastian received a",
+      "start": 12.599,
+      "duration": 6.301
+    },
+    {
+      "text": "bachelor's degree from a call normal",
+      "start": 17.039,
+      "duration": 5.82
+    },
+    {
+      "text": "Superior de cashon and the PhD from the",
+      "start": 18.9,
+      "duration": 7.5
+    },
+    {
+      "text": "University of Lille and India",
+      "start": 22.859,
+      "duration": 6.42
+    },
+    {
+      "text": "he was a professor at Princeton for",
+      "start": 26.4,
+      "duration": 6.78
+    },
+    {
+      "text": "three years between 2011 and 2014 before",
+      "start": 29.279,
+      "duration": 7.521
+    },
+    {
+      "text": "he joined Microsoft and so since 2014",
+      "start": 33.18,
+      "duration": 7.32
+    },
+    {
+      "text": "Sebastian has been at Microsoft",
+      "start": 36.8,
+      "duration": 6.52
+    },
+    {
+      "text": "and we're very happy and delighted to",
+      "start": 40.5,
+      "duration": 4.079
+    },
+    {
+      "text": "have him here",
+      "start": 43.32,
+      "duration": 3.96
+    },
+    {
+      "text": "now I should tell you that like all of",
+      "start": 44.579,
+      "duration": 6.121
+    },
+    {
+      "text": "you I have decided to ask Chad GPT for",
+      "start": 47.28,
+      "duration": 6.24
+    },
+    {
+      "text": "help introducing Sebastian",
+      "start": 50.7,
+      "duration": 5.24
+    },
+    {
+      "text": "and um",
+      "start": 53.52,
+      "duration": 7.26
+    },
+    {
+      "text": "the first line suggested by Chad GPT was",
+      "start": 55.94,
+      "duration": 7.419
+    },
+    {
+      "text": "in his seminar Dr bubeck will discuss",
+      "start": 60.78,
+      "duration": 5.339
+    },
+    {
+      "text": "recent advances in optimization with an",
+      "start": 63.359,
+      "duration": 4.921
+    },
+    {
+      "text": "emphasis on convex optimization and its",
+      "start": 66.119,
+      "duration": 4.141
+    },
+    {
+      "text": "interplay with statistical inference and",
+      "start": 68.28,
+      "duration": 4.08
+    },
+    {
+      "text": "online learning and it went on like that",
+      "start": 70.26,
+      "duration": 5.16
+    },
+    {
+      "text": "about optimization and said no no here's",
+      "start": 72.36,
+      "duration": 5.04
+    },
+    {
+      "text": "the title and the abstract",
+      "start": 75.42,
+      "duration": 4.44
+    },
+    {
+      "text": "and so here comes the response I'm sorry",
+      "start": 77.4,
+      "duration": 4.92
+    },
+    {
+      "text": "but I must clarify that the talk title",
+      "start": 79.86,
+      "duration": 4.38
+    },
+    {
+      "text": "and Abstract you provided do not appear",
+      "start": 82.32,
+      "duration": 4.02
+    },
+    {
+      "text": "to be related to Sebastian bubeck's",
+      "start": 84.24,
+      "duration": 4.62
+    },
+    {
+      "text": "research or previous work",
+      "start": 86.34,
+      "duration": 5.22
+    },
+    {
+      "text": "and it is unlikely that he would give",
+      "start": 88.86,
+      "duration": 6.86
+    },
+    {
+      "text": "such a talk on artificial intelligence",
+      "start": 91.56,
+      "duration": 4.16
+    },
+    {
+      "text": "so Sebastian",
+      "start": 95.88,
+      "duration": 4.68
+    },
+    {
+      "text": "it's all yours",
+      "start": 97.799,
+      "duration": 5.761
+    },
+    {
+      "text": "Daniela",
+      "start": 100.56,
+      "duration": 3.0
+    },
+    {
+      "text": "so this is really the the perfect",
+      "start": 107.159,
+      "duration": 4.081
+    },
+    {
+      "text": "introduction because charge GPT nailed",
+      "start": 109.02,
+      "duration": 3.959
+    },
+    {
+      "text": "it you know it is it was very unlikely",
+      "start": 111.24,
+      "duration": 4.26
+    },
+    {
+      "text": "for me to give such a talk but so it",
+      "start": 112.979,
+      "duration": 4.081
+    },
+    {
+      "text": "happens you know and and the world has",
+      "start": 115.5,
+      "duration": 3.18
+    },
+    {
+      "text": "changed and you know I am changing my",
+      "start": 117.06,
+      "duration": 4.199
+    },
+    {
+      "text": "research in reaction to this so what I'm",
+      "start": 118.68,
+      "duration": 4.2
+    },
+    {
+      "text": "gonna tell you about today you know",
+      "start": 121.259,
+      "duration": 3.96
+    },
+    {
+      "text": "there is this very mysterious title of",
+      "start": 122.88,
+      "duration": 4.98
+    },
+    {
+      "text": "first Contact but really the story is",
+      "start": 125.219,
+      "duration": 4.561
+    },
+    {
+      "text": "that you know for the past few months at",
+      "start": 127.86,
+      "duration": 5.459
+    },
+    {
+      "text": "Microsoft I had Early Access to gpt4 you",
+      "start": 129.78,
+      "duration": 5.039
+    },
+    {
+      "text": "know as we were working on integrating",
+      "start": 133.319,
+      "duration": 3.601
+    },
+    {
+      "text": "it with the new being and of course you",
+      "start": 134.819,
+      "duration": 4.081
+    },
+    {
+      "text": "know as I was working on it I didn't you",
+      "start": 136.92,
+      "duration": 4.5
+    },
+    {
+      "text": "know just do the the product part of the",
+      "start": 138.9,
+      "duration": 4.559
+    },
+    {
+      "text": "job which was a lot of fun but we also",
+      "start": 141.42,
+      "duration": 4.2
+    },
+    {
+      "text": "do some science around it or trying to",
+      "start": 143.459,
+      "duration": 3.481
+    },
+    {
+      "text": "do some science it's hard to do science",
+      "start": 145.62,
+      "duration": 3.3
+    },
+    {
+      "text": "with those mothers and this is what I'm",
+      "start": 146.94,
+      "duration": 3.36
+    },
+    {
+      "text": "going to tell you about the scientific",
+      "start": 148.92,
+      "duration": 3.36
+    },
+    {
+      "text": "part of our study and journey over the",
+      "start": 150.3,
+      "duration": 4.2
+    },
+    {
+      "text": "last few months so the real title of the",
+      "start": 152.28,
+      "duration": 5.52
+    },
+    {
+      "text": "talk is uh if this is working it's not",
+      "start": 154.5,
+      "duration": 6.0
+    },
+    {
+      "text": "working for some reason is uh Sparks of",
+      "start": 157.8,
+      "duration": 6.18
+    },
+    {
+      "text": "AGI okay so what's our assessment of you",
+      "start": 160.5,
+      "duration": 5.459
+    },
+    {
+      "text": "know working with gpt4 in the in this",
+      "start": 163.98,
+      "duration": 4.68
+    },
+    {
+      "text": "last few months is that we are seeing",
+      "start": 165.959,
+      "duration": 4.56
+    },
+    {
+      "text": "you know the premise of something that",
+      "start": 168.66,
+      "duration": 3.359
+    },
+    {
+      "text": "looks like artificial general",
+      "start": 170.519,
+      "duration": 3.901
+    },
+    {
+      "text": "intelligence and my goal in in this",
+      "start": 172.019,
+      "duration": 4.44
+    },
+    {
+      "text": "presentation is try to convince you that",
+      "start": 174.42,
+      "duration": 4.44
+    },
+    {
+      "text": "something has really changed uh you know",
+      "start": 176.459,
+      "duration": 5.761
+    },
+    {
+      "text": "with the arrival of gpt4 now this is uh",
+      "start": 178.86,
+      "duration": 5.4
+    },
+    {
+      "text": "joint work with a lot of fantastic",
+      "start": 182.22,
+      "duration": 4.26
+    },
+    {
+      "text": "colleagues at MSR that I want to call",
+      "start": 184.26,
+      "duration": 5.899
+    },
+    {
+      "text": "out Varun chandrasekharan with a postdoc",
+      "start": 186.48,
+      "duration": 6.179
+    },
+    {
+      "text": "Ronaldo many of you in the room I think",
+      "start": 190.159,
+      "duration": 5.08
+    },
+    {
+      "text": "might know very well who just joined us",
+      "start": 192.659,
+      "duration": 5.761
+    },
+    {
+      "text": "recently Johannes gerker ericovitz eche",
+      "start": 195.239,
+      "duration": 5.401
+    },
+    {
+      "text": "camar Peter Lee internally and John",
+      "start": 198.42,
+      "duration": 4.08
+    },
+    {
+      "text": "Julie were also part of my group and you",
+      "start": 200.64,
+      "duration": 2.94
+    },
+    {
+      "text": "know I've",
+      "start": 202.5,
+      "duration": 3.06
+    },
+    {
+      "text": "I think chagibiti would give a similar",
+      "start": 203.58,
+      "duration": 3.42
+    },
+    {
+      "text": "answer to you know the fact that they",
+      "start": 205.56,
+      "duration": 3.599
+    },
+    {
+      "text": "are working on this as they did with me",
+      "start": 207.0,
+      "duration": 5.28
+    },
+    {
+      "text": "Scott landberg hashanori Hamid palangi",
+      "start": 209.159,
+      "duration": 5.22
+    },
+    {
+      "text": "Marco Tulio Ribeiro and Yi Zhang who was",
+      "start": 212.28,
+      "duration": 3.959
+    },
+    {
+      "text": "a postdoc with us and you know it has",
+      "start": 214.379,
+      "duration": 3.661
+    },
+    {
+      "text": "now joined full-time",
+      "start": 216.239,
+      "duration": 3.961
+    },
+    {
+      "text": "and let me start by making some",
+      "start": 218.04,
+      "duration": 4.14
+    },
+    {
+      "text": "acknowledgments and and clarifications",
+      "start": 220.2,
+      "duration": 4.5
+    },
+    {
+      "text": "which I think are very important first",
+      "start": 222.18,
+      "duration": 6.18
+    },
+    {
+      "text": "of all the model that we study gpt4 it's",
+      "start": 224.7,
+      "duration": 6.599
+    },
+    {
+      "text": "entirely open ai's creation I had",
+      "start": 228.36,
+      "duration": 5.159
+    },
+    {
+      "text": "nothing to do with it you know it's we",
+      "start": 231.299,
+      "duration": 4.261
+    },
+    {
+      "text": "were given access to it completely by",
+      "start": 233.519,
+      "duration": 4.621
+    },
+    {
+      "text": "Black Box they deserve all the credit",
+      "start": 235.56,
+      "duration": 4.2
+    },
+    {
+      "text": "for creating you know this really",
+      "start": 238.14,
+      "duration": 3.72
+    },
+    {
+      "text": "marvelous tool that is you know going to",
+      "start": 239.76,
+      "duration": 3.539
+    },
+    {
+      "text": "change the world and I want to make that",
+      "start": 241.86,
+      "duration": 3.42
+    },
+    {
+      "text": "you know really extra clear",
+      "start": 243.299,
+      "duration": 4.141
+    },
+    {
+      "text": "second point which is important is that",
+      "start": 245.28,
+      "duration": 4.26
+    },
+    {
+      "text": "the experiment that we did they were on",
+      "start": 247.44,
+      "duration": 4.14
+    },
+    {
+      "text": "an early version of the model so that",
+      "start": 249.54,
+      "duration": 4.44
+    },
+    {
+      "text": "means everything one of them is that the",
+      "start": 251.58,
+      "duration": 3.6
+    },
+    {
+      "text": "papers that they release and the",
+      "start": 253.98,
+      "duration": 2.58
+    },
+    {
+      "text": "announcements that they made is that",
+      "start": 255.18,
+      "duration": 3.72
+    },
+    {
+      "text": "it's a multi-modal version the version",
+      "start": 256.56,
+      "duration": 5.16
+    },
+    {
+      "text": "we had access to was not multimodal it",
+      "start": 258.9,
+      "duration": 5.64
+    },
+    {
+      "text": "was text input only and text output only",
+      "start": 261.72,
+      "duration": 6.36
+    },
+    {
+      "text": "okay more importantly they made further",
+      "start": 264.54,
+      "duration": 7.219
+    },
+    {
+      "text": "you know uh modification to the to the",
+      "start": 268.08,
+      "duration": 6.78
+    },
+    {
+      "text": "to the neural network after we",
+      "start": 271.759,
+      "duration": 5.44
+    },
+    {
+      "text": "experimented with it and due to this",
+      "start": 274.86,
+      "duration": 4.74
+    },
+    {
+      "text": "further modification the answer that you",
+      "start": 277.199,
+      "duration": 3.961
+    },
+    {
+      "text": "will get if you try some of the prompts",
+      "start": 279.6,
+      "duration": 3.42
+    },
+    {
+      "text": "that I will show you they will differ",
+      "start": 281.16,
+      "duration": 5.46
+    },
+    {
+      "text": "okay in particular you might get less",
+      "start": 283.02,
+      "duration": 5.64
+    },
+    {
+      "text": "good answers than what I will show you",
+      "start": 286.62,
+      "duration": 4.32
+    },
+    {
+      "text": "the reason is because they fine-tuned",
+      "start": 288.66,
+      "duration": 4.08
+    },
+    {
+      "text": "further for safety and they explained",
+      "start": 290.94,
+      "duration": 3.84
+    },
+    {
+      "text": "that very clearly in the tech report you",
+      "start": 292.74,
+      "duration": 3.899
+    },
+    {
+      "text": "know they are the model and they further",
+      "start": 294.78,
+      "duration": 3.84
+    },
+    {
+      "text": "you know kind of dumbed it down in some",
+      "start": 296.639,
+      "duration": 4.56
+    },
+    {
+      "text": "way so that it becomes safer okay so",
+      "start": 298.62,
+      "duration": 4.079
+    },
+    {
+      "text": "that's that's an important clarification",
+      "start": 301.199,
+      "duration": 4.081
+    },
+    {
+      "text": "now for any scientist in the room you",
+      "start": 302.699,
+      "duration": 4.741
+    },
+    {
+      "text": "might be worried okay so that means that",
+      "start": 305.28,
+      "duration": 3.9
+    },
+    {
+      "text": "we're not going to be able to reproduce",
+      "start": 307.44,
+      "duration": 3.6
+    },
+    {
+      "text": "what you're telling us and yes you will",
+      "start": 309.18,
+      "duration": 4.56
+    },
+    {
+      "text": "not be able to reproduce it okay that",
+      "start": 311.04,
+      "duration": 5.34
+    },
+    {
+      "text": "being said I don't think in this",
+      "start": 313.74,
+      "duration": 4.56
+    },
+    {
+      "text": "particular case that reproducibility is",
+      "start": 316.38,
+      "duration": 3.9
+    },
+    {
+      "text": "such a big issue and the reason is",
+      "start": 318.3,
+      "duration": 4.26
+    },
+    {
+      "text": "because I'm not going to give you any",
+      "start": 320.28,
+      "duration": 4.5
+    },
+    {
+      "text": "quantitative number whatsoever there",
+      "start": 322.56,
+      "duration": 4.44
+    },
+    {
+      "text": "won't be a single Benchmark in in my",
+      "start": 324.78,
+      "duration": 4.02
+    },
+    {
+      "text": "presentation this is about the",
+      "start": 327.0,
+      "duration": 4.74
+    },
+    {
+      "text": "qualitative jump okay not 10 increase on",
+      "start": 328.8,
+      "duration": 4.739
+    },
+    {
+      "text": "this Benchmark you know 20 on that",
+      "start": 331.74,
+      "duration": 4.32
+    },
+    {
+      "text": "Benchmark it's something else okay what",
+      "start": 333.539,
+      "duration": 4.801
+    },
+    {
+      "text": "I want to try to convince you of is that",
+      "start": 336.06,
+      "duration": 4.38
+    },
+    {
+      "text": "there is some intelligence in this",
+      "start": 338.34,
+      "duration": 4.079
+    },
+    {
+      "text": "system that I think it's time that we",
+      "start": 340.44,
+      "duration": 4.08
+    },
+    {
+      "text": "call it you know an intelligent you know",
+      "start": 342.419,
+      "duration": 4.381
+    },
+    {
+      "text": "system and and we're gonna discuss it",
+      "start": 344.52,
+      "duration": 3.84
+    },
+    {
+      "text": "you know what do I mean by intelligence",
+      "start": 346.8,
+      "duration": 3.239
+    },
+    {
+      "text": "and you know at the end of the day at",
+      "start": 348.36,
+      "duration": 3.059
+    },
+    {
+      "text": "the end of the presentation you will see",
+      "start": 350.039,
+      "duration": 3.72
+    },
+    {
+      "text": "it's a judgment call it's not a clean",
+      "start": 351.419,
+      "duration": 4.321
+    },
+    {
+      "text": "cut whether this is you know a new type",
+      "start": 353.759,
+      "duration": 3.72
+    },
+    {
+      "text": "of intelligence but this is what I will",
+      "start": 355.74,
+      "duration": 3.899
+    },
+    {
+      "text": "try to argue nonetheless",
+      "start": 357.479,
+      "duration": 4.5
+    },
+    {
+      "text": "now you know as I you know say those",
+      "start": 359.639,
+      "duration": 3.961
+    },
+    {
+      "text": "words I think it triggers lots of",
+      "start": 361.979,
+      "duration": 3.481
+    },
+    {
+      "text": "emotion in many of you probably in",
+      "start": 363.6,
+      "duration": 3.599
+    },
+    {
+      "text": "particular you know you might be like no",
+      "start": 365.46,
+      "duration": 3.54
+    },
+    {
+      "text": "absolutely it's not intelligent it",
+      "start": 367.199,
+      "duration": 3.84
+    },
+    {
+      "text": "doesn't even have a representations you",
+      "start": 369.0,
+      "duration": 5.039
+    },
+    {
+      "text": "know Etc so a word of caution about this",
+      "start": 371.039,
+      "duration": 5.401
+    },
+    {
+      "text": "type of argument that you know I I see a",
+      "start": 374.039,
+      "duration": 4.321
+    },
+    {
+      "text": "lot so this is the type of things that",
+      "start": 376.44,
+      "duration": 3.84
+    },
+    {
+      "text": "you might see online even you know in",
+      "start": 378.36,
+      "duration": 3.72
+    },
+    {
+      "text": "newspapers you know it's just copy paste",
+      "start": 380.28,
+      "duration": 3.24
+    },
+    {
+      "text": "it doesn't have internal representation",
+      "start": 382.08,
+      "duration": 3.179
+    },
+    {
+      "text": "it's just statistics it's just",
+      "start": 383.52,
+      "duration": 3.959
+    },
+    {
+      "text": "statistics how could it be intelligent",
+      "start": 385.259,
+      "duration": 4.56
+    },
+    {
+      "text": "it doesn't even have a word model",
+      "start": 387.479,
+      "duration": 5.881
+    },
+    {
+      "text": "so to this you know this presentation is",
+      "start": 389.819,
+      "duration": 5.82
+    },
+    {
+      "text": "not about debunking all of those uh",
+      "start": 393.36,
+      "duration": 5.279
+    },
+    {
+      "text": "claims but still I want to say really",
+      "start": 395.639,
+      "duration": 4.261
+    },
+    {
+      "text": "you know Beware of the",
+      "start": 398.639,
+      "duration": 3.18
+    },
+    {
+      "text": "trillion-dimensional space it's",
+      "start": 399.9,
+      "duration": 4.2
+    },
+    {
+      "text": "something which is very very hard for us",
+      "start": 401.819,
+      "duration": 5.1
+    },
+    {
+      "text": "as human beings to grasp there is a lot",
+      "start": 404.1,
+      "duration": 4.56
+    },
+    {
+      "text": "that you can do with a trillion",
+      "start": 406.919,
+      "duration": 4.5
+    },
+    {
+      "text": "parameters okay so when you know people",
+      "start": 408.66,
+      "duration": 6.0
+    },
+    {
+      "text": "say it doesn't have a a word model it's",
+      "start": 411.419,
+      "duration": 5.34
+    },
+    {
+      "text": "not as clean cut as that you know it",
+      "start": 414.66,
+      "duration": 4.319
+    },
+    {
+      "text": "could absolutely build an internal",
+      "start": 416.759,
+      "duration": 4.741
+    },
+    {
+      "text": "representation of the world and act on",
+      "start": 418.979,
+      "duration": 5.28
+    },
+    {
+      "text": "it as you know the processing progresses",
+      "start": 421.5,
+      "duration": 4.319
+    },
+    {
+      "text": "through the layers and through the",
+      "start": 424.259,
+      "duration": 3.541
+    },
+    {
+      "text": "sentence you know temporally so what I'm",
+      "start": 425.819,
+      "duration": 4.141
+    },
+    {
+      "text": "saying here you know maybe just just two",
+      "start": 427.8,
+      "duration": 4.92
+    },
+    {
+      "text": "sentences to kind of help you think",
+      "start": 429.96,
+      "duration": 6.179
+    },
+    {
+      "text": "about this is that it could very I mean",
+      "start": 432.72,
+      "duration": 5.699
+    },
+    {
+      "text": "from my perspective we shouldn't think",
+      "start": 436.139,
+      "duration": 4.201
+    },
+    {
+      "text": "about those neural networks as learning",
+      "start": 438.419,
+      "duration": 3.78
+    },
+    {
+      "text": "you know simple concept like you know",
+      "start": 440.34,
+      "duration": 4.199
+    },
+    {
+      "text": "Paris is the capital of France it's",
+      "start": 442.199,
+      "duration": 4.741
+    },
+    {
+      "text": "doing much more like learning operators",
+      "start": 444.539,
+      "duration": 4.981
+    },
+    {
+      "text": "it's learning algorithms so inside it",
+      "start": 446.94,
+      "duration": 4.319
+    },
+    {
+      "text": "you know it's not just retrieving",
+      "start": 449.52,
+      "duration": 4.079
+    },
+    {
+      "text": "information not at all it has built",
+      "start": 451.259,
+      "duration": 4.261
+    },
+    {
+      "text": "internal representation that allows it",
+      "start": 453.599,
+      "duration": 4.281
+    },
+    {
+      "text": "to reproduce the data that it has seen",
+      "start": 455.52,
+      "duration": 5.399
+    },
+    {
+      "text": "succinctly okay so really you shouldn't",
+      "start": 457.88,
+      "duration": 4.719
+    },
+    {
+      "text": "think about it as pattern matching and",
+      "start": 460.919,
+      "duration": 3.78
+    },
+    {
+      "text": "just trying to predict the next word yes",
+      "start": 462.599,
+      "duration": 4.801
+    },
+    {
+      "text": "it was trained just to predict the next",
+      "start": 464.699,
+      "duration": 5.761
+    },
+    {
+      "text": "word but what emerged out of this is a",
+      "start": 467.4,
+      "duration": 4.859
+    },
+    {
+      "text": "lot more than just you know a",
+      "start": 470.46,
+      "duration": 4.62
+    },
+    {
+      "text": "statistical pattern matching object so I",
+      "start": 472.259,
+      "duration": 4.321
+    },
+    {
+      "text": "think you know we really need to think",
+      "start": 475.08,
+      "duration": 4.08
+    },
+    {
+      "text": "about it as learning algorithms and we",
+      "start": 476.58,
+      "duration": 4.739
+    },
+    {
+      "text": "don't really have the tools in my",
+      "start": 479.16,
+      "duration": 4.8
+    },
+    {
+      "text": "opinion in in learning theory to think",
+      "start": 481.319,
+      "duration": 4.32
+    },
+    {
+      "text": "about this type of learning it's",
+      "start": 483.96,
+      "duration": 3.54
+    },
+    {
+      "text": "something very very different from what",
+      "start": 485.639,
+      "duration": 3.12
+    },
+    {
+      "text": "we're used to and I think it's going to",
+      "start": 487.5,
+      "duration": 3.419
+    },
+    {
+      "text": "be you know fantastic to think about it",
+      "start": 488.759,
+      "duration": 4.081
+    },
+    {
+      "text": "but this is not the point of this",
+      "start": 490.919,
+      "duration": 4.801
+    },
+    {
+      "text": "presentation you know uh that's not what",
+      "start": 492.84,
+      "duration": 4.32
+    },
+    {
+      "text": "I want to do here and also I don't know",
+      "start": 495.72,
+      "duration": 4.14
+    },
+    {
+      "text": "how to do it okay so so at this point",
+      "start": 497.16,
+      "duration": 4.259
+    },
+    {
+      "text": "you know many of you are burning with",
+      "start": 499.86,
+      "duration": 5.04
+    },
+    {
+      "text": "this uh question in your mind but wait",
+      "start": 501.419,
+      "duration": 5.28
+    },
+    {
+      "text": "you know I these things they cannot have",
+      "start": 504.9,
+      "duration": 3.359
+    },
+    {
+      "text": "common sense they don't understand the",
+      "start": 506.699,
+      "duration": 3.541
+    },
+    {
+      "text": "real world you know they have only",
+      "start": 508.259,
+      "duration": 5.041
+    },
+    {
+      "text": "experience uh reality through text on",
+      "start": 510.24,
+      "duration": 4.799
+    },
+    {
+      "text": "the internet they don't know what it",
+      "start": 513.3,
+      "duration": 4.44
+    },
+    {
+      "text": "feels like to have you know a hot cup of",
+      "start": 515.039,
+      "duration": 4.38
+    },
+    {
+      "text": "coffee or something like that okay okay",
+      "start": 517.74,
+      "duration": 3.539
+    },
+    {
+      "text": "so let's let's try you know what we're",
+      "start": 519.419,
+      "duration": 3.48
+    },
+    {
+      "text": "gonna do in this presentation is that",
+      "start": 521.279,
+      "duration": 3.721
+    },
+    {
+      "text": "we're gonna look at a lot of examples",
+      "start": 522.899,
+      "duration": 4.861
+    },
+    {
+      "text": "and see what happens so here is a here",
+      "start": 525.0,
+      "duration": 4.2
+    },
+    {
+      "text": "is an example and you will see there",
+      "start": 527.76,
+      "duration": 3.12
+    },
+    {
+      "text": "will be lots of examples like this that",
+      "start": 529.2,
+      "duration": 3.72
+    },
+    {
+      "text": "might look a little bit silly but the",
+      "start": 530.88,
+      "duration": 4.56
+    },
+    {
+      "text": "point of the silliness is to you know be",
+      "start": 532.92,
+      "duration": 5.099
+    },
+    {
+      "text": "really outside of what is on the",
+      "start": 535.44,
+      "duration": 4.68
+    },
+    {
+      "text": "internet to really try to go beyond",
+      "start": 538.019,
+      "duration": 5.161
+    },
+    {
+      "text": "memorization okay so here is a a simple",
+      "start": 540.12,
+      "duration": 6.3
+    },
+    {
+      "text": "puzzle that we asked GPT for I have a",
+      "start": 543.18,
+      "duration": 5.46
+    },
+    {
+      "text": "book nine eggs a laptop a bottle and a",
+      "start": 546.42,
+      "duration": 4.14
+    },
+    {
+      "text": "nail please tell me how to stack them on",
+      "start": 548.64,
+      "duration": 3.66
+    },
+    {
+      "text": "on top of each other okay so I don't",
+      "start": 550.56,
+      "duration": 3.3
+    },
+    {
+      "text": "think this question appears anywhere on",
+      "start": 552.3,
+      "duration": 2.88
+    },
+    {
+      "text": "the Internet it's it's a really weird",
+      "start": 553.86,
+      "duration": 3.659
+    },
+    {
+      "text": "question so here is what chat GPT would",
+      "start": 555.18,
+      "duration": 4.68
+    },
+    {
+      "text": "say it would be difficult to stack all",
+      "start": 557.519,
+      "duration": 4.201
+    },
+    {
+      "text": "these objects blah blah blah you know",
+      "start": 559.86,
+      "duration": 3.539
+    },
+    {
+      "text": "place the bottle on the flat surface",
+      "start": 561.72,
+      "duration": 3.84
+    },
+    {
+      "text": "carefully balance the nail on top of the",
+      "start": 563.399,
+      "duration": 5.161
+    },
+    {
+      "text": "bottle okay it's not starting very well",
+      "start": 565.56,
+      "duration": 5.94
+    },
+    {
+      "text": "place the egg on top of the nail okay",
+      "start": 568.56,
+      "duration": 5.94
+    },
+    {
+      "text": "you're in trouble my friend so you know",
+      "start": 571.5,
+      "duration": 5.519
+    },
+    {
+      "text": "this is not gonna work so chat GPT you",
+      "start": 574.5,
+      "duration": 4.92
+    },
+    {
+      "text": "know and here you know any skeptic will",
+      "start": 577.019,
+      "duration": 4.801
+    },
+    {
+      "text": "gleefully say look I was right all along",
+      "start": 579.42,
+      "duration": 4.2
+    },
+    {
+      "text": "these things I don't understand anything",
+      "start": 581.82,
+      "duration": 3.72
+    },
+    {
+      "text": "they don't have a representation of the",
+      "start": 583.62,
+      "duration": 3.36
+    },
+    {
+      "text": "word you know they have no common sense",
+      "start": 585.54,
+      "duration": 5.4
+    },
+    {
+      "text": "I win ok so so let's see what gpd4 does",
+      "start": 586.98,
+      "duration": 6.359
+    },
+    {
+      "text": "one possible way to stack this object in",
+      "start": 590.94,
+      "duration": 4.5
+    },
+    {
+      "text": "a stable manner is place the book on the",
+      "start": 593.339,
+      "duration": 5.221
+    },
+    {
+      "text": "flat surface blah blah blah arrange the",
+      "start": 595.44,
+      "duration": 6.06
+    },
+    {
+      "text": "nine eggs in a three by three Square you",
+      "start": 598.56,
+      "duration": 5.1
+    },
+    {
+      "text": "know leaving some space between them the",
+      "start": 601.5,
+      "duration": 3.779
+    },
+    {
+      "text": "eggs will form a second layer to",
+      "start": 603.66,
+      "duration": 3.239
+    },
+    {
+      "text": "distribute the weight evenly and then",
+      "start": 605.279,
+      "duration": 3.361
+    },
+    {
+      "text": "presumably you put your laptop and so on",
+      "start": 606.899,
+      "duration": 3.961
+    },
+    {
+      "text": "and so forth okay so at least you know",
+      "start": 608.64,
+      "duration": 5.1
+    },
+    {
+      "text": "on this you know very simple question it",
+      "start": 610.86,
+      "duration": 4.919
+    },
+    {
+      "text": "understood it had some common sense to",
+      "start": 613.74,
+      "duration": 4.2
+    },
+    {
+      "text": "answer the question another literature",
+      "start": 615.779,
+      "duration": 5.341
+    },
+    {
+      "text": "is filled with examples of common sense",
+      "start": 617.94,
+      "duration": 5.1
+    },
+    {
+      "text": "question where those models fail",
+      "start": 621.12,
+      "duration": 4.159
+    },
+    {
+      "text": "dramatically we've tried all of them",
+      "start": 623.04,
+      "duration": 5.04
+    },
+    {
+      "text": "gpt46s on all of them okay so let's",
+      "start": 625.279,
+      "duration": 5.081
+    },
+    {
+      "text": "let's just agree for the moment you know",
+      "start": 628.08,
+      "duration": 4.86
+    },
+    {
+      "text": "that it has some common sense okay the",
+      "start": 630.36,
+      "duration": 4.74
+    },
+    {
+      "text": "next obstruction is",
+      "start": 632.94,
+      "duration": 4.44
+    },
+    {
+      "text": "okay sure it understands that eggs are",
+      "start": 635.1,
+      "duration": 4.38
+    },
+    {
+      "text": "fragile and you need to you know even",
+      "start": 637.38,
+      "duration": 4.019
+    },
+    {
+      "text": "out the way it's fine that okay I give",
+      "start": 639.48,
+      "duration": 4.14
+    },
+    {
+      "text": "that to you but but what about you know",
+      "start": 641.399,
+      "duration": 4.141
+    },
+    {
+      "text": "the theory of mind that's you know more",
+      "start": 643.62,
+      "duration": 3.959
+    },
+    {
+      "text": "elaborate and of course you know that",
+      "start": 645.54,
+      "duration": 3.78
+    },
+    {
+      "text": "that it doesn't understand really human",
+      "start": 647.579,
+      "duration": 4.141
+    },
+    {
+      "text": "beings their motives their emotions you",
+      "start": 649.32,
+      "duration": 3.9
+    },
+    {
+      "text": "know that that's that's beyond its",
+      "start": 651.72,
+      "duration": 3.78
+    },
+    {
+      "text": "capability and this is you know a Hot",
+      "start": 653.22,
+      "duration": 3.9
+    },
+    {
+      "text": "Topic and I don't know if some of the",
+      "start": 655.5,
+      "duration": 4.62
+    },
+    {
+      "text": "authors of this paper are are in the",
+      "start": 657.12,
+      "duration": 5.64
+    },
+    {
+      "text": "room you know but this is a a very uh",
+      "start": 660.12,
+      "duration": 4.86
+    },
+    {
+      "text": "hotly uh debated topic so there was a",
+      "start": 662.76,
+      "duration": 4.319
+    },
+    {
+      "text": "paper first you know theory of mine may",
+      "start": 664.98,
+      "duration": 4.02
+    },
+    {
+      "text": "have spontaneously emerged in large",
+      "start": 667.079,
+      "duration": 3.721
+    },
+    {
+      "text": "language model then there was a",
+      "start": 669.0,
+      "duration": 4.32
+    },
+    {
+      "text": "follow-up paper that says no no wait if",
+      "start": 670.8,
+      "duration": 5.039
+    },
+    {
+      "text": "you do trivial alterations you know we",
+      "start": 673.32,
+      "duration": 4.44
+    },
+    {
+      "text": "just modify a little bit the question",
+      "start": 675.839,
+      "duration": 3.841
+    },
+    {
+      "text": "then it completely fails then there is",
+      "start": 677.76,
+      "duration": 4.56
+    },
+    {
+      "text": "this uh very interesting uh paper by uh",
+      "start": 679.68,
+      "duration": 4.8
+    },
+    {
+      "text": "from Josh tenenbaum's groups you know",
+      "start": 682.32,
+      "duration": 4.74
+    },
+    {
+      "text": "that language and thoughts are two very",
+      "start": 684.48,
+      "duration": 4.44
+    },
+    {
+      "text": "different things and you will notice",
+      "start": 687.06,
+      "duration": 4.32
+    },
+    {
+      "text": "that I throw in there uh you know an",
+      "start": 688.92,
+      "duration": 5.099
+    },
+    {
+      "text": "explainability interpretability paper so",
+      "start": 691.38,
+      "duration": 4.5
+    },
+    {
+      "text": "I won't touch too much much on this but",
+      "start": 694.019,
+      "duration": 3.841
+    },
+    {
+      "text": "this is an important point that I will",
+      "start": 695.88,
+      "duration": 3.54
+    },
+    {
+      "text": "now try to convince you that you know of",
+      "start": 697.86,
+      "duration": 4.14
+    },
+    {
+      "text": "course gpt4 has a theory of mine and not",
+      "start": 699.42,
+      "duration": 3.96
+    },
+    {
+      "text": "only does it have a theory of mind but",
+      "start": 702.0,
+      "duration": 3.48
+    },
+    {
+      "text": "this is gonna I think change the",
+      "start": 703.38,
+      "duration": 3.66
+    },
+    {
+      "text": "subfield of machine learning",
+      "start": 705.48,
+      "duration": 3.66
+    },
+    {
+      "text": "interpretability because as soon as",
+      "start": 707.04,
+      "duration": 3.479
+    },
+    {
+      "text": "those models they understand human",
+      "start": 709.14,
+      "duration": 3.6
+    },
+    {
+      "text": "beings they will also be able to explain",
+      "start": 710.519,
+      "duration": 4.5
+    },
+    {
+      "text": "the decision in a way that you can",
+      "start": 712.74,
+      "duration": 3.839
+    },
+    {
+      "text": "understand now of course I know",
+      "start": 715.019,
+      "duration": 3.721
+    },
+    {
+      "text": "everybody is like okay well it's gonna",
+      "start": 716.579,
+      "duration": 4.081
+    },
+    {
+      "text": "explain itself but does it really",
+      "start": 718.74,
+      "duration": 4.68
+    },
+    {
+      "text": "explain its inner workings okay and and",
+      "start": 720.66,
+      "duration": 4.2
+    },
+    {
+      "text": "you know again I don't want this",
+      "start": 723.42,
+      "duration": 3.24
+    },
+    {
+      "text": "presentation to be about this but but I",
+      "start": 724.86,
+      "duration": 3.36
+    },
+    {
+      "text": "think there will be a lot of you know",
+      "start": 726.66,
+      "duration": 4.38
+    },
+    {
+      "text": "experimentation around this let me also",
+      "start": 728.22,
+      "duration": 4.98
+    },
+    {
+      "text": "add that you know all of this there is a",
+      "start": 731.04,
+      "duration": 4.2
+    },
+    {
+      "text": "paper that is going to appear on archive",
+      "start": 733.2,
+      "duration": 4.44
+    },
+    {
+      "text": "tonight so this is by chance you know",
+      "start": 735.24,
+      "duration": 4.56
+    },
+    {
+      "text": "that it coincides with this talk so you",
+      "start": 737.64,
+      "duration": 3.66
+    },
+    {
+      "text": "can look at all the details everything",
+      "start": 739.8,
+      "duration": 3.479
+    },
+    {
+      "text": "will be there you know in in three hours",
+      "start": 741.3,
+      "duration": 4.68
+    },
+    {
+      "text": "I'm really excited for it so you will be",
+      "start": 743.279,
+      "duration": 4.5
+    },
+    {
+      "text": "able to see all of that and and you know",
+      "start": 745.98,
+      "duration": 3.72
+    },
+    {
+      "text": "learn more about it but okay let me",
+      "start": 747.779,
+      "duration": 4.141
+    },
+    {
+      "text": "let's let's try to convince you about",
+      "start": 749.7,
+      "duration": 3.6
+    },
+    {
+      "text": "this theory of mine",
+      "start": 751.92,
+      "duration": 4.22
+    },
+    {
+      "text": "so I will take one example from Thomas",
+      "start": 753.3,
+      "duration": 7.32
+    },
+    {
+      "text": "paper so in a room there are John Mark a",
+      "start": 756.14,
+      "duration": 7.66
+    },
+    {
+      "text": "cat and a a cat a box and a basket John",
+      "start": 760.62,
+      "duration": 5.64
+    },
+    {
+      "text": "takes a cat puts it in the basket he",
+      "start": 763.8,
+      "duration": 4.44
+    },
+    {
+      "text": "leaves the room then while John is away",
+      "start": 766.26,
+      "duration": 4.139
+    },
+    {
+      "text": "Mark takes the cat you know out of the",
+      "start": 768.24,
+      "duration": 4.26
+    },
+    {
+      "text": "basket and puts it in the Box eventually",
+      "start": 770.399,
+      "duration": 3.541
+    },
+    {
+      "text": "they all come back what are they",
+      "start": 772.5,
+      "duration": 3.66
+    },
+    {
+      "text": "thinking okay it's very simple theory of",
+      "start": 773.94,
+      "duration": 3.78
+    },
+    {
+      "text": "mine you know the person who put it in",
+      "start": 776.16,
+      "duration": 2.94
+    },
+    {
+      "text": "the basket and didn't know that it was",
+      "start": 777.72,
+      "duration": 3.179
+    },
+    {
+      "text": "moved should still think that it's in",
+      "start": 779.1,
+      "duration": 4.739
+    },
+    {
+      "text": "the basket let's chat GPT fails at this",
+      "start": 780.899,
+      "duration": 5.221
+    },
+    {
+      "text": "okay there is too many you see you have",
+      "start": 783.839,
+      "duration": 3.901
+    },
+    {
+      "text": "to have an internal representation you",
+      "start": 786.12,
+      "duration": 3.12
+    },
+    {
+      "text": "have as you read the text you have to",
+      "start": 787.74,
+      "duration": 4.08
+    },
+    {
+      "text": "move your representation of where the",
+      "start": 789.24,
+      "duration": 5.76
+    },
+    {
+      "text": "cat is okay so let's see what gpt4 does",
+      "start": 791.82,
+      "duration": 5.699
+    },
+    {
+      "text": "interesting puzzle blah blah blah John",
+      "start": 795.0,
+      "duration": 3.959
+    },
+    {
+      "text": "thinks that the cat is still in the",
+      "start": 797.519,
+      "duration": 2.88
+    },
+    {
+      "text": "basket since that's where he left it",
+      "start": 798.959,
+      "duration": 3.241
+    },
+    {
+      "text": "yeah correct Mark thinks that the cat is",
+      "start": 800.399,
+      "duration": 3.421
+    },
+    {
+      "text": "in the Box I think that's where I moved",
+      "start": 802.2,
+      "duration": 5.52
+    },
+    {
+      "text": "it yeah correct oh and it also has",
+      "start": 803.82,
+      "duration": 5.699
+    },
+    {
+      "text": "the cat",
+      "start": 807.72,
+      "duration": 3.6
+    },
+    {
+      "text": "the cat thinks these are weird people",
+      "start": 809.519,
+      "duration": 3.841
+    },
+    {
+      "text": "you know why are they moving me around",
+      "start": 811.32,
+      "duration": 5.759
+    },
+    {
+      "text": "okay so so this is a kind of surprise",
+      "start": 813.36,
+      "duration": 6.06
+    },
+    {
+      "text": "that I ever had you know time and time",
+      "start": 817.079,
+      "duration": 3.541
+    },
+    {
+      "text": "again and I'm not saying this is",
+      "start": 819.42,
+      "duration": 3.419
+    },
+    {
+      "text": "particularly deep but it's just you know",
+      "start": 820.62,
+      "duration": 4.08
+    },
+    {
+      "text": "take a second to you know take it in",
+      "start": 822.839,
+      "duration": 5.041
+    },
+    {
+      "text": "like it's uh it's interesting okay all",
+      "start": 824.7,
+      "duration": 4.74
+    },
+    {
+      "text": "right let's say you know again I I don't",
+      "start": 827.88,
+      "duration": 2.88
+    },
+    {
+      "text": "want the whole presentation to be about",
+      "start": 829.44,
+      "duration": 3.18
+    },
+    {
+      "text": "common sense and theory of mind let's",
+      "start": 830.76,
+      "duration": 3.24
+    },
+    {
+      "text": "let's say you know it does those two",
+      "start": 832.62,
+      "duration": 4.38
+    },
+    {
+      "text": "things okay good but you're not gonna go",
+      "start": 834.0,
+      "duration": 4.86
+    },
+    {
+      "text": "as fast saying that it's intelligent are",
+      "start": 837.0,
+      "duration": 3.6
+    },
+    {
+      "text": "you I mean intelligent that's you know",
+      "start": 838.86,
+      "duration": 4.2
+    },
+    {
+      "text": "so much more than all of this and you",
+      "start": 840.6,
+      "duration": 3.78
+    },
+    {
+      "text": "know here the answer is not going to be",
+      "start": 843.06,
+      "duration": 3.66
+    },
+    {
+      "text": "a slam dunk I want to be very very clear",
+      "start": 844.38,
+      "duration": 3.84
+    },
+    {
+      "text": "and if we start talking about",
+      "start": 846.72,
+      "duration": 3.179
+    },
+    {
+      "text": "intelligence the first thing we have to",
+      "start": 848.22,
+      "duration": 4.26
+    },
+    {
+      "text": "do is to have some definition you know",
+      "start": 849.899,
+      "duration": 5.101
+    },
+    {
+      "text": "that we that that we can work with and",
+      "start": 852.48,
+      "duration": 4.44
+    },
+    {
+      "text": "here I don't want to you know have my",
+      "start": 855.0,
+      "duration": 3.72
+    },
+    {
+      "text": "own definition I mean people have been",
+      "start": 856.92,
+      "duration": 4.02
+    },
+    {
+      "text": "working on this question for decades if",
+      "start": 858.72,
+      "duration": 3.9
+    },
+    {
+      "text": "not more okay you know you can argue",
+      "start": 860.94,
+      "duration": 3.66
+    },
+    {
+      "text": "that well whatever you can argue that",
+      "start": 862.62,
+      "duration": 3.839
+    },
+    {
+      "text": "human beings have been thinking about",
+      "start": 864.6,
+      "duration": 3.9
+    },
+    {
+      "text": "intelligence for a long time so what I'm",
+      "start": 866.459,
+      "duration": 3.781
+    },
+    {
+      "text": "gonna do is that I'm just gonna take a",
+      "start": 868.5,
+      "duration": 4.2
+    },
+    {
+      "text": "consensus definition that was published",
+      "start": 870.24,
+      "duration": 5.82
+    },
+    {
+      "text": "in 94 by a group of 52 psychologists so",
+      "start": 872.7,
+      "duration": 5.699
+    },
+    {
+      "text": "in the 90s there was a very you know hot",
+      "start": 876.06,
+      "duration": 5.16
+    },
+    {
+      "text": "debate about the meaning of IQ test and",
+      "start": 878.399,
+      "duration": 4.5
+    },
+    {
+      "text": "and this group of psychologists came out",
+      "start": 881.22,
+      "duration": 3.72
+    },
+    {
+      "text": "with a definition of what intelligence",
+      "start": 882.899,
+      "duration": 4.861
+    },
+    {
+      "text": "is and we can you know debate you know",
+      "start": 884.94,
+      "duration": 4.74
+    },
+    {
+      "text": "disagree with various part but this is",
+      "start": 887.76,
+      "duration": 4.439
+    },
+    {
+      "text": "going to be my my reference definition",
+      "start": 889.68,
+      "duration": 4.86
+    },
+    {
+      "text": "so what is this definition intelligence",
+      "start": 892.199,
+      "duration": 4.44
+    },
+    {
+      "text": "is a very general mental capability that",
+      "start": 894.54,
+      "duration": 3.659
+    },
+    {
+      "text": "among other things involve the ability",
+      "start": 896.639,
+      "duration": 4.741
+    },
+    {
+      "text": "to reason plan solve problems think",
+      "start": 898.199,
+      "duration": 5.521
+    },
+    {
+      "text": "abstractly compare and complex ideas and",
+      "start": 901.38,
+      "duration": 3.84
+    },
+    {
+      "text": "learn quickly and learn from experience",
+      "start": 903.72,
+      "duration": 4.44
+    },
+    {
+      "text": "okay so six items and what we're going",
+      "start": 905.22,
+      "duration": 4.38
+    },
+    {
+      "text": "to do in this presentation is that we're",
+      "start": 908.16,
+      "duration": 4.2
+    },
+    {
+      "text": "going to try to measure gpt4 against",
+      "start": 909.6,
+      "duration": 5.28
+    },
+    {
+      "text": "those six Dimension you know and see see",
+      "start": 912.36,
+      "duration": 4.74
+    },
+    {
+      "text": "where it fails and where it works our",
+      "start": 914.88,
+      "duration": 4.259
+    },
+    {
+      "text": "assessment is as follows",
+      "start": 917.1,
+      "duration": 5.7
+    },
+    {
+      "text": "I'm very comfortable saying that GPT for",
+      "start": 919.139,
+      "duration": 6.861
+    },
+    {
+      "text": "reason very very comfortable saying that",
+      "start": 922.8,
+      "duration": 6.599
+    },
+    {
+      "text": "gpt4 cannot plan and this is a very",
+      "start": 926.0,
+      "duration": 5.019
+    },
+    {
+      "text": "subtle and delicate issue that we're",
+      "start": 929.399,
+      "duration": 3.0
+    },
+    {
+      "text": "going to get to towards the end of the",
+      "start": 931.019,
+      "duration": 3.961
+    },
+    {
+      "text": "presentation because it can give you the",
+      "start": 932.399,
+      "duration": 4.141
+    },
+    {
+      "text": "impression of planning and there are",
+      "start": 934.98,
+      "duration": 3.24
+    },
+    {
+      "text": "many problems where naively you might",
+      "start": 936.54,
+      "duration": 3.359
+    },
+    {
+      "text": "think that you need planning but",
+      "start": 938.22,
+      "duration": 3.72
+    },
+    {
+      "text": "actually you know there is a linear",
+      "start": 939.899,
+      "duration": 4.56
+    },
+    {
+      "text": "solution you know in terms of algorithm",
+      "start": 941.94,
+      "duration": 4.139
+    },
+    {
+      "text": "design you can think that there are",
+      "start": 944.459,
+      "duration": 3.06
+    },
+    {
+      "text": "problems when naively you just look at",
+      "start": 946.079,
+      "duration": 2.82
+    },
+    {
+      "text": "it and you know you think oh I need to",
+      "start": 947.519,
+      "duration": 3.541
+    },
+    {
+      "text": "think 10 steps ahead et cetera but if",
+      "start": 948.899,
+      "duration": 4.021
+    },
+    {
+      "text": "you're just a little bit more clever in",
+      "start": 951.06,
+      "duration": 3.3
+    },
+    {
+      "text": "the algorithm design then there is a",
+      "start": 952.92,
+      "duration": 3.539
+    },
+    {
+      "text": "linear solution you know that proceeds",
+      "start": 954.36,
+      "duration": 3.779
+    },
+    {
+      "text": "in a linear fashion and so all those",
+      "start": 956.459,
+      "duration": 4.141
+    },
+    {
+      "text": "problems you know gpt4 will solve them",
+      "start": 958.139,
+      "duration": 4.621
+    },
+    {
+      "text": "it can solve problems many problems we",
+      "start": 960.6,
+      "duration": 3.84
+    },
+    {
+      "text": "will see that it can think abstractly",
+      "start": 962.76,
+      "duration": 3.72
+    },
+    {
+      "text": "absolutely it can comprehend complex",
+      "start": 964.44,
+      "duration": 4.38
+    },
+    {
+      "text": "ideas the last point is is a subtle",
+      "start": 966.48,
+      "duration": 3.599
+    },
+    {
+      "text": "point you know learn quickly and learn",
+      "start": 968.82,
+      "duration": 3.42
+    },
+    {
+      "text": "from experience gpt4 you know it's a",
+      "start": 970.079,
+      "duration": 4.021
+    },
+    {
+      "text": "love language model it's frozen in time",
+      "start": 972.24,
+      "duration": 4.5
+    },
+    {
+      "text": "okay it doesn't update itself every day",
+      "start": 974.1,
+      "duration": 4.799
+    },
+    {
+      "text": "is a new day for gpt4 every session is a",
+      "start": 976.74,
+      "duration": 4.8
+    },
+    {
+      "text": "new session so there is no real learning",
+      "start": 978.899,
+      "duration": 4.981
+    },
+    {
+      "text": "there is no real time learning okay but",
+      "start": 981.54,
+      "duration": 4.08
+    },
+    {
+      "text": "within the span of a session you can",
+      "start": 983.88,
+      "duration": 3.54
+    },
+    {
+      "text": "teach it New Concept that it has never",
+      "start": 985.62,
+      "duration": 3.839
+    },
+    {
+      "text": "seen and it can understand them and then",
+      "start": 987.42,
+      "duration": 4.08
+    },
+    {
+      "text": "work with them absolutely so there is",
+      "start": 989.459,
+      "duration": 4.141
+    },
+    {
+      "text": "you know some amount of learning in real",
+      "start": 991.5,
+      "duration": 5.1
+    },
+    {
+      "text": "time but no no memory of course now let",
+      "start": 993.6,
+      "duration": 5.159
+    },
+    {
+      "text": "me say immediately at this point is you",
+      "start": 996.6,
+      "duration": 4.679
+    },
+    {
+      "text": "know whether with this you know",
+      "start": 998.759,
+      "duration": 3.781
+    },
+    {
+      "text": "assessment whether you call it",
+      "start": 1001.279,
+      "duration": 3.12
+    },
+    {
+      "text": "intelligence or not again it's a little",
+      "start": 1002.54,
+      "duration": 3.719
+    },
+    {
+      "text": "bit up to you you know some people would",
+      "start": 1004.399,
+      "duration": 4.74
+    },
+    {
+      "text": "argue that planning is the essence of",
+      "start": 1006.259,
+      "duration": 4.621
+    },
+    {
+      "text": "human intelligence everything else you",
+      "start": 1009.139,
+      "duration": 4.081
+    },
+    {
+      "text": "know animals can do it too you know and",
+      "start": 1010.88,
+      "duration": 4.5
+    },
+    {
+      "text": "really what distinguishes US is planning",
+      "start": 1013.22,
+      "duration": 5.039
+    },
+    {
+      "text": "if that's your answer then gpt4 is not",
+      "start": 1015.38,
+      "duration": 5.04
+    },
+    {
+      "text": "intelligent another perspective could be",
+      "start": 1018.259,
+      "duration": 4.44
+    },
+    {
+      "text": "that the whole point of intelligence is",
+      "start": 1020.42,
+      "duration": 5.279
+    },
+    {
+      "text": "to be able to acquire new skills okay if",
+      "start": 1022.699,
+      "duration": 4.74
+    },
+    {
+      "text": "that's your perspective on intelligence",
+      "start": 1025.699,
+      "duration": 4.201
+    },
+    {
+      "text": "then gpt4 is not intelligent if your",
+      "start": 1027.439,
+      "duration": 3.781
+    },
+    {
+      "text": "perspective is you know what I care",
+      "start": 1029.9,
+      "duration": 3.24
+    },
+    {
+      "text": "about is to solve problems to think",
+      "start": 1031.22,
+      "duration": 4.32
+    },
+    {
+      "text": "abstractly to comprehend complex idea to",
+      "start": 1033.14,
+      "duration": 4.14
+    },
+    {
+      "text": "reason on you know new elements that",
+      "start": 1035.54,
+      "duration": 3.659
+    },
+    {
+      "text": "arrive at me then I think you have to",
+      "start": 1037.28,
+      "duration": 4.38
+    },
+    {
+      "text": "call lgbt4 intelligent okay",
+      "start": 1039.199,
+      "duration": 5.64
+    },
+    {
+      "text": "now how do we come to this assessment",
+      "start": 1041.66,
+      "duration": 5.88
+    },
+    {
+      "text": "the point is the whole point is of",
+      "start": 1044.839,
+      "duration": 4.381
+    },
+    {
+      "text": "course you cannot make this assessment",
+      "start": 1047.54,
+      "duration": 3.54
+    },
+    {
+      "text": "with benchmarks it's completely",
+      "start": 1049.22,
+      "duration": 4.32
+    },
+    {
+      "text": "meaningless okay and not only is it",
+      "start": 1051.08,
+      "duration": 4.38
+    },
+    {
+      "text": "meaningless but also",
+      "start": 1053.54,
+      "duration": 4.98
+    },
+    {
+      "text": "we don't know what gpt4 was trained on I",
+      "start": 1055.46,
+      "duration": 5.04
+    },
+    {
+      "text": "don't know what gpt4 was trained on my",
+      "start": 1058.52,
+      "duration": 3.6
+    },
+    {
+      "text": "working assumption is that it was",
+      "start": 1060.5,
+      "duration": 4.14
+    },
+    {
+      "text": "trained on all you know the data",
+      "start": 1062.12,
+      "duration": 4.62
+    },
+    {
+      "text": "digitally produced by Humanity that's my",
+      "start": 1064.64,
+      "duration": 3.3
+    },
+    {
+      "text": "assumption I'm not saying it's correct",
+      "start": 1066.74,
+      "duration": 2.819
+    },
+    {
+      "text": "but this is my working assumption so",
+      "start": 1067.94,
+      "duration": 3.78
+    },
+    {
+      "text": "that you know I I know that you know",
+      "start": 1069.559,
+      "duration": 4.921
+    },
+    {
+      "text": "anything which is out there online gpt4",
+      "start": 1071.72,
+      "duration": 4.92
+    },
+    {
+      "text": "might have seen it so in particular any",
+      "start": 1074.48,
+      "duration": 4.74
+    },
+    {
+      "text": "Benchmark whatsoever that exists I",
+      "start": 1076.64,
+      "duration": 5.159
+    },
+    {
+      "text": "assume it has seen it okay so we cannot",
+      "start": 1079.22,
+      "duration": 4.26
+    },
+    {
+      "text": "test I I don't want to test it on",
+      "start": 1081.799,
+      "duration": 3.481
+    },
+    {
+      "text": "Benchmark so instead what we're going to",
+      "start": 1083.48,
+      "duration": 3.12
+    },
+    {
+      "text": "do is that we're going to take an",
+      "start": 1085.28,
+      "duration": 3.42
+    },
+    {
+      "text": "approach which is in a way rooted in",
+      "start": 1086.6,
+      "duration": 4.079
+    },
+    {
+      "text": "Psychology so instead of following",
+      "start": 1088.7,
+      "duration": 3.42
+    },
+    {
+      "text": "machine learning we're going to actually",
+      "start": 1090.679,
+      "duration": 3.661
+    },
+    {
+      "text": "follow up psychology okay and the way",
+      "start": 1092.12,
+      "duration": 3.419
+    },
+    {
+      "text": "we're going to test intelligence is",
+      "start": 1094.34,
+      "duration": 4.38
+    },
+    {
+      "text": "really by asking it creative tasks tasks",
+      "start": 1095.539,
+      "duration": 5.161
+    },
+    {
+      "text": "that are outside of what it has seen",
+      "start": 1098.72,
+      "duration": 4.079
+    },
+    {
+      "text": "really novel novel ways to to think",
+      "start": 1100.7,
+      "duration": 4.2
+    },
+    {
+      "text": "about problems and not and to test it on",
+      "start": 1102.799,
+      "duration": 4.26
+    },
+    {
+      "text": "a broad range of domains so domain we",
+      "start": 1104.9,
+      "duration": 4.139
+    },
+    {
+      "text": "have chosen for the paper are Vision",
+      "start": 1107.059,
+      "duration": 3.541
+    },
+    {
+      "text": "which already",
+      "start": 1109.039,
+      "duration": 3.361
+    },
+    {
+      "text": "it's interesting because I told you it's",
+      "start": 1110.6,
+      "duration": 3.78
+    },
+    {
+      "text": "not a multi-modal model it can only",
+      "start": 1112.4,
+      "duration": 3.72
+    },
+    {
+      "text": "output text okay but we're going to test",
+      "start": 1114.38,
+      "duration": 3.9
+    },
+    {
+      "text": "it on Vision theory of mine I already",
+      "start": 1116.12,
+      "duration": 4.919
+    },
+    {
+      "text": "told you coding mathematics affordances",
+      "start": 1118.28,
+      "duration": 4.5
+    },
+    {
+      "text": "so using tools and also privacy",
+      "start": 1121.039,
+      "duration": 3.541
+    },
+    {
+      "text": "harmfulness detection which is something",
+      "start": 1122.78,
+      "duration": 3.3
+    },
+    {
+      "text": "very important I want to touch on this",
+      "start": 1124.58,
+      "duration": 3.42
+    },
+    {
+      "text": "lifespond and there is many other",
+      "start": 1126.08,
+      "duration": 4.26
+    },
+    {
+      "text": "domains that we could have selected you",
+      "start": 1128.0,
+      "duration": 5.039
+    },
+    {
+      "text": "know medicine law physics chemistry the",
+      "start": 1130.34,
+      "duration": 4.8
+    },
+    {
+      "text": "point the point is that GPT Force",
+      "start": 1133.039,
+      "duration": 4.38
+    },
+    {
+      "text": "intelligence is General okay you can do",
+      "start": 1135.14,
+      "duration": 5.159
+    },
+    {
+      "text": "all of those things equally well okay so",
+      "start": 1137.419,
+      "duration": 4.681
+    },
+    {
+      "text": "let's let's get started on this you know",
+      "start": 1140.299,
+      "duration": 4.141
+    },
+    {
+      "text": "assessment uh journey and show you an",
+      "start": 1142.1,
+      "duration": 4.319
+    },
+    {
+      "text": "example of what I mean by creative task",
+      "start": 1144.44,
+      "duration": 3.96
+    },
+    {
+      "text": "okay so the first thing that anybody",
+      "start": 1146.419,
+      "duration": 4.081
+    },
+    {
+      "text": "does when they get access to charge GPT",
+      "start": 1148.4,
+      "duration": 4.44
+    },
+    {
+      "text": "is to ask it to you know make a poem and",
+      "start": 1150.5,
+      "duration": 3.539
+    },
+    {
+      "text": "that's also what we did the first time",
+      "start": 1152.84,
+      "duration": 3.48
+    },
+    {
+      "text": "we had access to gpt4 and you know being",
+      "start": 1154.039,
+      "duration": 4.02
+    },
+    {
+      "text": "a mathematician you know I asked it to",
+      "start": 1156.32,
+      "duration": 3.54
+    },
+    {
+      "text": "write a proof of the Infinity of primes",
+      "start": 1158.059,
+      "duration": 3.301
+    },
+    {
+      "text": "you know with every line that rhymes",
+      "start": 1159.86,
+      "duration": 3.48
+    },
+    {
+      "text": "that seems like a good thing to do so",
+      "start": 1161.36,
+      "duration": 3.84
+    },
+    {
+      "text": "let's see what cha GPT does",
+      "start": 1163.34,
+      "duration": 3.959
+    },
+    {
+      "text": "uh sure here is the proof that there are",
+      "start": 1165.2,
+      "duration": 4.26
+    },
+    {
+      "text": "Infinity many primes with each line of",
+      "start": 1167.299,
+      "duration": 4.38
+    },
+    {
+      "text": "proof rhyming consider it's just crappy",
+      "start": 1169.46,
+      "duration": 4.38
+    },
+    {
+      "text": "okay it doesn't have the lines rhyming",
+      "start": 1171.679,
+      "duration": 4.921
+    },
+    {
+      "text": "it just doesn't do what I asked okay it",
+      "start": 1173.84,
+      "duration": 5.579
+    },
+    {
+      "text": "didn't it's not it didn't work okay it's",
+      "start": 1176.6,
+      "duration": 4.439
+    },
+    {
+      "text": "a correct proof by the way you know",
+      "start": 1179.419,
+      "duration": 3.241
+    },
+    {
+      "text": "which of course are many many proofs of",
+      "start": 1181.039,
+      "duration": 3.421
+    },
+    {
+      "text": "the Infinities of primes of nine so you",
+      "start": 1182.66,
+      "duration": 3.36
+    },
+    {
+      "text": "know that's that's good but it didn't do",
+      "start": 1184.46,
+      "duration": 4.74
+    },
+    {
+      "text": "the job let's see what gpt4 does okay",
+      "start": 1186.02,
+      "duration": 5.399
+    },
+    {
+      "text": "so can you write such a proof yes I",
+      "start": 1189.2,
+      "duration": 4.08
+    },
+    {
+      "text": "think I can so it might take a clever",
+      "start": 1191.419,
+      "duration": 4.14
+    },
+    {
+      "text": "plan I will start by noting Euclid's",
+      "start": 1193.28,
+      "duration": 3.72
+    },
+    {
+      "text": "proof which shows that primes aren't",
+      "start": 1195.559,
+      "duration": 3.48
+    },
+    {
+      "text": "just aloof I assume we have a finite",
+      "start": 1197.0,
+      "duration": 3.78
+    },
+    {
+      "text": "list of primes and that none have been",
+      "start": 1199.039,
+      "duration": 4.081
+    },
+    {
+      "text": "missed multiply them all together and",
+      "start": 1200.78,
+      "duration": 5.72
+    },
+    {
+      "text": "add one just to be clever",
+      "start": 1203.12,
+      "duration": 3.38
+    },
+    {
+      "text": "so at that point at the add one just to",
+      "start": 1206.539,
+      "duration": 4.38
+    },
+    {
+      "text": "be clever I remember you know end of",
+      "start": 1209.12,
+      "duration": 4.2
+    },
+    {
+      "text": "September I was like what's going on you",
+      "start": 1210.919,
+      "duration": 5.281
+    },
+    {
+      "text": "know this is just this is this is really",
+      "start": 1213.32,
+      "duration": 4.68
+    },
+    {
+      "text": "incredible I mean the quality of this is",
+      "start": 1216.2,
+      "duration": 4.32
+    },
+    {
+      "text": "incredible but the point is you don't",
+      "start": 1218.0,
+      "duration": 5.34
+    },
+    {
+      "text": "stop there okay you don't want you don't",
+      "start": 1220.52,
+      "duration": 4.32
+    },
+    {
+      "text": "test intelligence by asking a question",
+      "start": 1223.34,
+      "duration": 3.06
+    },
+    {
+      "text": "hearing the answer and that's it you",
+      "start": 1224.84,
+      "duration": 2.82
+    },
+    {
+      "text": "move on you know either you are correct",
+      "start": 1226.4,
+      "duration": 3.42
+    },
+    {
+      "text": "or not correct when you try to test a",
+      "start": 1227.66,
+      "duration": 4.259
+    },
+    {
+      "text": "student you have an interaction with the",
+      "start": 1229.82,
+      "duration": 3.84
+    },
+    {
+      "text": "student sometimes the student might also",
+      "start": 1231.919,
+      "duration": 3.541
+    },
+    {
+      "text": "make mistakes and you don't you don't",
+      "start": 1233.66,
+      "duration": 3.3
+    },
+    {
+      "text": "just say ah you really don't understand",
+      "start": 1235.46,
+      "duration": 3.24
+    },
+    {
+      "text": "anything you know let me stop right",
+      "start": 1236.96,
+      "duration": 3.839
+    },
+    {
+      "text": "there no you try to guide the student",
+      "start": 1238.7,
+      "duration": 4.44
+    },
+    {
+      "text": "okay so this is what we're gonna try to",
+      "start": 1240.799,
+      "duration": 3.601
+    },
+    {
+      "text": "do you know throughout the presentation",
+      "start": 1243.14,
+      "duration": 3.18
+    },
+    {
+      "text": "we're gonna try to keep you know asking",
+      "start": 1244.4,
+      "duration": 4.32
+    },
+    {
+      "text": "questions and if gpt4 goes off track",
+      "start": 1246.32,
+      "duration": 4.8
+    },
+    {
+      "text": "we're gonna help it a little bit okay so",
+      "start": 1248.72,
+      "duration": 4.079
+    },
+    {
+      "text": "let's see how we can go further and",
+      "start": 1251.12,
+      "duration": 3.54
+    },
+    {
+      "text": "again the whole point is that I want to",
+      "start": 1252.799,
+      "duration": 3.721
+    },
+    {
+      "text": "be creative and go you know ask question",
+      "start": 1254.66,
+      "duration": 4.2
+    },
+    {
+      "text": "out of the box so what I'm going to ask",
+      "start": 1256.52,
+      "duration": 4.98
+    },
+    {
+      "text": "is to draw an illustration of this proof",
+      "start": 1258.86,
+      "duration": 5.939
+    },
+    {
+      "text": "okay so but it's not a visual proof you",
+      "start": 1261.5,
+      "duration": 5.039
+    },
+    {
+      "text": "know so if I ask you to draw a proof of",
+      "start": 1264.799,
+      "duration": 3.601
+    },
+    {
+      "text": "the you know infinitude of primes it's",
+      "start": 1266.539,
+      "duration": 3.361
+    },
+    {
+      "text": "not clear you know what you would draw",
+      "start": 1268.4,
+      "duration": 3.12
+    },
+    {
+      "text": "you you would come up with something but",
+      "start": 1269.9,
+      "duration": 3.779
+    },
+    {
+      "text": "it's not clear also however it's not",
+      "start": 1271.52,
+      "duration": 4.38
+    },
+    {
+      "text": "supposed to Output images so how is it",
+      "start": 1273.679,
+      "duration": 4.74
+    },
+    {
+      "text": "gonna draw well here I I say it in the",
+      "start": 1275.9,
+      "duration": 4.5
+    },
+    {
+      "text": "question you know in SVG format I could",
+      "start": 1278.419,
+      "duration": 4.081
+    },
+    {
+      "text": "have even not say in SVG format I could",
+      "start": 1280.4,
+      "duration": 3.3
+    },
+    {
+      "text": "have just said you know can you draw an",
+      "start": 1282.5,
+      "duration": 2.7
+    },
+    {
+      "text": "illustration and then it would have",
+      "start": 1283.7,
+      "duration": 3.24
+    },
+    {
+      "text": "responded by hey here is a picture in",
+      "start": 1285.2,
+      "duration": 4.14
+    },
+    {
+      "text": "SVG format so what is SVG format doesn't",
+      "start": 1286.94,
+      "duration": 5.16
+    },
+    {
+      "text": "matter scalable vector graphics it's a",
+      "start": 1289.34,
+      "duration": 4.319
+    },
+    {
+      "text": "bunch of code so it's going to answer",
+      "start": 1292.1,
+      "duration": 3.48
+    },
+    {
+      "text": "with you know lines of codes like this",
+      "start": 1293.659,
+      "duration": 3.661
+    },
+    {
+      "text": "this is going to be the answer of gpt4",
+      "start": 1295.58,
+      "duration": 4.14
+    },
+    {
+      "text": "and if you just you know save it in HTML",
+      "start": 1297.32,
+      "duration": 4.8
+    },
+    {
+      "text": "this is the picture that you get okay so",
+      "start": 1299.72,
+      "duration": 5.64
+    },
+    {
+      "text": "it's not Amazing by any means but it it",
+      "start": 1302.12,
+      "duration": 4.98
+    },
+    {
+      "text": "is the essence of what this proof is",
+      "start": 1305.36,
+      "duration": 3.72
+    },
+    {
+      "text": "about you have the finite list of primes",
+      "start": 1307.1,
+      "duration": 4.079
+    },
+    {
+      "text": "that you have up to nine two three five",
+      "start": 1309.08,
+      "duration": 3.719
+    },
+    {
+      "text": "seven eleven and so on and so forth",
+      "start": 1311.179,
+      "duration": 3.721
+    },
+    {
+      "text": "these are primes okay good now you",
+      "start": 1312.799,
+      "duration": 4.681
+    },
+    {
+      "text": "combine them to a new number n and then",
+      "start": 1314.9,
+      "duration": 4.259
+    },
+    {
+      "text": "you add one you know just to be clever",
+      "start": 1317.48,
+      "duration": 4.14
+    },
+    {
+      "text": "as it said okay and this new n plus one",
+      "start": 1319.159,
+      "duration": 3.961
+    },
+    {
+      "text": "this is the number that is supposed to",
+      "start": 1321.62,
+      "duration": 4.5
+    },
+    {
+      "text": "be a prime okay so this was just a warm",
+      "start": 1323.12,
+      "duration": 5.28
+    },
+    {
+      "text": "up okay let's let's let's move on and",
+      "start": 1326.12,
+      "duration": 4.799
+    },
+    {
+      "text": "try to dig a little bit deeper on this",
+      "start": 1328.4,
+      "duration": 5.1
+    },
+    {
+      "text": "Vision capabilities and here I want to",
+      "start": 1330.919,
+      "duration": 4.441
+    },
+    {
+      "text": "tell you about the The Strange Case of",
+      "start": 1333.5,
+      "duration": 3.0
+    },
+    {
+      "text": "the unicorn",
+      "start": 1335.36,
+      "duration": 3.36
+    },
+    {
+      "text": "um which is kind of my my favorite",
+      "start": 1336.5,
+      "duration": 5.159
+    },
+    {
+      "text": "example so",
+      "start": 1338.72,
+      "duration": 4.68
+    },
+    {
+      "text": "so let's let me just show you the",
+      "start": 1341.659,
+      "duration": 4.5
+    },
+    {
+      "text": "question the question is draw a unicorn",
+      "start": 1343.4,
+      "duration": 5.7
+    },
+    {
+      "text": "in tixie okay so I I in this audience",
+      "start": 1346.159,
+      "duration": 5.221
+    },
+    {
+      "text": "you know many of you are playing with",
+      "start": 1349.1,
+      "duration": 5.4
+    },
+    {
+      "text": "TXI you know to to draw images in latex",
+      "start": 1351.38,
+      "duration": 5.34
+    },
+    {
+      "text": "and you know personally when I was a PhD",
+      "start": 1354.5,
+      "duration": 4.62
+    },
+    {
+      "text": "student and even later I wasted many",
+      "start": 1356.72,
+      "duration": 4.38
+    },
+    {
+      "text": "many hours struggling with TXI okay it's",
+      "start": 1359.12,
+      "duration": 4.919
+    },
+    {
+      "text": "a real pain to draw anything in taxi and",
+      "start": 1361.1,
+      "duration": 4.98
+    },
+    {
+      "text": "of course you know drawing a unicorn in",
+      "start": 1364.039,
+      "duration": 3.661
+    },
+    {
+      "text": "Texas I mean I don't know it would take",
+      "start": 1366.08,
+      "duration": 4.2
+    },
+    {
+      "text": "me like two days to do it okay and",
+      "start": 1367.7,
+      "duration": 4.62
+    },
+    {
+      "text": "moreover I'm pretty sure nobody on the",
+      "start": 1370.28,
+      "duration": 3.96
+    },
+    {
+      "text": "internet has asked this question or you",
+      "start": 1372.32,
+      "duration": 3.42
+    },
+    {
+      "text": "know has drawn you know a unicorn",
+      "start": 1374.24,
+      "duration": 3.12
+    },
+    {
+      "text": "Integrity who would waste time doing",
+      "start": 1375.74,
+      "duration": 4.14
+    },
+    {
+      "text": "this this doesn't make any sense okay",
+      "start": 1377.36,
+      "duration": 4.559
+    },
+    {
+      "text": "that being said you know we will not be",
+      "start": 1379.88,
+      "duration": 4.86
+    },
+    {
+      "text": "convinced again at just the fact that I",
+      "start": 1381.919,
+      "duration": 4.201
+    },
+    {
+      "text": "believe that it's not on the internet we",
+      "start": 1384.74,
+      "duration": 2.64
+    },
+    {
+      "text": "will have to probe we will have to go",
+      "start": 1386.12,
+      "duration": 2.64
+    },
+    {
+      "text": "further and we're going to do it don't",
+      "start": 1387.38,
+      "duration": 3.6
+    },
+    {
+      "text": "worry but let me show you the Unicorn",
+      "start": 1388.76,
+      "duration": 4.74
+    },
+    {
+      "text": "that it came up with okay so this is",
+      "start": 1390.98,
+      "duration": 6.059
+    },
+    {
+      "text": "this is GPT 4's unicorn okay so you see",
+      "start": 1393.5,
+      "duration": 6.48
+    },
+    {
+      "text": "when I see that I am personally shocked",
+      "start": 1397.039,
+      "duration": 4.62
+    },
+    {
+      "text": "because it really understands the",
+      "start": 1399.98,
+      "duration": 4.98
+    },
+    {
+      "text": "concept of a unicorn it knows what are",
+      "start": 1401.659,
+      "duration": 5.161
+    },
+    {
+      "text": "the key elements it was able to draw",
+      "start": 1404.96,
+      "duration": 5.579
+    },
+    {
+      "text": "this very abstract unicorn and just to",
+      "start": 1406.82,
+      "duration": 5.219
+    },
+    {
+      "text": "be clear you know so that you really",
+      "start": 1410.539,
+      "duration": 3.421
+    },
+    {
+      "text": "understand visually it's clear to you",
+      "start": 1412.039,
+      "duration": 5.341
+    },
+    {
+      "text": "the gap between gpt4 and child GPT this",
+      "start": 1413.96,
+      "duration": 5.76
+    },
+    {
+      "text": "is charging's unicorn",
+      "start": 1417.38,
+      "duration": 3.9
+    },
+    {
+      "text": "okay",
+      "start": 1419.72,
+      "duration": 4.26
+    },
+    {
+      "text": "so so this is how much progress has been",
+      "start": 1421.28,
+      "duration": 4.68
+    },
+    {
+      "text": "made you know really I want to be clear",
+      "start": 1423.98,
+      "duration": 3.6
+    },
+    {
+      "text": "like there is a world of difference",
+      "start": 1425.96,
+      "duration": 4.44
+    },
+    {
+      "text": "between charge GPT and gpt4 if you play",
+      "start": 1427.58,
+      "duration": 4.14
+    },
+    {
+      "text": "with tragicity and you were not",
+      "start": 1430.4,
+      "duration": 3.24
+    },
+    {
+      "text": "convinced I encourage you not to stop",
+      "start": 1431.72,
+      "duration": 4.26
+    },
+    {
+      "text": "there okay so",
+      "start": 1433.64,
+      "duration": 4.5
+    },
+    {
+      "text": "of course you know you might still say",
+      "start": 1435.98,
+      "duration": 4.26
+    },
+    {
+      "text": "okay this is not that great but one of",
+      "start": 1438.14,
+      "duration": 3.48
+    },
+    {
+      "text": "the things that we're going to see is",
+      "start": 1440.24,
+      "duration": 3.48
+    },
+    {
+      "text": "that gpt4 is intelligent enough also to",
+      "start": 1441.62,
+      "duration": 4.5
+    },
+    {
+      "text": "use tools so what you can say is you can",
+      "start": 1443.72,
+      "duration": 3.72
+    },
+    {
+      "text": "respond to it and say hey you know what",
+      "start": 1446.12,
+      "duration": 3.059
+    },
+    {
+      "text": "I don't like your drawing that much you",
+      "start": 1447.44,
+      "duration": 3.3
+    },
+    {
+      "text": "know can you try to improve it and you",
+      "start": 1449.179,
+      "duration": 2.88
+    },
+    {
+      "text": "know I've heard about these diffusion",
+      "start": 1450.74,
+      "duration": 3.48
+    },
+    {
+      "text": "models maybe you can use one of them so",
+      "start": 1452.059,
+      "duration": 3.36
+    },
+    {
+      "text": "what it's going to do is that it's gonna",
+      "start": 1454.22,
+      "duration": 2.76
+    },
+    {
+      "text": "say yeah sure can you you know go on",
+      "start": 1455.419,
+      "duration": 3.181
+    },
+    {
+      "text": "this division model website and you know",
+      "start": 1456.98,
+      "duration": 3.24
+    },
+    {
+      "text": "plug in my picture and ask it to improve",
+      "start": 1458.6,
+      "duration": 3.059
+    },
+    {
+      "text": "it and you know this is what you will",
+      "start": 1460.22,
+      "duration": 5.339
+    },
+    {
+      "text": "get okay so this is a unicorn of gpt4",
+      "start": 1461.659,
+      "duration": 6.841
+    },
+    {
+      "text": "when it's allowed to use tools also okay",
+      "start": 1465.559,
+      "duration": 5.041
+    },
+    {
+      "text": "so you you can see where where this",
+      "start": 1468.5,
+      "duration": 4.38
+    },
+    {
+      "text": "could potentially go now again as I said",
+      "start": 1470.6,
+      "duration": 3.78
+    },
+    {
+      "text": "you know I don't want to stop there",
+      "start": 1472.88,
+      "duration": 3.96
+    },
+    {
+      "text": "we're going to probe further",
+      "start": 1474.38,
+      "duration": 4.14
+    },
+    {
+      "text": "how are we going to probe further in",
+      "start": 1476.84,
+      "duration": 3.12
+    },
+    {
+      "text": "this case what I'm going to do is the",
+      "start": 1478.52,
+      "duration": 3.36
+    },
+    {
+      "text": "following I'm going to take the TXI code",
+      "start": 1479.96,
+      "duration": 3.959
+    },
+    {
+      "text": "that was produced okay I'm going to",
+      "start": 1481.88,
+      "duration": 4.08
+    },
+    {
+      "text": "remove all the comments in the taxi code",
+      "start": 1483.919,
+      "duration": 3.301
+    },
+    {
+      "text": "because that's one of the properties of",
+      "start": 1485.96,
+      "duration": 4.26
+    },
+    {
+      "text": "gpt4 is that it produces code that is",
+      "start": 1487.22,
+      "duration": 5.04
+    },
+    {
+      "text": "very much human readable which is kind",
+      "start": 1490.22,
+      "duration": 3.839
+    },
+    {
+      "text": "of you know funny for a machine but it",
+      "start": 1492.26,
+      "duration": 4.02
+    },
+    {
+      "text": "adds lots of comments it really guides",
+      "start": 1494.059,
+      "duration": 3.841
+    },
+    {
+      "text": "you you know to its thinking so I'm",
+      "start": 1496.28,
+      "duration": 3.06
+    },
+    {
+      "text": "going to remove all of this information",
+      "start": 1497.9,
+      "duration": 3.48
+    },
+    {
+      "text": "so that it doesn't know you know that",
+      "start": 1499.34,
+      "duration": 3.66
+    },
+    {
+      "text": "this is called drawing a unicorn there",
+      "start": 1501.38,
+      "duration": 3.48
+    },
+    {
+      "text": "is no information about unicorn in there",
+      "start": 1503.0,
+      "duration": 4.02
+    },
+    {
+      "text": "okay I'm also going to to make sure that",
+      "start": 1504.86,
+      "duration": 3.78
+    },
+    {
+      "text": "you know who knows maybe it copies this",
+      "start": 1507.02,
+      "duration": 3.659
+    },
+    {
+      "text": "this from the web I'm going to remove",
+      "start": 1508.64,
+      "duration": 4.14
+    },
+    {
+      "text": "randomly perturb you know all the",
+      "start": 1510.679,
+      "duration": 3.421
+    },
+    {
+      "text": "coordinates so that it's something that",
+      "start": 1512.78,
+      "duration": 3.12
+    },
+    {
+      "text": "it has never seen and then I'm going to",
+      "start": 1514.1,
+      "duration": 4.5
+    },
+    {
+      "text": "remove the horn okay and I'm gonna say",
+      "start": 1515.9,
+      "duration": 4.44
+    },
+    {
+      "text": "you know what this fix the code I'm",
+      "start": 1518.6,
+      "duration": 3.3
+    },
+    {
+      "text": "going to give back the code it's a new",
+      "start": 1520.34,
+      "duration": 3.3
+    },
+    {
+      "text": "session I give back the code and I say",
+      "start": 1521.9,
+      "duration": 3.36
+    },
+    {
+      "text": "this taxi code is supposed to draw a",
+      "start": 1523.64,
+      "duration": 4.08
+    },
+    {
+      "text": "unicorn but the horn is missing can you",
+      "start": 1525.26,
+      "duration": 4.44
+    },
+    {
+      "text": "add it back okay so it really has to",
+      "start": 1527.72,
+      "duration": 4.559
+    },
+    {
+      "text": "understand you know the code in order to",
+      "start": 1529.7,
+      "duration": 4.26
+    },
+    {
+      "text": "be able to do that and this is what",
+      "start": 1532.279,
+      "duration": 4.5
+    },
+    {
+      "text": "happens okay so it really it was able to",
+      "start": 1533.96,
+      "duration": 4.86
+    },
+    {
+      "text": "locate the head you understand this is",
+      "start": 1536.779,
+      "duration": 4.14
+    },
+    {
+      "text": "not an easy problem I mean you have",
+      "start": 1538.82,
+      "duration": 4.2
+    },
+    {
+      "text": "these three you know ellipse the three",
+      "start": 1540.919,
+      "duration": 3.481
+    },
+    {
+      "text": "elements by the way the head and the",
+      "start": 1543.02,
+      "duration": 3.18
+    },
+    {
+      "text": "main that you know it's not very good at",
+      "start": 1544.4,
+      "duration": 3.18
+    },
+    {
+      "text": "drawing the main",
+      "start": 1546.2,
+      "duration": 3.479
+    },
+    {
+      "text": "um but it really you know was able to",
+      "start": 1547.58,
+      "duration": 3.959
+    },
+    {
+      "text": "locate it okay I don't want to get to",
+      "start": 1549.679,
+      "duration": 4.141
+    },
+    {
+      "text": "you know stay on this uh unicorn example",
+      "start": 1551.539,
+      "duration": 5.041
+    },
+    {
+      "text": "too long but I just want to say that",
+      "start": 1553.82,
+      "duration": 4.739
+    },
+    {
+      "text": "another thing which is you know really",
+      "start": 1556.58,
+      "duration": 4.92
+    },
+    {
+      "text": "striking is over the month so you know",
+      "start": 1558.559,
+      "duration": 6.0
+    },
+    {
+      "text": "we had access uh in in September and",
+      "start": 1561.5,
+      "duration": 5.1
+    },
+    {
+      "text": "they kept training it and as they kept",
+      "start": 1564.559,
+      "duration": 3.901
+    },
+    {
+      "text": "training it I kept querying for my",
+      "start": 1566.6,
+      "duration": 4.679
+    },
+    {
+      "text": "unicorn in TXI okay to see whether you",
+      "start": 1568.46,
+      "duration": 4.62
+    },
+    {
+      "text": "know what was going to happen and this",
+      "start": 1571.279,
+      "duration": 4.201
+    },
+    {
+      "text": "is you know what happens okay",
+      "start": 1573.08,
+      "duration": 6.599
+    },
+    {
+      "text": "so it kept improving okay and and and I",
+      "start": 1575.48,
+      "duration": 5.76
+    },
+    {
+      "text": "left out the best one it's on my",
+      "start": 1579.679,
+      "duration": 3.661
+    },
+    {
+      "text": "computer uh you know I will maybe review",
+      "start": 1581.24,
+      "duration": 4.38
+    },
+    {
+      "text": "it later but uh you know it kept",
+      "start": 1583.34,
+      "duration": 5.339
+    },
+    {
+      "text": "improving after that but eventually it",
+      "start": 1585.62,
+      "duration": 5.52
+    },
+    {
+      "text": "started to degrade once I started to",
+      "start": 1588.679,
+      "duration": 4.681
+    },
+    {
+      "text": "train for more safety the Unicorn",
+      "start": 1591.14,
+      "duration": 3.84
+    },
+    {
+      "text": "started to degrade so if tonight you",
+      "start": 1593.36,
+      "duration": 4.199
+    },
+    {
+      "text": "know you go home and you ask gpt4 and",
+      "start": 1594.98,
+      "duration": 5.1
+    },
+    {
+      "text": "charge GPT to draw a unicorn intixie",
+      "start": 1597.559,
+      "duration": 3.961
+    },
+    {
+      "text": "you're gonna get something that doesn't",
+      "start": 1600.08,
+      "duration": 3.3
+    },
+    {
+      "text": "look great okay that's closer to charge",
+      "start": 1601.52,
+      "duration": 4.98
+    },
+    {
+      "text": "GPT and this you know as silly as it",
+      "start": 1603.38,
+      "duration": 5.34
+    },
+    {
+      "text": "sounds this unicorn Benchmark we've used",
+      "start": 1606.5,
+      "duration": 4.32
+    },
+    {
+      "text": "it a lot as kind of a benchmark of",
+      "start": 1608.72,
+      "duration": 4.079
+    },
+    {
+      "text": "intelligence you know how good is your",
+      "start": 1610.82,
+      "duration": 4.02
+    },
+    {
+      "text": "unicorn okay and and when we were",
+      "start": 1612.799,
+      "duration": 3.721
+    },
+    {
+      "text": "working on being this is absolutely a",
+      "start": 1614.84,
+      "duration": 3.78
+    },
+    {
+      "text": "real story you know we were also tuning",
+      "start": 1616.52,
+      "duration": 4.08
+    },
+    {
+      "text": "for safety and we were really looking",
+      "start": 1618.62,
+      "duration": 3.96
+    },
+    {
+      "text": "whether you know the Unicorn kept you",
+      "start": 1620.6,
+      "duration": 3.72
+    },
+    {
+      "text": "know being nice or sometimes if you go",
+      "start": 1622.58,
+      "duration": 3.24
+    },
+    {
+      "text": "too far in safety it's like oh no that's",
+      "start": 1624.32,
+      "duration": 3.06
+    },
+    {
+      "text": "a too dangerous task you know I don't",
+      "start": 1625.82,
+      "duration": 3.54
+    },
+    {
+      "text": "want to do it so this this was very",
+      "start": 1627.38,
+      "duration": 5.159
+    },
+    {
+      "text": "useful okay so I will I will now go a",
+      "start": 1629.36,
+      "duration": 4.62
+    },
+    {
+      "text": "little bit faster because there is a lot",
+      "start": 1632.539,
+      "duration": 3.541
+    },
+    {
+      "text": "that I want to tell you you might still",
+      "start": 1633.98,
+      "duration": 4.199
+    },
+    {
+      "text": "say okay this Vision capability is not",
+      "start": 1636.08,
+      "duration": 4.5
+    },
+    {
+      "text": "useful at all actually it is very very",
+      "start": 1638.179,
+      "duration": 5.641
+    },
+    {
+      "text": "useful the reason is that gpt4 is",
+      "start": 1640.58,
+      "duration": 5.459
+    },
+    {
+      "text": "intelligent and it understands you you",
+      "start": 1643.82,
+      "duration": 3.839
+    },
+    {
+      "text": "know intelligence you can equate it with",
+      "start": 1646.039,
+      "duration": 3.901
+    },
+    {
+      "text": "understanding understanding means it",
+      "start": 1647.659,
+      "duration": 3.841
+    },
+    {
+      "text": "follows your instruction if you ask it",
+      "start": 1649.94,
+      "duration": 3.18
+    },
+    {
+      "text": "to do something it will do the thing",
+      "start": 1651.5,
+      "duration": 3.419
+    },
+    {
+      "text": "that you asked so let me show you what",
+      "start": 1653.12,
+      "duration": 3.84
+    },
+    {
+      "text": "this means you know this diffusion model",
+      "start": 1654.919,
+      "duration": 4.62
+    },
+    {
+      "text": "that is you know people are not yet",
+      "start": 1656.96,
+      "duration": 3.9
+    },
+    {
+      "text": "convinced convinced that this is",
+      "start": 1659.539,
+      "duration": 3.061
+    },
+    {
+      "text": "intelligent I I think it's already",
+      "start": 1660.86,
+      "duration": 3.179
+    },
+    {
+      "text": "convincing that there is intelligence",
+      "start": 1662.6,
+      "duration": 3.12
+    },
+    {
+      "text": "there but doesn't matter people are not",
+      "start": 1664.039,
+      "duration": 3.421
+    },
+    {
+      "text": "convinced because you know it doesn't",
+      "start": 1665.72,
+      "duration": 3.6
+    },
+    {
+      "text": "understand exactly the position of",
+      "start": 1667.46,
+      "duration": 3.959
+    },
+    {
+      "text": "object you know if you ask it you know a",
+      "start": 1669.32,
+      "duration": 4.14
+    },
+    {
+      "text": "car next to a coffee on the right of a",
+      "start": 1671.419,
+      "duration": 3.661
+    },
+    {
+      "text": "copy cup you know it might be random",
+      "start": 1673.46,
+      "duration": 3.18
+    },
+    {
+      "text": "location so it doesn't really understand",
+      "start": 1675.08,
+      "duration": 3.719
+    },
+    {
+      "text": "this picture for example is asking for a",
+      "start": 1676.64,
+      "duration": 4.56
+    },
+    {
+      "text": "spoon on top of a cup and you see it put",
+      "start": 1678.799,
+      "duration": 3.781
+    },
+    {
+      "text": "the spoon inside the cap it doesn't",
+      "start": 1681.2,
+      "duration": 3.42
+    },
+    {
+      "text": "really work so let me show you what you",
+      "start": 1682.58,
+      "duration": 3.78
+    },
+    {
+      "text": "get out of understanding I'm gonna ask a",
+      "start": 1684.62,
+      "duration": 3.96
+    },
+    {
+      "text": "very strange you know question but which",
+      "start": 1686.36,
+      "duration": 4.559
+    },
+    {
+      "text": "could very well happen would be useful",
+      "start": 1688.58,
+      "duration": 5.579
+    },
+    {
+      "text": "let's say I asked you know gpt4 to draw",
+      "start": 1690.919,
+      "duration": 5.221
+    },
+    {
+      "text": "a screenshot of a 3D building game with",
+      "start": 1694.159,
+      "duration": 3.961
+    },
+    {
+      "text": "a river from left to right a dessert",
+      "start": 1696.14,
+      "duration": 3.72
+    },
+    {
+      "text": "with a pyramid below the river a city",
+      "start": 1698.12,
+      "duration": 4.14
+    },
+    {
+      "text": "with many high rises above the river and",
+      "start": 1699.86,
+      "duration": 3.6
+    },
+    {
+      "text": "the bottom is the bottom of the screen",
+      "start": 1702.26,
+      "duration": 3.84
+    },
+    {
+      "text": "has four buttons called green blue brown",
+      "start": 1703.46,
+      "duration": 4.92
+    },
+    {
+      "text": "and red so something random but you know",
+      "start": 1706.1,
+      "duration": 3.72
+    },
+    {
+      "text": "maybe I'm creating a video game and I",
+      "start": 1708.38,
+      "duration": 3.539
+    },
+    {
+      "text": "want this if I ask a diffusion model to",
+      "start": 1709.82,
+      "duration": 4.8
+    },
+    {
+      "text": "do this this is what I get looks good",
+      "start": 1711.919,
+      "duration": 4.981
+    },
+    {
+      "text": "but it's not at all what I asked okay",
+      "start": 1714.62,
+      "duration": 4.439
+    },
+    {
+      "text": "first of all there are some hallucinated",
+      "start": 1716.9,
+      "duration": 4.08
+    },
+    {
+      "text": "map in there you know in the in the",
+      "start": 1719.059,
+      "duration": 3.661
+    },
+    {
+      "text": "upper left corner I didn't ask for that",
+      "start": 1720.98,
+      "duration": 3.72
+    },
+    {
+      "text": "you know some kind of live symbol also",
+      "start": 1722.72,
+      "duration": 3.959
+    },
+    {
+      "text": "the four button they became two",
+      "start": 1724.7,
+      "duration": 4.26
+    },
+    {
+      "text": "multi-colored button so it did something",
+      "start": 1726.679,
+      "duration": 4.021
+    },
+    {
+      "text": "but it really didn't understand what I",
+      "start": 1728.96,
+      "duration": 4.98
+    },
+    {
+      "text": "asked for exactly if you give it to gpt4",
+      "start": 1730.7,
+      "duration": 6.24
+    },
+    {
+      "text": "this is what you get exactly what you",
+      "start": 1733.94,
+      "duration": 5.7
+    },
+    {
+      "text": "asked for it understood it followed your",
+      "start": 1736.94,
+      "duration": 5.16
+    },
+    {
+      "text": "instructions precisely of course you",
+      "start": 1739.64,
+      "duration": 4.26
+    },
+    {
+      "text": "might say okay but this doesn't look",
+      "start": 1742.1,
+      "duration": 3.72
+    },
+    {
+      "text": "great but again you don't have to stop",
+      "start": 1743.9,
+      "duration": 4.5
+    },
+    {
+      "text": "there you can use this as a sketch in a",
+      "start": 1745.82,
+      "duration": 4.38
+    },
+    {
+      "text": "diffusion model and if you do that this",
+      "start": 1748.4,
+      "duration": 4.62
+    },
+    {
+      "text": "is what you get okay so it's not done so",
+      "start": 1750.2,
+      "duration": 4.62
+    },
+    {
+      "text": "it's you know it's artistic and it's",
+      "start": 1753.02,
+      "duration": 3.539
+    },
+    {
+      "text": "following exactly you know the",
+      "start": 1754.82,
+      "duration": 3.9
+    },
+    {
+      "text": "instructions that that you wanted so I",
+      "start": 1756.559,
+      "duration": 3.901
+    },
+    {
+      "text": "think you know this opens up a lot of",
+      "start": 1758.72,
+      "duration": 4.319
+    },
+    {
+      "text": "possibility as as you can imagine so let",
+      "start": 1760.46,
+      "duration": 5.16
+    },
+    {
+      "text": "me move on and you know double down on",
+      "start": 1763.039,
+      "duration": 5.041
+    },
+    {
+      "text": "on this drawing but really as coding",
+      "start": 1765.62,
+      "duration": 4.2
+    },
+    {
+      "text": "really because after all this drawing",
+      "start": 1768.08,
+      "duration": 4.38
+    },
+    {
+      "text": "capabilities I you know uh",
+      "start": 1769.82,
+      "duration": 5.04
+    },
+    {
+      "text": "put it aside and feature it as drawing",
+      "start": 1772.46,
+      "duration": 3.959
+    },
+    {
+      "text": "but it's really nothing but coding okay",
+      "start": 1774.86,
+      "duration": 3.419
+    },
+    {
+      "text": "so let's let's go with coding by the way",
+      "start": 1776.419,
+      "duration": 4.26
+    },
+    {
+      "text": "obviously all those background slides uh",
+      "start": 1778.279,
+      "duration": 5.52
+    },
+    {
+      "text": "well you can imagine who drew them",
+      "start": 1780.679,
+      "duration": 6.781
+    },
+    {
+      "text": "so so let's see what happens once you go",
+      "start": 1783.799,
+      "duration": 5.821
+    },
+    {
+      "text": "to coding with a copilot you know like",
+      "start": 1787.46,
+      "duration": 4.26
+    },
+    {
+      "text": "GitHub copilot but except that now your",
+      "start": 1789.62,
+      "duration": 4.38
+    },
+    {
+      "text": "co-pilot understands you know it's",
+      "start": 1791.72,
+      "duration": 4.199
+    },
+    {
+      "text": "intelligent it understands you so let's",
+      "start": 1794.0,
+      "duration": 3.72
+    },
+    {
+      "text": "see what happens if I ask it something",
+      "start": 1795.919,
+      "duration": 4.98
+    },
+    {
+      "text": "pretty tricky write uh 3D games in HTML",
+      "start": 1797.72,
+      "duration": 5.4
+    },
+    {
+      "text": "in JavaScript with the following you",
+      "start": 1800.899,
+      "duration": 5.52
+    },
+    {
+      "text": "know uh elements there are three avatars",
+      "start": 1803.12,
+      "duration": 5.22
+    },
+    {
+      "text": "who are spherical the player controls",
+      "start": 1806.419,
+      "duration": 4.021
+    },
+    {
+      "text": "one of the avatars with the keys to move",
+      "start": 1808.34,
+      "duration": 3.839
+    },
+    {
+      "text": "there is an enemy that tries to catch",
+      "start": 1810.44,
+      "duration": 2.7
+    },
+    {
+      "text": "the player",
+      "start": 1812.179,
+      "duration": 2.941
+    },
+    {
+      "text": "and there is a Defender that tries to",
+      "start": 1813.14,
+      "duration": 3.419
+    },
+    {
+      "text": "you know protect the player and gets",
+      "start": 1815.12,
+      "duration": 3.84
+    },
+    {
+      "text": "between the enemy and and the player so",
+      "start": 1816.559,
+      "duration": 3.781
+    },
+    {
+      "text": "you understand the defender is kind of",
+      "start": 1818.96,
+      "duration": 4.14
+    },
+    {
+      "text": "an AI itself in some some ways and you",
+      "start": 1820.34,
+      "duration": 3.9
+    },
+    {
+      "text": "know you have obstacles that spawn",
+      "start": 1823.1,
+      "duration": 3.299
+    },
+    {
+      "text": "randomly I can ask chargpt to do it this",
+      "start": 1824.24,
+      "duration": 4.98
+    },
+    {
+      "text": "is what it gives me first of all this is",
+      "start": 1826.399,
+      "duration": 5.461
+    },
+    {
+      "text": "already incredible it gives me you know",
+      "start": 1829.22,
+      "duration": 4.439
+    },
+    {
+      "text": "code roughly you know 50 lines of code",
+      "start": 1831.86,
+      "duration": 4.08
+    },
+    {
+      "text": "that compile to this okay this is a game",
+      "start": 1833.659,
+      "duration": 4.02
+    },
+    {
+      "text": "that I can play you know the player",
+      "start": 1835.94,
+      "duration": 4.32
+    },
+    {
+      "text": "moves the the the green ball of course",
+      "start": 1837.679,
+      "duration": 4.74
+    },
+    {
+      "text": "the red ball is not moving I imagine the",
+      "start": 1840.26,
+      "duration": 3.84
+    },
+    {
+      "text": "blue ball is supposed to be the defender",
+      "start": 1842.419,
+      "duration": 3.601
+    },
+    {
+      "text": "it's not moving either it's not really",
+      "start": 1844.1,
+      "duration": 4.98
+    },
+    {
+      "text": "3D so it did something but it didn't",
+      "start": 1846.02,
+      "duration": 4.68
+    },
+    {
+      "text": "really understand what I wanted it",
+      "start": 1849.08,
+      "duration": 3.06
+    },
+    {
+      "text": "didn't follow my instructions precisely",
+      "start": 1850.7,
+      "duration": 4.56
+    },
+    {
+      "text": "this is what gpt4 does okay so this this",
+      "start": 1852.14,
+      "duration": 5.039
+    },
+    {
+      "text": "is a real game it's it's fun to play you",
+      "start": 1855.26,
+      "duration": 4.08
+    },
+    {
+      "text": "know you move you know it's gonna",
+      "start": 1857.179,
+      "duration": 3.781
+    },
+    {
+      "text": "restart in a second you move you know",
+      "start": 1859.34,
+      "duration": 4.079
+    },
+    {
+      "text": "the the dark blue ball you see the red",
+      "start": 1860.96,
+      "duration": 4.319
+    },
+    {
+      "text": "ball is moving towards a dark blue ball",
+      "start": 1863.419,
+      "duration": 3.721
+    },
+    {
+      "text": "in the background and the light blue one",
+      "start": 1865.279,
+      "duration": 3.361
+    },
+    {
+      "text": "is a Defender which is you know trying",
+      "start": 1867.14,
+      "duration": 4.5
+    },
+    {
+      "text": "to get between the the red ball and and",
+      "start": 1868.64,
+      "duration": 4.919
+    },
+    {
+      "text": "the dark blue ball so I'm this movie is",
+      "start": 1871.64,
+      "duration": 3.96
+    },
+    {
+      "text": "me you know controlling the the dark",
+      "start": 1873.559,
+      "duration": 4.261
+    },
+    {
+      "text": "blue uh ball you see ah you know the",
+      "start": 1875.6,
+      "duration": 3.48
+    },
+    {
+      "text": "defender is doing a good job it's",
+      "start": 1877.82,
+      "duration": 4.26
+    },
+    {
+      "text": "stopping the red ball okay so so this is",
+      "start": 1879.08,
+      "duration": 4.8
+    },
+    {
+      "text": "really you know for us there is a kind",
+      "start": 1882.08,
+      "duration": 3.78
+    },
+    {
+      "text": "of face transition in coding at this",
+      "start": 1883.88,
+      "duration": 5.039
+    },
+    {
+      "text": "point and really what I is that codex",
+      "start": 1885.86,
+      "duration": 4.98
+    },
+    {
+      "text": "you know and GitHub copilot it was able",
+      "start": 1888.919,
+      "duration": 3.901
+    },
+    {
+      "text": "to auto complete really you should have",
+      "start": 1890.84,
+      "duration": 3.9
+    },
+    {
+      "text": "sort of of it as autocomplete you know",
+      "start": 1892.82,
+      "duration": 4.92
+    },
+    {
+      "text": "short Snippets of code chat GPT it's",
+      "start": 1894.74,
+      "duration": 4.559
+    },
+    {
+      "text": "already next level you can already write",
+      "start": 1897.74,
+      "duration": 4.2
+    },
+    {
+      "text": "you know 50 lines of code for you but",
+      "start": 1899.299,
+      "duration": 6.24
+    },
+    {
+      "text": "gpt4 it can write in a 500 to 1000 lines",
+      "start": 1901.94,
+      "duration": 6.18
+    },
+    {
+      "text": "of code you know fully you know works",
+      "start": 1905.539,
+      "duration": 4.62
+    },
+    {
+      "text": "you know zero shot you know there is no",
+      "start": 1908.12,
+      "duration": 4.26
+    },
+    {
+      "text": "you know meta prompting or anything this",
+      "start": 1910.159,
+      "duration": 4.921
+    },
+    {
+      "text": "all works you know out of the box okay",
+      "start": 1912.38,
+      "duration": 5.1
+    },
+    {
+      "text": "so so this is really I think what you",
+      "start": 1915.08,
+      "duration": 4.38
+    },
+    {
+      "text": "know coding with a copilot unlocks and",
+      "start": 1917.48,
+      "duration": 3.9
+    },
+    {
+      "text": "here you know I'm showing in this uh two",
+      "start": 1919.46,
+      "duration": 4.26
+    },
+    {
+      "text": "animations on the left is the code that",
+      "start": 1921.38,
+      "duration": 4.08
+    },
+    {
+      "text": "charge GPT produces and on the right is",
+      "start": 1923.72,
+      "duration": 4.5
+    },
+    {
+      "text": "the code that uh gpt4 produces and if",
+      "start": 1925.46,
+      "duration": 4.5
+    },
+    {
+      "text": "you look at it carefully you will see",
+      "start": 1928.22,
+      "duration": 3.66
+    },
+    {
+      "text": "the GPT Force code is much more expert",
+      "start": 1929.96,
+      "duration": 4.38
+    },
+    {
+      "text": "level now the catch is all the Twist on",
+      "start": 1931.88,
+      "duration": 4.38
+    },
+    {
+      "text": "this slide is that those two videos were",
+      "start": 1934.34,
+      "duration": 4.68
+    },
+    {
+      "text": "produced by gpt4 so what I did is that I",
+      "start": 1936.26,
+      "duration": 6.12
+    },
+    {
+      "text": "asked gpt4 to produce a python script",
+      "start": 1939.02,
+      "duration": 6.06
+    },
+    {
+      "text": "that takes as input a text file and I'll",
+      "start": 1942.38,
+      "duration": 4.56
+    },
+    {
+      "text": "put you know a video like this with you",
+      "start": 1945.08,
+      "duration": 3.719
+    },
+    {
+      "text": "know the the you you see you understand",
+      "start": 1946.94,
+      "duration": 3.66
+    },
+    {
+      "text": "this is moving continuously I mean this",
+      "start": 1948.799,
+      "duration": 4.081
+    },
+    {
+      "text": "would take a lot of time suddenly you",
+      "start": 1950.6,
+      "duration": 4.319
+    },
+    {
+      "text": "know for me it would take me forever to",
+      "start": 1952.88,
+      "duration": 4.08
+    },
+    {
+      "text": "produce those videos uh and and the",
+      "start": 1954.919,
+      "duration": 3.421
+    },
+    {
+      "text": "question is you know who in this room",
+      "start": 1956.96,
+      "duration": 4.02
+    },
+    {
+      "text": "would be able to produce a python script",
+      "start": 1958.34,
+      "duration": 5.16
+    },
+    {
+      "text": "you know let's say in a couple of hours",
+      "start": 1960.98,
+      "duration": 4.919
+    },
+    {
+      "text": "that will produce this",
+      "start": 1963.5,
+      "duration": 4.74
+    },
+    {
+      "text": "maybe a few people but not not that many",
+      "start": 1965.899,
+      "duration": 4.5
+    },
+    {
+      "text": "okay so this is really the power of gpt4",
+      "start": 1968.24,
+      "duration": 4.5
+    },
+    {
+      "text": "you know how it unlocks uh so many",
+      "start": 1970.399,
+      "duration": 4.5
+    },
+    {
+      "text": "things you know so much creativity is",
+      "start": 1972.74,
+      "duration": 4.14
+    },
+    {
+      "text": "unlocked by by gpt4",
+      "start": 1974.899,
+      "duration": 4.38
+    },
+    {
+      "text": "I will go quickly just on this slide",
+      "start": 1976.88,
+      "duration": 8.299
+    },
+    {
+      "text": "uh you know we had it past uh interviews",
+      "start": 1979.279,
+      "duration": 9.541
+    },
+    {
+      "text": "mock interviews at Amazon and Google not",
+      "start": 1985.179,
+      "duration": 6.041
+    },
+    {
+      "text": "Microsoft and",
+      "start": 1988.82,
+      "duration": 3.719
+    },
+    {
+      "text": "uh",
+      "start": 1991.22,
+      "duration": 4.14
+    },
+    {
+      "text": "and it and it passed you know not only",
+      "start": 1992.539,
+      "duration": 5.401
+    },
+    {
+      "text": "did it pass but it beats a hundred",
+      "start": 1995.36,
+      "duration": 5.46
+    },
+    {
+      "text": "percent of the human users and you see",
+      "start": 1997.94,
+      "duration": 4.739
+    },
+    {
+      "text": "for this particular one there were two",
+      "start": 2000.82,
+      "duration": 4.979
+    },
+    {
+      "text": "hours uh allocated and he did it in uh",
+      "start": 2002.679,
+      "duration": 6.181
+    },
+    {
+      "text": "three minutes and 59 seconds",
+      "start": 2005.799,
+      "duration": 5.641
+    },
+    {
+      "text": "it took that long because he was copy",
+      "start": 2008.86,
+      "duration": 4.559
+    },
+    {
+      "text": "pasting between the playground and you",
+      "start": 2011.44,
+      "duration": 4.56
+    },
+    {
+      "text": "know the mock interview website okay so",
+      "start": 2013.419,
+      "duration": 4.98
+    },
+    {
+      "text": "this is really you know I think I think",
+      "start": 2016.0,
+      "duration": 4.679
+    },
+    {
+      "text": "it's fair to say it's superhuman coding",
+      "start": 2018.399,
+      "duration": 4.681
+    },
+    {
+      "text": "um okay so let me uh move on to",
+      "start": 2020.679,
+      "duration": 4.98
+    },
+    {
+      "text": "affordances and and and very quickly of",
+      "start": 2023.08,
+      "duration": 3.959
+    },
+    {
+      "text": "our finances because I want to tell you",
+      "start": 2025.659,
+      "duration": 2.64
+    },
+    {
+      "text": "about mathematics which is something",
+      "start": 2027.039,
+      "duration": 2.701
+    },
+    {
+      "text": "that will be of interest to many people",
+      "start": 2028.299,
+      "duration": 3.781
+    },
+    {
+      "text": "problem is it still has many weaknesses",
+      "start": 2029.74,
+      "duration": 3.72
+    },
+    {
+      "text": "of course it doesn't have memory you",
+      "start": 2032.08,
+      "duration": 2.459
+    },
+    {
+      "text": "know who is the president of the US",
+      "start": 2033.46,
+      "duration": 3.18
+    },
+    {
+      "text": "Donald Trump what is uh you know the",
+      "start": 2034.539,
+      "duration": 3.36
+    },
+    {
+      "text": "square root of the product of those two",
+      "start": 2036.64,
+      "duration": 3.24
+    },
+    {
+      "text": "numbers it says a thousand it's clearly",
+      "start": 2037.899,
+      "duration": 3.9
+    },
+    {
+      "text": "not a thousand it's nine thousand so you",
+      "start": 2039.88,
+      "duration": 4.2
+    },
+    {
+      "text": "know it it makes arithmetic mistakes",
+      "start": 2041.799,
+      "duration": 4.021
+    },
+    {
+      "text": "what is the certain method of this word",
+      "start": 2044.08,
+      "duration": 3.96
+    },
+    {
+      "text": "it says n the right answer is a you know",
+      "start": 2045.82,
+      "duration": 4.799
+    },
+    {
+      "text": "it makes mistakes it's not perfect okay",
+      "start": 2048.04,
+      "duration": 4.26
+    },
+    {
+      "text": "is this something very important for",
+      "start": 2050.619,
+      "duration": 3.48
+    },
+    {
+      "text": "everybody to understand it's far far",
+      "start": 2052.3,
+      "duration": 5.039
+    },
+    {
+      "text": "from perfect okay it's it's flawed like",
+      "start": 2054.099,
+      "duration": 6.181
+    },
+    {
+      "text": "a human is flawed so but the point is",
+      "start": 2057.339,
+      "duration": 5.28
+    },
+    {
+      "text": "it's intelligent enough to use tools so",
+      "start": 2060.28,
+      "duration": 4.2
+    },
+    {
+      "text": "you can tell it hey you know what you",
+      "start": 2062.619,
+      "duration": 3.601
+    },
+    {
+      "text": "have access to a search engine you have",
+      "start": 2064.48,
+      "duration": 3.359
+    },
+    {
+      "text": "access to a calculator you have access",
+      "start": 2066.22,
+      "duration": 3.959
+    },
+    {
+      "text": "to this API I just say it's character",
+      "start": 2067.839,
+      "duration": 4.681
+    },
+    {
+      "text": "you know parenthesis you have access to",
+      "start": 2070.179,
+      "duration": 3.781
+    },
+    {
+      "text": "all those things if you need them please",
+      "start": 2072.52,
+      "duration": 3.48
+    },
+    {
+      "text": "use them so you know then to the to the",
+      "start": 2073.96,
+      "duration": 3.3
+    },
+    {
+      "text": "question who is the president of the US",
+      "start": 2076.0,
+      "duration": 4.2
+    },
+    {
+      "text": "he will not answer he will say search it",
+      "start": 2077.26,
+      "duration": 4.32
+    },
+    {
+      "text": "will tell you okay I need to search this",
+      "start": 2080.2,
+      "duration": 3.0
+    },
+    {
+      "text": "information what is the square root of",
+      "start": 2081.58,
+      "duration": 3.839
+    },
+    {
+      "text": "this it will say calc what is a certain",
+      "start": 2083.2,
+      "duration": 3.78
+    },
+    {
+      "text": "letter of this word it was a character",
+      "start": 2085.419,
+      "duration": 4.081
+    },
+    {
+      "text": "of the word comma 13 okay so the comma",
+      "start": 2086.98,
+      "duration": 4.32
+    },
+    {
+      "text": "13 I didn't tell it you have to do comma",
+      "start": 2089.5,
+      "duration": 3.119
+    },
+    {
+      "text": "you know the number of the letters that",
+      "start": 2091.3,
+      "duration": 3.18
+    },
+    {
+      "text": "you want but it will it will find it",
+      "start": 2092.619,
+      "duration": 3.841
+    },
+    {
+      "text": "automatically now maybe it's not that",
+      "start": 2094.48,
+      "duration": 3.9
+    },
+    {
+      "text": "impressive but it can also do much more",
+      "start": 2096.46,
+      "duration": 3.84
+    },
+    {
+      "text": "complex tools so for example you can",
+      "start": 2098.38,
+      "duration": 4.2
+    },
+    {
+      "text": "give it access to your calendar to your",
+      "start": 2100.3,
+      "duration": 4.44
+    },
+    {
+      "text": "email okay so here what I'm going to",
+      "start": 2102.58,
+      "duration": 5.039
+    },
+    {
+      "text": "show you on this slide is 100 real",
+      "start": 2104.74,
+      "duration": 5.16
+    },
+    {
+      "text": "um but but I did it manually but you can",
+      "start": 2107.619,
+      "duration": 4.201
+    },
+    {
+      "text": "very easily you know imagine automating",
+      "start": 2109.9,
+      "duration": 3.9
+    },
+    {
+      "text": "this so what I said is",
+      "start": 2111.82,
+      "duration": 3.84
+    },
+    {
+      "text": "please set up you know dinner with Joe",
+      "start": 2113.8,
+      "duration": 3.66
+    },
+    {
+      "text": "and Luke at contoso restaurant this week",
+      "start": 2115.66,
+      "duration": 4.38
+    },
+    {
+      "text": "it says it responds this is its response",
+      "start": 2117.46,
+      "duration": 4.8
+    },
+    {
+      "text": "calendar dot get events week so it",
+      "start": 2120.04,
+      "duration": 3.96
+    },
+    {
+      "text": "searches in my calendar for what events",
+      "start": 2122.26,
+      "duration": 3.359
+    },
+    {
+      "text": "I have for this week it sends an email",
+      "start": 2124.0,
+      "duration": 4.32
+    },
+    {
+      "text": "to Joe okay email Dotson Hey Joe you",
+      "start": 2125.619,
+      "duration": 4.201
+    },
+    {
+      "text": "know dinner which nice are available",
+      "start": 2128.32,
+      "duration": 4.259
+    },
+    {
+      "text": "then I feed it back the answer okay",
+      "start": 2129.82,
+      "duration": 4.44
+    },
+    {
+      "text": "which are Joe says you know on Tuesday",
+      "start": 2132.579,
+      "duration": 3.601
+    },
+    {
+      "text": "and Wednesday night is available Luke",
+      "start": 2134.26,
+      "duration": 3.9
+    },
+    {
+      "text": "says any day from Monday to Thursday and",
+      "start": 2136.18,
+      "duration": 3.6
+    },
+    {
+      "text": "in my calendar it says that I have plans",
+      "start": 2138.16,
+      "duration": 4.56
+    },
+    {
+      "text": "for Monday and Tuesday then it reasons",
+      "start": 2139.78,
+      "duration": 5.819
+    },
+    {
+      "text": "over this you know input that I gave it",
+      "start": 2142.72,
+      "duration": 5.22
+    },
+    {
+      "text": "and it's and you know it gets the answer",
+      "start": 2145.599,
+      "duration": 5.101
+    },
+    {
+      "text": "okay Wednesday is a day so you know let",
+      "start": 2147.94,
+      "duration": 4.98
+    },
+    {
+      "text": "me send an email to Joe let me add the",
+      "start": 2150.7,
+      "duration": 4.32
+    },
+    {
+      "text": "event to the calendar and also let me",
+      "start": 2152.92,
+      "duration": 3.659
+    },
+    {
+      "text": "send the reservation to the you know",
+      "start": 2155.02,
+      "duration": 3.9
+    },
+    {
+      "text": "restaurant this is all you know it can",
+      "start": 2156.579,
+      "duration": 4.201
+    },
+    {
+      "text": "do that all of this automatically and it",
+      "start": 2158.92,
+      "duration": 3.48
+    },
+    {
+      "text": "comes back to you and says you know I",
+      "start": 2160.78,
+      "duration": 3.78
+    },
+    {
+      "text": "scheduled dinner at 6 pm at contoso",
+      "start": 2162.4,
+      "duration": 4.38
+    },
+    {
+      "text": "restaurant okay so let me uh very",
+      "start": 2164.56,
+      "duration": 4.14
+    },
+    {
+      "text": "quickly just five more minutes five more",
+      "start": 2166.78,
+      "duration": 4.26
+    },
+    {
+      "text": "minutes yeah okay uh let me quickly",
+      "start": 2168.7,
+      "duration": 4.02
+    },
+    {
+      "text": "conclude with mathematics because of",
+      "start": 2171.04,
+      "duration": 3.6
+    },
+    {
+      "text": "course it's a topic of great interest to",
+      "start": 2172.72,
+      "duration": 3.78
+    },
+    {
+      "text": "many of us and let me say right away",
+      "start": 2174.64,
+      "duration": 4.199
+    },
+    {
+      "text": "it's not great at mathematics okay so",
+      "start": 2176.5,
+      "duration": 4.619
+    },
+    {
+      "text": "don't worry we you know you know we",
+      "start": 2178.839,
+      "duration": 6.0
+    },
+    {
+      "text": "still have a job for now okay but it's",
+      "start": 2181.119,
+      "duration": 6.061
+    },
+    {
+      "text": "interesting it's interesting so let's",
+      "start": 2184.839,
+      "duration": 4.26
+    },
+    {
+      "text": "have a conversation just as I was",
+      "start": 2187.18,
+      "duration": 3.36
+    },
+    {
+      "text": "telling you earlier you know we're gonna",
+      "start": 2189.099,
+      "duration": 2.76
+    },
+    {
+      "text": "have a conversation like we would have",
+      "start": 2190.54,
+      "duration": 3.72
+    },
+    {
+      "text": "with a student and I'm not I you know we",
+      "start": 2191.859,
+      "duration": 4.321
+    },
+    {
+      "text": "had conversation with it at the at the",
+      "start": 2194.26,
+      "duration": 4.92
+    },
+    {
+      "text": "Master Level roughly and and you know",
+      "start": 2196.18,
+      "duration": 6.72
+    },
+    {
+      "text": "it it can hold its own at that level but",
+      "start": 2199.18,
+      "duration": 5.399
+    },
+    {
+      "text": "I'm gonna show you you know a level of",
+      "start": 2202.9,
+      "duration": 2.939
+    },
+    {
+      "text": "like middle school or something like",
+      "start": 2204.579,
+      "duration": 4.201
+    },
+    {
+      "text": "that so let's go with this problem",
+      "start": 2205.839,
+      "duration": 5.28
+    },
+    {
+      "text": "within the duration of a year a rabbit",
+      "start": 2208.78,
+      "duration": 4.02
+    },
+    {
+      "text": "population first multiply Itself by a",
+      "start": 2211.119,
+      "duration": 3.72
+    },
+    {
+      "text": "factor a and on the last day B rabbits",
+      "start": 2212.8,
+      "duration": 4.08
+    },
+    {
+      "text": "are taken for adoption suppose that on",
+      "start": 2214.839,
+      "duration": 3.661
+    },
+    {
+      "text": "the first day of the first year years",
+      "start": 2216.88,
+      "duration": 3.54
+    },
+    {
+      "text": "are x-rabbits and let's say that we know",
+      "start": 2218.5,
+      "duration": 3.54
+    },
+    {
+      "text": "after three years that there are exactly",
+      "start": 2220.42,
+      "duration": 4.8
+    },
+    {
+      "text": "27x minus 26 rabbit what are the values",
+      "start": 2222.04,
+      "duration": 5.16
+    },
+    {
+      "text": "of A and B okay typical kind of middle",
+      "start": 2225.22,
+      "duration": 4.26
+    },
+    {
+      "text": "school you know question",
+      "start": 2227.2,
+      "duration": 4.139
+    },
+    {
+      "text": "let's call the rabbit population after",
+      "start": 2229.48,
+      "duration": 3.9
+    },
+    {
+      "text": "one year why we know that Y is equal to",
+      "start": 2231.339,
+      "duration": 3.721
+    },
+    {
+      "text": "ax minus B after two years the",
+      "start": 2233.38,
+      "duration": 3.959
+    },
+    {
+      "text": "population will be a y minus B which is",
+      "start": 2235.06,
+      "duration": 5.1
+    },
+    {
+      "text": "a times ax minus B minus B which is blah",
+      "start": 2237.339,
+      "duration": 4.02
+    },
+    {
+      "text": "blah blah after three years the",
+      "start": 2240.16,
+      "duration": 3.3
+    },
+    {
+      "text": "population would be this equation we're",
+      "start": 2241.359,
+      "duration": 4.26
+    },
+    {
+      "text": "given that this is equal to 27x minus",
+      "start": 2243.46,
+      "duration": 3.96
+    },
+    {
+      "text": "2.6 so the equation must be this is",
+      "start": 2245.619,
+      "duration": 4.861
+    },
+    {
+      "text": "solving for it we find a equals 3 and b",
+      "start": 2247.42,
+      "duration": 4.74
+    },
+    {
+      "text": "equals two other values that we are",
+      "start": 2250.48,
+      "duration": 4.56
+    },
+    {
+      "text": "looking for this is correct okay so okay",
+      "start": 2252.16,
+      "duration": 5.4
+    },
+    {
+      "text": "so far so good that again you know you",
+      "start": 2255.04,
+      "duration": 4.26
+    },
+    {
+      "text": "don't interview a student and be like oh",
+      "start": 2257.56,
+      "duration": 3.539
+    },
+    {
+      "text": "wow okay that's it he understands you",
+      "start": 2259.3,
+      "duration": 3.66
+    },
+    {
+      "text": "know he or she understands so we",
+      "start": 2261.099,
+      "duration": 3.781
+    },
+    {
+      "text": "continue and let's let's be a little bit",
+      "start": 2262.96,
+      "duration": 3.48
+    },
+    {
+      "text": "more abstract to see if it really",
+      "start": 2264.88,
+      "duration": 3.36
+    },
+    {
+      "text": "understood what it was doing",
+      "start": 2266.44,
+      "duration": 4.5
+    },
+    {
+      "text": "and here I'm not only I don't want to",
+      "start": 2268.24,
+      "duration": 4.5
+    },
+    {
+      "text": "only ask question you know where there",
+      "start": 2270.94,
+      "duration": 3.72
+    },
+    {
+      "text": "is a clear answer I also want to see",
+      "start": 2272.74,
+      "duration": 3.359
+    },
+    {
+      "text": "whether it really understood you know",
+      "start": 2274.66,
+      "duration": 3.48
+    },
+    {
+      "text": "the concept can it modify the question",
+      "start": 2276.099,
+      "duration": 6.421
+    },
+    {
+      "text": "itself so suppose that natural I I point",
+      "start": 2278.14,
+      "duration": 5.88
+    },
+    {
+      "text": "out that you know this question can be",
+      "start": 2282.52,
+      "duration": 3.059
+    },
+    {
+      "text": "alternatively formulated about the",
+      "start": 2284.02,
+      "duration": 4.02
+    },
+    {
+      "text": "composition you know can you provide",
+      "start": 2285.579,
+      "duration": 4.921
+    },
+    {
+      "text": "this compositional formulation and it",
+      "start": 2288.04,
+      "duration": 4.44
+    },
+    {
+      "text": "says yes we could say that we're looking",
+      "start": 2290.5,
+      "duration": 4.2
+    },
+    {
+      "text": "for values of A and B such that if f of",
+      "start": 2292.48,
+      "duration": 5.52
+    },
+    {
+      "text": "x is the ax minus B then F of f of f of",
+      "start": 2294.7,
+      "duration": 6.84
+    },
+    {
+      "text": "x is equal to 27x minus uh you know 26",
+      "start": 2298.0,
+      "duration": 5.46
+    },
+    {
+      "text": "okay that's that's pretty good it seems",
+      "start": 2301.54,
+      "duration": 4.5
+    },
+    {
+      "text": "to be understanding let's continue the",
+      "start": 2303.46,
+      "duration": 3.899
+    },
+    {
+      "text": "discussion",
+      "start": 2306.04,
+      "duration": 3.48
+    },
+    {
+      "text": "suppose that now f is going to be a",
+      "start": 2307.359,
+      "duration": 4.98
+    },
+    {
+      "text": "polynomial of degree 2. okay so a true",
+      "start": 2309.52,
+      "duration": 4.44
+    },
+    {
+      "text": "polynomial non-zero coefficient on x",
+      "start": 2312.339,
+      "duration": 3.661
+    },
+    {
+      "text": "squared can you find such a function f",
+      "start": 2313.96,
+      "duration": 4.44
+    },
+    {
+      "text": "in this case okay okay so you see as a",
+      "start": 2316.0,
+      "duration": 4.74
+    },
+    {
+      "text": "human you're like okay so I want this",
+      "start": 2318.4,
+      "duration": 3.84
+    },
+    {
+      "text": "composition to be equal to a linear",
+      "start": 2320.74,
+      "duration": 2.94
+    },
+    {
+      "text": "function which is a polynomial of degree",
+      "start": 2322.24,
+      "duration": 3.66
+    },
+    {
+      "text": "one but the composition three times is",
+      "start": 2323.68,
+      "duration": 3.6
+    },
+    {
+      "text": "going to be a polynomial of degree eight",
+      "start": 2325.9,
+      "duration": 3.6
+    },
+    {
+      "text": "polynomial of degree eight eight is not",
+      "start": 2327.28,
+      "duration": 3.96
+    },
+    {
+      "text": "equal to one there is no such function",
+      "start": 2329.5,
+      "duration": 4.02
+    },
+    {
+      "text": "okay this is a very simple question but",
+      "start": 2331.24,
+      "duration": 4.8
+    },
+    {
+      "text": "let's see what gpt4 does if f is a",
+      "start": 2333.52,
+      "duration": 4.319
+    },
+    {
+      "text": "polynomial of degree two then f of x can",
+      "start": 2336.04,
+      "duration": 3.48
+    },
+    {
+      "text": "be written like this then given this the",
+      "start": 2337.839,
+      "duration": 3.24
+    },
+    {
+      "text": "equation becomes and then it starts to",
+      "start": 2339.52,
+      "duration": 3.72
+    },
+    {
+      "text": "get you know lost because it starts to",
+      "start": 2341.079,
+      "duration": 3.721
+    },
+    {
+      "text": "write into the composition three times",
+      "start": 2343.24,
+      "duration": 3.48
+    },
+    {
+      "text": "it write many things it says I need this",
+      "start": 2344.8,
+      "duration": 3.48
+    },
+    {
+      "text": "equation that equation you start to",
+      "start": 2346.72,
+      "duration": 3.0
+    },
+    {
+      "text": "write you know eight equation and it",
+      "start": 2348.28,
+      "duration": 4.079
+    },
+    {
+      "text": "doesn't get to the answer but again we",
+      "start": 2349.72,
+      "duration": 4.44
+    },
+    {
+      "text": "don't stop there we say hey wait a",
+      "start": 2352.359,
+      "duration": 3.421
+    },
+    {
+      "text": "second you know maybe there's something",
+      "start": 2354.16,
+      "duration": 3.3
+    },
+    {
+      "text": "you can deduce here without carrying",
+      "start": 2355.78,
+      "duration": 3.0
+    },
+    {
+      "text": "calculation you know maybe you don't",
+      "start": 2357.46,
+      "duration": 2.76
+    },
+    {
+      "text": "want to you know write down everything",
+      "start": 2358.78,
+      "duration": 3.72
+    },
+    {
+      "text": "it's not like before and then it says Ah",
+      "start": 2360.22,
+      "duration": 4.5
+    },
+    {
+      "text": "okay one thing one thing I can notice is",
+      "start": 2362.5,
+      "duration": 3.9
+    },
+    {
+      "text": "that if f is a polynomial of degree two",
+      "start": 2364.72,
+      "duration": 3.66
+    },
+    {
+      "text": "then the composition three times is a",
+      "start": 2366.4,
+      "duration": 3.42
+    },
+    {
+      "text": "polynomial of degree eight so there is",
+      "start": 2368.38,
+      "duration": 4.02
+    },
+    {
+      "text": "no such function okay so here you see",
+      "start": 2369.82,
+      "duration": 5.039
+    },
+    {
+      "text": "how it's delicate it's not clear does it",
+      "start": 2372.4,
+      "duration": 4.439
+    },
+    {
+      "text": "understand does it not understand",
+      "start": 2374.859,
+      "duration": 5.641
+    },
+    {
+      "text": "I'm not sure okay I'm I I'm I'm just not",
+      "start": 2376.839,
+      "duration": 4.441
+    },
+    {
+      "text": "sure",
+      "start": 2380.5,
+      "duration": 3.42
+    },
+    {
+      "text": "and this is all I will say",
+      "start": 2381.28,
+      "duration": 5.4
+    },
+    {
+      "text": "um now there are some weird things like",
+      "start": 2383.92,
+      "duration": 4.38
+    },
+    {
+      "text": "the fact that the arithmetic is still",
+      "start": 2386.68,
+      "duration": 3.84
+    },
+    {
+      "text": "shaky I have to say I don't fully",
+      "start": 2388.3,
+      "duration": 4.319
+    },
+    {
+      "text": "understand but I understand something",
+      "start": 2390.52,
+      "duration": 3.48
+    },
+    {
+      "text": "which I will explain to you on this",
+      "start": 2392.619,
+      "duration": 3.421
+    },
+    {
+      "text": "slide so",
+      "start": 2394.0,
+      "duration": 4.26
+    },
+    {
+      "text": "let's look at this I give it as a prompt",
+      "start": 2396.04,
+      "duration": 3.84
+    },
+    {
+      "text": "seven times four plus eight times that",
+      "start": 2398.26,
+      "duration": 2.94
+    },
+    {
+      "text": "okay I don't know what is the value of",
+      "start": 2399.88,
+      "duration": 3.18
+    },
+    {
+      "text": "this but you know 8 times 8 is 60",
+      "start": 2401.2,
+      "duration": 4.2
+    },
+    {
+      "text": "something 7 times 4",
+      "start": 2403.06,
+      "duration": 4.86
+    },
+    {
+      "text": "20 something so at the very least this",
+      "start": 2405.4,
+      "duration": 7.26
+    },
+    {
+      "text": "is below 100 okay good it says 120. this",
+      "start": 2407.92,
+      "duration": 7.62
+    },
+    {
+      "text": "is wrong flat out wrong okay but the",
+      "start": 2412.66,
+      "duration": 5.1
+    },
+    {
+      "text": "point is it doesn't stop there it",
+      "start": 2415.54,
+      "duration": 4.14
+    },
+    {
+      "text": "continues it starts to explain why he",
+      "start": 2417.76,
+      "duration": 4.02
+    },
+    {
+      "text": "thinks it's 120. seven times four plus",
+      "start": 2419.68,
+      "duration": 3.899
+    },
+    {
+      "text": "eight times eight it does the",
+      "start": 2421.78,
+      "duration": 3.12
+    },
+    {
+      "text": "calculation and then it gets to the",
+      "start": 2423.579,
+      "duration": 3.601
+    },
+    {
+      "text": "correct answer 92.",
+      "start": 2424.9,
+      "duration": 3.6
+    },
+    {
+      "text": "okay",
+      "start": 2427.18,
+      "duration": 3.6
+    },
+    {
+      "text": "wait what's going on you started by",
+      "start": 2428.5,
+      "duration": 4.92
+    },
+    {
+      "text": "saying 120 which one is it is it 120 or",
+      "start": 2430.78,
+      "duration": 7.46
+    },
+    {
+      "text": "you know 92. oh that was a typo sorry",
+      "start": 2433.42,
+      "duration": 4.82
+    },
+    {
+      "text": "oh yeah",
+      "start": 2438.82,
+      "duration": 4.74
+    },
+    {
+      "text": "so",
+      "start": 2441.28,
+      "duration": 5.4
+    },
+    {
+      "text": "so there is a lot of insight that you",
+      "start": 2443.56,
+      "duration": 4.559
+    },
+    {
+      "text": "can draw from this slide actually you",
+      "start": 2446.68,
+      "duration": 2.88
+    },
+    {
+      "text": "know it's you can really understand",
+      "start": 2448.119,
+      "duration": 3.661
+    },
+    {
+      "text": "everything I think that's happening so",
+      "start": 2449.56,
+      "duration": 4.019
+    },
+    {
+      "text": "the first answer the 120 you understand",
+      "start": 2451.78,
+      "duration": 4.02
+    },
+    {
+      "text": "that it has to do this using only",
+      "start": 2453.579,
+      "duration": 4.26
+    },
+    {
+      "text": "internal representation you know only",
+      "start": 2455.8,
+      "duration": 3.9
+    },
+    {
+      "text": "using only its internal representation",
+      "start": 2457.839,
+      "duration": 4.381
+    },
+    {
+      "text": "it has to do you know this addition and",
+      "start": 2459.7,
+      "duration": 5.159
+    },
+    {
+      "text": "this is slightly more difficult then and",
+      "start": 2462.22,
+      "duration": 4.379
+    },
+    {
+      "text": "you know why does it answer immediately",
+      "start": 2464.859,
+      "duration": 3.301
+    },
+    {
+      "text": "it's because when you ask a question",
+      "start": 2466.599,
+      "duration": 2.701
+    },
+    {
+      "text": "like this you know you write this",
+      "start": 2468.16,
+      "duration": 3.12
+    },
+    {
+      "text": "equation you write equal the most likely",
+      "start": 2469.3,
+      "duration": 3.72
+    },
+    {
+      "text": "thing that happens after is to give a",
+      "start": 2471.28,
+      "duration": 3.66
+    },
+    {
+      "text": "number so it gives you the number it",
+      "start": 2473.02,
+      "duration": 3.48
+    },
+    {
+      "text": "tries to give you what is the most",
+      "start": 2474.94,
+      "duration": 3.6
+    },
+    {
+      "text": "likely thing to appear after it tries",
+      "start": 2476.5,
+      "duration": 4.44
+    },
+    {
+      "text": "but it fails but then what is the second",
+      "start": 2478.54,
+      "duration": 4.14
+    },
+    {
+      "text": "most likely thing after that is you know",
+      "start": 2480.94,
+      "duration": 3.72
+    },
+    {
+      "text": "people explain their you know rational",
+      "start": 2482.68,
+      "duration": 3.96
+    },
+    {
+      "text": "their their answer so then it tries to",
+      "start": 2484.66,
+      "duration": 4.26
+    },
+    {
+      "text": "explain its answer and what is the main",
+      "start": 2486.64,
+      "duration": 3.6
+    },
+    {
+      "text": "thing is that it gets at a different",
+      "start": 2488.92,
+      "duration": 2.699
+    },
+    {
+      "text": "answer and you have to understand that",
+      "start": 2490.24,
+      "duration": 3.3
+    },
+    {
+      "text": "it's amazing because as far as I know",
+      "start": 2491.619,
+      "duration": 3.841
+    },
+    {
+      "text": "this is a Transformer so it's attention",
+      "start": 2493.54,
+      "duration": 4.02
+    },
+    {
+      "text": "based so when it's attention based you",
+      "start": 2495.46,
+      "duration": 3.42
+    },
+    {
+      "text": "understand that when it's when it's",
+      "start": 2497.56,
+      "duration": 3.24
+    },
+    {
+      "text": "saying the second time seven times four",
+      "start": 2498.88,
+      "duration": 3.719
+    },
+    {
+      "text": "plus eight times eight its attention",
+      "start": 2500.8,
+      "duration": 4.559
+    },
+    {
+      "text": "brings it very strongly to the 120",
+      "start": 2502.599,
+      "duration": 4.921
+    },
+    {
+      "text": "answer the 120 answer you have to",
+      "start": 2505.359,
+      "duration": 3.961
+    },
+    {
+      "text": "understand is kind of it's part of its",
+      "start": 2507.52,
+      "duration": 4.559
+    },
+    {
+      "text": "truth now you know for all it knows it",
+      "start": 2509.32,
+      "duration": 4.38
+    },
+    {
+      "text": "could be that you have told it hey you",
+      "start": 2512.079,
+      "duration": 2.821
+    },
+    {
+      "text": "know what seven times four plus eight",
+      "start": 2513.7,
+      "duration": 3.24
+    },
+    {
+      "text": "times eight it's 120 from now on you",
+      "start": 2514.9,
+      "duration": 3.12
+    },
+    {
+      "text": "know it could have been part of my",
+      "start": 2516.94,
+      "duration": 3.54
+    },
+    {
+      "text": "prompt so the fact that it gets to a",
+      "start": 2518.02,
+      "duration": 4.26
+    },
+    {
+      "text": "different answer means that it has been",
+      "start": 2520.48,
+      "duration": 5.76
+    },
+    {
+      "text": "trained enough to overcome mistakes in",
+      "start": 2522.28,
+      "duration": 6.18
+    },
+    {
+      "text": "its prompt so this is a very very strong",
+      "start": 2526.24,
+      "duration": 4.26
+    },
+    {
+      "text": "property the fact that it's able to get",
+      "start": 2528.46,
+      "duration": 4.02
+    },
+    {
+      "text": "to the right answer despite making a",
+      "start": 2530.5,
+      "duration": 3.54
+    },
+    {
+      "text": "mistake at the beginning",
+      "start": 2532.48,
+      "duration": 3.66
+    },
+    {
+      "text": "now of course when it says this was a",
+      "start": 2534.04,
+      "duration": 4.079
+    },
+    {
+      "text": "typo this is also very interesting",
+      "start": 2536.14,
+      "duration": 3.84
+    },
+    {
+      "text": "because this is obviously it's",
+      "start": 2538.119,
+      "duration": 5.161
+    },
+    {
+      "text": "not a typo you know and this gets to you",
+      "start": 2539.98,
+      "duration": 5.34
+    },
+    {
+      "text": "know the hallucination and you know many",
+      "start": 2543.28,
+      "duration": 4.26
+    },
+    {
+      "text": "many interesting topics and you know I I",
+      "start": 2545.32,
+      "duration": 4.08
+    },
+    {
+      "text": "I I want to take some time for questions",
+      "start": 2547.54,
+      "duration": 3.96
+    },
+    {
+      "text": "so I I don't want to explain more about",
+      "start": 2549.4,
+      "duration": 4.32
+    },
+    {
+      "text": "about this but this slide really you",
+      "start": 2551.5,
+      "duration": 3.72
+    },
+    {
+      "text": "have to think about it you know deeply",
+      "start": 2553.72,
+      "duration": 3.72
+    },
+    {
+      "text": "it says it says a lot so the last slide",
+      "start": 2555.22,
+      "duration": 4.08
+    },
+    {
+      "text": "before moving to the conclusion",
+      "start": 2557.44,
+      "duration": 3.96
+    },
+    {
+      "text": "is the fact that it cannot do true",
+      "start": 2559.3,
+      "duration": 4.74
+    },
+    {
+      "text": "planning and again you will be I mean I",
+      "start": 2561.4,
+      "duration": 4.199
+    },
+    {
+      "text": "have been Amazed by so many tasks that",
+      "start": 2564.04,
+      "duration": 2.76
+    },
+    {
+      "text": "you can do where I thought it would",
+      "start": 2565.599,
+      "duration": 2.701
+    },
+    {
+      "text": "require true planning but actually it",
+      "start": 2566.8,
+      "duration": 3.36
+    },
+    {
+      "text": "doesn't but let me give you one example",
+      "start": 2568.3,
+      "duration": 3.6
+    },
+    {
+      "text": "where we continue this discussion with",
+      "start": 2570.16,
+      "duration": 3.24
+    },
+    {
+      "text": "seven times four plus eight times eight",
+      "start": 2571.9,
+      "duration": 3.719
+    },
+    {
+      "text": "so okay great so now you have this",
+      "start": 2573.4,
+      "duration": 4.62
+    },
+    {
+      "text": "identity which is equal to 92 and let me",
+      "start": 2575.619,
+      "duration": 5.041
+    },
+    {
+      "text": "ask a funny question can you modify",
+      "start": 2578.02,
+      "duration": 4.68
+    },
+    {
+      "text": "exactly one integer on the left hand",
+      "start": 2580.66,
+      "duration": 4.08
+    },
+    {
+      "text": "side of this equation so that the answer",
+      "start": 2582.7,
+      "duration": 5.28
+    },
+    {
+      "text": "becomes 106. so as a human being what is",
+      "start": 2584.74,
+      "duration": 4.8
+    },
+    {
+      "text": "your reasoning your reasoning is like",
+      "start": 2587.98,
+      "duration": 3.66
+    },
+    {
+      "text": "this okay I want 106 on the right hand",
+      "start": 2589.54,
+      "duration": 4.799
+    },
+    {
+      "text": "side so I need to increase by 14. okay I",
+      "start": 2591.64,
+      "duration": 4.439
+    },
+    {
+      "text": "need to increase by 14 and I can modify",
+      "start": 2594.339,
+      "duration": 5.041
+    },
+    {
+      "text": "only one number on the left 14 I look at",
+      "start": 2596.079,
+      "duration": 5.221
+    },
+    {
+      "text": "the left I see a seven and then I have",
+      "start": 2599.38,
+      "duration": 4.92
+    },
+    {
+      "text": "this kind of Eureka moment ah fourth you",
+      "start": 2601.3,
+      "duration": 7.2
+    },
+    {
+      "text": "see the ah 14 is 7 times 2. okay so if",
+      "start": 2604.3,
+      "duration": 6.059
+    },
+    {
+      "text": "it's 7 times 2 then I need to turn this",
+      "start": 2608.5,
+      "duration": 3.96
+    },
+    {
+      "text": "4 into a six okay so what I said is just",
+      "start": 2610.359,
+      "duration": 3.96
+    },
+    {
+      "text": "this it needs you know to turn this 4",
+      "start": 2612.46,
+      "duration": 4.56
+    },
+    {
+      "text": "into a six but you see this this Eureka",
+      "start": 2614.319,
+      "duration": 3.961
+    },
+    {
+      "text": "that I had you know even though it's",
+      "start": 2617.02,
+      "duration": 3.24
+    },
+    {
+      "text": "extremely simple it was through some",
+      "start": 2618.28,
+      "duration": 3.72
+    },
+    {
+      "text": "kind of planning I was thinking ahead",
+      "start": 2620.26,
+      "duration": 3.48
+    },
+    {
+      "text": "about what I'm gonna need",
+      "start": 2622.0,
+      "duration": 4.5
+    },
+    {
+      "text": "and gpt4 cannot do that because it's a",
+      "start": 2623.74,
+      "duration": 4.98
+    },
+    {
+      "text": "next world prediction device so what",
+      "start": 2626.5,
+      "duration": 3.42
+    },
+    {
+      "text": "it's going to do is it's going to say",
+      "start": 2628.72,
+      "duration": 2.58
+    },
+    {
+      "text": "you know there are a few possible ways",
+      "start": 2629.92,
+      "duration": 3.36
+    },
+    {
+      "text": "to do it blah blah blah and then it says",
+      "start": 2631.3,
+      "duration": 4.559
+    },
+    {
+      "text": "you know uh I can modify exactly one",
+      "start": 2633.28,
+      "duration": 4.14
+    },
+    {
+      "text": "integer I'm going to modify the seven",
+      "start": 2635.859,
+      "duration": 3.841
+    },
+    {
+      "text": "into a nine I do nine times four you",
+      "start": 2637.42,
+      "duration": 4.62
+    },
+    {
+      "text": "know and this is equal to 106.",
+      "start": 2639.7,
+      "duration": 4.74
+    },
+    {
+      "text": "wait what if I modify the seven to a",
+      "start": 2642.04,
+      "duration": 4.92
+    },
+    {
+      "text": "nine I add an eight so this is 100 the",
+      "start": 2644.44,
+      "duration": 4.919
+    },
+    {
+      "text": "answer not you know one or six and then",
+      "start": 2646.96,
+      "duration": 4.74
+    },
+    {
+      "text": "it tries to explain why this works you",
+      "start": 2649.359,
+      "duration": 3.541
+    },
+    {
+      "text": "know nine times four plus eight times",
+      "start": 2651.7,
+      "duration": 3.48
+    },
+    {
+      "text": "eight it's 36 plus 64. that's correct",
+      "start": 2652.9,
+      "duration": 5.459
+    },
+    {
+      "text": "but then again you know it says 106. so",
+      "start": 2655.18,
+      "duration": 6.06
+    },
+    {
+      "text": "you see here it was not strong enough to",
+      "start": 2658.359,
+      "duration": 5.46
+    },
+    {
+      "text": "overcome its initial mistake and this to",
+      "start": 2661.24,
+      "duration": 5.04
+    },
+    {
+      "text": "me points to the fact that",
+      "start": 2663.819,
+      "duration": 5.221
+    },
+    {
+      "text": "if it was trained further maybe it would",
+      "start": 2666.28,
+      "duration": 4.98
+    },
+    {
+      "text": "correct itself and if it was trained",
+      "start": 2669.04,
+      "duration": 3.66
+    },
+    {
+      "text": "even further maybe it would understand",
+      "start": 2671.26,
+      "duration": 3.3
+    },
+    {
+      "text": "that even though the most likely thing",
+      "start": 2672.7,
+      "duration": 4.02
+    },
+    {
+      "text": "when there is a question you know seven",
+      "start": 2674.56,
+      "duration": 3.96
+    },
+    {
+      "text": "times four plus eight times eight equals",
+      "start": 2676.72,
+      "duration": 3.66
+    },
+    {
+      "text": "the most likely answer is a number maybe",
+      "start": 2678.52,
+      "duration": 3.42
+    },
+    {
+      "text": "if it's trained more and understand that",
+      "start": 2680.38,
+      "duration": 3.719
+    },
+    {
+      "text": "the best way to answer this is to First",
+      "start": 2681.94,
+      "duration": 4.8
+    },
+    {
+      "text": "do the reasoning so what I'm saying here",
+      "start": 2684.099,
+      "duration": 4.681
+    },
+    {
+      "text": "is that through this stupid example what",
+      "start": 2686.74,
+      "duration": 4.379
+    },
+    {
+      "text": "I see is that with more training we're",
+      "start": 2688.78,
+      "duration": 4.68
+    },
+    {
+      "text": "gonna knock a lot more than what we",
+      "start": 2691.119,
+      "duration": 4.381
+    },
+    {
+      "text": "currently have what we currently have is",
+      "start": 2693.46,
+      "duration": 4.68
+    },
+    {
+      "text": "already amazing but it's far I mean it's",
+      "start": 2695.5,
+      "duration": 4.079
+    },
+    {
+      "text": "far from everything we can do with this",
+      "start": 2698.14,
+      "duration": 3.06
+    },
+    {
+      "text": "technique there is a lot more you know",
+      "start": 2699.579,
+      "duration": 4.74
+    },
+    {
+      "text": "on the horizon okay so let me conclude",
+      "start": 2701.2,
+      "duration": 6.24
+    },
+    {
+      "text": "is a gpd4 intelligent and also does it",
+      "start": 2704.319,
+      "duration": 4.621
+    },
+    {
+      "text": "matter you know this is a really",
+      "start": 2707.44,
+      "duration": 3.6
+    },
+    {
+      "text": "important question so again it's GPT for",
+      "start": 2708.94,
+      "duration": 4.32
+    },
+    {
+      "text": "answer and intelligent it really depends",
+      "start": 2711.04,
+      "duration": 4.2
+    },
+    {
+      "text": "on your definition I leave it up to you",
+      "start": 2713.26,
+      "duration": 3.66
+    },
+    {
+      "text": "I'm not making a call whether it's",
+      "start": 2715.24,
+      "duration": 3.78
+    },
+    {
+      "text": "intelligent or not as far as I'm",
+      "start": 2716.92,
+      "duration": 3.899
+    },
+    {
+      "text": "concerned in terms of my definition of",
+      "start": 2719.02,
+      "duration": 4.2
+    },
+    {
+      "text": "intelligence yes it is intelligent now",
+      "start": 2720.819,
+      "duration": 4.141
+    },
+    {
+      "text": "you know it's lacking memory it cannot",
+      "start": 2723.22,
+      "duration": 3.359
+    },
+    {
+      "text": "do real-time learning if this is your",
+      "start": 2724.96,
+      "duration": 3.3
+    },
+    {
+      "text": "definition then it's not intelligent it",
+      "start": 2726.579,
+      "duration": 3.361
+    },
+    {
+      "text": "cannot you know think several times in",
+      "start": 2728.26,
+      "duration": 3.66
+    },
+    {
+      "text": "advance it can do real planning if",
+      "start": 2729.94,
+      "duration": 3.12
+    },
+    {
+      "text": "that's your definition then it's not",
+      "start": 2731.92,
+      "duration": 3.179
+    },
+    {
+      "text": "intelligent but on the other hand some",
+      "start": 2733.06,
+      "duration": 3.539
+    },
+    {
+      "text": "of those behaviors I think that I showed",
+      "start": 2735.099,
+      "duration": 3.301
+    },
+    {
+      "text": "you they are really impressive and maybe",
+      "start": 2736.599,
+      "duration": 3.72
+    },
+    {
+      "text": "more importantly than impressive they",
+      "start": 2738.4,
+      "duration": 4.439
+    },
+    {
+      "text": "are useful you know we in my team we all",
+      "start": 2740.319,
+      "duration": 4.921
+    },
+    {
+      "text": "use gpt4 every day like it's part of our",
+      "start": 2742.839,
+      "duration": 4.921
+    },
+    {
+      "text": "workflow so this fact this mere fact",
+      "start": 2745.24,
+      "duration": 4.26
+    },
+    {
+      "text": "just that it's useful again it doesn't",
+      "start": 2747.76,
+      "duration": 3.48
+    },
+    {
+      "text": "matter kind of if you say it's",
+      "start": 2749.5,
+      "duration": 3.54
+    },
+    {
+      "text": "intelligent or not it is gonna you know",
+      "start": 2751.24,
+      "duration": 4.26
+    },
+    {
+      "text": "change the world whether you know you",
+      "start": 2753.04,
+      "duration": 3.86
+    },
+    {
+      "text": "like it or not",
+      "start": 2755.5,
+      "duration": 3.839
+    },
+    {
+      "text": "and you know also I want to say that",
+      "start": 2756.9,
+      "duration": 4.12
+    },
+    {
+      "text": "maybe it's an opportunity to rethink",
+      "start": 2759.339,
+      "duration": 3.841
+    },
+    {
+      "text": "what intelligence is because you know in",
+      "start": 2761.02,
+      "duration": 4.26
+    },
+    {
+      "text": "a way even though we have Decades of",
+      "start": 2763.18,
+      "duration": 3.419
+    },
+    {
+      "text": "psychology studying you know",
+      "start": 2765.28,
+      "duration": 3.48
+    },
+    {
+      "text": "intelligence we had only one example of",
+      "start": 2766.599,
+      "duration": 3.421
+    },
+    {
+      "text": "intelligence which is you know the",
+      "start": 2768.76,
+      "duration": 2.819
+    },
+    {
+      "text": "intelligence that Natural Evolution",
+      "start": 2770.02,
+      "duration": 3.299
+    },
+    {
+      "text": "brought us you know the natural",
+      "start": 2771.579,
+      "duration": 3.721
+    },
+    {
+      "text": "intelligence of the natural world but",
+      "start": 2773.319,
+      "duration": 4.201
+    },
+    {
+      "text": "here we kind of have a new process that",
+      "start": 2775.3,
+      "duration": 4.26
+    },
+    {
+      "text": "led to some and the varies which looks",
+      "start": 2777.52,
+      "duration": 3.66
+    },
+    {
+      "text": "intelligent so now that we have",
+      "start": 2779.56,
+      "duration": 3.779
+    },
+    {
+      "text": "different examples maybe we can get at",
+      "start": 2781.18,
+      "duration": 4.32
+    },
+    {
+      "text": "the core of intelligence and maybe the",
+      "start": 2783.339,
+      "duration": 4.381
+    },
+    {
+      "text": "answer to that study will be exactly up",
+      "start": 2785.5,
+      "duration": 3.78
+    },
+    {
+      "text": "yeah no this new thing you shouldn't",
+      "start": 2787.72,
+      "duration": 2.94
+    },
+    {
+      "text": "call it intelligence because it doesn't",
+      "start": 2789.28,
+      "duration": 4.38
+    },
+    {
+      "text": "do X that's a very plausible you know",
+      "start": 2790.66,
+      "duration": 5.4
+    },
+    {
+      "text": "conclusion but maybe more importantly is",
+      "start": 2793.66,
+      "duration": 3.84
+    },
+    {
+      "text": "what I said that there is so much more",
+      "start": 2796.06,
+      "duration": 4.08
+    },
+    {
+      "text": "that you can extract from this so gpt4",
+      "start": 2797.5,
+      "duration": 6.0
+    },
+    {
+      "text": "it's by no means the end not at all this",
+      "start": 2800.14,
+      "duration": 5.04
+    },
+    {
+      "text": "is the beginning you know this is the",
+      "start": 2803.5,
+      "duration": 3.78
+    },
+    {
+      "text": "first one that shows some some you know",
+      "start": 2805.18,
+      "duration": 4.38
+    },
+    {
+      "text": "glimmer of real intelligence but there",
+      "start": 2807.28,
+      "duration": 4.2
+    },
+    {
+      "text": "is much much more on the horizon so you",
+      "start": 2809.56,
+      "duration": 3.779
+    },
+    {
+      "text": "know what conclusion should we draw from",
+      "start": 2811.48,
+      "duration": 5.7
+    },
+    {
+      "text": "that as a university as society as you",
+      "start": 2813.339,
+      "duration": 6.0
+    },
+    {
+      "text": "know Humanity I mean I'm being real here",
+      "start": 2817.18,
+      "duration": 3.899
+    },
+    {
+      "text": "these are real questions that we that we",
+      "start": 2819.339,
+      "duration": 3.78
+    },
+    {
+      "text": "should confront with and here I really",
+      "start": 2821.079,
+      "duration": 3.24
+    },
+    {
+      "text": "want to say",
+      "start": 2823.119,
+      "duration": 3.661
+    },
+    {
+      "text": "for us as a society to control this",
+      "start": 2824.319,
+      "duration": 4.201
+    },
+    {
+      "text": "question we have to go beyond the",
+      "start": 2826.78,
+      "duration": 3.6
+    },
+    {
+      "text": "discussion of whether this is copy paste",
+      "start": 2828.52,
+      "duration": 4.26
+    },
+    {
+      "text": "or statistics we have to leave this",
+      "start": 2830.38,
+      "duration": 4.26
+    },
+    {
+      "text": "discussion behind us it is you know the",
+      "start": 2832.78,
+      "duration": 3.96
+    },
+    {
+      "text": "train has left the station so you know",
+      "start": 2834.64,
+      "duration": 4.5
+    },
+    {
+      "text": "if we keep getting bogged down by this",
+      "start": 2836.74,
+      "duration": 4.68
+    },
+    {
+      "text": "version of the question we're gonna miss",
+      "start": 2839.14,
+      "duration": 4.38
+    },
+    {
+      "text": "on the real important questions so I",
+      "start": 2841.42,
+      "duration": 4.32
+    },
+    {
+      "text": "think you know it's important to move on",
+      "start": 2843.52,
+      "duration": 4.14
+    },
+    {
+      "text": "and let me also conclude by saying that",
+      "start": 2845.74,
+      "duration": 4.14
+    },
+    {
+      "text": "you know it can do a lot more than what",
+      "start": 2847.66,
+      "duration": 4.199
+    },
+    {
+      "text": "I have shown here it can do data",
+      "start": 2849.88,
+      "duration": 3.959
+    },
+    {
+      "text": "analysis you can give it data and it",
+      "start": 2851.859,
+      "duration": 3.72
+    },
+    {
+      "text": "will do analysis for you it can be used",
+      "start": 2853.839,
+      "duration": 3.901
+    },
+    {
+      "text": "as a privacy detector it's medical and",
+      "start": 2855.579,
+      "duration": 3.841
+    },
+    {
+      "text": "law knowledge is amazing and here I",
+      "start": 2857.74,
+      "duration": 3.66
+    },
+    {
+      "text": "would like to do to make a plug for a",
+      "start": 2859.42,
+      "duration": 3.96
+    },
+    {
+      "text": "book that was written at Microsoft",
+      "start": 2861.4,
+      "duration": 4.8
+    },
+    {
+      "text": "research and I helped with that by Peter",
+      "start": 2863.38,
+      "duration": 5.04
+    },
+    {
+      "text": "Lee as a lead author Kerry Goldberg who",
+      "start": 2866.2,
+      "duration": 4.98
+    },
+    {
+      "text": "is in in the in the room and zako any",
+      "start": 2868.42,
+      "duration": 5.46
+    },
+    {
+      "text": "from Harvard you know on using gpt4 for",
+      "start": 2871.18,
+      "duration": 4.679
+    },
+    {
+      "text": "healthcare the book is titled the AI",
+      "start": 2873.88,
+      "duration": 4.14
+    },
+    {
+      "text": "revolution in medicine and you know it's",
+      "start": 2875.859,
+      "duration": 4.561
+    },
+    {
+      "text": "a very complex topic and I don't even",
+      "start": 2878.02,
+      "duration": 3.9
+    },
+    {
+      "text": "want to say one more word about it",
+      "start": 2880.42,
+      "duration": 2.88
+    },
+    {
+      "text": "because you know I won't do it justice",
+      "start": 2881.92,
+      "duration": 3.78
+    },
+    {
+      "text": "in one sentence but but really it's",
+      "start": 2883.3,
+      "duration": 4.98
+    },
+    {
+      "text": "medical knowledge is gonna make it so",
+      "start": 2885.7,
+      "duration": 4.32
+    },
+    {
+      "text": "that it's gonna have a big impact in",
+      "start": 2888.28,
+      "duration": 3.24
+    },
+    {
+      "text": "healthcare and hopefully in a good way",
+      "start": 2890.02,
+      "duration": 2.94
+    },
+    {
+      "text": "but we have to think about it you know",
+      "start": 2891.52,
+      "duration": 3.72
+    },
+    {
+      "text": "deeply it can play games act as a you",
+      "start": 2892.96,
+      "duration": 4.08
+    },
+    {
+      "text": "know game environment it knows music",
+      "start": 2895.24,
+      "duration": 4.26
+    },
+    {
+      "text": "which you know again you know it never",
+      "start": 2897.04,
+      "duration": 4.68
+    },
+    {
+      "text": "listens to music but it knows music it",
+      "start": 2899.5,
+      "duration": 3.839
+    },
+    {
+      "text": "can do file management and and so much",
+      "start": 2901.72,
+      "duration": 4.18
+    },
+    {
+      "text": "more okay I will conclude here thank you",
+      "start": 2903.339,
+      "duration": 4.801
+    },
+    {
+      "text": "[Applause]",
+      "start": 2905.9,
+      "duration": 4.78
+    },
+    {
+      "text": "thank you",
+      "start": 2908.14,
+      "duration": 2.54
+    }
+  ]
+}

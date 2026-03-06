@@ -1,0 +1,5157 @@
+{
+  "video_id": "nAmC7SoVLd8",
+  "title": "langchain_crash_course",
+  "category": "tech_ai",
+  "transcript": [
+    {
+      "text": "Langston is a framework that allows you",
+      "start": 0.0,
+      "duration": 5.4
+    },
+    {
+      "text": "to build applications on top of llm or",
+      "start": 2.22,
+      "duration": 5.46
+    },
+    {
+      "text": "large language model in this crash",
+      "start": 5.4,
+      "duration": 4.14
+    },
+    {
+      "text": "course video we are going to go over all",
+      "start": 7.68,
+      "duration": 3.839
+    },
+    {
+      "text": "the basics of Lang chain and then we",
+      "start": 9.54,
+      "duration": 4.559
+    },
+    {
+      "text": "will build a restaurant either generator",
+      "start": 11.519,
+      "duration": 4.62
+    },
+    {
+      "text": "application using streamlit where you",
+      "start": 14.099,
+      "duration": 4.801
+    },
+    {
+      "text": "can input any cuisine Indian Mexican Etc",
+      "start": 16.139,
+      "duration": 4.441
+    },
+    {
+      "text": "and it will generate a fancy restaurant",
+      "start": 18.9,
+      "duration": 4.08
+    },
+    {
+      "text": "name along with the manual items first",
+      "start": 20.58,
+      "duration": 4.98
+    },
+    {
+      "text": "let us understand what is Lang chain and",
+      "start": 22.98,
+      "duration": 4.379
+    },
+    {
+      "text": "what kind of problem does it addressed",
+      "start": 25.56,
+      "duration": 4.379
+    },
+    {
+      "text": "when you are using chat GPD as an",
+      "start": 27.359,
+      "duration": 5.101
+    },
+    {
+      "text": "application internally it is making call",
+      "start": 29.939,
+      "duration": 6.661
+    },
+    {
+      "text": "to open AI API which internally uses any",
+      "start": 32.46,
+      "duration": 7.8
+    },
+    {
+      "text": "llm such as GPD 3.5 or 4. in this case",
+      "start": 36.6,
+      "duration": 6.54
+    },
+    {
+      "text": "cat GP itself is not an llm it is an",
+      "start": 40.26,
+      "duration": 6.42
+    },
+    {
+      "text": "application whereas GPD 3.54 these are",
+      "start": 43.14,
+      "duration": 6.78
+    },
+    {
+      "text": "large language models now let's say you",
+      "start": 46.68,
+      "duration": 4.98
+    },
+    {
+      "text": "want to build an application for",
+      "start": 49.92,
+      "duration": 4.08
+    },
+    {
+      "text": "restaurant idea generator where you give",
+      "start": 51.66,
+      "duration": 5.82
+    },
+    {
+      "text": "a Cuisine and then it will generate a",
+      "start": 54.0,
+      "duration": 5.46
+    },
+    {
+      "text": "fancy name such as Taco Temptation for",
+      "start": 57.48,
+      "duration": 5.099
+    },
+    {
+      "text": "Mexican and menu items as well let's say",
+      "start": 59.46,
+      "duration": 5.099
+    },
+    {
+      "text": "you give Indian Cuisine it will say Okay",
+      "start": 62.579,
+      "duration": 3.36
+    },
+    {
+      "text": "Curry",
+      "start": 64.559,
+      "duration": 4.861
+    },
+    {
+      "text": "Curry Palace or Sahara Palace for Arabic",
+      "start": 65.939,
+      "duration": 5.701
+    },
+    {
+      "text": "along with these menu items so this is a",
+      "start": 69.42,
+      "duration": 3.66
+    },
+    {
+      "text": "sample application which we are going to",
+      "start": 71.64,
+      "duration": 4.2
+    },
+    {
+      "text": "build but this is an llm based",
+      "start": 73.08,
+      "duration": 5.16
+    },
+    {
+      "text": "application and for this we can use the",
+      "start": 75.84,
+      "duration": 4.919
+    },
+    {
+      "text": "same architecture as jet GPT where we",
+      "start": 78.24,
+      "duration": 5.699
+    },
+    {
+      "text": "can directly call open AI API and here I",
+      "start": 80.759,
+      "duration": 5.04
+    },
+    {
+      "text": "have provided a screenshot of their main",
+      "start": 83.939,
+      "duration": 5.281
+    },
+    {
+      "text": "API so you can call it and you can get a",
+      "start": 85.799,
+      "duration": 5.941
+    },
+    {
+      "text": "behavior similar to chat GPT internally",
+      "start": 89.22,
+      "duration": 7.14
+    },
+    {
+      "text": "it will use GPD 3.5 or gpt4 model in",
+      "start": 91.74,
+      "duration": 6.059
+    },
+    {
+      "text": "this case once again restaurant idea",
+      "start": 96.36,
+      "duration": 3.299
+    },
+    {
+      "text": "generator is an application similar to",
+      "start": 97.799,
+      "duration": 4.261
+    },
+    {
+      "text": "chatgpt but internally you are using",
+      "start": 99.659,
+      "duration": 6.42
+    },
+    {
+      "text": "open AI API and llms now there are a",
+      "start": 102.06,
+      "duration": 6.84
+    },
+    {
+      "text": "couple of limitations of following this",
+      "start": 106.079,
+      "duration": 4.981
+    },
+    {
+      "text": "approach and by the way uh the reason",
+      "start": 108.9,
+      "duration": 4.259
+    },
+    {
+      "text": "I'm telling you this is nowadays there",
+      "start": 111.06,
+      "duration": 4.379
+    },
+    {
+      "text": "is a big boom in the industry where",
+      "start": 113.159,
+      "duration": 4.981
+    },
+    {
+      "text": "every business wants to build their own",
+      "start": 115.439,
+      "duration": 4.801
+    },
+    {
+      "text": "llm you would think why they can't use",
+      "start": 118.14,
+      "duration": 4.799
+    },
+    {
+      "text": "chat GPT because GPT has no access to",
+      "start": 120.24,
+      "duration": 4.68
+    },
+    {
+      "text": "your internal organization data so",
+      "start": 122.939,
+      "duration": 4.561
+    },
+    {
+      "text": "people want to build applications which",
+      "start": 124.92,
+      "duration": 5.039
+    },
+    {
+      "text": "are based on llm okay so there is a",
+      "start": 127.5,
+      "duration": 4.379
+    },
+    {
+      "text": "clear demand and clear boom in the",
+      "start": 129.959,
+      "duration": 4.261
+    },
+    {
+      "text": "industry for this and why do business",
+      "start": 131.879,
+      "duration": 4.801
+    },
+    {
+      "text": "not use this kind of architecture well",
+      "start": 134.22,
+      "duration": 4.739
+    },
+    {
+      "text": "there are a couple of things to consider",
+      "start": 136.68,
+      "duration": 5.94
+    },
+    {
+      "text": "first of all calling open AI API has a",
+      "start": 138.959,
+      "duration": 5.581
+    },
+    {
+      "text": "cost associated with it for every",
+      "start": 142.62,
+      "duration": 3.54
+    },
+    {
+      "text": "thousand token they will charge point",
+      "start": 144.54,
+      "duration": 3.18
+    },
+    {
+      "text": "zero zero two dollar or something you",
+      "start": 146.16,
+      "duration": 3.96
+    },
+    {
+      "text": "can check open AI pricing page but there",
+      "start": 147.72,
+      "duration": 4.62
+    },
+    {
+      "text": "is a cost associated with it and if",
+      "start": 150.12,
+      "duration": 4.08
+    },
+    {
+      "text": "you're a startup who is having funding",
+      "start": 152.34,
+      "duration": 3.6
+    },
+    {
+      "text": "issues and you know your budget is",
+      "start": 154.2,
+      "duration": 4.259
+    },
+    {
+      "text": "limited this is going to be a bottleneck",
+      "start": 155.94,
+      "duration": 4.86
+    },
+    {
+      "text": "for you another thing is you might have",
+      "start": 158.459,
+      "duration": 4.5
+    },
+    {
+      "text": "noticed chat GPT doesn't answer latest",
+      "start": 160.8,
+      "duration": 4.38
+    },
+    {
+      "text": "question its knowledge is limited to",
+      "start": 162.959,
+      "duration": 5.341
+    },
+    {
+      "text": "September 2021 as of this video",
+      "start": 165.18,
+      "duration": 5.639
+    },
+    {
+      "text": "recording so if you want to incorporate",
+      "start": 168.3,
+      "duration": 4.26
+    },
+    {
+      "text": "some latest information let's say from",
+      "start": 170.819,
+      "duration": 5.761
+    },
+    {
+      "text": "Google Wikipedia or somewhere else you",
+      "start": 172.56,
+      "duration": 6.899
+    },
+    {
+      "text": "can't get that here the other issue is",
+      "start": 176.58,
+      "duration": 4.92
+    },
+    {
+      "text": "atlick is my own software development",
+      "start": 179.459,
+      "duration": 3.601
+    },
+    {
+      "text": "and data science company if I want to",
+      "start": 181.5,
+      "duration": 2.879
+    },
+    {
+      "text": "know how many employees joined last",
+      "start": 183.06,
+      "duration": 2.759
+    },
+    {
+      "text": "month chat GPT can't answer because",
+      "start": 184.379,
+      "duration": 4.381
+    },
+    {
+      "text": "because it doesn't have access to my own",
+      "start": 185.819,
+      "duration": 6.241
+    },
+    {
+      "text": "internal organization data so if you use",
+      "start": 188.76,
+      "duration": 5.58
+    },
+    {
+      "text": "this kind of architecture for building",
+      "start": 192.06,
+      "duration": 4.62
+    },
+    {
+      "text": "your application you will hit some",
+      "start": 194.34,
+      "duration": 4.979
+    },
+    {
+      "text": "roadblocks or you will rather have some",
+      "start": 196.68,
+      "duration": 5.279
+    },
+    {
+      "text": "limitation and look open AI guys are",
+      "start": 199.319,
+      "duration": 4.5
+    },
+    {
+      "text": "pretty smart actually if they want they",
+      "start": 201.959,
+      "duration": 4.321
+    },
+    {
+      "text": "can address all of this but their stance",
+      "start": 203.819,
+      "duration": 4.021
+    },
+    {
+      "text": "is very clear we will provide",
+      "start": 206.28,
+      "duration": 4.98
+    },
+    {
+      "text": "foundational apis and building framework",
+      "start": 207.84,
+      "duration": 5.64
+    },
+    {
+      "text": "is something that other people should do",
+      "start": 211.26,
+      "duration": 5.64
+    },
+    {
+      "text": "and that's what happens see if you have",
+      "start": 213.48,
+      "duration": 6.539
+    },
+    {
+      "text": "just open AI API it is not enough to",
+      "start": 216.9,
+      "duration": 5.699
+    },
+    {
+      "text": "build llm therefore you need some kind",
+      "start": 220.019,
+      "duration": 5.881
+    },
+    {
+      "text": "of framework where you can call open AI",
+      "start": 222.599,
+      "duration": 6.72
+    },
+    {
+      "text": "a gpt3 gpd4 or maybe if you want to save",
+      "start": 225.9,
+      "duration": 5.759
+    },
+    {
+      "text": "the cost you call some open source",
+      "start": 229.319,
+      "duration": 4.741
+    },
+    {
+      "text": "models such as hugging phase Bloom there",
+      "start": 231.659,
+      "duration": 4.381
+    },
+    {
+      "text": "are so many models out there let's say",
+      "start": 234.06,
+      "duration": 3.599
+    },
+    {
+      "text": "you want to use them you don't want to",
+      "start": 236.04,
+      "duration": 6.36
+    },
+    {
+      "text": "spend money on open AI gpt3 model then",
+      "start": 237.659,
+      "duration": 6.481
+    },
+    {
+      "text": "this framework should provide that",
+      "start": 242.4,
+      "duration": 4.44
+    },
+    {
+      "text": "plug-in Play support you know where you",
+      "start": 244.14,
+      "duration": 4.62
+    },
+    {
+      "text": "can integrate to one of these models and",
+      "start": 246.84,
+      "duration": 3.899
+    },
+    {
+      "text": "your code kind of Remains the Same this",
+      "start": 248.76,
+      "duration": 3.6
+    },
+    {
+      "text": "framework should also provide",
+      "start": 250.739,
+      "duration": 4.86
+    },
+    {
+      "text": "integration with Google search Wikipedia",
+      "start": 252.36,
+      "duration": 5.099
+    },
+    {
+      "text": "or even integration with your own",
+      "start": 255.599,
+      "duration": 4.38
+    },
+    {
+      "text": "organizational databases so that the",
+      "start": 257.459,
+      "duration": 4.74
+    },
+    {
+      "text": "application can pull information from",
+      "start": 259.979,
+      "duration": 5.101
+    },
+    {
+      "text": "these various sources as well and this",
+      "start": 262.199,
+      "duration": 5.821
+    },
+    {
+      "text": "framework is launching that is what it",
+      "start": 265.08,
+      "duration": 5.04
+    },
+    {
+      "text": "does it's a framework that allows you to",
+      "start": 268.02,
+      "duration": 5.76
+    },
+    {
+      "text": "build applications using llm okay let's",
+      "start": 270.12,
+      "duration": 7.079
+    },
+    {
+      "text": "install line chain now and uh do some",
+      "start": 273.78,
+      "duration": 6.06
+    },
+    {
+      "text": "initial setup let us first create an",
+      "start": 277.199,
+      "duration": 5.341
+    },
+    {
+      "text": "account on open AI you can go to open a",
+      "start": 279.84,
+      "duration": 5.46
+    },
+    {
+      "text": "website click on login and create a",
+      "start": 282.54,
+      "duration": 4.62
+    },
+    {
+      "text": "login using Google or individual email",
+      "start": 285.3,
+      "duration": 3.899
+    },
+    {
+      "text": "credentials and once your login is",
+      "start": 287.16,
+      "duration": 5.099
+    },
+    {
+      "text": "created you will come to our dashboard",
+      "start": 289.199,
+      "duration": 5.041
+    },
+    {
+      "text": "so let me just show you so you go to",
+      "start": 292.259,
+      "duration": 3.421
+    },
+    {
+      "text": "open AI",
+      "start": 294.24,
+      "duration": 5.1
+    },
+    {
+      "text": "say login you're logged in click on API",
+      "start": 295.68,
+      "duration": 8.4
+    },
+    {
+      "text": "and then from your account you can go to",
+      "start": 299.34,
+      "duration": 8.52
+    },
+    {
+      "text": "your manage account and API keys",
+      "start": 304.08,
+      "duration": 6.3
+    },
+    {
+      "text": "you will find a key here which will look",
+      "start": 307.86,
+      "duration": 5.04
+    },
+    {
+      "text": "something like SK hyphen something that",
+      "start": 310.38,
+      "duration": 4.44
+    },
+    {
+      "text": "is like a password so you need to use",
+      "start": 312.9,
+      "duration": 5.88
+    },
+    {
+      "text": "that key in our code for line chain you",
+      "start": 314.82,
+      "duration": 6.0
+    },
+    {
+      "text": "can also create a separate keys for",
+      "start": 318.78,
+      "duration": 4.02
+    },
+    {
+      "text": "separate projects so I have some client",
+      "start": 320.82,
+      "duration": 4.56
+    },
+    {
+      "text": "projects going on YouTube tutorials so",
+      "start": 322.8,
+      "duration": 4.26
+    },
+    {
+      "text": "for each of them I have a separate key",
+      "start": 325.38,
+      "duration": 4.319
+    },
+    {
+      "text": "in your case you can just use the one",
+      "start": 327.06,
+      "duration": 4.74
+    },
+    {
+      "text": "key whether you can generate a new key",
+      "start": 329.699,
+      "duration": 4.861
+    },
+    {
+      "text": "here as well so let's say you copy that",
+      "start": 331.8,
+      "duration": 5.88
+    },
+    {
+      "text": "key to some secure place",
+      "start": 334.56,
+      "duration": 5.04
+    },
+    {
+      "text": "after that you won't be able to access",
+      "start": 337.68,
+      "duration": 4.019
+    },
+    {
+      "text": "it here so you have to delete and create",
+      "start": 339.6,
+      "duration": 3.96
+    },
+    {
+      "text": "a new key okay so let's say you have",
+      "start": 341.699,
+      "duration": 6.901
+    },
+    {
+      "text": "that key ready with you uh here then you",
+      "start": 343.56,
+      "duration": 9.359
+    },
+    {
+      "text": "can just import OS model and then in OS",
+      "start": 348.6,
+      "duration": 6.48
+    },
+    {
+      "text": "module you can create a environment",
+      "start": 352.919,
+      "duration": 3.961
+    },
+    {
+      "text": "variable with that particular key if",
+      "start": 355.08,
+      "duration": 6.179
+    },
+    {
+      "text": "your key will be SK something okay in my",
+      "start": 356.88,
+      "duration": 8.099
+    },
+    {
+      "text": "case I have stored that key in one",
+      "start": 361.259,
+      "duration": 6.181
+    },
+    {
+      "text": "python file okay I don't want to share",
+      "start": 364.979,
+      "duration": 4.981
+    },
+    {
+      "text": "that key with all of you that is the",
+      "start": 367.44,
+      "duration": 4.74
+    },
+    {
+      "text": "reason and that python file looks",
+      "start": 369.96,
+      "duration": 4.579
+    },
+    {
+      "text": "something like this you know secret",
+      "start": 372.18,
+      "duration": 6.0
+    },
+    {
+      "text": "underscore key dot Pi uh it will have my",
+      "start": 374.539,
+      "duration": 6.1
+    },
+    {
+      "text": "own internal key I can have n number of",
+      "start": 378.18,
+      "duration": 4.32
+    },
+    {
+      "text": "keys here and I'm just importing that",
+      "start": 380.639,
+      "duration": 3.481
+    },
+    {
+      "text": "variable here and just setting it here",
+      "start": 382.5,
+      "duration": 5.4
+    },
+    {
+      "text": "Ctrl enter so that thing is set now",
+      "start": 384.12,
+      "duration": 5.76
+    },
+    {
+      "text": "let's go to the terminal and install",
+      "start": 387.9,
+      "duration": 3.84
+    },
+    {
+      "text": "some modules so you're going to install",
+      "start": 389.88,
+      "duration": 4.379
+    },
+    {
+      "text": "Lang chain model that's number one and",
+      "start": 391.74,
+      "duration": 3.959
+    },
+    {
+      "text": "the second module you are going to",
+      "start": 394.259,
+      "duration": 4.681
+    },
+    {
+      "text": "install is called pip install open AI",
+      "start": 395.699,
+      "duration": 6.241
+    },
+    {
+      "text": "once you have installed those modules",
+      "start": 398.94,
+      "duration": 6.78
+    },
+    {
+      "text": "let's now import few important things",
+      "start": 401.94,
+      "duration": 6.539
+    },
+    {
+      "text": "from Lang chain uh we are going to",
+      "start": 405.72,
+      "duration": 8.34
+    },
+    {
+      "text": "import the llm called open AI",
+      "start": 408.479,
+      "duration": 7.741
+    },
+    {
+      "text": "now we are using open AI because open AI",
+      "start": 414.06,
+      "duration": 4.32
+    },
+    {
+      "text": "I know it costs some money but it is the",
+      "start": 416.22,
+      "duration": 4.979
+    },
+    {
+      "text": "best one uh if you want some other ones",
+      "start": 418.38,
+      "duration": 5.52
+    },
+    {
+      "text": "then just just hit Tab and it will just",
+      "start": 421.199,
+      "duration": 5.161
+    },
+    {
+      "text": "show you hugging phase whatever the the",
+      "start": 423.9,
+      "duration": 7.019
+    },
+    {
+      "text": "other type of whatever other llms that",
+      "start": 426.36,
+      "duration": 6.72
+    },
+    {
+      "text": "it has available it will show you all of",
+      "start": 430.919,
+      "duration": 5.701
+    },
+    {
+      "text": "that we are right now happy with open Ai",
+      "start": 433.08,
+      "duration": 8.16
+    },
+    {
+      "text": "and then I will create my open AI",
+      "start": 436.62,
+      "duration": 7.079
+    },
+    {
+      "text": "model it has a variable called",
+      "start": 441.24,
+      "duration": 5.399
+    },
+    {
+      "text": "temperature now what temperature means",
+      "start": 443.699,
+      "duration": 6.12
+    },
+    {
+      "text": "is how creative you want your model to",
+      "start": 446.639,
+      "duration": 7.321
+    },
+    {
+      "text": "be so if the temperature is set to let's",
+      "start": 449.819,
+      "duration": 7.081
+    },
+    {
+      "text": "say zero it means it is very safe it is",
+      "start": 453.96,
+      "duration": 5.579
+    },
+    {
+      "text": "not taking any bets but if it is one it",
+      "start": 456.9,
+      "duration": 4.199
+    },
+    {
+      "text": "will take risk it might generate wrong",
+      "start": 459.539,
+      "duration": 3.72
+    },
+    {
+      "text": "output but it is very creative at the",
+      "start": 461.099,
+      "duration": 4.521
+    },
+    {
+      "text": "same time I tend to set it to",
+      "start": 463.259,
+      "duration": 7.321
+    },
+    {
+      "text": "0.6.7 things like that and now in that",
+      "start": 465.62,
+      "duration": 8.26
+    },
+    {
+      "text": "llm you can pass any questions so let's",
+      "start": 470.58,
+      "duration": 7.14
+    },
+    {
+      "text": "say I want to open a restaurant",
+      "start": 473.88,
+      "duration": 6.24
+    },
+    {
+      "text": "for Indian food and I want some fancy",
+      "start": 477.72,
+      "duration": 3.9
+    },
+    {
+      "text": "name for it I am not able to come up",
+      "start": 480.12,
+      "duration": 3.0
+    },
+    {
+      "text": "with that product name idea or",
+      "start": 481.62,
+      "duration": 5.22
+    },
+    {
+      "text": "restaurant name idea and let's see what",
+      "start": 483.12,
+      "duration": 6.84
+    },
+    {
+      "text": "this guy does and I typed in the same",
+      "start": 486.84,
+      "duration": 6.54
+    },
+    {
+      "text": "question in here also see I want to open",
+      "start": 489.96,
+      "duration": 5.34
+    },
+    {
+      "text": "a restaurant for Mexican food it told me",
+      "start": 493.38,
+      "duration": 2.819
+    },
+    {
+      "text": "this",
+      "start": 495.3,
+      "duration": 4.619
+    },
+    {
+      "text": "if you say Indian food",
+      "start": 496.199,
+      "duration": 5.821
+    },
+    {
+      "text": "it will tell you something else so we",
+      "start": 499.919,
+      "duration": 3.78
+    },
+    {
+      "text": "are using essentially the same concept",
+      "start": 502.02,
+      "duration": 5.04
+    },
+    {
+      "text": "here okay so here uh it says okay",
+      "start": 503.699,
+      "duration": 6.601
+    },
+    {
+      "text": "maharaja's Palace Cuisine uh if you say",
+      "start": 507.06,
+      "duration": 7.2
+    },
+    {
+      "text": "Italian food see the name sounds real as",
+      "start": 510.3,
+      "duration": 6.599
+    },
+    {
+      "text": "if it's an Italian restaurant so we have",
+      "start": 514.26,
+      "duration": 5.579
+    },
+    {
+      "text": "imported that open a class which created",
+      "start": 516.899,
+      "duration": 5.281
+    },
+    {
+      "text": "an llm and in the llm we are just",
+      "start": 519.839,
+      "duration": 6.421
+    },
+    {
+      "text": "passing a simple text now I don't want",
+      "start": 522.18,
+      "duration": 7.26
+    },
+    {
+      "text": "to keep on changing this same string so",
+      "start": 526.26,
+      "duration": 5.519
+    },
+    {
+      "text": "I will now go ahead and create something",
+      "start": 529.44,
+      "duration": 5.16
+    },
+    {
+      "text": "called a prom template so from Lang",
+      "start": 531.779,
+      "duration": 4.161
+    },
+    {
+      "text": "chain",
+      "start": 534.6,
+      "duration": 5.179
+    },
+    {
+      "text": "dot prompts you can import",
+      "start": 535.94,
+      "duration": 7.72
+    },
+    {
+      "text": "a prompt template and in that prompt",
+      "start": 539.779,
+      "duration": 5.201
+    },
+    {
+      "text": "template",
+      "start": 543.66,
+      "duration": 4.14
+    },
+    {
+      "text": "you can pass some variables such as",
+      "start": 544.98,
+      "duration": 5.34
+    },
+    {
+      "text": "input variable what will be the input",
+      "start": 547.8,
+      "duration": 6.36
+    },
+    {
+      "text": "variable by the way variables",
+      "start": 550.32,
+      "duration": 3.84
+    },
+    {
+      "text": "it will be a cuisine",
+      "start": 554.399,
+      "duration": 5.601
+    },
+    {
+      "text": "and then the template that you want",
+      "start": 556.92,
+      "duration": 5.64
+    },
+    {
+      "text": "looks something like this so I'll just",
+      "start": 560.0,
+      "duration": 4.12
+    },
+    {
+      "text": "copy paste here",
+      "start": 562.56,
+      "duration": 3.839
+    },
+    {
+      "text": "and what we are doing is just changing",
+      "start": 564.12,
+      "duration": 3.36
+    },
+    {
+      "text": "that Italian",
+      "start": 566.399,
+      "duration": 5.481
+    },
+    {
+      "text": "Etc with that Cuisine variable",
+      "start": 567.48,
+      "duration": 4.4
+    },
+    {
+      "text": "and this template is called prompt",
+      "start": 571.92,
+      "duration": 4.5
+    },
+    {
+      "text": "template",
+      "start": 575.339,
+      "duration": 2.341
+    },
+    {
+      "text": "and let's say this is for a restaurant",
+      "start": 576.42,
+      "duration": 3.68
+    },
+    {
+      "text": "name that's why I'm saying name here",
+      "start": 577.68,
+      "duration": 6.42
+    },
+    {
+      "text": "uh and once that template is created you",
+      "start": 580.1,
+      "duration": 6.16
+    },
+    {
+      "text": "can just say prompt",
+      "start": 584.1,
+      "duration": 4.799
+    },
+    {
+      "text": "template name dot format",
+      "start": 586.26,
+      "duration": 5.94
+    },
+    {
+      "text": "and in that format you can pass",
+      "start": 588.899,
+      "duration": 7.261
+    },
+    {
+      "text": "cuisine as let's say Mexican",
+      "start": 592.2,
+      "duration": 6.48
+    },
+    {
+      "text": "and see I want to open a restaurant for",
+      "start": 596.16,
+      "duration": 4.799
+    },
+    {
+      "text": "Mexican food if you say Italian it will",
+      "start": 598.68,
+      "duration": 3.9
+    },
+    {
+      "text": "say Italian food this is more like a",
+      "start": 600.959,
+      "duration": 4.141
+    },
+    {
+      "text": "python string formatting you would be",
+      "start": 602.58,
+      "duration": 4.379
+    },
+    {
+      "text": "wondering why you don't use Python",
+      "start": 605.1,
+      "duration": 3.78
+    },
+    {
+      "text": "string formatting well let me just show",
+      "start": 606.959,
+      "duration": 5.94
+    },
+    {
+      "text": "you that using something called chain so",
+      "start": 608.88,
+      "duration": 6.24
+    },
+    {
+      "text": "we are going to use this concept of",
+      "start": 612.899,
+      "duration": 3.421
+    },
+    {
+      "text": "chain",
+      "start": 615.12,
+      "duration": 4.62
+    },
+    {
+      "text": "in line chain and it is one of the most",
+      "start": 616.32,
+      "duration": 6.24
+    },
+    {
+      "text": "important objects in in language in",
+      "start": 619.74,
+      "duration": 4.8
+    },
+    {
+      "text": "framework you can figure out from the",
+      "start": 622.56,
+      "duration": 4.8
+    },
+    {
+      "text": "name of the framework itself and we are",
+      "start": 624.54,
+      "duration": 6.299
+    },
+    {
+      "text": "importing llm chain and llm chain is",
+      "start": 627.36,
+      "duration": 6.18
+    },
+    {
+      "text": "essentially a very simple object where",
+      "start": 630.839,
+      "duration": 5.761
+    },
+    {
+      "text": "you are saying my llm is this whatever",
+      "start": 633.54,
+      "duration": 6.96
+    },
+    {
+      "text": "you created here okay that is my llm and",
+      "start": 636.6,
+      "duration": 6.2
+    },
+    {
+      "text": "my prompt",
+      "start": 640.5,
+      "duration": 6.839
+    },
+    {
+      "text": "is this prompt template",
+      "start": 642.8,
+      "duration": 7.84
+    },
+    {
+      "text": "and this is my chain and in the chain",
+      "start": 647.339,
+      "duration": 7.081
+    },
+    {
+      "text": "you can say chain dot run let's say I",
+      "start": 650.64,
+      "duration": 7.52
+    },
+    {
+      "text": "want to open a American restaurant",
+      "start": 654.42,
+      "duration": 3.74
+    },
+    {
+      "text": "see the All-American Grille and Bar",
+      "start": 658.38,
+      "duration": 5.82
+    },
+    {
+      "text": "so now here I don't have to pass the",
+      "start": 661.44,
+      "duration": 4.2
+    },
+    {
+      "text": "whole sentence I want to open a",
+      "start": 664.2,
+      "duration": 3.48
+    },
+    {
+      "text": "restaurant for this is that I just",
+      "start": 665.64,
+      "duration": 4.92
+    },
+    {
+      "text": "passed the cuisine the variable and it",
+      "start": 667.68,
+      "duration": 6.12
+    },
+    {
+      "text": "will just work every time Mexican",
+      "start": 670.56,
+      "duration": 6.48
+    },
+    {
+      "text": "see so internally it is calling open AI",
+      "start": 673.8,
+      "duration": 6.779
+    },
+    {
+      "text": "API and we made that connection via this",
+      "start": 677.04,
+      "duration": 6.239
+    },
+    {
+      "text": "module here so if you are using hugging",
+      "start": 680.579,
+      "duration": 4.32
+    },
+    {
+      "text": "phase then you'll have to do the hugging",
+      "start": 683.279,
+      "duration": 3.481
+    },
+    {
+      "text": "phase setup and it will call hugging",
+      "start": 684.899,
+      "duration": 5.101
+    },
+    {
+      "text": "face okay here we are kind of paying",
+      "start": 686.76,
+      "duration": 5.519
+    },
+    {
+      "text": "that cost but by the way uh when you",
+      "start": 690.0,
+      "duration": 4.86
+    },
+    {
+      "text": "created that open API account you got",
+      "start": 692.279,
+      "duration": 4.56
+    },
+    {
+      "text": "five dollar free credit so you should be",
+      "start": 694.86,
+      "duration": 4.44
+    },
+    {
+      "text": "okay five dollar is more than enough for",
+      "start": 696.839,
+      "duration": 4.321
+    },
+    {
+      "text": "initial learning and exploration and",
+      "start": 699.3,
+      "duration": 3.84
+    },
+    {
+      "text": "after that if you like it you can go",
+      "start": 701.16,
+      "duration": 4.26
+    },
+    {
+      "text": "ahead and pay money so that is the",
+      "start": 703.14,
+      "duration": 7.04
+    },
+    {
+      "text": "simple chain that we got here now",
+      "start": 705.42,
+      "duration": 7.979
+    },
+    {
+      "text": "let's look at something called a",
+      "start": 710.18,
+      "duration": 5.86
+    },
+    {
+      "text": "sequential chain uh so let me just",
+      "start": 713.399,
+      "duration": 5.521
+    },
+    {
+      "text": "explain the concept first so far what we",
+      "start": 716.04,
+      "duration": 5.34
+    },
+    {
+      "text": "did is we had this Gene for generating",
+      "start": 718.92,
+      "duration": 4.26
+    },
+    {
+      "text": "restaurant name and it was generating it",
+      "start": 721.38,
+      "duration": 3.36
+    },
+    {
+      "text": "but let's say for that restaurant you",
+      "start": 723.18,
+      "duration": 3.48
+    },
+    {
+      "text": "want to generate a manual item four",
+      "start": 724.74,
+      "duration": 3.659
+    },
+    {
+      "text": "manual items so you can have this second",
+      "start": 726.66,
+      "duration": 4.32
+    },
+    {
+      "text": "component or a second chain where you",
+      "start": 728.399,
+      "duration": 5.821
+    },
+    {
+      "text": "pass restaurant name as an input and it",
+      "start": 730.98,
+      "duration": 5.28
+    },
+    {
+      "text": "should give you the menu items that you",
+      "start": 734.22,
+      "duration": 3.72
+    },
+    {
+      "text": "should include in that restaurant so if",
+      "start": 736.26,
+      "duration": 2.94
+    },
+    {
+      "text": "it is Indian restaurant it will say",
+      "start": 737.94,
+      "duration": 3.6
+    },
+    {
+      "text": "panitica mangolis Etc if it is Mexican",
+      "start": 739.2,
+      "duration": 5.1
+    },
+    {
+      "text": "it will say quesadilla burrito things",
+      "start": 741.54,
+      "duration": 5.34
+    },
+    {
+      "text": "like that this thing is called Simple",
+      "start": 744.3,
+      "duration": 6.659
+    },
+    {
+      "text": "sequential chain and let's uh code that",
+      "start": 746.88,
+      "duration": 7.139
+    },
+    {
+      "text": "up but just to clarify the idea here you",
+      "start": 750.959,
+      "duration": 4.861
+    },
+    {
+      "text": "have one input and one output and you",
+      "start": 754.019,
+      "duration": 5.101
+    },
+    {
+      "text": "can have intermediate steps where the",
+      "start": 755.82,
+      "duration": 5.699
+    },
+    {
+      "text": "input of the second step is the output",
+      "start": 759.12,
+      "duration": 6.12
+    },
+    {
+      "text": "of the first step it is as easy as that",
+      "start": 761.519,
+      "duration": 6.601
+    },
+    {
+      "text": "so here uh once again I'm generating",
+      "start": 765.24,
+      "duration": 5.52
+    },
+    {
+      "text": "everything from scratch I have generated",
+      "start": 768.12,
+      "duration": 5.339
+    },
+    {
+      "text": "the name chain the same way that we did",
+      "start": 770.76,
+      "duration": 4.86
+    },
+    {
+      "text": "before this is the exit copy paste of",
+      "start": 773.459,
+      "duration": 4.68
+    },
+    {
+      "text": "the previous code so nothing fancy here",
+      "start": 775.62,
+      "duration": 5.1
+    },
+    {
+      "text": "and then we are going to create another",
+      "start": 778.139,
+      "duration": 4.921
+    },
+    {
+      "text": "chain and I'm just copy pasting just to",
+      "start": 780.72,
+      "duration": 5.52
+    },
+    {
+      "text": "save your time where the input is",
+      "start": 783.06,
+      "duration": 4.56
+    },
+    {
+      "text": "restaurant name and we are saying",
+      "start": 786.24,
+      "duration": 3.96
+    },
+    {
+      "text": "suggest me some food menu items for",
+      "start": 787.62,
+      "duration": 4.68
+    },
+    {
+      "text": "restaurant that so it is like saying",
+      "start": 790.2,
+      "duration": 4.92
+    },
+    {
+      "text": "this see uh you're you're saying I want",
+      "start": 792.3,
+      "duration": 4.86
+    },
+    {
+      "text": "to open a restaurant for Indian food",
+      "start": 795.12,
+      "duration": 6.659
+    },
+    {
+      "text": "suggest a fancy name for this only one",
+      "start": 797.16,
+      "duration": 6.66
+    },
+    {
+      "text": "name please",
+      "start": 801.779,
+      "duration": 5.641
+    },
+    {
+      "text": "so let's say you talk to chatgpt in chat",
+      "start": 803.82,
+      "duration": 7.019
+    },
+    {
+      "text": "GPT generated this now you are saying",
+      "start": 807.42,
+      "duration": 7.56
+    },
+    {
+      "text": "that generate food menu items for",
+      "start": 810.839,
+      "duration": 9.18
+    },
+    {
+      "text": "saffron spice and then return it as a",
+      "start": 814.98,
+      "duration": 9.0
+    },
+    {
+      "text": "comma separated list",
+      "start": 820.019,
+      "duration": 6.601
+    },
+    {
+      "text": "see this this is what you want you you",
+      "start": 823.98,
+      "duration": 5.4
+    },
+    {
+      "text": "want to generate all this list",
+      "start": 826.62,
+      "duration": 5.519
+    },
+    {
+      "text": "and you have now two chains which we are",
+      "start": 829.38,
+      "duration": 5.22
+    },
+    {
+      "text": "going to do control enter and execute",
+      "start": 832.139,
+      "duration": 3.801
+    },
+    {
+      "text": "this code",
+      "start": 834.6,
+      "duration": 7.14
+    },
+    {
+      "text": "and now from link chain from Lang chain",
+      "start": 835.94,
+      "duration": 8.62
+    },
+    {
+      "text": "dot chains it will show you all kind of",
+      "start": 841.74,
+      "duration": 4.82
+    },
+    {
+      "text": "chains you are going to import",
+      "start": 844.56,
+      "duration": 8.219
+    },
+    {
+      "text": "a simple sequential chain okay and that",
+      "start": 846.56,
+      "duration": 8.5
+    },
+    {
+      "text": "simple sequential chain",
+      "start": 852.779,
+      "duration": 4.261
+    },
+    {
+      "text": "will contain",
+      "start": 855.06,
+      "duration": 4.079
+    },
+    {
+      "text": "this individual chains that we created",
+      "start": 857.04,
+      "duration": 4.62
+    },
+    {
+      "text": "and by the way the order matters here so",
+      "start": 859.139,
+      "duration": 5.221
+    },
+    {
+      "text": "this is a restaurant name chain and then",
+      "start": 861.66,
+      "duration": 5.64
+    },
+    {
+      "text": "you have a full item chain",
+      "start": 864.36,
+      "duration": 6.539
+    },
+    {
+      "text": "and that's it and now you will say chain",
+      "start": 867.3,
+      "duration": 6.06
+    },
+    {
+      "text": "dot run let's say you want to generate",
+      "start": 870.899,
+      "duration": 4.5
+    },
+    {
+      "text": "it for Indian food",
+      "start": 873.36,
+      "duration": 4.74
+    },
+    {
+      "text": "you're getting a response here and you",
+      "start": 875.399,
+      "duration": 4.641
+    },
+    {
+      "text": "print",
+      "start": 878.1,
+      "duration": 4.799
+    },
+    {
+      "text": "response sometimes it takes time so you",
+      "start": 880.04,
+      "duration": 4.84
+    },
+    {
+      "text": "have to wait for few seconds but it will",
+      "start": 882.899,
+      "duration": 3.3
+    },
+    {
+      "text": "generate the",
+      "start": 884.88,
+      "duration": 3.98
+    },
+    {
+      "text": "menu items",
+      "start": 886.199,
+      "duration": 4.521
+    },
+    {
+      "text": "vegetables",
+      "start": 888.86,
+      "duration": 4.839
+    },
+    {
+      "text": "yummy huh you're probably getting uh",
+      "start": 890.72,
+      "duration": 6.58
+    },
+    {
+      "text": "water in your mouth let's do Mexican for",
+      "start": 893.699,
+      "duration": 7.26
+    },
+    {
+      "text": "all those Mexican food lovers",
+      "start": 897.3,
+      "duration": 8.099
+    },
+    {
+      "text": "so while this chain looks good it is",
+      "start": 900.959,
+      "duration": 7.56
+    },
+    {
+      "text": "generating those food menu items uh I am",
+      "start": 905.399,
+      "duration": 4.8
+    },
+    {
+      "text": "not getting the restaurant name as such",
+      "start": 908.519,
+      "duration": 3.721
+    },
+    {
+      "text": "because say for Mexican food it is",
+      "start": 910.199,
+      "duration": 3.421
+    },
+    {
+      "text": "saying all these item but what is the",
+      "start": 912.24,
+      "duration": 3.779
+    },
+    {
+      "text": "restaurant name that was that",
+      "start": 913.62,
+      "duration": 4.44
+    },
+    {
+      "text": "intermediate step here that was the",
+      "start": 916.019,
+      "duration": 4.26
+    },
+    {
+      "text": "intermediate step but in the output in",
+      "start": 918.06,
+      "duration": 4.44
+    },
+    {
+      "text": "the simple sequential chain it gives you",
+      "start": 920.279,
+      "duration": 4.74
+    },
+    {
+      "text": "just one output but I want the",
+      "start": 922.5,
+      "duration": 5.639
+    },
+    {
+      "text": "restaurant name and the menu items both",
+      "start": 925.019,
+      "duration": 4.981
+    },
+    {
+      "text": "for that we have to use a different",
+      "start": 928.139,
+      "duration": 5.401
+    },
+    {
+      "text": "chain called sequential chain and this",
+      "start": 930.0,
+      "duration": 5.459
+    },
+    {
+      "text": "sequential chain can have multiple input",
+      "start": 933.54,
+      "duration": 4.739
+    },
+    {
+      "text": "multiple outputs so I can just say okay",
+      "start": 935.459,
+      "duration": 4.56
+    },
+    {
+      "text": "give me a name for Indian restaurant",
+      "start": 938.279,
+      "duration": 3.841
+    },
+    {
+      "text": "which is vegan and then in the output I",
+      "start": 940.019,
+      "duration": 4.32
+    },
+    {
+      "text": "can say give me a restaurant name and",
+      "start": 942.12,
+      "duration": 5.04
+    },
+    {
+      "text": "items both as an output",
+      "start": 944.339,
+      "duration": 5.461
+    },
+    {
+      "text": "all right so let's try something like",
+      "start": 947.16,
+      "duration": 5.34
+    },
+    {
+      "text": "this here I think this whole code kind",
+      "start": 949.8,
+      "duration": 4.38
+    },
+    {
+      "text": "of Remains the Same I'm just going to",
+      "start": 952.5,
+      "duration": 6.839
+    },
+    {
+      "text": "add one or two extra things here so",
+      "start": 954.18,
+      "duration": 7.68
+    },
+    {
+      "text": "see this is my first chain and the extra",
+      "start": 959.339,
+      "duration": 5.041
+    },
+    {
+      "text": "thing that I have added is output key so",
+      "start": 961.86,
+      "duration": 4.32
+    },
+    {
+      "text": "the output of the first",
+      "start": 964.38,
+      "duration": 4.56
+    },
+    {
+      "text": "chain is the restaurant name",
+      "start": 966.18,
+      "duration": 6.54
+    },
+    {
+      "text": "and the second Gene looks something like",
+      "start": 968.94,
+      "duration": 4.8
+    },
+    {
+      "text": "this",
+      "start": 972.72,
+      "duration": 4.02
+    },
+    {
+      "text": "where the output key is manual items",
+      "start": 973.74,
+      "duration": 4.38
+    },
+    {
+      "text": "okay",
+      "start": 976.74,
+      "duration": 3.599
+    },
+    {
+      "text": "and now let's create the simple sequence",
+      "start": 978.12,
+      "duration": 5.1
+    },
+    {
+      "text": "in chain so I am going to say",
+      "start": 980.339,
+      "duration": 7.161
+    },
+    {
+      "text": "from Lang chain dot chains import",
+      "start": 983.22,
+      "duration": 7.859
+    },
+    {
+      "text": "sequence searching we only used simple",
+      "start": 987.5,
+      "duration": 5.5
+    },
+    {
+      "text": "sequential chain this is a sequential",
+      "start": 991.079,
+      "duration": 5.161
+    },
+    {
+      "text": "chain which is little kind of generic so",
+      "start": 993.0,
+      "duration": 5.579
+    },
+    {
+      "text": "sequential chain will take what kind of",
+      "start": 996.24,
+      "duration": 4.44
+    },
+    {
+      "text": "parameters will it take well first of",
+      "start": 998.579,
+      "duration": 5.401
+    },
+    {
+      "text": "all it will say chains and these are the",
+      "start": 1000.68,
+      "duration": 6.26
+    },
+    {
+      "text": "two chains I have",
+      "start": 1003.98,
+      "duration": 2.96
+    },
+    {
+      "text": "and then my input variables you can",
+      "start": 1010.16,
+      "duration": 4.02
+    },
+    {
+      "text": "specify all the input variables so input",
+      "start": 1012.32,
+      "duration": 4.079
+    },
+    {
+      "text": "variables I'm not including that wagon",
+      "start": 1014.18,
+      "duration": 4.8
+    },
+    {
+      "text": "Etc let's keep things simple all I want",
+      "start": 1016.399,
+      "duration": 4.201
+    },
+    {
+      "text": "is to Output the remaining things are",
+      "start": 1018.98,
+      "duration": 5.28
+    },
+    {
+      "text": "same okay so in the output variables I",
+      "start": 1020.6,
+      "duration": 6.199
+    },
+    {
+      "text": "should say",
+      "start": 1024.26,
+      "duration": 2.539
+    },
+    {
+      "text": "that I want a restaurant name",
+      "start": 1026.9,
+      "duration": 10.439
+    },
+    {
+      "text": "and the menu items as my output variable",
+      "start": 1031.459,
+      "duration": 8.34
+    },
+    {
+      "text": "let's call this a chain",
+      "start": 1037.339,
+      "duration": 5.521
+    },
+    {
+      "text": "and by the way when you run this chain",
+      "start": 1039.799,
+      "duration": 5.52
+    },
+    {
+      "text": "you can't just say Mexican because you",
+      "start": 1042.86,
+      "duration": 4.02
+    },
+    {
+      "text": "might have multiple input variables",
+      "start": 1045.319,
+      "duration": 3.6
+    },
+    {
+      "text": "that's why you need to give a dictionary",
+      "start": 1046.88,
+      "duration": 6.6
+    },
+    {
+      "text": "you will say Cuisine is",
+      "start": 1048.919,
+      "duration": 8.181
+    },
+    {
+      "text": "let's say Arabic",
+      "start": 1053.48,
+      "duration": 3.62
+    },
+    {
+      "text": "run not supported okay run is not yeah",
+      "start": 1058.039,
+      "duration": 5.941
+    },
+    {
+      "text": "so run is not supported you have to just",
+      "start": 1061.22,
+      "duration": 4.8
+    },
+    {
+      "text": "call it just like that no function just",
+      "start": 1063.98,
+      "duration": 4.439
+    },
+    {
+      "text": "chain and then back it just give the",
+      "start": 1066.02,
+      "duration": 3.3
+    },
+    {
+      "text": "argument",
+      "start": 1068.419,
+      "duration": 3.12
+    },
+    {
+      "text": "then enter and see how much with pita",
+      "start": 1069.32,
+      "duration": 4.2
+    },
+    {
+      "text": "bread Falafel and the name of the",
+      "start": 1071.539,
+      "duration": 4.5
+    },
+    {
+      "text": "restaurant is the Arabian Bistro so it's",
+      "start": 1073.52,
+      "duration": 4.56
+    },
+    {
+      "text": "giving in fact it's giving input as well",
+      "start": 1076.039,
+      "duration": 4.081
+    },
+    {
+      "text": "so it's giving input and both the",
+      "start": 1078.08,
+      "duration": 4.62
+    },
+    {
+      "text": "outputs whatever code we have written so",
+      "start": 1080.12,
+      "duration": 4.799
+    },
+    {
+      "text": "far we will use that code and create",
+      "start": 1082.7,
+      "duration": 4.8
+    },
+    {
+      "text": "extremely based application for",
+      "start": 1084.919,
+      "duration": 5.401
+    },
+    {
+      "text": "restaurant name generator I am in my C",
+      "start": 1087.5,
+      "duration": 5.16
+    },
+    {
+      "text": "code directory I have created this empty",
+      "start": 1090.32,
+      "duration": 4.5
+    },
+    {
+      "text": "folder called restaurant name generator",
+      "start": 1092.66,
+      "duration": 4.44
+    },
+    {
+      "text": "you see there are no files here and I'm",
+      "start": 1094.82,
+      "duration": 6.479
+    },
+    {
+      "text": "going to Now launch pycharm which is a",
+      "start": 1097.1,
+      "duration": 8.1
+    },
+    {
+      "text": "free python code editor and in this you",
+      "start": 1101.299,
+      "duration": 7.861
+    },
+    {
+      "text": "can select open and you can open that",
+      "start": 1105.2,
+      "duration": 7.62
+    },
+    {
+      "text": "particular folder so I will go to my C",
+      "start": 1109.16,
+      "duration": 6.54
+    },
+    {
+      "text": "code directory and in that I will locate",
+      "start": 1112.82,
+      "duration": 5.52
+    },
+    {
+      "text": "restaurant name generator hit OK",
+      "start": 1115.7,
+      "duration": 6.96
+    },
+    {
+      "text": "and it will create a I think empty main",
+      "start": 1118.34,
+      "duration": 7.02
+    },
+    {
+      "text": "dot Pi file and I can just remove the",
+      "start": 1122.66,
+      "duration": 4.98
+    },
+    {
+      "text": "content here and I'm going to just",
+      "start": 1125.36,
+      "duration": 6.72
+    },
+    {
+      "text": "import a streamlit library first",
+      "start": 1127.64,
+      "duration": 6.659
+    },
+    {
+      "text": "now if you don't know about streamlit",
+      "start": 1132.08,
+      "duration": 5.64
+    },
+    {
+      "text": "it is a library that allows data",
+      "start": 1134.299,
+      "duration": 5.941
+    },
+    {
+      "text": "scientists to build POC application",
+      "start": 1137.72,
+      "duration": 4.56
+    },
+    {
+      "text": "proof of concept application simple",
+      "start": 1140.24,
+      "duration": 4.38
+    },
+    {
+      "text": "applications very very quickly you don't",
+      "start": 1142.28,
+      "duration": 5.1
+    },
+    {
+      "text": "have to use front-end Frameworks such as",
+      "start": 1144.62,
+      "duration": 6.12
+    },
+    {
+      "text": "react.js Etc this Library will allow you",
+      "start": 1147.38,
+      "duration": 5.94
+    },
+    {
+      "text": "to do all of these things very very fast",
+      "start": 1150.74,
+      "duration": 5.88
+    },
+    {
+      "text": "so let me just show you so you can just",
+      "start": 1153.32,
+      "duration": 6.18
+    },
+    {
+      "text": "create a simple application with a title",
+      "start": 1156.62,
+      "duration": 6.54
+    },
+    {
+      "text": "rest to run name generator and by the",
+      "start": 1159.5,
+      "duration": 6.539
+    },
+    {
+      "text": "way you have to do pip install pip",
+      "start": 1163.16,
+      "duration": 5.46
+    },
+    {
+      "text": "install streamlit before you start using",
+      "start": 1166.039,
+      "duration": 4.321
+    },
+    {
+      "text": "it otherwise you'll get an error so make",
+      "start": 1168.62,
+      "duration": 4.62
+    },
+    {
+      "text": "sure you have run that and this is the",
+      "start": 1170.36,
+      "duration": 5.46
+    },
+    {
+      "text": "simple app with one title now I can go",
+      "start": 1173.24,
+      "duration": 6.299
+    },
+    {
+      "text": "to terminal and I can just say streamlit",
+      "start": 1175.82,
+      "duration": 7.979
+    },
+    {
+      "text": "run main dot pi and it is going to open",
+      "start": 1179.539,
+      "duration": 6.721
+    },
+    {
+      "text": "up an application in my browser see",
+      "start": 1183.799,
+      "duration": 5.361
+    },
+    {
+      "text": "simple application with this particular",
+      "start": 1186.26,
+      "duration": 8.46
+    },
+    {
+      "text": "title now I can create the Picker where",
+      "start": 1189.16,
+      "duration": 7.899
+    },
+    {
+      "text": "you can pick the cuisine and for that",
+      "start": 1194.72,
+      "duration": 4.44
+    },
+    {
+      "text": "I'll use the sidebar so in streamlit",
+      "start": 1197.059,
+      "duration": 4.381
+    },
+    {
+      "text": "there is something called sidebar where",
+      "start": 1199.16,
+      "duration": 5.16
+    },
+    {
+      "text": "you can create a select box and give a",
+      "start": 1201.44,
+      "duration": 5.64
+    },
+    {
+      "text": "name to that box so you will say pick a",
+      "start": 1204.32,
+      "duration": 4.02
+    },
+    {
+      "text": "cuisine",
+      "start": 1207.08,
+      "duration": 3.9
+    },
+    {
+      "text": "and give all the options that you want",
+      "start": 1208.34,
+      "duration": 6.42
+    },
+    {
+      "text": "in that particular drop down so I will",
+      "start": 1210.98,
+      "duration": 5.939
+    },
+    {
+      "text": "just put bunch of",
+      "start": 1214.76,
+      "duration": 4.2
+    },
+    {
+      "text": "Cuisines Indian",
+      "start": 1216.919,
+      "duration": 5.76
+    },
+    {
+      "text": "American Mexican and so on",
+      "start": 1218.96,
+      "duration": 7.68
+    },
+    {
+      "text": "and then here you will say if",
+      "start": 1222.679,
+      "duration": 6.061
+    },
+    {
+      "text": "or let me just show you how this looks",
+      "start": 1226.64,
+      "duration": 5.64
+    },
+    {
+      "text": "so just say hit Ctrl s save and click on",
+      "start": 1228.74,
+      "duration": 6.48
+    },
+    {
+      "text": "rerun you can click go here and rerun or",
+      "start": 1232.28,
+      "duration": 4.8
+    },
+    {
+      "text": "just press R key and it will show you",
+      "start": 1235.22,
+      "duration": 5.4
+    },
+    {
+      "text": "see you get this kind of nice picker and",
+      "start": 1237.08,
+      "duration": 6.06
+    },
+    {
+      "text": "if someone picks any entry let's say",
+      "start": 1240.62,
+      "duration": 4.14
+    },
+    {
+      "text": "someone picks Mexican what's gonna",
+      "start": 1243.14,
+      "duration": 2.96
+    },
+    {
+      "text": "happen is",
+      "start": 1244.76,
+      "duration": 4.74
+    },
+    {
+      "text": "that call is going to return that value",
+      "start": 1246.1,
+      "duration": 6.52
+    },
+    {
+      "text": "in a variable which will store in this",
+      "start": 1249.5,
+      "duration": 6.24
+    },
+    {
+      "text": "Cuisine okay so I will just store it in",
+      "start": 1252.62,
+      "duration": 5.4
+    },
+    {
+      "text": "this particular variable and you can say",
+      "start": 1255.74,
+      "duration": 3.48
+    },
+    {
+      "text": "if",
+      "start": 1258.02,
+      "duration": 3.96
+    },
+    {
+      "text": "Cuisine then do something okay what do I",
+      "start": 1259.22,
+      "duration": 5.579
+    },
+    {
+      "text": "want to do I want to generate the",
+      "start": 1261.98,
+      "duration": 4.559
+    },
+    {
+      "text": "restaurant fancy restaurant name and",
+      "start": 1264.799,
+      "duration": 4.801
+    },
+    {
+      "text": "list of manual items here for that let",
+      "start": 1266.539,
+      "duration": 5.461
+    },
+    {
+      "text": "me just write a",
+      "start": 1269.6,
+      "duration": 4.86
+    },
+    {
+      "text": "a dummy code here so I will just call",
+      "start": 1272.0,
+      "duration": 5.4
+    },
+    {
+      "text": "that function let's say get restore name",
+      "start": 1274.46,
+      "duration": 7.2
+    },
+    {
+      "text": "and item where you supply the cuisine as",
+      "start": 1277.4,
+      "duration": 8.88
+    },
+    {
+      "text": "input and it returns let's say rest or a",
+      "start": 1281.66,
+      "duration": 5.519
+    },
+    {
+      "text": "name",
+      "start": 1286.28,
+      "duration": 1.86
+    },
+    {
+      "text": "foreign",
+      "start": 1287.179,
+      "duration": 3.0
+    },
+    {
+      "text": "it is always a good idea to write this",
+      "start": 1288.14,
+      "duration": 3.899
+    },
+    {
+      "text": "kind of stub function or empty function",
+      "start": 1290.179,
+      "duration": 3.781
+    },
+    {
+      "text": "so that you can check your wiring and",
+      "start": 1292.039,
+      "duration": 3.781
+    },
+    {
+      "text": "then you can write the actual code in",
+      "start": 1293.96,
+      "duration": 5.459
+    },
+    {
+      "text": "that function so let's say my",
+      "start": 1295.82,
+      "duration": 7.08
+    },
+    {
+      "text": "restaurant name is curry delight and my",
+      "start": 1299.419,
+      "duration": 6.421
+    },
+    {
+      "text": "menu items is",
+      "start": 1302.9,
+      "duration": 6.259
+    },
+    {
+      "text": "whatever items you like",
+      "start": 1305.84,
+      "duration": 3.319
+    },
+    {
+      "text": "okay so if",
+      "start": 1310.58,
+      "duration": 2.479
+    },
+    {
+      "text": "if",
+      "start": 1312.08,
+      "duration": 4.94
+    },
+    {
+      "text": "Cuisine then",
+      "start": 1313.059,
+      "duration": 3.961
+    },
+    {
+      "text": "get those things as a response",
+      "start": 1318.26,
+      "duration": 7.919
+    },
+    {
+      "text": "and then from the response let's say the",
+      "start": 1321.86,
+      "duration": 8.22
+    },
+    {
+      "text": "restaurant name I can show it here on",
+      "start": 1326.179,
+      "duration": 5.341
+    },
+    {
+      "text": "the right hand side see here somewhere",
+      "start": 1330.08,
+      "duration": 4.68
+    },
+    {
+      "text": "below this header I want to show it and",
+      "start": 1331.52,
+      "duration": 4.7
+    },
+    {
+      "text": "I will use",
+      "start": 1334.76,
+      "duration": 6.12
+    },
+    {
+      "text": "maybe let's say St dot header",
+      "start": 1336.22,
+      "duration": 9.699
+    },
+    {
+      "text": "I will use St dot header as a UI control",
+      "start": 1340.88,
+      "duration": 10.4
+    },
+    {
+      "text": "so let's do this S3 dot header",
+      "start": 1345.919,
+      "duration": 5.361
+    },
+    {
+      "text": "and when I get the menu items so let me",
+      "start": 1352.9,
+      "duration": 6.659
+    },
+    {
+      "text": "get the menu items here so",
+      "start": 1357.02,
+      "duration": 8.399
+    },
+    {
+      "text": "the menu items are going to be this",
+      "start": 1359.559,
+      "duration": 8.021
+    },
+    {
+      "text": "menu items here",
+      "start": 1365.419,
+      "duration": 4.441
+    },
+    {
+      "text": "and whenever you have comma separated",
+      "start": 1367.58,
+      "duration": 5.4
+    },
+    {
+      "text": "string or you can call this split",
+      "start": 1369.86,
+      "duration": 4.08
+    },
+    {
+      "text": "function",
+      "start": 1372.98,
+      "duration": 4.14
+    },
+    {
+      "text": "and specify the separator which is comma",
+      "start": 1373.94,
+      "duration": 6.599
+    },
+    {
+      "text": "here and this should return you a list",
+      "start": 1377.12,
+      "duration": 5.7
+    },
+    {
+      "text": "and once you get that list you can",
+      "start": 1380.539,
+      "duration": 6.181
+    },
+    {
+      "text": "iterate over that list",
+      "start": 1382.82,
+      "duration": 7.62
+    },
+    {
+      "text": "and you can write those items here",
+      "start": 1386.72,
+      "duration": 4.38
+    },
+    {
+      "text": "[Music]",
+      "start": 1390.44,
+      "duration": 1.56
+    },
+    {
+      "text": "um",
+      "start": 1391.1,
+      "duration": 3.36
+    },
+    {
+      "text": "I can just say item and maybe I can put",
+      "start": 1392.0,
+      "duration": 4.799
+    },
+    {
+      "text": "some character just to indicate this is",
+      "start": 1394.46,
+      "duration": 3.54
+    },
+    {
+      "text": "an item",
+      "start": 1396.799,
+      "duration": 4.081
+    },
+    {
+      "text": "you can also uh",
+      "start": 1398.0,
+      "duration": 4.62
+    },
+    {
+      "text": "all right like kind of like a header",
+      "start": 1400.88,
+      "duration": 3.96
+    },
+    {
+      "text": "where you'll say okay these are menu",
+      "start": 1402.62,
+      "duration": 5.28
+    },
+    {
+      "text": "items manual",
+      "start": 1404.84,
+      "duration": 6.66
+    },
+    {
+      "text": "items okay hit save this code is ready",
+      "start": 1407.9,
+      "duration": 7.139
+    },
+    {
+      "text": "you go back to your UI rerun and see",
+      "start": 1411.5,
+      "duration": 5.52
+    },
+    {
+      "text": "you're getting the restaurant name and",
+      "start": 1415.039,
+      "duration": 4.921
+    },
+    {
+      "text": "the menu items now when you change this",
+      "start": 1417.02,
+      "duration": 4.38
+    },
+    {
+      "text": "selection it's not going to change",
+      "start": 1419.96,
+      "duration": 3.3
+    },
+    {
+      "text": "because obviously we are returning the",
+      "start": 1421.4,
+      "duration": 4.86
+    },
+    {
+      "text": "hard-coded response and the next step is",
+      "start": 1423.26,
+      "duration": 5.34
+    },
+    {
+      "text": "to write that code which we wrote in our",
+      "start": 1426.26,
+      "duration": 4.62
+    },
+    {
+      "text": "Jupiter notebook and put that code here",
+      "start": 1428.6,
+      "duration": 5.76
+    },
+    {
+      "text": "okay and since I like to modularize my",
+      "start": 1430.88,
+      "duration": 6.24
+    },
+    {
+      "text": "code I'm going to create a new python",
+      "start": 1434.36,
+      "duration": 6.66
+    },
+    {
+      "text": "file let's call it Lang chain helper",
+      "start": 1437.12,
+      "duration": 8.039
+    },
+    {
+      "text": "and in this file I will copy paste this",
+      "start": 1441.02,
+      "duration": 6.44
+    },
+    {
+      "text": "function",
+      "start": 1445.159,
+      "duration": 2.301
+    },
+    {
+      "text": "and here you can import",
+      "start": 1448.58,
+      "duration": 4.04
+    },
+    {
+      "text": "that module",
+      "start": 1453.559,
+      "duration": 6.961
+    },
+    {
+      "text": "and you just simply call that here see",
+      "start": 1456.44,
+      "duration": 6.9
+    },
+    {
+      "text": "now let's focus on line chain helper",
+      "start": 1460.52,
+      "duration": 4.92
+    },
+    {
+      "text": "so what do we need to do here",
+      "start": 1463.34,
+      "duration": 4.8
+    },
+    {
+      "text": "well the same thing that we did in our",
+      "start": 1465.44,
+      "duration": 5.16
+    },
+    {
+      "text": "notebook so I'm just going to copy paste",
+      "start": 1468.14,
+      "duration": 4.919
+    },
+    {
+      "text": "some code from my notebook here",
+      "start": 1470.6,
+      "duration": 4.26
+    },
+    {
+      "text": "okay we don't need to go over it because",
+      "start": 1473.059,
+      "duration": 5.901
+    },
+    {
+      "text": "we have already written that code",
+      "start": 1474.86,
+      "duration": 4.1
+    },
+    {
+      "text": "I will also create a file for my secret",
+      "start": 1479.12,
+      "duration": 5.82
+    },
+    {
+      "text": "key so I will call it",
+      "start": 1482.96,
+      "duration": 7.62
+    },
+    {
+      "text": "secret key and in that secret key file I",
+      "start": 1484.94,
+      "duration": 8.64
+    },
+    {
+      "text": "will place my open AI security now I'm",
+      "start": 1490.58,
+      "duration": 5.459
+    },
+    {
+      "text": "not going to show you my key because of",
+      "start": 1493.58,
+      "duration": 4.44
+    },
+    {
+      "text": "course it's private thing but you will",
+      "start": 1496.039,
+      "duration": 4.441
+    },
+    {
+      "text": "type whatever key you got remember you",
+      "start": 1498.02,
+      "duration": 4.74
+    },
+    {
+      "text": "got five dollar credit so you can do a",
+      "start": 1500.48,
+      "duration": 3.66
+    },
+    {
+      "text": "lot of things with five dollar is more",
+      "start": 1502.76,
+      "duration": 4.32
+    },
+    {
+      "text": "than enough uh so put that that thing",
+      "start": 1504.14,
+      "duration": 4.68
+    },
+    {
+      "text": "here",
+      "start": 1507.08,
+      "duration": 4.079
+    },
+    {
+      "text": "and then you are using that key you are",
+      "start": 1508.82,
+      "duration": 4.2
+    },
+    {
+      "text": "importing that variable from that python",
+      "start": 1511.159,
+      "duration": 3.601
+    },
+    {
+      "text": "file here directly",
+      "start": 1513.02,
+      "duration": 5.279
+    },
+    {
+      "text": "okay so my key is ready what else do I",
+      "start": 1514.76,
+      "duration": 6.48
+    },
+    {
+      "text": "need to do well again copy paste",
+      "start": 1518.299,
+      "duration": 6.181
+    },
+    {
+      "text": "business folks copy paste is a boon for",
+      "start": 1521.24,
+      "duration": 6.419
+    },
+    {
+      "text": "any programmer or a data scientist",
+      "start": 1524.48,
+      "duration": 6.679
+    },
+    {
+      "text": "so we just copy pasted the code for the",
+      "start": 1527.659,
+      "duration": 5.76
+    },
+    {
+      "text": "sequential chain that we wrote in our",
+      "start": 1531.159,
+      "duration": 4.421
+    },
+    {
+      "text": "notebook see here we create a restaurant",
+      "start": 1533.419,
+      "duration": 4.74
+    },
+    {
+      "text": "name chain here we create menu item",
+      "start": 1535.58,
+      "duration": 5.099
+    },
+    {
+      "text": "chain and we just return this response",
+      "start": 1538.159,
+      "duration": 5.061
+    },
+    {
+      "text": "folks this is this is so",
+      "start": 1540.679,
+      "duration": 5.821
+    },
+    {
+      "text": "straightforward okay and I have this",
+      "start": 1543.22,
+      "duration": 6.459
+    },
+    {
+      "text": "habit of creating",
+      "start": 1546.5,
+      "duration": 5.34
+    },
+    {
+      "text": "this function main function just so that",
+      "start": 1549.679,
+      "duration": 6.12
+    },
+    {
+      "text": "I can test it so I will say if",
+      "start": 1551.84,
+      "duration": 7.8
+    },
+    {
+      "text": "name is underscore underscore main uh",
+      "start": 1555.799,
+      "duration": 5.641
+    },
+    {
+      "text": "then print",
+      "start": 1559.64,
+      "duration": 6.18
+    },
+    {
+      "text": "generator store name let's say Italian",
+      "start": 1561.44,
+      "duration": 7.859
+    },
+    {
+      "text": "okay and now what I'll do is I'll pause",
+      "start": 1565.82,
+      "duration": 6.0
+    },
+    {
+      "text": "the video and put my real secret key",
+      "start": 1569.299,
+      "duration": 4.561
+    },
+    {
+      "text": "here all right my secret key I have",
+      "start": 1571.82,
+      "duration": 6.9
+    },
+    {
+      "text": "placed it and now I can run it",
+      "start": 1573.86,
+      "duration": 6.78
+    },
+    {
+      "text": "and see what happens so we are",
+      "start": 1578.72,
+      "duration": 3.839
+    },
+    {
+      "text": "generating Italian food restaurant name",
+      "start": 1580.64,
+      "duration": 3.84
+    },
+    {
+      "text": "in the menu items perfect so the",
+      "start": 1582.559,
+      "duration": 3.661
+    },
+    {
+      "text": "restaurant name is La Dolce Vita",
+      "start": 1584.48,
+      "duration": 4.559
+    },
+    {
+      "text": "whatever and menu items are Margarita",
+      "start": 1586.22,
+      "duration": 5.4
+    },
+    {
+      "text": "Pizza alfredo lasagna and all that one",
+      "start": 1589.039,
+      "duration": 4.5
+    },
+    {
+      "text": "thing I'm noticing here is I see some",
+      "start": 1591.62,
+      "duration": 4.919
+    },
+    {
+      "text": "extra slice and characters here so maybe",
+      "start": 1593.539,
+      "duration": 5.821
+    },
+    {
+      "text": "we need to remove them so the way to do",
+      "start": 1596.539,
+      "duration": 4.981
+    },
+    {
+      "text": "that would be let's go back to our",
+      "start": 1599.36,
+      "duration": 4.439
+    },
+    {
+      "text": "streamlit code and instead of just",
+      "start": 1601.52,
+      "duration": 4.44
+    },
+    {
+      "text": "saying responsible restaurant name we",
+      "start": 1603.799,
+      "duration": 5.701
+    },
+    {
+      "text": "can call this stripp function that will",
+      "start": 1605.96,
+      "duration": 5.459
+    },
+    {
+      "text": "remove the leading and trailing white",
+      "start": 1609.5,
+      "duration": 3.779
+    },
+    {
+      "text": "spaces including those slash and",
+      "start": 1611.419,
+      "duration": 5.101
+    },
+    {
+      "text": "characters and you can use that same",
+      "start": 1613.279,
+      "duration": 6.361
+    },
+    {
+      "text": "thing here as well",
+      "start": 1616.52,
+      "duration": 6.3
+    },
+    {
+      "text": "before calling split so hit Ctrl s save",
+      "start": 1619.64,
+      "duration": 6.18
+    },
+    {
+      "text": "let's go back rerun",
+      "start": 1622.82,
+      "duration": 7.2
+    },
+    {
+      "text": "dental and see Italian food this is my",
+      "start": 1625.82,
+      "duration": 6.839
+    },
+    {
+      "text": "restaurant name menu item you can change",
+      "start": 1630.02,
+      "duration": 5.1
+    },
+    {
+      "text": "it to Mexican change it to whatever just",
+      "start": 1632.659,
+      "duration": 4.62
+    },
+    {
+      "text": "play with it and folks The Art of",
+      "start": 1635.12,
+      "duration": 4.86
+    },
+    {
+      "text": "Getting skillful at coding is to",
+      "start": 1637.279,
+      "duration": 4.26
+    },
+    {
+      "text": "practice just by watching this video",
+      "start": 1639.98,
+      "duration": 3.42
+    },
+    {
+      "text": "you're not going to learn it so make",
+      "start": 1641.539,
+      "duration": 3.961
+    },
+    {
+      "text": "sure you're practicing while watching",
+      "start": 1643.4,
+      "duration": 3.84
+    },
+    {
+      "text": "this video all right our streamlit",
+      "start": 1645.5,
+      "duration": 3.84
+    },
+    {
+      "text": "application is ready as a next step we",
+      "start": 1647.24,
+      "duration": 3.9
+    },
+    {
+      "text": "are going to look into something called",
+      "start": 1649.34,
+      "duration": 4.199
+    },
+    {
+      "text": "agents which is a very powerful Concept",
+      "start": 1651.14,
+      "duration": 4.62
+    },
+    {
+      "text": "in Lang chain and by the way all the",
+      "start": 1653.539,
+      "duration": 3.961
+    },
+    {
+      "text": "code that we are writing check video",
+      "start": 1655.76,
+      "duration": 3.779
+    },
+    {
+      "text": "description we are going to give you all",
+      "start": 1657.5,
+      "duration": 4.44
+    },
+    {
+      "text": "of that code if agents is a very",
+      "start": 1659.539,
+      "duration": 5.581
+    },
+    {
+      "text": "powerful Concept in Lang chain",
+      "start": 1661.94,
+      "duration": 5.28
+    },
+    {
+      "text": "what happens when you type this in",
+      "start": 1665.12,
+      "duration": 4.439
+    },
+    {
+      "text": "chatgpt when you say give me two flights",
+      "start": 1667.22,
+      "duration": 4.8
+    },
+    {
+      "text": "options from New York to Delhi on a",
+      "start": 1669.559,
+      "duration": 4.74
+    },
+    {
+      "text": "given date obviously it won't be able to",
+      "start": 1672.02,
+      "duration": 4.74
+    },
+    {
+      "text": "answer because it has knowledge till",
+      "start": 1674.299,
+      "duration": 4.681
+    },
+    {
+      "text": "September 2021",
+      "start": 1676.76,
+      "duration": 3.899
+    },
+    {
+      "text": "but if you have chat GPD Plus",
+      "start": 1678.98,
+      "duration": 3.96
+    },
+    {
+      "text": "subscription there is this thing called",
+      "start": 1680.659,
+      "duration": 3.841
+    },
+    {
+      "text": "plugins and I have installed those",
+      "start": 1682.94,
+      "duration": 4.68
+    },
+    {
+      "text": "plugins especially the Expedia plugin",
+      "start": 1684.5,
+      "duration": 5.159
+    },
+    {
+      "text": "Expedia as a website which helps you",
+      "start": 1687.62,
+      "duration": 5.28
+    },
+    {
+      "text": "find tickets and when I give the same",
+      "start": 1689.659,
+      "duration": 6.081
+    },
+    {
+      "text": "question now with the plugin enabled",
+      "start": 1692.9,
+      "duration": 5.879
+    },
+    {
+      "text": "magically it will start working so it",
+      "start": 1695.74,
+      "duration": 7.36
+    },
+    {
+      "text": "will go to Xperia plugin try to pull the",
+      "start": 1698.779,
+      "duration": 6.421
+    },
+    {
+      "text": "information on the flights for a given",
+      "start": 1703.1,
+      "duration": 3.9
+    },
+    {
+      "text": "date and given source and destination",
+      "start": 1705.2,
+      "duration": 4.92
+    },
+    {
+      "text": "and then it will start typing those two",
+      "start": 1707.0,
+      "duration": 6.6
+    },
+    {
+      "text": "options see number one option is only I",
+      "start": 1710.12,
+      "duration": 6.48
+    },
+    {
+      "text": "think 500 ticket 518 ticket which is a",
+      "start": 1713.6,
+      "duration": 4.439
+    },
+    {
+      "text": "pretty good deal by the way actually I",
+      "start": 1716.6,
+      "duration": 3.78
+    },
+    {
+      "text": "think I should book it for my next India",
+      "start": 1718.039,
+      "duration": 5.281
+    },
+    {
+      "text": "trip and there is the second option and",
+      "start": 1720.38,
+      "duration": 5.88
+    },
+    {
+      "text": "it will give you a link where you can go",
+      "start": 1723.32,
+      "duration": 6.12
+    },
+    {
+      "text": "and book those tickets on Expedia so",
+      "start": 1726.26,
+      "duration": 6.56
+    },
+    {
+      "text": "what exactly happened when we enable",
+      "start": 1729.44,
+      "duration": 6.599
+    },
+    {
+      "text": "this plugin let's try to understand that",
+      "start": 1732.82,
+      "duration": 5.76
+    },
+    {
+      "text": "so when you think about llm many people",
+      "start": 1736.039,
+      "duration": 5.64
+    },
+    {
+      "text": "think that it is just a knowledge engine",
+      "start": 1738.58,
+      "duration": 6.099
+    },
+    {
+      "text": "it has knowledge and it just try to give",
+      "start": 1741.679,
+      "duration": 5.161
+    },
+    {
+      "text": "answer based on that knowledge but the",
+      "start": 1744.679,
+      "duration": 3.961
+    },
+    {
+      "text": "knowledge is only limited to September",
+      "start": 1746.84,
+      "duration": 5.339
+    },
+    {
+      "text": "2021. the thing that we miss out is it",
+      "start": 1748.64,
+      "duration": 5.94
+    },
+    {
+      "text": "has a reasoning component so it is a",
+      "start": 1752.179,
+      "duration": 5.1
+    },
+    {
+      "text": "reasoning engine too and using that",
+      "start": 1754.58,
+      "duration": 5.52
+    },
+    {
+      "text": "reasoning engine it can figure out that",
+      "start": 1757.279,
+      "duration": 4.62
+    },
+    {
+      "text": "when someone types this kind of question",
+      "start": 1760.1,
+      "duration": 4.439
+    },
+    {
+      "text": "see when as a human when we look at",
+      "start": 1761.899,
+      "duration": 4.5
+    },
+    {
+      "text": "these questions what do we think let's",
+      "start": 1764.539,
+      "duration": 4.081
+    },
+    {
+      "text": "say if we have to go to Wikipedia or not",
+      "start": 1766.399,
+      "duration": 4.14
+    },
+    {
+      "text": "Wikipedia Expedia and if you have to",
+      "start": 1768.62,
+      "duration": 5.279
+    },
+    {
+      "text": "type uh convert this question let's say",
+      "start": 1770.539,
+      "duration": 5.221
+    },
+    {
+      "text": "if your friend asks you this question",
+      "start": 1773.899,
+      "duration": 4.14
+    },
+    {
+      "text": "and let's say you are that reasoning",
+      "start": 1775.76,
+      "duration": 5.22
+    },
+    {
+      "text": "engine you go to Expedia and in the",
+      "start": 1778.039,
+      "duration": 5.101
+    },
+    {
+      "text": "source you will put New York destination",
+      "start": 1780.98,
+      "duration": 4.02
+    },
+    {
+      "text": "you will put Delhi date you will put",
+      "start": 1783.14,
+      "duration": 3.6
+    },
+    {
+      "text": "first August how can you do that because",
+      "start": 1785.0,
+      "duration": 3.84
+    },
+    {
+      "text": "you have that reasoning engine in your",
+      "start": 1786.74,
+      "duration": 4.74
+    },
+    {
+      "text": "brain similarly llm has a reasoning",
+      "start": 1788.84,
+      "duration": 5.04
+    },
+    {
+      "text": "engine using which from that sentence it",
+      "start": 1791.48,
+      "duration": 4.079
+    },
+    {
+      "text": "will figure out source is this",
+      "start": 1793.88,
+      "duration": 3.96
+    },
+    {
+      "text": "destination is this that and it will",
+      "start": 1795.559,
+      "duration": 4.86
+    },
+    {
+      "text": "call the Xperia plugin and that will",
+      "start": 1797.84,
+      "duration": 5.16
+    },
+    {
+      "text": "return the response back let's look at",
+      "start": 1800.419,
+      "duration": 5.041
+    },
+    {
+      "text": "some other question when was Elon Musk",
+      "start": 1803.0,
+      "duration": 5.22
+    },
+    {
+      "text": "born what is his age now in 2023",
+      "start": 1805.46,
+      "duration": 6.06
+    },
+    {
+      "text": "now maybe this can be answered by the",
+      "start": 1808.22,
+      "duration": 7.079
+    },
+    {
+      "text": "llm's knowledge but let's say you are",
+      "start": 1811.52,
+      "duration": 5.639
+    },
+    {
+      "text": "asking some question which is related to",
+      "start": 1815.299,
+      "duration": 4.86
+    },
+    {
+      "text": "an event which happened in 2022 now this",
+      "start": 1817.159,
+      "duration": 4.26
+    },
+    {
+      "text": "guy doesn't have knowledge after",
+      "start": 1820.159,
+      "duration": 3.9
+    },
+    {
+      "text": "September 2021 but once again it has a",
+      "start": 1821.419,
+      "duration": 5.161
+    },
+    {
+      "text": "reasoning capability so it will say okay",
+      "start": 1824.059,
+      "duration": 4.62
+    },
+    {
+      "text": "in order to answer that question first I",
+      "start": 1826.58,
+      "duration": 4.44
+    },
+    {
+      "text": "need to find out when was Elon Musk born",
+      "start": 1828.679,
+      "duration": 5.1
+    },
+    {
+      "text": "for that it can use things like",
+      "start": 1831.02,
+      "duration": 7.32
+    },
+    {
+      "text": "Wikipedia so agents essentially do this",
+      "start": 1833.779,
+      "duration": 7.681
+    },
+    {
+      "text": "thing agents will have tools and using",
+      "start": 1838.34,
+      "duration": 5.4
+    },
+    {
+      "text": "that tool it will try to fetch the",
+      "start": 1841.46,
+      "duration": 5.4
+    },
+    {
+      "text": "answer so Elon Musk was born in 1971 and",
+      "start": 1843.74,
+      "duration": 5.52
+    },
+    {
+      "text": "then there could be another tool which",
+      "start": 1846.86,
+      "duration": 5.52
+    },
+    {
+      "text": "will tell you 2023 minus 1971 how much",
+      "start": 1849.26,
+      "duration": 6.659
+    },
+    {
+      "text": "is that so there is a math tool that it",
+      "start": 1852.38,
+      "duration": 7.32
+    },
+    {
+      "text": "can use to compute that and it will in",
+      "start": 1855.919,
+      "duration": 6.601
+    },
+    {
+      "text": "the end say Elon Musk is 52 year old so",
+      "start": 1859.7,
+      "duration": 5.94
+    },
+    {
+      "text": "this is what agents are agents will",
+      "start": 1862.52,
+      "duration": 6.36
+    },
+    {
+      "text": "connect with external tools it will use",
+      "start": 1865.64,
+      "duration": 6.659
+    },
+    {
+      "text": "llm's reasoning capabilities to perform",
+      "start": 1868.88,
+      "duration": 5.76
+    },
+    {
+      "text": "a given task let's look at a different",
+      "start": 1872.299,
+      "duration": 5.821
+    },
+    {
+      "text": "question how much was U.S GDP in 2022",
+      "start": 1874.64,
+      "duration": 6.24
+    },
+    {
+      "text": "plus Phi I am doing just like a it's a",
+      "start": 1878.12,
+      "duration": 5.52
+    },
+    {
+      "text": "it's a silly operation no one cares but",
+      "start": 1880.88,
+      "duration": 6.24
+    },
+    {
+      "text": "usgd pin 2022 llm doesn't know because",
+      "start": 1883.64,
+      "duration": 6.12
+    },
+    {
+      "text": "its knowledge is still 2021 so it will",
+      "start": 1887.12,
+      "duration": 5.4
+    },
+    {
+      "text": "go to Google it will find that answer",
+      "start": 1889.76,
+      "duration": 5.639
+    },
+    {
+      "text": "and then it will use mat tool to do plus",
+      "start": 1892.52,
+      "duration": 5.879
+    },
+    {
+      "text": "5. all these tools like Google Search",
+      "start": 1895.399,
+      "duration": 5.341
+    },
+    {
+      "text": "tool map tool and Wikipedia tools are",
+      "start": 1898.399,
+      "duration": 4.741
+    },
+    {
+      "text": "available as part of langchin and you",
+      "start": 1900.74,
+      "duration": 5.039
+    },
+    {
+      "text": "can configure your agent so your agent",
+      "start": 1903.14,
+      "duration": 5.399
+    },
+    {
+      "text": "is nothing but using all these tools and",
+      "start": 1905.779,
+      "duration": 5.161
+    },
+    {
+      "text": "llms reasoning capability to perform a",
+      "start": 1908.539,
+      "duration": 4.801
+    },
+    {
+      "text": "given task that is your agent and this",
+      "start": 1910.94,
+      "duration": 5.16
+    },
+    {
+      "text": "agent can be used in our Jupiter",
+      "start": 1913.34,
+      "duration": 4.92
+    },
+    {
+      "text": "notebook so that's what I'm going to",
+      "start": 1916.1,
+      "duration": 5.22
+    },
+    {
+      "text": "show you next so let's first import",
+      "start": 1918.26,
+      "duration": 7.76
+    },
+    {
+      "text": "couple of important modules and classes",
+      "start": 1921.32,
+      "duration": 9.18
+    },
+    {
+      "text": "and once I've imported them I will",
+      "start": 1926.02,
+      "duration": 9.039
+    },
+    {
+      "text": "create tools so I will say load tools",
+      "start": 1930.5,
+      "duration": 7.62
+    },
+    {
+      "text": "and I will give list of tools now if you",
+      "start": 1935.059,
+      "duration": 6.541
+    },
+    {
+      "text": "do Google search On Tools here so let's",
+      "start": 1938.12,
+      "duration": 6.12
+    },
+    {
+      "text": "say if you do Google Search",
+      "start": 1941.6,
+      "duration": 5.52
+    },
+    {
+      "text": "link chain agent load tools you will",
+      "start": 1944.24,
+      "duration": 6.6
+    },
+    {
+      "text": "come here you will see list of two see I",
+      "start": 1947.12,
+      "duration": 7.439
+    },
+    {
+      "text": "have Wikipedia as a tool I have twilio I",
+      "start": 1950.84,
+      "duration": 6.54
+    },
+    {
+      "text": "have all these tools that I can use",
+      "start": 1954.559,
+      "duration": 5.34
+    },
+    {
+      "text": "so we are going to use Wikipedia tool",
+      "start": 1957.38,
+      "duration": 5.159
+    },
+    {
+      "text": "here it is called Wikipedia we keep it",
+      "start": 1959.899,
+      "duration": 6.361
+    },
+    {
+      "text": "yeah and the math tool is called llm",
+      "start": 1962.539,
+      "duration": 7.38
+    },
+    {
+      "text": "math and here you need to provide the",
+      "start": 1966.26,
+      "duration": 5.82
+    },
+    {
+      "text": "llm variable is the one which we created",
+      "start": 1969.919,
+      "duration": 4.5
+    },
+    {
+      "text": "above somewhere here see this is the",
+      "start": 1972.08,
+      "duration": 3.839
+    },
+    {
+      "text": "variable okay",
+      "start": 1974.419,
+      "duration": 4.561
+    },
+    {
+      "text": "so this thing is called tools",
+      "start": 1975.919,
+      "duration": 5.461
+    },
+    {
+      "text": "and then you can create an agent using",
+      "start": 1978.98,
+      "duration": 6.66
+    },
+    {
+      "text": "this initialize agent method okay",
+      "start": 1981.38,
+      "duration": 8.34
+    },
+    {
+      "text": "so initialization method will take",
+      "start": 1985.64,
+      "duration": 7.32
+    },
+    {
+      "text": "tools it will take llm and it will take",
+      "start": 1989.72,
+      "duration": 5.64
+    },
+    {
+      "text": "agent and in the agent",
+      "start": 1992.96,
+      "duration": 6.0
+    },
+    {
+      "text": "I will give this",
+      "start": 1995.36,
+      "duration": 7.5
+    },
+    {
+      "text": "0 now see hold on zero short react",
+      "start": 1998.96,
+      "duration": 7.74
+    },
+    {
+      "text": "description react means uh thought and",
+      "start": 2002.86,
+      "duration": 6.36
+    },
+    {
+      "text": "action so when we are reasoning we first",
+      "start": 2006.7,
+      "duration": 4.5
+    },
+    {
+      "text": "have a thought then we figure out where",
+      "start": 2009.22,
+      "duration": 5.52
+    },
+    {
+      "text": "to go and we take an action so it mimics",
+      "start": 2011.2,
+      "duration": 6.42
+    },
+    {
+      "text": "that particular concept here I will call",
+      "start": 2014.74,
+      "duration": 6.84
+    },
+    {
+      "text": "this an agent and then I will ask the",
+      "start": 2017.62,
+      "duration": 7.86
+    },
+    {
+      "text": "question agent dot run when was Elon",
+      "start": 2021.58,
+      "duration": 7.52
+    },
+    {
+      "text": "Musk born and what is his age in",
+      "start": 2025.48,
+      "duration": 5.46
+    },
+    {
+      "text": "2023",
+      "start": 2029.1,
+      "duration": 5.319
+    },
+    {
+      "text": "so let's see what this gives us see",
+      "start": 2030.94,
+      "duration": 7.32
+    },
+    {
+      "text": "perfect it says 52 year old in 2023 if",
+      "start": 2034.419,
+      "duration": 7.081
+    },
+    {
+      "text": "you want to go uh step by step in the",
+      "start": 2038.26,
+      "duration": 5.759
+    },
+    {
+      "text": "reasoning process you can say verbose is",
+      "start": 2041.5,
+      "duration": 5.279
+    },
+    {
+      "text": "equal to True uh and it will tell you by",
+      "start": 2044.019,
+      "duration": 4.681
+    },
+    {
+      "text": "the way verbose is equal to True is the",
+      "start": 2046.779,
+      "duration": 4.08
+    },
+    {
+      "text": "variable that you can use here in any",
+      "start": 2048.7,
+      "duration": 4.439
+    },
+    {
+      "text": "function to kind of figure out the",
+      "start": 2050.859,
+      "duration": 5.221
+    },
+    {
+      "text": "internal steps that it is taking so here",
+      "start": 2053.139,
+      "duration": 5.821
+    },
+    {
+      "text": "the first step when it Encounters this",
+      "start": 2056.08,
+      "duration": 4.92
+    },
+    {
+      "text": "question it knows actually that it has",
+      "start": 2058.96,
+      "duration": 4.26
+    },
+    {
+      "text": "to go to Wikipedia to get the birth date",
+      "start": 2061.0,
+      "duration": 5.339
+    },
+    {
+      "text": "of Elon Musk so it went to Elon Musk",
+      "start": 2063.22,
+      "duration": 5.82
+    },
+    {
+      "text": "Wikipedia page and which will have this",
+      "start": 2066.339,
+      "duration": 4.8
+    },
+    {
+      "text": "particular date here",
+      "start": 2069.04,
+      "duration": 4.079
+    },
+    {
+      "text": "and then",
+      "start": 2071.139,
+      "duration": 4.141
+    },
+    {
+      "text": "um I think it uses the matte tool",
+      "start": 2073.119,
+      "duration": 4.381
+    },
+    {
+      "text": "sometimes I don't know it should have",
+      "start": 2075.28,
+      "duration": 4.74
+    },
+    {
+      "text": "used the math tool",
+      "start": 2077.5,
+      "duration": 5.159
+    },
+    {
+      "text": "uh Elon was um",
+      "start": 2080.02,
+      "duration": 4.74
+    },
+    {
+      "text": "it doesn't show but if you don't rerun",
+      "start": 2082.659,
+      "duration": 4.46
+    },
+    {
+      "text": "it again",
+      "start": 2084.76,
+      "duration": 2.359
+    },
+    {
+      "text": "okay I don't know why this is not",
+      "start": 2088.179,
+      "duration": 3.72
+    },
+    {
+      "text": "working but previously I was seeing that",
+      "start": 2089.679,
+      "duration": 5.281
+    },
+    {
+      "text": "let me show you a previous snapshot that",
+      "start": 2091.899,
+      "duration": 4.74
+    },
+    {
+      "text": "I have",
+      "start": 2094.96,
+      "duration": 2.34
+    },
+    {
+      "text": "um",
+      "start": 2096.639,
+      "duration": 3.601
+    },
+    {
+      "text": "here it says okay went to Wikipedia for",
+      "start": 2097.3,
+      "duration": 5.819
+    },
+    {
+      "text": "Elon musk's birth date and then it use",
+      "start": 2100.24,
+      "duration": 5.58
+    },
+    {
+      "text": "the action as a calculator so there it",
+      "start": 2103.119,
+      "duration": 5.341
+    },
+    {
+      "text": "is using the llm math tool and it is",
+      "start": 2105.82,
+      "duration": 5.759
+    },
+    {
+      "text": "just calculating the final answer it is",
+      "start": 2108.46,
+      "duration": 5.18
+    },
+    {
+      "text": "saying it is 52",
+      "start": 2111.579,
+      "duration": 4.081
+    },
+    {
+      "text": "year old",
+      "start": 2113.64,
+      "duration": 4.54
+    },
+    {
+      "text": "let's try a different option so this",
+      "start": 2115.66,
+      "duration": 4.86
+    },
+    {
+      "text": "time we are going to use a",
+      "start": 2118.18,
+      "duration": 4.5
+    },
+    {
+      "text": "serp API so if you don't know about serp",
+      "start": 2120.52,
+      "duration": 5.04
+    },
+    {
+      "text": "API it is Google search API whatever you",
+      "start": 2122.68,
+      "duration": 6.36
+    },
+    {
+      "text": "do in Google and what results it gives",
+      "start": 2125.56,
+      "duration": 5.779
+    },
+    {
+      "text": "you if you want to access those results",
+      "start": 2129.04,
+      "duration": 4.799
+    },
+    {
+      "text": "programmatically you can use this",
+      "start": 2131.339,
+      "duration": 4.961
+    },
+    {
+      "text": "particular API you can log in using your",
+      "start": 2133.839,
+      "duration": 4.081
+    },
+    {
+      "text": "Gmail account I have already logged in",
+      "start": 2136.3,
+      "duration": 3.9
+    },
+    {
+      "text": "and when you go to dashboard",
+      "start": 2137.92,
+      "duration": 5.159
+    },
+    {
+      "text": "it will give you this API key so this is",
+      "start": 2140.2,
+      "duration": 4.98
+    },
+    {
+      "text": "similar to our open AI API it will be a",
+      "start": 2143.079,
+      "duration": 3.361
+    },
+    {
+      "text": "big big string",
+      "start": 2145.18,
+      "duration": 4.32
+    },
+    {
+      "text": "I have stored that API key",
+      "start": 2146.44,
+      "duration": 5.88
+    },
+    {
+      "text": "into my private file that secret key",
+      "start": 2149.5,
+      "duration": 6.18
+    },
+    {
+      "text": "file that I have and I'm going to",
+      "start": 2152.32,
+      "duration": 6.539
+    },
+    {
+      "text": "initialize some environment variable so",
+      "start": 2155.68,
+      "duration": 5.159
+    },
+    {
+      "text": "for serp API you need to initialize this",
+      "start": 2158.859,
+      "duration": 3.72
+    },
+    {
+      "text": "variable and this is the keys which I",
+      "start": 2160.839,
+      "duration": 3.661
+    },
+    {
+      "text": "got from there okay so you can just copy",
+      "start": 2162.579,
+      "duration": 3.181
+    },
+    {
+      "text": "paste this key if you want to keep",
+      "start": 2164.5,
+      "duration": 3.54
+    },
+    {
+      "text": "things simple I don't want to show that",
+      "start": 2165.76,
+      "duration": 4.62
+    },
+    {
+      "text": "key publicly here that's why I have this",
+      "start": 2168.04,
+      "duration": 5.0
+    },
+    {
+      "text": "thing here and once I have this thing",
+      "start": 2170.38,
+      "duration": 7.199
+    },
+    {
+      "text": "the next steps are kind of similar so I",
+      "start": 2173.04,
+      "duration": 6.4
+    },
+    {
+      "text": "can just copy paste pretty much",
+      "start": 2177.579,
+      "duration": 5.581
+    },
+    {
+      "text": "everything here and I will just say Okay",
+      "start": 2179.44,
+      "duration": 5.46
+    },
+    {
+      "text": "initialize the agent",
+      "start": 2183.16,
+      "duration": 5.52
+    },
+    {
+      "text": "sir BP and llm math are the two tools I",
+      "start": 2184.9,
+      "duration": 6.6
+    },
+    {
+      "text": "am going to use and in my agent I will",
+      "start": 2188.68,
+      "duration": 5.28
+    },
+    {
+      "text": "say agent dot run",
+      "start": 2191.5,
+      "duration": 8.339
+    },
+    {
+      "text": "and what was the US GDP in 2022 and plus",
+      "start": 2193.96,
+      "duration": 9.78
+    },
+    {
+      "text": "five okay and while it is executing it",
+      "start": 2199.839,
+      "duration": 6.24
+    },
+    {
+      "text": "let's do Google here so when you do",
+      "start": 2203.74,
+      "duration": 6.5
+    },
+    {
+      "text": "Google usdp 2022 it will tell you",
+      "start": 2206.079,
+      "duration": 8.941
+    },
+    {
+      "text": "25.46 so this serp API this API will do",
+      "start": 2210.24,
+      "duration": 6.16
+    },
+    {
+      "text": "Google search and it will tell you the",
+      "start": 2215.02,
+      "duration": 2.94
+    },
+    {
+      "text": "answer that it is this",
+      "start": 2216.4,
+      "duration": 5.04
+    },
+    {
+      "text": "so check this so first it is searching",
+      "start": 2217.96,
+      "duration": 6.659
+    },
+    {
+      "text": "US GDP this and then it is adding Phi",
+      "start": 2221.44,
+      "duration": 6.24
+    },
+    {
+      "text": "number to this and it is giving you uh",
+      "start": 2224.619,
+      "duration": 5.761
+    },
+    {
+      "text": "this particular result we'll talk more",
+      "start": 2227.68,
+      "duration": 5.52
+    },
+    {
+      "text": "about agents in our future videos uh one",
+      "start": 2230.38,
+      "duration": 4.68
+    },
+    {
+      "text": "thing I've noticed is agents are not",
+      "start": 2233.2,
+      "duration": 3.48
+    },
+    {
+      "text": "perfect sometimes they give stupid",
+      "start": 2235.06,
+      "duration": 3.539
+    },
+    {
+      "text": "answer this whole thing is evolving so",
+      "start": 2236.68,
+      "duration": 3.72
+    },
+    {
+      "text": "in the future it will get better but for",
+      "start": 2238.599,
+      "duration": 4.441
+    },
+    {
+      "text": "agent this is what we have and now we",
+      "start": 2240.4,
+      "duration": 4.56
+    },
+    {
+      "text": "will talk about memory",
+      "start": 2243.04,
+      "duration": 4.2
+    },
+    {
+      "text": "when you look at any chat board",
+      "start": 2244.96,
+      "duration": 4.68
+    },
+    {
+      "text": "applications such as chat GPT you will",
+      "start": 2247.24,
+      "duration": 4.5
+    },
+    {
+      "text": "notice that it remembers the past",
+      "start": 2249.64,
+      "duration": 5.16
+    },
+    {
+      "text": "conversation Exchange here I asked who",
+      "start": 2251.74,
+      "duration": 5.46
+    },
+    {
+      "text": "won the first Cricket World Cup then a",
+      "start": 2254.8,
+      "duration": 3.96
+    },
+    {
+      "text": "it's totally irrelevant conversation",
+      "start": 2257.2,
+      "duration": 3.6
+    },
+    {
+      "text": "what is five plus five then I am asking",
+      "start": 2258.76,
+      "duration": 3.48
+    },
+    {
+      "text": "who was the captain of the winning team",
+      "start": 2260.8,
+      "duration": 4.14
+    },
+    {
+      "text": "now see here I did not say which match",
+      "start": 2262.24,
+      "duration": 5.22
+    },
+    {
+      "text": "which game cricket football Etc but it",
+      "start": 2264.94,
+      "duration": 4.32
+    },
+    {
+      "text": "remembers that I'm talking about cricket",
+      "start": 2267.46,
+      "duration": 4.02
+    },
+    {
+      "text": "and it is giving me a relevant answer",
+      "start": 2269.26,
+      "duration": 3.72
+    },
+    {
+      "text": "same thing happens with human",
+      "start": 2271.48,
+      "duration": 3.72
+    },
+    {
+      "text": "conversation we start a topic then we",
+      "start": 2272.98,
+      "duration": 4.74
+    },
+    {
+      "text": "keep on saying things but we remember",
+      "start": 2275.2,
+      "duration": 4.62
+    },
+    {
+      "text": "what the topic is about",
+      "start": 2277.72,
+      "duration": 6.42
+    },
+    {
+      "text": "if you look at the llm Chain by default",
+      "start": 2279.82,
+      "duration": 6.96
+    },
+    {
+      "text": "These Chains do not have memory they are",
+      "start": 2284.14,
+      "duration": 5.64
+    },
+    {
+      "text": "stateless and if you look at the",
+      "start": 2286.78,
+      "duration": 6.18
+    },
+    {
+      "text": "available methods that this chain has",
+      "start": 2289.78,
+      "duration": 6.26
+    },
+    {
+      "text": "you'll find that it has an element",
+      "start": 2292.96,
+      "duration": 7.74
+    },
+    {
+      "text": "called memory here see memory uh and if",
+      "start": 2296.04,
+      "duration": 8.559
+    },
+    {
+      "text": "you check the memory so here",
+      "start": 2300.7,
+      "duration": 6.0
+    },
+    {
+      "text": "if you try to print the memory see you",
+      "start": 2304.599,
+      "duration": 4.74
+    },
+    {
+      "text": "don't get anything because the object is",
+      "start": 2306.7,
+      "duration": 6.78
+    },
+    {
+      "text": "set to none now if you want you can",
+      "start": 2309.339,
+      "duration": 6.181
+    },
+    {
+      "text": "attach memory to it so for memory you",
+      "start": 2313.48,
+      "duration": 4.139
+    },
+    {
+      "text": "have to create an additional object and",
+      "start": 2315.52,
+      "duration": 5.4
+    },
+    {
+      "text": "attach it so that it remembers all these",
+      "start": 2317.619,
+      "duration": 4.74
+    },
+    {
+      "text": "conversations",
+      "start": 2320.92,
+      "duration": 3.84
+    },
+    {
+      "text": "this is useful especially if you're",
+      "start": 2322.359,
+      "duration": 5.22
+    },
+    {
+      "text": "building a chat board let's say for your",
+      "start": 2324.76,
+      "duration": 6.96
+    },
+    {
+      "text": "customer care Department uh in that many",
+      "start": 2327.579,
+      "duration": 6.181
+    },
+    {
+      "text": "times they need to save their",
+      "start": 2331.72,
+      "duration": 4.379
+    },
+    {
+      "text": "transcripts of those conversations for",
+      "start": 2333.76,
+      "duration": 6.0
+    },
+    {
+      "text": "legal and compliance reasons so here uh",
+      "start": 2336.099,
+      "duration": 6.48
+    },
+    {
+      "text": "I'm going to import",
+      "start": 2339.76,
+      "duration": 6.3
+    },
+    {
+      "text": "an object called conversational buffer",
+      "start": 2342.579,
+      "duration": 6.061
+    },
+    {
+      "text": "memory which is a very common type of",
+      "start": 2346.06,
+      "duration": 5.6
+    },
+    {
+      "text": "memory in line chain module and create",
+      "start": 2348.64,
+      "duration": 6.479
+    },
+    {
+      "text": "an object of that class",
+      "start": 2351.66,
+      "duration": 5.08
+    },
+    {
+      "text": "so I will just say this is a",
+      "start": 2355.119,
+      "duration": 3.841
+    },
+    {
+      "text": "conversational buffer memory and then",
+      "start": 2356.74,
+      "duration": 6.96
+    },
+    {
+      "text": "the same chain I will print here but I",
+      "start": 2358.96,
+      "duration": 7.68
+    },
+    {
+      "text": "will just pass memory as an additional",
+      "start": 2363.7,
+      "duration": 5.419
+    },
+    {
+      "text": "argument",
+      "start": 2366.64,
+      "duration": 2.479
+    },
+    {
+      "text": "okay",
+      "start": 2370.119,
+      "duration": 3.901
+    },
+    {
+      "text": "and then I'll run the same",
+      "start": 2371.68,
+      "duration": 4.98
+    },
+    {
+      "text": "chain one more time",
+      "start": 2374.02,
+      "duration": 5.7
+    },
+    {
+      "text": "for a different question",
+      "start": 2376.66,
+      "duration": 6.36
+    },
+    {
+      "text": "now when you look at chain dot memory",
+      "start": 2379.72,
+      "duration": 6.02
+    },
+    {
+      "text": "see there is a memory attached to it we",
+      "start": 2383.02,
+      "duration": 5.4
+    },
+    {
+      "text": "explicitly attach this conversion memory",
+      "start": 2385.74,
+      "duration": 5.379
+    },
+    {
+      "text": "to it and if you look at the buffer and",
+      "start": 2388.42,
+      "duration": 5.46
+    },
+    {
+      "text": "if you just print it for nice alignment",
+      "start": 2391.119,
+      "duration": 7.441
+    },
+    {
+      "text": "Etc see human then AI this human and a",
+      "start": 2393.88,
+      "duration": 7.32
+    },
+    {
+      "text": "address now this looks good you can save",
+      "start": 2398.56,
+      "duration": 5.039
+    },
+    {
+      "text": "this into your database as a saved",
+      "start": 2401.2,
+      "duration": 4.86
+    },
+    {
+      "text": "transcript of your customer service",
+      "start": 2403.599,
+      "duration": 5.161
+    },
+    {
+      "text": "center conversation uh but one problem",
+      "start": 2406.06,
+      "duration": 5.22
+    },
+    {
+      "text": "with this particular object which is",
+      "start": 2408.76,
+      "duration": 4.68
+    },
+    {
+      "text": "conversation buffer memory is that it",
+      "start": 2411.28,
+      "duration": 4.079
+    },
+    {
+      "text": "will keep on growing endlessly so let's",
+      "start": 2413.44,
+      "duration": 4.38
+    },
+    {
+      "text": "say you have 100 conversational",
+      "start": 2415.359,
+      "duration": 6.061
+    },
+    {
+      "text": "exchanges and by that what I mean is one",
+      "start": 2417.82,
+      "duration": 5.16
+    },
+    {
+      "text": "question answer pair so one question",
+      "start": 2421.42,
+      "duration": 3.9
+    },
+    {
+      "text": "answer pair is one conversational",
+      "start": 2422.98,
+      "duration": 6.599
+    },
+    {
+      "text": "exchange this is second so in total this",
+      "start": 2425.32,
+      "duration": 7.14
+    },
+    {
+      "text": "is two conversational Exchange so here",
+      "start": 2429.579,
+      "duration": 4.801
+    },
+    {
+      "text": "if you have 100 conversational exchange",
+      "start": 2432.46,
+      "duration": 3.899
+    },
+    {
+      "text": "what's going to happen is next time when",
+      "start": 2434.38,
+      "duration": 4.68
+    },
+    {
+      "text": "you ask a question to open AI when you",
+      "start": 2436.359,
+      "duration": 5.161
+    },
+    {
+      "text": "say chain dot run it is going to send",
+      "start": 2439.06,
+      "duration": 5.94
+    },
+    {
+      "text": "all this past history to open Ai and",
+      "start": 2441.52,
+      "duration": 5.819
+    },
+    {
+      "text": "open AI charges you per token so this is",
+      "start": 2445.0,
+      "duration": 5.52
+    },
+    {
+      "text": "one token second token third four and so",
+      "start": 2447.339,
+      "duration": 4.02
+    },
+    {
+      "text": "on",
+      "start": 2450.52,
+      "duration": 2.579
+    },
+    {
+      "text": "for thousand tokens they charge like",
+      "start": 2451.359,
+      "duration": 3.121
+    },
+    {
+      "text": "point zero zero two dollars something",
+      "start": 2453.099,
+      "duration": 4.381
+    },
+    {
+      "text": "this is on the model so your cost is",
+      "start": 2454.48,
+      "duration": 4.92
+    },
+    {
+      "text": "gonna go up so if you want to save the",
+      "start": 2457.48,
+      "duration": 3.9
+    },
+    {
+      "text": "cost and kind of do things in an",
+      "start": 2459.4,
+      "duration": 4.32
+    },
+    {
+      "text": "optimized way uh you need to restrict",
+      "start": 2461.38,
+      "duration": 4.68
+    },
+    {
+      "text": "this buffer size you can say just",
+      "start": 2463.72,
+      "duration": 4.26
+    },
+    {
+      "text": "remember last five conversational",
+      "start": 2466.06,
+      "duration": 5.7
+    },
+    {
+      "text": "exchanges okay and this thing can be",
+      "start": 2467.98,
+      "duration": 6.96
+    },
+    {
+      "text": "done using something called conversation",
+      "start": 2471.76,
+      "duration": 7.68
+    },
+    {
+      "text": "chain so open AI link chain provides",
+      "start": 2474.94,
+      "duration": 8.399
+    },
+    {
+      "text": "this conversation chain which is just",
+      "start": 2479.44,
+      "duration": 6.659
+    },
+    {
+      "text": "very simple object so let me just create",
+      "start": 2483.339,
+      "duration": 4.621
+    },
+    {
+      "text": "that conversation",
+      "start": 2486.099,
+      "duration": 5.641
+    },
+    {
+      "text": "chain where you can just pass llm",
+      "start": 2487.96,
+      "duration": 6.899
+    },
+    {
+      "text": "is equal to open AI",
+      "start": 2491.74,
+      "duration": 6.48
+    },
+    {
+      "text": "temperature is equal to 0.7",
+      "start": 2494.859,
+      "duration": 7.26
+    },
+    {
+      "text": "and I'll just call it convo",
+      "start": 2498.22,
+      "duration": 6.78
+    },
+    {
+      "text": "and let's check the default prompt that",
+      "start": 2502.119,
+      "duration": 5.581
+    },
+    {
+      "text": "is associated with it see default prompt",
+      "start": 2505.0,
+      "duration": 6.42
+    },
+    {
+      "text": "is this let me just check the template",
+      "start": 2507.7,
+      "duration": 5.22
+    },
+    {
+      "text": "let me just print the template",
+      "start": 2511.42,
+      "duration": 3.78
+    },
+    {
+      "text": "associated with this this is the default",
+      "start": 2512.92,
+      "duration": 4.02
+    },
+    {
+      "text": "template that comes",
+      "start": 2515.2,
+      "duration": 3.78
+    },
+    {
+      "text": "and it says that the following is a",
+      "start": 2516.94,
+      "duration": 3.54
+    },
+    {
+      "text": "friendly conversation between human and",
+      "start": 2518.98,
+      "duration": 3.48
+    },
+    {
+      "text": "Ai and there is history and there is",
+      "start": 2520.48,
+      "duration": 3.96
+    },
+    {
+      "text": "input so if you look at this",
+      "start": 2522.46,
+      "duration": 4.619
+    },
+    {
+      "text": "conversation window here there is a",
+      "start": 2524.44,
+      "duration": 5.58
+    },
+    {
+      "text": "history this is the history and the next",
+      "start": 2527.079,
+      "duration": 4.621
+    },
+    {
+      "text": "question you're going to type is the",
+      "start": 2530.02,
+      "duration": 4.98
+    },
+    {
+      "text": "input so input history same way input",
+      "start": 2531.7,
+      "duration": 5.6
+    },
+    {
+      "text": "history okay",
+      "start": 2535.0,
+      "duration": 6.9
+    },
+    {
+      "text": "now when you ask a bunch of questions to",
+      "start": 2537.3,
+      "duration": 6.46
+    },
+    {
+      "text": "this so I'm just going to copy paste",
+      "start": 2541.9,
+      "duration": 4.14
+    },
+    {
+      "text": "those questions here",
+      "start": 2543.76,
+      "duration": 5.78
+    },
+    {
+      "text": "uh what is five plus five",
+      "start": 2546.04,
+      "duration": 7.26
+    },
+    {
+      "text": "and then who was the captain of the",
+      "start": 2549.54,
+      "duration": 6.94
+    },
+    {
+      "text": "winning team now when you do convert",
+      "start": 2553.3,
+      "duration": 7.08
+    },
+    {
+      "text": "memory it won't be empty because by",
+      "start": 2556.48,
+      "duration": 5.42
+    },
+    {
+      "text": "default",
+      "start": 2560.38,
+      "duration": 4.44
+    },
+    {
+      "text": "conversation chain has this memory",
+      "start": 2561.9,
+      "duration": 5.26
+    },
+    {
+      "text": "associated with it so by default this",
+      "start": 2564.82,
+      "duration": 4.58
+    },
+    {
+      "text": "conversation chain object comes with",
+      "start": 2567.16,
+      "duration": 5.58
+    },
+    {
+      "text": "inbuilt conversation buffer memory and",
+      "start": 2569.4,
+      "duration": 5.4
+    },
+    {
+      "text": "if you print",
+      "start": 2572.74,
+      "duration": 3.78
+    },
+    {
+      "text": "the",
+      "start": 2574.8,
+      "duration": 4.44
+    },
+    {
+      "text": "buffer you will see the entire",
+      "start": 2576.52,
+      "duration": 5.64
+    },
+    {
+      "text": "transcript of our conversation now while",
+      "start": 2579.24,
+      "duration": 5.14
+    },
+    {
+      "text": "this looks good once again think about",
+      "start": 2582.16,
+      "duration": 5.58
+    },
+    {
+      "text": "the open AI token cost if this keeps on",
+      "start": 2584.38,
+      "duration": 6.0
+    },
+    {
+      "text": "building the buffer endlessly then you",
+      "start": 2587.74,
+      "duration": 4.56
+    },
+    {
+      "text": "might have 5000 tokens in one",
+      "start": 2590.38,
+      "duration": 3.9
+    },
+    {
+      "text": "conversation and when you make a next",
+      "start": 2592.3,
+      "duration": 5.16
+    },
+    {
+      "text": "call like this is gonna actually send an",
+      "start": 2594.28,
+      "duration": 5.1
+    },
+    {
+      "text": "entire history entire conversation to",
+      "start": 2597.46,
+      "duration": 4.379
+    },
+    {
+      "text": "open Ai and that will increase your bill",
+      "start": 2599.38,
+      "duration": 4.8
+    },
+    {
+      "text": "on the API call",
+      "start": 2601.839,
+      "duration": 4.921
+    },
+    {
+      "text": "to tackle that problem maybe what you",
+      "start": 2604.18,
+      "duration": 4.8
+    },
+    {
+      "text": "can do is you can say just send only",
+      "start": 2606.76,
+      "duration": 4.8
+    },
+    {
+      "text": "last 10 or 20 conversational exchanges",
+      "start": 2608.98,
+      "duration": 4.859
+    },
+    {
+      "text": "because that's what I care about that",
+      "start": 2611.56,
+      "duration": 4.019
+    },
+    {
+      "text": "might be enough based on the use case",
+      "start": 2613.839,
+      "duration": 4.321
+    },
+    {
+      "text": "that you're dealing with and for that",
+      "start": 2615.579,
+      "duration": 5.101
+    },
+    {
+      "text": "there is an object called",
+      "start": 2618.16,
+      "duration": 5.88
+    },
+    {
+      "text": "from Lang chain dot memory",
+      "start": 2620.68,
+      "duration": 4.86
+    },
+    {
+      "text": "import",
+      "start": 2624.04,
+      "duration": 3.96
+    },
+    {
+      "text": "there is a conversational buffer window",
+      "start": 2625.54,
+      "duration": 4.44
+    },
+    {
+      "text": "memory you are restricted in the window",
+      "start": 2628.0,
+      "duration": 5.9
+    },
+    {
+      "text": "you are saying let's say",
+      "start": 2629.98,
+      "duration": 7.619
+    },
+    {
+      "text": "my window and key is the parameter",
+      "start": 2633.9,
+      "duration": 5.8
+    },
+    {
+      "text": "you're saying just remember only last",
+      "start": 2637.599,
+      "duration": 4.921
+    },
+    {
+      "text": "one conversational exchange which is one",
+      "start": 2639.7,
+      "duration": 5.76
+    },
+    {
+      "text": "question answer pair okay so let's try",
+      "start": 2642.52,
+      "duration": 6.18
+    },
+    {
+      "text": "this out and let's see how this goes so",
+      "start": 2645.46,
+      "duration": 5.159
+    },
+    {
+      "text": "I'm going to copy paste some code here",
+      "start": 2648.7,
+      "duration": 4.74
+    },
+    {
+      "text": "create a same conversational chain",
+      "start": 2650.619,
+      "duration": 4.261
+    },
+    {
+      "text": "object",
+      "start": 2653.44,
+      "duration": 4.62
+    },
+    {
+      "text": "asking my first question asking my",
+      "start": 2654.88,
+      "duration": 4.979
+    },
+    {
+      "text": "second question now when I ask the",
+      "start": 2658.06,
+      "duration": 4.559
+    },
+    {
+      "text": "second question here what is 5 plus 5 it",
+      "start": 2659.859,
+      "duration": 4.801
+    },
+    {
+      "text": "remembers the previous Exchange",
+      "start": 2662.619,
+      "duration": 4.681
+    },
+    {
+      "text": "but when I I asked the third question",
+      "start": 2664.66,
+      "duration": 4.199
+    },
+    {
+      "text": "here",
+      "start": 2667.3,
+      "duration": 3.96
+    },
+    {
+      "text": "it remembers only what is 5 plus 5 it",
+      "start": 2668.859,
+      "duration": 4.381
+    },
+    {
+      "text": "doesn't remember this it's like a short",
+      "start": 2671.26,
+      "duration": 4.98
+    },
+    {
+      "text": "memory loss like Memento or Disney movie",
+      "start": 2673.24,
+      "duration": 5.82
+    },
+    {
+      "text": "it just forgot what happened here so",
+      "start": 2676.24,
+      "duration": 4.74
+    },
+    {
+      "text": "when I asked this question it will say",
+      "start": 2679.06,
+      "duration": 4.14
+    },
+    {
+      "text": "I'm sorry I don't know because it",
+      "start": 2680.98,
+      "duration": 3.66
+    },
+    {
+      "text": "doesn't know which game you are talking",
+      "start": 2683.2,
+      "duration": 3.36
+    },
+    {
+      "text": "about which particular match you are",
+      "start": 2684.64,
+      "duration": 2.76
+    },
+    {
+      "text": "talking about",
+      "start": 2686.56,
+      "duration": 3.0
+    },
+    {
+      "text": "okay so here I know it's probably not",
+      "start": 2687.4,
+      "duration": 5.04
+    },
+    {
+      "text": "the best example but the idea is I",
+      "start": 2689.56,
+      "duration": 4.799
+    },
+    {
+      "text": "wanted to demonstrate this K parameter",
+      "start": 2692.44,
+      "duration": 4.86
+    },
+    {
+      "text": "here and based on this use case uh you",
+      "start": 2694.359,
+      "duration": 4.98
+    },
+    {
+      "text": "might see benefit in using",
+      "start": 2697.3,
+      "duration": 4.2
+    },
+    {
+      "text": "conversational buffer window memory",
+      "start": 2699.339,
+      "duration": 4.921
+    },
+    {
+      "text": "that's all we had for this video in the",
+      "start": 2701.5,
+      "duration": 4.92
+    },
+    {
+      "text": "future we are going to build end-to-end",
+      "start": 2704.26,
+      "duration": 4.8
+    },
+    {
+      "text": "llm applications using some of the",
+      "start": 2706.42,
+      "duration": 4.74
+    },
+    {
+      "text": "advanced features such as retrieval QA",
+      "start": 2709.06,
+      "duration": 5.46
+    },
+    {
+      "text": "chain the face or DB store Vector store",
+      "start": 2711.16,
+      "duration": 5.58
+    },
+    {
+      "text": "uh things like that so if you want to",
+      "start": 2714.52,
+      "duration": 5.339
+    },
+    {
+      "text": "get notified about upcoming llml line",
+      "start": 2716.74,
+      "duration": 4.92
+    },
+    {
+      "text": "chain videos what you can do is",
+      "start": 2719.859,
+      "duration": 4.561
+    },
+    {
+      "text": "subscribe to the channel or click the",
+      "start": 2721.66,
+      "duration": 4.98
+    },
+    {
+      "text": "like button if you really found some",
+      "start": 2724.42,
+      "duration": 4.679
+    },
+    {
+      "text": "benefit from this video making these",
+      "start": 2726.64,
+      "duration": 5.939
+    },
+    {
+      "text": "kind of videos takes a lot of effort and",
+      "start": 2729.099,
+      "duration": 5.781
+    },
+    {
+      "text": "clicking that thumbs up button or",
+      "start": 2732.579,
+      "duration": 4.921
+    },
+    {
+      "text": "subscribing or sharing this video might",
+      "start": 2734.88,
+      "duration": 5.56
+    },
+    {
+      "text": "be a smaller food for you but it would",
+      "start": 2737.5,
+      "duration": 6.0
+    },
+    {
+      "text": "mean a big thing for us it will help us",
+      "start": 2740.44,
+      "duration": 5.46
+    },
+    {
+      "text": "get this video to more people so that",
+      "start": 2743.5,
+      "duration": 4.619
+    },
+    {
+      "text": "those people can also benefit and we",
+      "start": 2745.9,
+      "duration": 4.679
+    },
+    {
+      "text": "also get some appreciation some reward",
+      "start": 2748.119,
+      "duration": 4.261
+    },
+    {
+      "text": "of the hard work that we are putting and",
+      "start": 2750.579,
+      "duration": 3.78
+    },
+    {
+      "text": "if you have any question Post in the",
+      "start": 2752.38,
+      "duration": 4.979
+    },
+    {
+      "text": "comment box below the code link is given",
+      "start": 2754.359,
+      "duration": 5.281
+    },
+    {
+      "text": "in the video description thank you for",
+      "start": 2757.359,
+      "duration": 4.921
+    },
+    {
+      "text": "watching bye bye",
+      "start": 2759.64,
+      "duration": 5.36
+    },
+    {
+      "text": "thank you",
+      "start": 2762.28,
+      "duration": 2.72
+    }
+  ]
+}
