@@ -26,11 +26,11 @@ Built with LangChain, ChromaDB, OpenAI, and Whisper
 ---
 
 ## Slide 3 — Solution Overview
-- Accept any YouTube URL and ingest it in real time — no retraining required
 - Ingest YouTube transcripts and store them in a vector database
 - Use a RAG pipeline to retrieve relevant context for any question
 - Wrap in an LLM agent with tools and memory for conversational interaction
 - Support voice input via Whisper for true multimodal experience
+- Accept any YouTube URL and ingest it in real time — no retraining required
 - Deploy as a web app accessible to anyone
 
 **Supporting Facts:**
@@ -41,6 +41,14 @@ Built with LangChain, ChromaDB, OpenAI, and Whisper
 - Whisper achieves near human-level transcription accuracy across 99 languages
 - The entire pipeline from transcript ingestion to answer generation
   takes only a few seconds per query
+
+**Business Use Case — Cross-Video Analysis:**
+- Users can load multiple videos simultaneously without losing conversation context
+- The chat history stays intact when switching or adding videos
+- Example: load 3 competitor product videos and ask "compare the pricing models
+  across all three" — the bot answers using context from all 3 simultaneously
+- This cross-video querying capability is what separates this tool from
+  standard video summarizers and makes it genuinely useful for business intelligence
 
 ---
 
