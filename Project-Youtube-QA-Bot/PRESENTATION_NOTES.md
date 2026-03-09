@@ -26,6 +26,7 @@ Built with LangChain, ChromaDB, OpenAI, and Whisper
 ---
 
 ## Slide 3 — Solution Overview
+- Accept any YouTube URL and ingest it in real time — no retraining required
 - Ingest YouTube transcripts and store them in a vector database
 - Use a RAG pipeline to retrieve relevant context for any question
 - Wrap in an LLM agent with tools and memory for conversational interaction
