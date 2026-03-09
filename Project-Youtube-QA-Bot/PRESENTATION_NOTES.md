@@ -103,7 +103,7 @@ Built with LangChain, ChromaDB, OpenAI, and Whisper
   which tool to call — more reliable than single-pass chains
 - Having a general knowledge fallback means the bot never hits a dead end —
   it gracefully handles questions outside the video dataset
-- k=4 retrieval means 4 chunks × ~500 chars = ~2,000 chars of context
+- k=6 retrieval means 6 chunks × ~500 chars = ~3,000 chars of context
   per query, well within GPT-4o-mini's 128k token context window
 - Metadata filtering (by category) allows scoped queries —
   e.g. only search tech/AI videos for a technical question
@@ -111,17 +111,15 @@ Built with LangChain, ChromaDB, OpenAI, and Whisper
 ---
 
 ## Slide 7 — Results & Demo
-*(to be filled in as I progress)*
-- Retrieval accuracy across categories
-- Sample Q&A outputs
-- Bilingual content handling observation
-- Voice input demo
-
-**Facts to add once complete:**
-- LangSmith evaluation scores
-- Average response latency
-- Number of test queries run
-- Accuracy rate on known-answer questions
+- RAG retrieval working cleanly across all 3 categories
+- Bilingual content (Bad Bunny) improved significantly after Whisper re-ingestion
+  replacing garbled YouTube auto-captions with accurate Spanish/English transcription
+- Voice input via Whisper working end-to-end — mic to agent to answer
+- Dynamic video ingestion tested live with xQc nuclear weapons video —
+  bot answered correctly from newly added content without losing chat history
+- Agent correctly falls back to general knowledge when question is outside dataset
+- Agent cites video title and category in every transcript-based answer
+- Whisper transcription toggle added to ingestion panel for future videos
 
 ---
 
@@ -153,11 +151,14 @@ Built with LangChain, ChromaDB, OpenAI, and Whisper
 ---
 
 ## Slide 10 — Conclusion & Next Steps
-*(to be filled in at the end)*
-
-**Facts to add once complete:**
-- Total development time
-- Total API cost for the entire project
-- Potential business applications
-- What would be added with more time (more video categories,
-  persistent memory, user authentication, custom video ingestion UI)
+- Total development time: 5 days
+- Total API cost: ~$0.001 for embeddings, minimal GPT-4o-mini usage during testing
+  — entire project built for under $1 in API costs
+- Potential business applications: competitor analysis, sales call review,
+  market research from video content, e-learning Q&A, podcast search
+- Next steps with more time:
+  - Clickable timestamps linking answers directly to the source moment in the video
+  - Persistent cross-session memory via Redis or SQLite
+  - Public deployment on Streamlit Community Cloud
+  - User authentication for private video libraries
+  - Whisper re-ingestion for all existing videos for consistent quality
